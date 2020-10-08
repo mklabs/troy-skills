@@ -1,0 +1,10 @@
+key	move_points	line_of_sight	playable	portrait_override	primary_attribute	religion	faction_total_cap	cost	in_encyclopedia	encyclopedia_url	resource_costs
+champion	3500	6	true		zeal		3	0	true		test_champion_cost
+colonel	3500	6	true		zeal		-1	0	false		test_champion_cost
+dignitary	3500	6	true		authority		3	0	true		test_champion_cost
+engineer	3500	21	true		zeal		-1	0	true		troy_agent_recruitment_cost_epic
+general	1000	6	true		authority		-1	750	true		troy_main_new_hero_army_cost
+minister	0	0	false		authority		-1	1000	false		test_champion_cost
+runesmith	3500	21	true		subterfuge		100	1000	true		test_champion_cost
+spy	3500	6	true		subterfuge		3	0	true		test_champion_cost
+wizard	3500	21	false		authority		-1	1000	false		test_champion_cost

@@ -1,0 +1,1397 @@
+key	text	tooltip
+effects_description_troy_effect_hero_self_armour_spec_melee_defence	%+n to melee defence of Hero	true
+effects_description_troy_effect_building_achilles_elites_rank_up	{{tr:effect_rank_up_faction_elites}}	true
+effects_description_troy_effect_building_recruitment_rank_dardania_mob_rabble	%+n to recruit rank of Dardanian Mob and Dardanian Rabble	true
+effects_description_troy_effect_hero_defender_ability_dread_of_ares_replace	Replaces "Dread of Ares" ability	true
+effects_description_troy_effect_gods_add_wood	%n to wood production per turn in each region already producing wood	true
+effects_description_troy_effect_agent_action_enable_establish_supply_base	[PH] [hidden]	true
+effects_description_troy_effect_hero_unit_fatigue_reduction_spec_cap	Units always begin battle "Fresh"	true
+effects_description_troy_effect_building_resource_stack_stone_big_cheap	Foreign Traders: +1 big cheap stone stack	true
+effects_description_troy_effect_faction_diplomacy_paris	%+n to diplomatic relations with Paris of Troy	true
+effects_description_troy_effect_buildings_faction_limit_centaurs	(Faction Limit per Centaur unit: 12)	true
+effects_description_troy_effect_building_unit_upgarde_korynites_dummy	{{tr:troy_effect_initiation_rite_tr}} Korynites	true
+effects_description_troy_effect_hero_fighter_ability_bow_to_the_moirai_spec_ias	"Threads of Fate (Armour)" specialisation	true
+effects_description_troy_effect_building_unit_upgarde_chariot_javelins_dummy	{{tr:troy_effect_initiation_rite_tr}} Chariot Javelins	true
+effects_description_troy_effect_agent_add_food	{{tr:troy_effect_text_agent_add_food}}	true
+effects_description_troy_effect_agent_spy_assassinate_enemy_character	[PH] [hidden]	true
+effects_description_troy_effect_gods_heroes_cause_fear	All Heroes frighten enemy units in battle	true
+effects_description_troy_dlc1_horde_building_cost_mod_all	%+n% to construction cost of all horde buildings	true
+effects_description_troy_effect_building_unit_upgarde_aristomachoi_dummy	{{tr:troy_effect_initiation_rite_tr}} Aristomachoi	true
+effects_description_troy_effect_hero_fighter_ability_batter_replace	Replaces "Assault & Battery" ability	true
+effects_description_troy_effect_campaign_happiness_factor_events	%+n to happiness 	true
+effects_description_troy_main_building_high_influence_bronze_production	{{tr:troy_main_building_high_influence}} %+n {{tr:troy_effect_bronze_per_turn}}	true
+effects_description_troy_effect_hero_campaign_sacking_spec_sacking	%+n% to income from sacking	true
+effects_description_troy_effect_hero_self_cooldown_spec_cost	%+n% to rage cost of activated abilities	true
+effects_description_troy_effect_hero_unit_recruit_rank_spec_missile	%+n to recruit rank of all new missile units 	true
+effects_description_troy_main_effect_influence_factor_character_hero	{{tr:agent_action_envoy_influence_own_settlement_mod}}	true
+effects_description_troy_effect_hero_self_morale	%+n to morale of Hero	true
+effects_description_troy_effect_gods_deal_evaluation_all_except_barter	%+n to deal evaluation for all diplomatic agreements except barters	true
+effects_description_troy_effect_hero_archer_ability_apollos_rain_spec_range	"Apollo's Rain (Range)" specialisation	true
+effects_description_troy_effect_hero_warlord_ability_recuperate_spec_increase_amount	"Reinvigorate (Stamina)" specialisation	true
+effects_description_troy_effect_agent_recruitment_rank_agents	{{tr:troy_effect_text_hero_campaign_agent_recruitment_rank}}	true
+effects_description_troy_effect_agent_envoy_alter_influence_acheans_factor_character	{{tr:troy_effect_text_agent_envoy_alter_influence_acheans}}	true
+effects_description_troy_effect_hero_campaign_enemy_agent_failure	%+n% to success chance of enemy agent actions against this Hero	true
+effects_description_troy_effect_dlc1_effect_sacred_settlement_big_culture	%+n Amazon treasures per turn (Hippolyta's faction only).	true
+effects_description_troy_effect_building_unit_upgarde_hippolyta_chosen_dummy	{{tr:troy_effect_initiation_rite_tr}} Hippolyta's Chosen	true
+effects_description_troy_effect_building_recruitment_cost_heros	%+n% to recruitment cost of Heroes	true
+effects_description_troy_effect_campaign_horde_building_growth_core	%+n to horde growth	true
+effects_description_troy_effect_dlc1_hero_archer_ability_deadly_focus_spec_reload	"Deadly Focus (Reload)" specialisation	true
+effects_description_troy_effect_lineage_upkeep_light_units	%+n% to upkeep cost of light infantry units	true
+effects_description_troy_effect_troy_story_trojans	{{tr:troy_story_effect_trojans}}	true
+effects_description_troy_effect_fm_aeneas_speak_with_dead_clubs_rank	%+n to recruit rank of club units	true
+effects_description_troy_main_hero_campaign_happiness_spec_garrison_dummy	{{tr:public_order_effect}}: %+n to happiness when garrisoned	true
+effects_description_troy_effect_fm_aeneas_speak_with_dead_diplomacy_with_danaans	%+n to diplomatic relations with the Danaans	true
+effects_description_troy_effect_building_resource_stack_wood_medium_average	Foreign Traders: +1 medium average wood stack	true
+effects_description_troy_effect_economy_other_add_gold	%+n {{tr:troy_effect_gold_per_turn}} 	true
+effects_description_troy_effect_army_battle_speed_movement_island_battles	%+n% to battle speed of all units during island battles	true
+effects_description_troy_effect_hero_fighter_ability_desecrate_the_fallen_replace	Replaces "Humiliate the Dead" ability	true
+effects_description_troy_effect_fm_aeneas_speak_with_dead_all_units_morale	%+n to morale of all units	true
+effects_description_troy_effect_hero_self_enemy_trojans_spec_hector	%+n damage when fighting against Hector's faction.	true
+effects_description_troy_effect_building_unit_upgarde_labrys_wielders_dummy	{{tr:troy_effect_initiation_rite_tr}} Labrys Infantry	true
+effects_description_troy_main_achilles_living_legend_myrmidons_dummy	Grants extra units for instant recruitment	true
+effects_description_troy_effect_agent_priestess_sacrifice_good_omen_missile_damage_mod	%+n% to missile damage from good omens	true
+effects_description_troy_effect_hero_campaign_recruitment_cost_spec_missile	%+n% to recruitment cost of missile units in Hero's army	true
+effects_description_troy_trait_loyalty_battle_sea	 %+n to {{tr:troy_main_motivation}} after this Hero fights a battle in a sea region or a port settlement	true
+effects_description_troy_effect_agent_action_cost_mod_all_agents	%+n% to action cost for all agents	true
+effects_description_troy_effect_hero_campaign_additional_resource_food	%+n {{tr:troy_effect_food_per_turn}}	true
+effects_description_troy_effect_building_aeneas_armour_piercing	%+n to armour-piercing damage of all Dardanian Sworn Fighters	true
+effects_description_troy_effect_army_land_unit_cap	%+n to unit cap for armies	true
+effects_description_troy_effect_hero_rage_mod	%+n% to generated rage in battle	true
+effects_description_troy_effect_fm_aeneas_speak_with_dead_hero_movement	%+n% to speed of Heroes	true
+effects_description_troy_effect_army_effect_morale_mod_all_own	%+n% to morale of all units	true
+effects_description_troy_effect_technology_effect_add_gold	%+n {{tr:troy_effect_gold_per_turn}}	true
+effects_description_troy_effect_ancillary_armour_spec_giant_units	%+n to armour of giant units in Hero's army	true
+effects_description_troy_effect_fm_aeneas_speak_with_dead_morale_sea_battle	%+n to morale when fighting at sea	true
+effects_description_troy_effect_hero_fighter_ability_jump_in_battle_spec_melee	"Ares' Gift (Melee)" specialisation	true
+effects_description_troy_effect_agent_priestess_rituals_own_god_favour_mod	%+n% to favour of the gods from rituals in own settlements	true
+effects_description_troy_effect_agent_priestess_successful_wrath_act_again	{{tr:troy_effect_text_agent_priestess_successful_wrath_act_again}}	true
+effects_description_troy_effect_temple_conversion_dummy	This temple can be re-dedicated to another deity of the same building level	true
+effects_description_troy_effect_hero_warlord_ability_march_on_spec_speed	"March of Hermes (Battle Speed)" specialisation	true
+effects_description_troy_effect_hero_archer_ability_eagle_eye_spec_cost	"Snipe (Cost)" specialisation	true
+effects_description_troy_effect_campaign_happiness_faction	{{tr:public_order_effect}}: %+n	true
+effects_description_troy_effect_technology_effect_add_bronze	%+n {{tr:troy_effect_bronze_per_turn}}	true
+effects_description_troy_effect_faction_diplomacy_sparta	%+n to diplomatic relations with Sparta	true
+effects_description_troy_effect_hero_campaign_lightning_strike_spec_aura_strength	Increases the aura strength of Hero in night battles	true
+effects_description_troy_effect_building_sarpedon_elites_rank_up	{{tr:effect_rank_up_faction_elites}}	true
+effects_description_troy_effect_hero_defender_ability_heroic_resolve_spec_duration	"Heraclean Resolve (Duration)" specialisation	true
+effects_description_troy_effect_fm_aeneas_speak_with_dead_loyalty	%+n to {{tr:troy_main_motivation}} for all Heroes at the start of turn	true
+effects_description_troy_effect_add_outcome_building_recruitment_rank_all	{{tr:troy_effect_text_building_recruitment_rank_all}}	true
+effects_description_troy_effect_agent_cap_increase_envoy	%+n to capacity for envoys (up to 3)	true
+effects_description_troy_effect_hero_fighter_ability_frenzy_spec_vigour	"Frenzy (Stamina)" specialisation	true
+effects_description_troy_effect_hero_self_missile_armour_piercing	%+n% to ranged armour-piercing damage of Hero	true
+effects_description_troy_effect_agent_critical_success_mod_agents	%+n% to critical success chance of all agent actions	true
+effects_description_troy_effect_building_defence_mod	%+n to defence skill of all units trained in this province	true
+effects_description_troy_effect_hero_fighter_ability_blind_rage_spec_duration	"Ares' Rage (Duration)" specialisation	true
+effects_description_troy_trait_loyalty_end_turn_region_faction_leader	 %+n to {{tr:troy_main_motivation}} if this Hero ends turn in the same region as their faction leader	true
+effects_description_troy_effect_army_missile_damage_mod_archers	%+n% to missile damage of archers	true
+effects_description_troy_effect_gods_favour_mod_aphrodite	Favour of Aphrodite: %+n	true
+effects_description_troy_effect_economy_buildings_add_wood	%+n {{tr:troy_effect_wood_per_turn}}	true
+effects_description_troy_effect_hero_archer_ability_born_with_the_bow_spec_speed	"Centaur Drill (Speed)" specialisation	true
+effects_description_troy_effect_hero_fighter_ability_cleave	"Cleave" ability	true
+effects_description_troy_effect_faction_influence_in_capitals_only	%+n to influence at province capitals	true
+effects_description_troy_effect_hero_unit_morale_spec_spearmen	%+n% to morale of spear units in Hero's army	true
+effects_description_troy_effect_hero_campaign_growth	%+n to growth in the local province	true
+effects_description_troy_effect_technology_income_from_raiding	%+n% to income from raiding	true
+effects_description_troy_effect_hero_archer_ability_inspired_shots_replace	Replaces "Inspired Aim" ability	true
+effects_description_troy_effect_buildings_immortality	All of your faction's Heroes become immortal	true
+effects_description_troy_effect_hero_achilles_his_army_movement_speed_dummy	%+n% to battle speed of all units in Achilles' army	true
+effects_description_troy_effect_economy_other_add_wood	%+n {{tr:troy_effect_wood_per_turn}}	true
+effects_description_troy_effect_army_campaign_stance_cannot_attack_dummy	[[col:red]]Battle initiation: Disabled[[/col]]	true
+effects_description_troy_effect_agent_priest_success_make_them_retreat_attritions_enemy_army	%+n% of enemy army scared off following successful "Oration of Dread" agent action	true
+effects_description_troy_trait_loyalty_fight_trojans	 %+n to {{tr:troy_main_motivation}} after this Hero wins a battle against a Trojan army 	true
+effects_description_troy_effect_fm_hector_trojan_alliance_dummy_no_effects	Use diplomacy to create more allies and increase the effects of your alliance	true
+effects_description_troy_effect_hero_warlord_ability_insult_spec_area	"Taunt (Area)" specialisation	true
+effects_description_troy_trait_loyalty_battle_own_territory	 %+n to {{tr:troy_main_motivation}} after this Hero fights a battle in own territory	true
+effects_description_troy_effect_dlc1_amazon_horde_option_raze_and_kill_momentum	%+n battle glory	true
+effects_description_troy_effect_add_outcome_agent_priestesss_block_points_replenishment	[PH] [hidden]	true
+effects_description_troy_effect_hero_archer_ability_rapid_fire	"Swift of Heel" ability	true
+effects_description_troy_effect_envoy_success_chance_mod	%+n% to the success chance of Envoy actions	true
+effects_description_troy_effect_add_outcome_agent_spy_enemy_success_rate_weird_bonus_value	{{tr:troy_effect_text_agent_spy_enemy_success_rate_weird_bonus_value}}	true
+effects_description_troy_effect_hero_archer_ability_relentless_pursuit	"Flights of Artemis" ability	true
+effects_description_troy_effect_hero_fighter_ability_jump_in_battle_replace	Replaces "Ares' Gift" ability	true
+effects_description_troy_effect_hero_campaign_casualties_post_battle	%+n% to battle casualties 	true
+effects_description_troy_effect_agent_priestess_divine_protection_apollo	Favour of Apollo: +2 per turn	true
+effects_description_troy_trait_loyalty_end_turn_enemy_territory	 %+n to {{tr:troy_main_motivation}} after this Hero ends the turn in enemy territory	true
+effects_description_troy_trait_loyalty_raze_settlement	 %+n to {{tr:troy_main_motivation}} after your faction razes a settlement	true
+effects_description_troy_effect_hero_defender_ability_dread_of_ares	"Dread of Ares" ability	true
+effects_description_troy_effect_building_unit_upgarde_chariot_archers_dummy	{{tr:troy_effect_initiation_rite_tr}} Amazon Archer Chariots	true
+effects_description_troy_effect_add_outcome_economy_mod_all_resources_wood	{{tr:troy_effect_text_economy_mod_all_resources_wood}}	true
+effects_description_troy_effect_dlc1_hero_warlord_ability_none_left_standing	"None Left Standing" abiity	true
+effects_description_troy_effect_hero_archer_stalk_spec_alpha_strike	"In Hades' Shadow (1st Shot)" specialisation	true
+effects_description_troy_effect_add_outcome_agent_add_food	{{tr:troy_effect_text_agent_add_food}}	true
+effects_description_troy_effect_dlc1_hero_warlord_ability_none_left_standing_spec_radius	"None Left Standing (Radius)" specialisation	true
+effects_description_troy_effect_hero_experience_for_all_heroes_dummy	%+n to experience of all Heroes	true
+effects_description_troy_effect_army_post_battle_loot_mod	{{tr:troy_effect_text_army_post_battle_loot_mod}}	true
+effects_description_troy_effect_hero_campaign_campaign_movement_spec_naval	%+n% to campaign movement range of Hero's army when at sea	true
+effects_description_troy_effect_building_agamemnon_elites_morale	%+n to morale of all Shielded Spearmen and Club Warriors units	true
+effects_description_troy_trait_loyalty_diplomatic_agreement_neighbour_danaan	 %+n to {{tr:troy_main_motivation}} after striking a diplomatic agreement with a neighbouring Danaan faction	true
+effects_description_troy_effect_hero_mount_horse_dummy	Grants a horse ancillary to the Hero	true
+effects_description_troy_effect_food_income_per_coastal_region_hidden	HIDDEN	true
+effects_description_troy_effect_building_upkeep_mod_swords	%+n% to upkeep cost of sword units	true
+effects_description_troy_effect_agent_add_wood	{{tr:troy_effect_text_agent_add_wood}}	true
+effects_description_troy_effect_unit_capacity_myth_giants_tier_1	Unit capacity: %+n\\nGiant Vanguard	true
+effects_description_troy_effect_hero_warlord_ability_battle_cry	Ares' Thunder ability	true
+effects_description_troy_effect_building_unit_upgarde_horsewoman_dummy	{{tr:troy_effect_initiation_rite_tr}} Horsewoman	true
+effects_description_troy_effect_add_outcome_army_morale_all_enemy_units	{{tr:troy_effect_text_army_morale_all_enemy_units}}	true
+effects_description_troy_effect_hero_defender_ability_hallowed_ground_spec_duration	"Hallowed Ground (Duration)" specialisation	true
+effects_description_troy_effect_army_unrestricted_replenishment	Grants unrestricted casualty replenishment	true
+effects_description_troy_effect_decrees_recruitment_light_units	%+n% to recruitment cost of all light infantry units	true
+effects_description_troy_effect_campaign_growth_organize_games	{{tr:troy_effect_text_agent_spy_growth_all}}	true
+effects_description_troy_effect_agent_priestess_divine_protection_poseidon	Favour of Poseidon: +2 per turn	true
+effects_description_troy_effect_hero_unit_melee_attack	%+n to melee attack of all units 	true
+effects_description_troy_effect_hero_self_range	%+n% to range of Hero	true
+effects_description_troy_effect_army_campaign_siege_attack_holdout_time	%+n to siege holdout time (minimum 1 turn)	true
+effects_description_troy_effect_army_ammunitions_archers	%+n% to ammunition of archers	true
+effects_description_troy_main_hero_raiding_campaign_movement_dummy	Raiding no longer incurs movement penalties	true
+effects_description_troy_effect_fm_aeneas_speak_with_dead_wounded_time	%+n turns to recovery time for Heroes when wounded 	true
+effects_description_troy_effect_hero_archer_stalk_spec_unspottable	"In Hades' Shadow (Unspottable)" specialisation	true
+effects_description_troy_effect_technology_xp_garrison_own	%n to experience of all garrison units per turn	true
+effects_description_troy_effect_economy_mod_all_resources_flat_gold	%+n {{tr:troy_effect_gold_per_turn}}	true
+effects_description_troy_effect_agent_spy_replenishment_rate_own_army_mod	%+n% to casualty replenishment rate of own army	true
+effects_description_troy_effect_hero_campaign_ambush_success	{{tr:troy_effect_text_hero_campaign_ambush_success}}	true
+effects_description_troy_effect_hero_self_weapon_strength_spec_land_ambush	%+n to melee damage of Hero during land and ambush battles	true
+effects_description_troy_effect_technology_less_attrition_siege_sea_sabotage	%+n% to attrition due to sieges, agent actions and sea travel	true
+effects_description_troy_effect_hero_self_vanguard	Grants vanguard deployment to Hero	true
+effects_description_troy_effect_dlc1_effect_stance_ambush_removal_hidden	[HIDDEN]	true
+effects_description_troy_trait_loyalty_end_turn_negative_happiness	 %+n to {{tr:troy_main_motivation}} if this Hero ends turn in a owned province with negative populace	true
+effects_description_troy_effect_fm_aeneas_speak_with_dead_ancillaries	Gain one of four items rumoured to have been used by this Hero on his many travels	true
+effects_description_troy_effect_agent_priestess_enable_priest_passive	[PH] [HIDDEN]	true
+effects_description_troy_effect_add_outcome_agent_spy_campaign_movement_mod_agent_enemy	{{tr:troy_effect_text_agent_spy_campaign_movement_mod_agent_enemy}}	true
+effects_description_troy_dlc1_hero_campaign_razing_spec_capture_bonus_favour_dummy	%+n% favour from war spoils	true
+effects_description_troy_effect_hero_agamemnon_unit_knights_vow	%+n% to upkeep cost of Agamemnon's elite units	true
+effects_description_troy_effect_buildings_food_from_vassals	%+n {{tr:troy_effect_food_per_turn}} per vassal	true
+effects_description_troy_effect_hero_fighter_ability_overpower_spec_reduce_defence	"Vanquish (Melee Attack)" specialisation	true
+effects_description_troy_effect_army_campaign_stance_ambush_hidden_dummy	Hidden until discovered or battle initiated	true
+effects_description_troy_effect_technology_diplomacy_danaans	%+n to diplomatic relations with the Danaans (Achaeans, Aeolians, Dorians, Ionians)	true
+effects_description_troy_effect_army_morale_mod_enemy_when_we_besiege_them	%+n% to morale of all enemy armies when under siege	true
+effects_description_troy_effect_economy_add_deposit_stone	%+n to stone quarry capacity in this province	true
+effects_description_troy_effect_gods_unit_morale_spearmen	%+n% to morale of spear units	true
+effects_description_troy_effect_hero_fighter_ability_blind_rage	"Ares' Rage" ability	true
+effects_description_troy_effect_hero_defender_ability_second_wind_replace	Replaces "Divine Regeneration" ability	true
+effects_description_troy_effect_agent_envoy_cost_of_actions	%+n% to cost of all envoy actions	true
+effects_description_troy_effect_army_campaign_attrition_snow_resistance	Attrition: %+n% casualties suffered from snow attrition	true
+effects_description_troy_effect_agent_satyr_disorder_in_the_army	[PH] [hidden]	true
+effects_description_troy_trait_loyalty_favour_zeus	 %+n to {{tr:troy_main_motivation}} after this Hero ends turn and {{tr:hp_title_zeus}} is Respected by your faction	true
+effects_description_troy_effect_building_aeneas_elites_upkeep	%+n% to upkeep cost of Dardanian Sworn Fighters and Heavy Anatolian Spearmen	true
+effects_description_troy_effect_hero_achilles_his_army_experience_dummy	%+n to experience of all units in Achilles' army	true
+effects_description_troy_effect_hero_campaign_happiness	{{tr:troy_effect_text_hero_campaign_happiness}}	true
+effects_description_troy_effect_hero_archer_ability_relentless_pursuit_spec_cooldown	"Flights of Artemis (Cooldown)" specialisation	true
+effects_description_troy_effect_agent_priestess_persuade_agent_dummy_enabled	Enables the "Reveal Transgression" agent action	true
+effects_description_troy_effect_agent_horde_spy_basic_infrastructure_cost	%+n% to construction cost for production buildings	true
+effects_description_troy_effect_gods_melee_attack_mod_island_battles	"Hosted by Poseidon" ability: %+n% to melee attack of all units during island battles	true
+effects_description_troy_effect_hero_wound_recovery_time_mod_heroes_only_2	"Blessed Leaders": %+n turns to recovery time of Heroes when wounded 	true
+effects_description_troy_effect_hero_defender_ability_care_for_fallen_spec_heal	"Favour of Asclepius (Heal)" specialisation	true
+effects_description_troy_effect_agent_add_stone	{{tr:troy_effect_text_agent_add_stone}}	true
+effects_description_troy_effect_hero_unit_range_spec_range_javelins	%+n% to range of javelin units in Hero's army	true
+effects_description_troy_effect_campaign_happiness_factor_other_organize_games	{{tr:public_order_effect}}: %+n	true
+effects_description_troy_effect_agent_spy_success_assassinate_attritions_enemy_army	{{tr:troy_effect_text_agent_spy_success_assassinate_attritions_enemy_army}}	true
+effects_description_troy_effect_hero_unit_missile_damage	%+n% to missile damage of missile units in Hero's army	true
+effects_description_troy_trait_loyalty_ancillary_lose	 %+n to {{tr:troy_main_motivation}} after removing an ancillary from this Hero	true
+effects_description_troy_effect_hero_self_melee_attack_spec_spearmen	%+n to melee damage of Hero against spear units	true
+effects_description_troy_effect_hero_defender_ability_set_example	"Lead by Example" ability	true
+effects_description_troy_effect_agent_envoy_actions_cost_mod	%+n% to cost of all agent actions	true
+effects_description_troy_effect_faction_mercenary_levy_units_per_region_mod	[PH] [HIDDEN] Disable levy recruitment	true
+effects_description_troy_effect_agent_recruitment_xp_spy	%+n to recruit rank of spies	true
+effects_description_troy_effect_dlc1_amazon_horde_momentum_per_turn_dummy	%+n battle glory per turn	true
+effects_description_troy_effect_hero_warlord_ability_armstice	"Truce" ability	true
+effects_description_troy_effect_hero_self_mount_spec_charge	%+n to charge of Hero on chariot	true
+effects_description_troy_effect_fm_aeneas_speak_with_dead_spearmen_defence	%+n% to melee defence of spear units	true
+effects_description_troy_effect_fm_aeneas_speak_with_the_dead_agent_success	%+n% to success chance of this agent's actions	true
+effects_description_troy_effect_priestess_agent_experience_gain	{{tr:troy_effect_text_priestess_agent_experience_gain}}	true
+effects_description_troy_effect_gods_wood_construction_costs	%+n% to wood construction costs	true
+effects_description_troy_effect_hero_warlord_ability_march_on_spec_radius	"March of Hermes (Radius)" specialisation	true
+effects_description_troy_effect_add_outcome_priestess_agent_experience_gain	{{tr:troy_effect_text_priestess_agent_experience_gain}}	true
+effects_description_troy_effect_faction_amazons_effect_hordebuilding_growth_core	%+n to horde growth	true
+effects_description_troy_effect_agent_spy_damage_resistance_for_own_army	{{tr:troy_effect_text_agent_spy_damage_resistance_for_own_army}}	true
+effects_description_troy_effect_hero_unit_speed_spec_siege	Grants entire army %+n% battle speed in siege battles	true
+effects_description_troy_effect_agent_envoy_fatigue_resistance_mod_stamina	{{tr:troy_effect_text_agent_envoy_fatigue_resistance_mod_stamina}}	true
+effects_description_troy_effect_hero_warlord_ability_false_prophecy_replace	Replaces "False Portent" ability	true
+effects_description_troy_effect_dlc1_hero_archer_ability_deadly_focus	"Deadly Focus" ability	true
+effects_description_troy_effect_hero_archer_ability_escape_spec_success	"Escape (Success)" specialisation	true
+effects_description_troy_main_effect_influence_factor_faction_adjacent_province	%+n to influence over adjacent provinces	true
+effects_description_troy_effect_agent_spy_assassinate_spy_mod	%+n% to chance of assassinating a foreign spy	true
+effects_description_troy_trait_loyalty_kill_sac_captives	 %+n to {{tr:troy_main_motivation}} after this Hero kills captives	true
+effects_description_troy_effect_agent_gorgon_petrifying_enemy_army	[PH] [hidden]	true
+effects_description_troy_effect_building_unit_upgarde_huntresses_dummy	{{tr:troy_effect_initiation_rite_tr}} Huntresses	true
+effects_description_troy_effect_hero_unit_recruit_rank_spec_shock	%+n to recruit rank of all new infantry units wielding two-handed weapons	true
+effects_description_troy_effect_hero_defender_ability_dread_of_ares_melee_attack	"Dread of Ares (Melee Attack)" specialisation	true
+effects_description_troy_effect_agent_priestess_divine_protection_zeus_up_hera_down	Favour of Zeus: +4 per turn, Favour of Hera: -2 per turn	true
+effects_description_troy_effect_agent_priestess_rituals_own_god_favour_time_mod	%+n to turns of favour of the gods from rituals in own settlements	true
+effects_description_troy_effect_campaign_occupation_decision_colonise_cost_zero	No colonisation cost	true
+effects_description_troy_trait_loyalty_battle_enemy_hero_wound_kill	 %+n to {{tr:troy_main_motivation}} after this Hero fights a battle in which an enemy Hero was wounded or killed	true
+effects_description_troy_effect_hero_fighter_ability_batter_spec_reduce_armor	"Assault & Battery (Pierce Armour)" specialisation	true
+effects_description_troy_main_trait_immortal_dummy	This character is destined for greatness; when killed in battle or due to agent action, they will only be wounded.	true
+effects_description_troy_effect_add_outcome_army_post_battle_loot_mod	{{tr:troy_effect_text_army_post_battle_loot_mod}}	true
+effects_description_troy_effect_unit_food_upkeep_mod	%+n% food upkeep for all units	true
+effects_description_troy_effect_agent_enable_additional_options	[PH] PH Test effect	true
+effects_description_troy_effect_army_myth_minotaur_upkeep	%+n% to upkeep cost of minotaurs	true
+effects_description_troy_effect_agent_add_bronze	{{tr:troy_effect_text_agent_add_bronze}}	true
+effects_description_troy_effect_faction_public_order_difficulty_level	%+n to {{tr:public_order_effect}} from campaign difficulty level	true
+effects_description_troy_effect_hero_campaign_additional_resource_food_spec_wood	%+n {{tr:troy_effect_wood_per_turn}}	true
+effects_description_troy_main_effect_influence_factor_events	%+n to influence 	true
+effects_description_troy_effect_faction_research_rate_mod	%+n% to administration efficiency for enacting royal decrees	true
+effects_description_troy_effect_dlc1_cavalry_melee_attack	%+n% to melee attack of cavalry units	true
+effects_description_troy_effect_add_outcome_agent_spy_envoy_priestess_damage_enemy_garrison_mod	{{tr:troy_effect_text_agent_spy_envoy_priestess_damage_enemy_garrison_mod}}	true
+effects_description_troy_effect_army_campaign_stance_cannot_move_dummy	[[col:red]]Campaign movement: Disabled[[/col]]	true
+effects_description_troy_effect_fm_aeneas_atrittion_high_seas_immunity	Immune to deep-seas attrition	true
+effects_description_troy_effect_agent_actions_against_settlements_cost_mod	%+n% to cost of all agent actions against settlements	true
+effects_description_troy_effect_hero_self_missile_damage	%+n% to missile damage of Hero	true
+effects_description_troy_effect_building_sarpedon_elites_ap_damage	%+n to armour piercing damage of all Khopesh Fighters and Heavy Axe Warriors	true
+effects_description_troy_effect_army_melee_defence_mod_all_enemy_units	{{tr:troy_effect_text_army_melee_defence_mod_all_enemy_units}}	true
+effects_description_troy_effect_army_battle_speed_movement_infantry	%+n% to battle speed of all infantry units	true
+effects_description_troy_effect_hero_unit_charge	%+n% to charge of all units	true
+effects_description_troy_trait_loyalty_loot_sack_raze_trojans	 %+n to {{tr:troy_main_motivation}} after this Hero loots, sacks or razes a Trojan settlement 	true
+effects_description_troy_effect_building_lock_altar_of_dike_dummy	Locks the Altar of Dike building chain for this settlement	true
+effects_description_troy_effect_building_unit_upgarde_warband_dummy	{{tr:troy_effect_initiation_rite_tr}} Warband	true
+effects_description_troy_effect_hero_fighter_ability_focused_strikes_spec_cost	"Divine Focus (Cost)" specialisation	true
+effects_description_troy_effect_hero_self_enemy_trojans_spec_menelaus	%+n damage when fighting against Menelaus' faction	true
+effects_description_troy_effect_agent_hinder_enemy_characters	[PH] [hidden]	true
+effects_description_troy_effect_agent_envoy_arrest_spy_mod	%+n% to chance of an envoy arresting a foreign spy	true
+effects_description_troy_effect_hero_perfect_vigour	This hero is tireless!	true
+effects_description_troy_effect_hero_unit_missile_resistance_spec_missile_units	%+n% to missile resistance of missile units in Hero's army	true
+effects_description_troy_effect_ignore_forest_penalties	Units ignore penalties from forest terrain in battle	true
+effects_description_troy_effect_army_weapon_damage_mod	{{tr:troy_effect_text_army_weapon_damage_mod}}	true
+effects_description_troy_effect_agent_enemy_success_chance_against_this_agent_mod	%+n% to success chance of enemy agent actions against this agent	true
+effects_description_troy_trait_loyalty_battle_win	 %+n to {{tr:troy_main_motivation}} after this Hero wins a battle	true
+effects_description_troy_effect_hero_fighter_ability_focused_strikes	"Divine Focus" ability	true
+effects_description_troy_effect_building_recruitment_rank_corybantes	%+n to recruit rank of Corybantes	true
+effects_description_troy_effect_hero_archer_ability_cheat_hades	"Cheat Hades" ability	true
+effects_description_troy_effect_campaign_ai_region_resistance_mod	[HIDDEN]	true
+effects_description_troy_effect_hero_campaign_casualties_post_battle_spec_ancillary_drop_chance	Increases the success chance of stealing spoils from the fallen following a victory	true
+effects_description_troy_effect_hero_self_weapon_strength_spec_chokepoint_siege	%+n to melee damage of Hero during siege and chokepoint battles	true
+effects_description_troy_effect_unit_capacity_myth_giants_tier_3	Unit capacity: %+n\\nGiant Champions	true
+effects_description_troy_effect_hero_warlord_ability_marked_for_death_spec_range	"Zeus' Wrath (Cooldown)" specialisation	true
+effects_description_troy_effect_gods_cost_mod_civil_buildings	%+n%  to construction cost of all civil buildings (economy, special, main and administration buildings)	true
+effects_description_troy_effect_hero_archer_ability_apollos_rain_replace	Replaces "Apollo's Rain" ability	true
+effects_description_troy_effect_building_upkeep_mod_cavalry	%+n% to upkeep cost of cavalry units	true
+effects_description_troy_effect_agent_spy_envoy_priestess_damage_enemy_garrison_mod	{{tr:troy_effect_text_agent_spy_envoy_priestess_damage_enemy_garrison_mod}}	true
+effects_description_troy_effect_add_outcome_agent_spy_success_assassinate_attritions_enemy_army	{{tr:troy_effect_text_agent_spy_success_assassinate_attritions_enemy_army}}	true
+effects_description_troy_effect_temples_apollo_shourd_reveal_mod	 %+n% to campaign map line of sight around temples of Apollo	true
+effects_description_troy_effect_agent_spy_assassinate_seer_mod	%+n% to chance of assassinating a foreign seer	true
+effects_description_troy_effect_army_effect_morale_ranged_units	%+n% to morale of own missile units	true
+effects_description_troy_effect_hero_self_melee_attack	%+n to melee attack of Hero	true
+effects_description_troy_effect_agent_priestess_make_them_retreat_success_chance_mod	%+n% to success chance of "Oration of Dread" agent action	true
+effects_description_troy_effect_hero_unit_range	%+n% to range of missile units in Hero's army	true
+effects_description_troy_trait_loyalty_end_turn_positive_happiness	 %+n to {{tr:troy_main_motivation}} if this Hero ends turn in an owned province with positive populace	true
+effects_description_troy_effect_dlc1_hero_warlord_embrace_of_ares_replace	Replaces "Embrace of Ares" ability	true
+effects_description_troy_effect_hero_unit_weapon_damage	%+n% to damage of all units in Hero's army	true
+effects_description_troy_effect_dlc1_hero_archer_ability_deadly_focus_replace	Replaces "Deadly Focus" ability	true
+effects_description_troy_effect_decrees_recruitment_medium_units	%+n% to recruitment cost of all medium infantry units	true
+effects_description_troy_effect_hero_all_ability_duel	"Divine Challenge" ability	true
+effects_description_troy_effect_gods_success_mod_enemy_agents	%+n% to success chance of enemy agent actions	true
+effects_description_troy_effect_building_resource_stack_food_medium_average	Foreign Traders: +1 medium average food stack	true
+effects_description_troy_effect_hero_archer_ability_poison_attacks_spec_berserk	"Poison Attacks (Berserk)" specialisation	true
+effects_description_troy_effect_agent_spy_hold_out_time_when_besieging	[PH] [hidden]	true
+effects_description_troy_effect_economy_food_faction		true
+effects_description_troy_main_stance_ambush_chance_dummy	Chance of ambushing any enemy army this force attacks	true
+effects_description_troy_effect_economy_mod_wood	%+n% {{tr:troy_effect_wood_per_turn}}	true
+effects_description_troy_effect_army_campaign_attrition_swamp_resistance	Attrition: %+n% casualties suffered from swamp attrition	true
+effects_description_troy_effect_priestess_ritual_favour_mod_apollo	%+n% {{tr:troy_effect_desc_favour_from_rituals_mod}} {{tr:hp_title_apollo}}	true
+effects_description_troy_effect_army_melee_attack_mod_when_attacking_all_armies	%+n to melee attack of all units when attacking 	true
+effects_description_troy_effect_fm_achilles_priestess_ritual_favour_mod	Favour from priestess rituals: %+n%	true
+effects_description_troy_effect_army_attrition_mod_deep_sea	%+n% to attrition in deep sea waters	true
+effects_description_troy_effect_agent_seer_divine_errand_hidden	[PH] [hidden]	true
+effects_description_troy_effect_add_outcome_building_cost_mod_all	{{tr:troy_effect_text_building_cost_mod_all}}	true
+effects_description_troy_trait_loyalty_army_large	 %+n to {{tr:troy_main_motivation}} if this Hero ends turn leading an army of 16 units or more	true
+effects_description_troy_effect_building_recruitment_cost_heros_agents	%+n% to recruitment cost of Heroes and non-epic agents	true
+effects_description_troy_effect_faction_diplomacy_pelasgians	%+n to diplomatic relations with Pelasgians	true
+effects_description_troy_effect_building_morale_on_recruitment	%+n to morale for units recruited in this province	true
+effects_description_troy_effect_technology_melee_defence_all_ranged	%+n% to melee defence of all missile units	true
+effects_description_troy_effect_building_menelaus_elites_armour_piercing	%+n to armour-piercing damage of all Light Spear Runners and Renowned Laconian Axemen	true
+effects_description_troy_effect_troy_story_danaans	{{tr:troy_story_effect_danaans}}	true
+effects_description_troy_effect_hero_fighter_ability_throw_spear	"Olympian Throw" ability	true
+effects_description_troy_effect_dlc1_god_lineage_trait_favour_ares_dummy	Favour of Ares: %+n%	true
+effects_description_troy_trait_loyalty_end_turn_not_own_region	 %+n to {{tr:troy_main_motivation}} after this Hero ends turn in a region not owned by his faction	true
+effects_description_troy_effect_hero_public_order_from_characters	%+n to happiness in the local province from presence of Heroes	true
+effects_description_troy_trait_loyalty_occupy_raze	 %+n to {{tr:troy_main_motivation}} after this Hero occupies or razes settlements	true
+effects_description_troy_effect_army_own_campaign_movement_range	%+n% to campaign movement range of own armies starting the turn here	true
+effects_description_troy_effect_unit_fatigue_reduction_myth_cav_chariot	%+n% to fatigue in battle for mythic, mounted and chariot units	true
+effects_description_troy_effect_hero_warlord_ability_recuperate	"Reinvigorate" ability	true
+effects_description_troy_effect_hero_warlord_ability_cover	"Shield Wall" ability	true
+effects_description_troy_effect_hero_campaign_attrition	%+n% to attrition in Hero's army	true
+effects_description_troy_effect_army_campaign_movement_range	%+n% to campaign movement range	true
+effects_description_troy_effect_hero_warlord_ability_insult_replace	Replaces "Taunt" ability	true
+effects_description_troy_effect_hero_warlord_ability_commanding_shout_spec_cost	"Heraclean Roar (Cost)" specialisation	true
+effects_description_troy_main_building_high_influence_gold_production	{{tr:troy_main_building_high_influence}} %+n {{tr:troy_effect_gold_per_turn}} (depletes local deposit)	true
+effects_description_troy_effect_post_battle_captives_mod	 %+n% to battle captives taken	true
+effects_description_troy_effect_hero_warlord_ability_fight_on_replace	Replaces "Leader of Men" ability	true
+effects_description_troy_effect_hero_defender_ability_consecrated_ground_replace	Replaces "Hallowed Ground" ability	true
+effects_description_troy_effect_agent_cap_mod_satyr	 %+n to recruitment cap of satyr agents	true
+effects_description_troy_effect_building_lock_foreign_barracks_dummy	Locks the Foreign Encampment building chain for this settlement	true
+effects_description_troy_effect_gods_success_rate_agents	{{tr:troy_effect_text_gods_success_rate_agents}}	true
+effects_description_troy_effect_faction_unit_recruitment_points	{{tr:troy_effect_text_faction_unit_recruitment_points}}	true
+effects_description_troy_effect_hero_unit_fatigue_reduction	Grants fatigue reduction to all units in Hero's army	true
+effects_description_troy_effect_army_myth_giants_upkeep	%+n% to upkeep cost of giants units	true
+effects_description_troy_effect_construction_time_mod_all	{{tr:troy_effect_text_construction_time_mod_all}}	true
+effects_description_troy_effect_hero_self_hitpoints_spec_regeneration	Grants passive hitpoint regeneration to Hero	true
+effects_description_troy_effect_hero_campaign_wounded_time	%+n to turns Hero spends wounded	true
+effects_description_troy_effect_army_battle_upkeep_mod_non_ranged_units	%+n% to upkeep cost of non-missile units	true
+effects_description_troy_effect_building_paris_elites_upkeep	%+n% to upkeep cost of Trojan Nobles and Archer Chariots units	true
+effects_description_troy_effect_army_recruitment_points	%+n to horde recruitment capacity	true
+effects_description_troy_effect_royal_decrees_only_hecatomb_cost_mod	%+n% to cost of a Hecatomb	true
+effects_description_troy_effect_hero_hector_unit_knights_vow_spec_swords	%+n% to upkeep cost of Hector's elite sword units	true
+effects_description_troy_effect_hero_fighter_ability_blood_sacrifice_replace	Replaces "Blood Sacrifice" ability	true
+effects_description_troy_effect_army_campaign_stance_ap_cost	[[col:yellow]]Campaign movement range required to adopt: %n%[[/col]]	true
+effects_description_troy_effect_agent_priestess_charge_bonus_mod_when_fighting_on_land	%+n% to charge bonus when fighting on land	true
+effects_description_troy_effect_agent_spy_host_army_sight_range_mod_add_outcome	{{tr:troy_effect_text_host_army_sight_range_mod}}	true
+effects_description_troy_effect_hero_self_enemy_trojans_spec_agamemnon	%+n damage when fighting against Agamemnon's faction	true
+effects_description_troy_effect_hero_archer_ability_escape	"Escape" ability	true
+effects_description_troy_effect_agent_spy_envoy_recovery_time_mod_this_agent	%+n to this agent's recovery time when wounded	true
+effects_description_troy_effect_hero_unit_missile_damage_spec_ranged_experience_per_turn	%+n to experience of missile units in Hero's army per turn	true
+effects_description_troy_effect_hero_self_armour_spec_missile_resistance	%+n% to missile resistance of Hero	true
+effects_description_troy_effect_event_add_stone	%+n {{tr:troy_effect_stone_per_turn}}	true
+effects_description_troy_effect_hero_self_morale_spec_cause_fear	The Hero frightens nearby enemy units!	true
+effects_description_troy_effect_fm_aeneas_speak_with_dead_captives	+50% to battle captives taken	true
+effects_description_troy_effect_hero_fighter_ability_desecrate_the_fallen_spec_armour	"Humiliate the Dead (Armour)" specialisation	true
+effects_description_troy_effect_agent_priestess_sacrifice_good_omen_melee_defence_mod	%+n% to melee defence from good omens	true
+effects_description_troy_effect_army_battle_speed_movement_siege_battles	%+n% to battle speed of all units during siege battles	true
+effects_description_troy_effect_gods_aristeia_points_mod	%+n% Aristeia gained by Heroes	true
+effects_description_troy_effect_gods_experience_for_all_agents_dummy	%+n to experience of all agents	true
+effects_description_troy_effect_melee_attack_axes	%+n% to melee attack of axe units	true
+effects_description_troy_effect_building_hero_attack	%+n to melee attack skill of all Heroes fighting in this region	true
+effects_description_troy_effect_hero_campaign_ambush_defence	%+n% to chance of Hero evading ambushes	true
+effects_description_troy_effect_agent_critical_failure_mod	{{tr:troy_effect_text_agent_critical_failure_mod}}	true
+effects_description_troy_effect_faction_replenishment_characters	[PH] [hidden] additional replenishment rate for lords and heroes	true
+effects_description_troy_effect_hero_campaign_upkeep	{{tr:troy_effect_text_hero_campaign_upkeep}}	true
+effects_description_troy_effect_building_cost_mod_all	{{tr:troy_effect_text_building_cost_mod_all}}	true
+effects_description_troy_effect_hero_archer_ability_cheat_hades_spec_melee_defence	"Cheat Hades (Defence)" specialisation	true
+effects_description_troy_effect_agent_spy_assassinate_enemy_critical_chance_mod	%+n% to critical success chance of spy actions	true
+effects_description_troy_effect_fm_trojan_alliance_regions_or_more_dummy	This alliance level is active at %n allied regions or more	true
+effects_description_troy_effect_faction_settlement_walls_really_hidden	[HIDDEN] Used to indicate the presence of walls for major settlemetns	true
+effects_description_troy_effect_building_taunt_dummy	Enemy factions are more likely to attack this region	true
+effects_description_troy_effect_hero_self_enemy_trojans_spec_paris	%+n damage when fighting against Paris' faction	true
+effects_description_troy_effect_dlc1_effect_horde_unit_replenishment_hidden	[HIDDEN] For core replenishment effects for settle stance	true
+effects_description_troy_effect_gods_diplomacy_mod_with_all_subcultures	%+n to diplomatic relations with all factions	true
+effects_description_troy_effect_anc_battle_speed_cavalry	%+n% to battle speed for cavalry units	true
+effects_description_troy_effect_building_unit_upgarde_oathsworn_dummy	{{tr:troy_effect_initiation_rite_tr}} Oathsworn	true
+effects_description_troy_effect_hero_fighter_ability_batter	"Assault & Battery" ability	true
+effects_description_troy_effect_hero_self_melee_armour_piercing	%+n% to armour-piercing damage of Hero	true
+effects_description_troy_effect_economy_mod_all_resources_wood	%+n% {{tr:troy_effect_wood_per_turn}}	true
+effects_description_troy_effect_army_units_experience_per_turn	%+n to experience of all units per turn	true
+effects_description_troy_effect_army_melee_attack_for_spearmen	%+n% to melee attack of all spear units	true
+effects_description_troy_effect_add_outcome_agent_spy_poisoning_hero	{{tr:troy_effect_text_agent_spy_poisoning_hero}}	true
+effects_description_troy_effect_buildings_replenishment	{{tr:troy_effect_text_buildings_replenishment}}	true
+effects_description_troy_effect_hero_defender_ability_taunt_spec_armor	"The War-god's Call (Armour)" specialisation	true
+effects_description_troy_effect_agent_cap_mod_seer	 %+n to recruitment cap of seer agents	true
+effects_description_troy_effect_fm_aeneas_speak_with_dead_assaracus_hero_aura	%+n% to aura size of Hero	true
+effects_description_troy_effect_hero_warlord_ability_warning_shout	"Warning Shout" ability	true
+effects_description_troy_effect_diplomacy_strategic_threat_attitude_all_factions_minor	Minor {{tr:strategic_threat_diplomatic_penalty_effect}}	true
+effects_description_troy_effect_agent_spy_success_mod	%+n% to success chance of all spy actions	true
+effects_description_troy_effect_melee_attack_mod_swords_axes	%+n% to melee attack of sword and axe units	true
+effects_description_troy_effect_building_upkeep_mod_chariot	%+n% to upkeep cost of chariot units	true
+effects_description_troy_effect_add_outcome_hero_campaign_happiness	{{tr:troy_effect_text_hero_campaign_happiness}}	true
+effects_description_troy_effect_hero_defender_ability_taunt_replace	Replaces "The War-god's Call" ability	true
+effects_description_troy_effect_economy_special_gold_coitasma	%+n to gold income per turn from prospecting	true
+effects_description_troy_effect_hero_campaign_ambush_defence_spec_enemy_province_happiness	Reduces happiness in the local enemy province by %+n	true
+effects_description_troy_effect_army_upkeep_all_land_armies	%+n% to upkeep cost of all units	true
+effects_description_troy_effect_army_navy_campaign_attrition_high_seas_resistance	%+n% to attrition from traveling through deep waters	true
+effects_description_troy_effect_hero_archer_ability_feign_death_replace	Replaces "Cheat Hades" ability	true
+effects_description_troy_effect_hero_warlord_ability_rallying_cry_replace	Replaces "Rallying Cry" ability	true
+effects_description_troy_effect_building_unit_upgarde_hippotoxotai_dummy	{{tr:troy_effect_initiation_rite_tr}} Hippotoxotai	true
+effects_description_troy_effect_agent_envoy_campaign_movement_mod_armies_agent	{{tr:troy_effect_text_agent_envoy_campaign_movement_mod_armies_agent}}	true
+effects_description_troy_dlc1_hero_campaign_horde_growth_spec_momentum_post_battle_occupation	%+n% to battle glory when killing captives after an offensive siege battle	true
+effects_description_troy_effect_dlc1_oath_available	Blood Oath available. Bloodsworn units summoned: %n	true
+effects_description_troy_main_effect_public_order_tax_rate	{{tr:public_order_effect}}: %+n	true
+effects_description_troy_effect_hero_unit_fatigue_reduction_spec_fatigued_slower	Grants additional fatigue reduction to all units in Hero's army	true
+effects_description_troy_effect_building_global_recruitment_paris_dummy	Grants access to global recruitment of Trojan Nobles and Archer Chariots units	true
+effects_description_troy_effect_buildings_stone_from_vassals	%+n {{tr:troy_effect_stone_per_turn}} per vassal	true
+effects_description_troy_effect_hero_archer_ability_rapid_fire_spec_dmg	"Swift of Heel (Damage)" specialisation	true
+effects_description_troy_trait_loyalty_diplomatic_agreement_neighbour	 %+n to {{tr:troy_main_motivation}} after striking a diplomatic agreement with a neighbouring faction	true
+effects_description_troy_effect_hero_warlord_seize_the_moment_replace	Replaces "Seize the Moment" ability	true
+effects_description_troy_effect_hero_fighter_ability_cleave_spec_damage	Cleave (Damage)	true
+effects_description_troy_effect_favour_all_gods_enthropy	%+n% to favour of all the gods due to neglect	true
+effects_description_troy_trait_loyalty_end_turn_raiding	 %+n to {{tr:troy_main_motivation}} after this Hero ends turn in raiding stance	true
+effects_description_troy_effect_army_armour_mod_all	 %+n to armour of all units	true
+effects_description_troy_effect_agent_spy_assassinate_satyr_mod	%+n% to chance of assassinating a foreign satyr	true
+effects_description_troy_effect_construction_time_mod_temples_all	%+n to construction time of all temple buildings	true
+effects_description_troy_effect_faction_growth_factionwide	%+n to growth	true
+effects_description_troy_effect_technology_construction_time_horde_civil_buildings	%+n%  to construction cost of all civil buildings	true
+effects_description_troy_dlc1_hero_unit_experience	%+n% to experience received in battle for all units	true
+effects_description_troy_main_effect_influence_factor_per_alliance	%+n to influence per defensive or military alliance, up to 10	true
+effects_description_troy_effect_gods_build_time_capitals_only	 %+n to construction time in province capitals 	true
+effects_description_troy_effect_campaign_ai_unit_recruitment_tier_3	[HIDDEN]	true
+effects_description_troy_effect_agent_priestess_cost_of_actions	%+n% to cost of all priestess actions	true
+effects_description_troy_effect_agent_gorgon_available	Enables recruitment of a gorgon	true
+effects_description_troy_effect_melee_attack_clubs	%+n% to melee attack of club units	true
+effects_description_troy_effect_building_unit_upgarde_horsewomen_dummy	{{tr:troy_effect_initiation_rite_tr}} Horsewomen	true
+effects_description_troy_effect_hero_campaign_holdout	%+n to siege holdout time (minimum 1 turn)	true
+effects_description_troy_effect_faction_unit_recruitment_points_naval	%+n to naval recruitment capacity	true
+effects_description_troy_effect_building_melee_attack_mod	%+n to melee attack of all units trained in this province	true
+effects_description_troy_dlc1_effect_building_harpy_pool_dummy	More tier %n harpies are available for recruitment after razing their mythic settlements with this army	true
+effects_description_troy_effect_decrees_melee_defence_medium_units	%+n% to melee defence of all medium infantry units	true
+effects_description_troy_effect_building_resource_stack_bronze_small_cheap	Foreign Traders: +1 small cheap bronze stack	true
+effects_description_troy_effect_hero_loyalty_mod	 %+n to {{tr:troy_main_motivation}}	true
+effects_description_troy_effect_agent_spy_available	Enables recruitment of spies	true
+effects_description_troy_effect_fm_aeneas_aeolian_blood	%+n to diplomatic relations with Aeolian factions	true
+effects_description_troy_effect_building_unit_upgarde_initiates_dummy	{{tr:troy_effect_initiation_rite_tr}} Initiates	true
+effects_description_troy_effect_agent_add_gold	{{tr:troy_effect_text_agent_add_gold}}	true
+effects_description_troy_effect_army_armour_piercing_all_armies_inland_open_field	%+n to armour-piercing damage of all units when fighting in the open	true
+effects_description_troy_effect_economy_add_deposit_gold	%+n to gold mine capacity in this province	true
+effects_description_troy_effect_hero_agamemnon_unit_knights_vow_spec_shock	%+n% to upkeep cost of Agamemnon's elite units wielding two-handed weapons	true
+effects_description_troy_effect_hero_fighter_ability_cleave_replace	Replaces "Cleave" ability	true
+effects_description_troy_effect_economy_food_production_inland_regions	 %+n% to food production in inland regions	true
+effects_description_troy_effect_hero_unit_morale_spec_clubs	%+n% to morale of club units in Hero's army	true
+effects_description_troy_effect_building_unit_upgarde_war_riders_dummy	{{tr:troy_effect_initiation_rite_tr}} War Riders	true
+effects_description_troy_trait_loyalty_battle_fight	 %+n to {{tr:troy_main_motivation}} after fighting a battle with this Hero	true
+effects_description_troy_effect_dlc1_hero_fighter_ability_battle_song	"Song of Battle" ability	true
+effects_description_troy_trait_loyalty_win_alone	 %+n to {{tr:troy_main_motivation}} after winning a battle with this Hero with no reinforcements	true
+effects_description_troy_effect_hero_menelaus_unit_knights_vow_spec_shock	%+n% to upkeep cost of Menelaus' elite units wielding two-handed weapons	true
+effects_description_troy_trait_loyalty_end_turn_high_tier_settlement	 %+n to {{tr:troy_main_motivation}} if this Hero ends turn in a region with a tier 4 or 5 main settlement building	true
+effects_description_troy_effect_campaign_happiness_base	{{tr:public_order_effect}}: %+n	true
+effects_description_troy_effect_economy_mod_gold_buildings	%+n% {{tr:troy_effect_gold_per_turn}} from buildings	true
+effects_description_troy_effect_hero_campaign_income_post_battle_spec_influence	%+n influence after victory, doubled if battle captives are killed	true
+effects_description_troy_effect_agent_cap_increase_spy	%+n to capacity for spies (up to 3)	true
+effects_description_troy_effect_hero_campaign_holdout_spec_experience	All units gain double experience when fighting siege battles	true
+effects_description_troy_effect_fm_aeneas_speak_with_dead_clubs_charge	%+n% to charge of club units	true
+effects_description_troy_effect_minimum_xp_gain_from_eligible_battle	[HIDDEN] Minimum XP gain a unit should receive from a battle for eligible battles (those over a certain CP ratio).	true
+effects_description_troy_trait_loyalty_battle_lose	 %+n to {{tr:troy_main_motivation}} after this Hero loses a battle	true
+effects_description_troy_effect_building_resource_stack_stone_medium_average	Foreign Traders: +1 medium average stone stack	true
+effects_description_troy_effect_building_recruitment_cost_reduction_this_faction	%+n% to recruitment cost of units belonging to the region owner	true
+effects_description_troy_effect_economy_buildings_add_gold	%+n {{tr:troy_effect_gold_per_turn}} 	true
+effects_description_troy_effect_hero_self_enemy_trojans	%+n melee attack when fighting against factions from the Trojan culture	true
+effects_description_troy_effect_priestess_ritual_favour_mod_zeus	%+n% {{tr:troy_effect_desc_favour_from_rituals_mod}} {{tr:hp_title_zeus}}	true
+effects_description_troy_effect_hero_self_sunder_replaces	Replaces the sunder ability with specializations.	true
+effects_description_troy_effect_building_cost_mod_main_buildings	{{tr:troy_effect_text_building_cost_mod_main_buildings}}	true
+effects_description_troy_effect_fm_aeneas_speak_with_dead_spearmen_attack	%+n% to melee attack of spear units	true
+effects_description_troy_main_effect_influence_factor_building_adjacent_province	%+n to influence over adjacent provinces	true
+effects_description_troy_effect_hero_fighter_ability_blood_sacrifice_spec_morale_damage	"Blood Sacrifice (Morale & Damage)" specialisation	true
+effects_description_troy_effect_shielded_unit_melee_defence	%+n% to melee defence of shielded units	true
+effects_description_troy_effect_technology_horde_melee_defense_cavalry	%+n% to melee defence for cavalry units	true
+effects_description_troy_effect_faction_happiness_in_all_own_territories	%+n to happiness 	true
+effects_description_troy_effect_economy_other_add_bronze	{{tr:troy_effect_text_economy_other_add_bronze}}	true
+effects_description_troy_effect_hero_warlord_ability_fight_on_spec_radius	"Leader of Men (Radius)" specialisation	true
+effects_description_troy_effect_hero_menelaus_unit_knights_vow	%+n% to upkeep cost of Menelaus' elite units	true
+effects_description_troy_effect_agent_chance_critical_failure_mod	%+n% to critical failure chance of this agent's actions	true
+effects_description_troy_dlc1_effect_building_cost_mod_military_buildings	%+n% to construction cost of all military buildings	true
+effects_description_troy_effect_fm_aeneas_speak_with_dead_food	%+n to food	true
+effects_description_troy_effect_add_outcome_agent_priestess_successful_wrath_act_again	{{tr:troy_effect_text_agent_priestess_successful_wrath_act_again}}	true
+effects_description_troy_trait_loyalty_peace_trojans	 %+n to {{tr:troy_main_motivation}} after signing a peace treaty with a neighbouring Trojan faction	true
+effects_description_troy_effect_hero_archer_ability_multishot_replace	Replaces "Triple Shot" ability	true
+effects_description_troy_effect_hero_fighter_ability_frenzy	"Frenzy" ability	true
+effects_description_troy_effect_army_attrition_from_desertation	%+n% to attrition from desertion	true
+effects_description_troy_effect_agent_envoy_melee_attack_mod_passive	%+n to melee attack of all units within the same region	true
+effects_description_troy_effect_faction_research_cost_mod	[HIDDEN]	true
+effects_description_troy_effect_unit_capacity_myth_harpies_tier_1	Unit capacity: %+n\\nHarpies	true
+effects_description_troy_effect_add_outcome_economy_mod_all_resources	{{tr:troy_effect_text_economy_mod_all_resources}}	true
+effects_description_troy_effect_hero_fighter_ability_desecrate_the_fallen_spec_reduce_cost	"Humiliate the Dead (Reduce Cost)" specialisation	true
+effects_description_troy_effect_hero_warlord_ability_commanding_shout_spec_cd	"Heraclean Roar (Cooldown)" specialisation	true
+effects_description_troy_effect_hero_warlord_ability_false_prophecy	"False Portent" ability	true
+effects_description_troy_dlc1_horde_building_cost_mod_civil_buildings	%+n% to cost of all administration buildings	true
+effects_description_troy_effect_decrees_melee_attack_light_units	%+n% to melee attack of all light infantry units	true
+effects_description_troy_effect_morale_all_units_siege_battle	%+n% to morale of all units in siege battles	true
+effects_description_troy_effect_hero_all_ability_adrenaline_rush_spec_cooldown	"Blood of Heracles (Cooldown)" specialisation	true
+effects_description_troy_effect_hero_campaign_ambush_success_spec_bonuses_charge	Increases the charge of units by %+n% when ambushing	true
+effects_description_troy_effect_hero_campaign_recruitment_capacity	%+n to recruitment capacity of Hero's army	true
+effects_description_troy_effect_hero_archer_ability_multishot_spec_knockback	"Triple Shot (Range)" specialisation	true
+effects_description_troy_effect_hero_all_ability_ignore_pain_replace	Replaces "Pain Barrier" ability	true
+effects_description_troy_effect_army_leaves_via_port	Besieged armies can leave the settlement via the port	true
+effects_description_troy_effect_hero_self_enemy_danaans	%+n melee attack when fighting against factions from the Danaan culture	true
+effects_description_troy_effect_hero_archer_stalk	"In Hades' Shadow" ability	true
+effects_description_troy_effect_building_recruitment_rank_swordsmen	%+n to recruit rank of sword units	true
+effects_description_troy_effect_economy_mod_all_resources_food	%+n% {{tr:troy_effect_food_per_turn}}	true
+effects_description_troy_effect_building_global_recruitment_achilles_dummy	Grants access to global recruitment of Thessalian Marines and Champions of Phthia units	true
+effects_description_troy_effect_technology_effect_add_stone	%+n {{tr:troy_effect_stone_per_turn}}	true
+effects_description_troy_effect_building_unit_upgarde_anairetes_dummy	{{tr:troy_effect_initiation_rite_tr}} Anairetes	true
+effects_description_troy_effect_technology_melee_attack_swords_axes_clubs	%+n% to melee attack of sword, axe and club units	true
+effects_description_troy_effect_army_campaign_stance_begin_fatigued_3_winded	Stamina in battle: Winded	true
+effects_description_troy_effect_unit_morale_myth_cav_chariot	%+n% to morale for mythic, mounted and chariot units	true
+effects_description_troy_effect_agent_spy_poison_enemy_army_mod	{{tr:troy_effect_text_agent_spy_poison_enemy_army_mod}}	true
+effects_description_troy_effect_faction_diplomacy_mycenae	%+n to diplomatic relations with Mycenae	true
+effects_description_troy_trait_loyalty_favour_aphrodite	 %+n to {{tr:troy_main_motivation}} after this Hero ends turn and {{tr:hp_title_aphrodite}} is Respected by your faction	true
+effects_description_troy_effect_hero_archer_ability_strafe_spec_speed	"Strafe (Speed)" specialisation	true
+effects_description_troy_effect_add_outcome_construction_time_mod_all	{{tr:troy_effect_text_construction_time_mod_all}}	true
+effects_description_troy_effect_gods_hero_personal_aura_size	%+n% to aura size of Hero	true
+effects_description_troy_effect_gods_favour_mod_zeus	Favour of Zeus: %+n	true
+effects_description_troy_effect_hero_archer_ability_eagle_eye	"Snipe" ability	true
+effects_description_troy_effect_hero_defender_ability_heroic_resolve_spec_heal	"Heraclean Resolve (Heal)" specialisation	true
+effects_description_troy_effect_dlc1_hero_fighter_ability_battle_song_spec_charge	"Song of Battle (Charge)" specialisation	true
+effects_description_troy_effect_agent_spy_poisoning_hero	{{tr:troy_effect_text_agent_spy_poisoning_hero}}	true
+effects_description_troy_dlc1_hero_campaign_horde_growth_spec_momentum_post_battle	%+n% to battle glory when killing captives after a land battle	true
+effects_description_troy_effect_agent_recruitment_xp_envoy	%+n to recruit rank of envoys in the province containing the Hero	true
+effects_description_troy_trait_loyalty_region_with_priest	 %+n to {{tr:troy_main_motivation}} after ending the turn in the same region as a Priestess	true
+effects_description_troy_effect_hero_warlord_ability_marked_for_death_replace	Replaces "Zeus' Wrath" ability	true
+effects_description_troy_effect_hero_defender_bulwark_replace	Replaces "Fortify" ability	true
+effects_description_troy_effect_economy_building_upkeep_add_wood	%+n {{tr:troy_effect_wood_per_turn}}	true
+effects_description_troy_effect_hero_self_armour	%+n to armour of Hero	true
+effects_description_troy_effect_agent_priestess_ritual_own	[PH] [hidden]	true
+effects_description_troy_effect_hero_fighter_ability_batter_spec_cost	"Assault & Battery (Cost)" specialisation	true
+effects_description_troy_trait_loyalty_end_turn_low_tier_settlement	 %+n to {{tr:troy_main_motivation}} if this Hero ends turn in a region with a razed or tier 1 main settlement building	true
+effects_description_troy_effect_hero_defender_bulwark_spec_armour	"Fortify (Radius)" specialisation	true
+effects_description_troy_effect_agent_satyr_passive	[PH] [hidden]	true
+effects_description_troy_effect_agent_spy_envoy_priestess_immortality	The agent becomes immortal – they can be wounded but never killed	true
+effects_description_troy_effect_technology_horde_upgrade_cost_light	%+n% cost for initiation rites of a unit to a light infantry unit	true
+effects_description_troy_effect_region_line_of_sight	%+n% to line of sight 	true
+effects_description_troy_effect_technology_construction_time_civil_buildings	%+n to construction time of all administration buildings	true
+effects_description_troy_effect_agent_gorgon_satyr_seer_available_building	[Hidden]	true
+effects_description_troy_effect_gods_favour_mod_athena	Favour of Athena: %+n	true
+effects_description_troy_effect_hero_defender_ability_taunt_spec_duration	"The War-god's Call (Duration)" specialisation	true
+effects_description_troy_effect_add_outcome_economy_other_add_bronze	{{tr:troy_effect_text_economy_other_add_bronze}}	true
+effects_description_troy_effect_agent_enemy_success_chance_against_this_agent_per_level_HIDDEN	[HIDDEN] %+n% Chance of Success For Enemy Agent Against this Agent (Received Every Level)	true
+effects_description_troy_effect_gods_income_raiding_sacking_looting	%+n% to income from raiding, looting and sacking	true
+effects_description_troy_effect_hero_archer_ability_apollos_rain_spec_armour_piercing	"Apollo's Rain (Pierce Armour)" specialisation	true
+effects_description_troy_trait_loyalty_battle_win_region	 %+n to {{tr:troy_main_motivation}} after this Hero wins a battle for a region	true
+effects_description_troy_effect_agent_spy_enemy_settlement_public_order	{{tr:troy_effect_text_agent_spy_enemy_settlement_public_order}}	true
+effects_description_troy_effect_add_outcome_economy_buildings_add_gold	%+n {{tr:troy_effect_gold_per_turn}} 	true
+effects_description_troy_effect_army_campaign_attrition_desert_resistance	Attrition: %+n% casualties suffered from desert attrition	true
+effects_description_troy_effect_hero_self_bloodthirst_spec_in_combat	Boosts rage generation of Hero in battle	true
+effects_description_troy_effect_hero_warlord_seize_the_moment	"Seize the Moment" ability	true
+effects_description_troy_trait_loyalty_end_turn_raiding_in_region	 %+n to {{tr:troy_main_motivation}} after this Hero fights a battle reinforcements are present for either side	true
+effects_description_troy_effect_hero_archer_ability_born_with_the_bow	"Centaur Drill" ability	true
+effects_description_troy_effect_economy_buildings_add_stone	%+n {{tr:troy_effect_stone_per_turn}}	true
+effects_description_troy_effect_add_outcome_agent_spy_own_settlement_sight_operational	[PH] Tell me what you are	true
+effects_description_troy_effect_hero_all_ability_divine_inspiration_spec_cost	"Heavenly Inspiration (Cost)" specialisation	true
+effects_description_troy_effect_hero_archer_ability_inspired_shots	"Inspired Aim" ability	true
+effects_description_troy_main_effect_influence_factor_faction	{{tr:agent_action_envoy_influence_own_settlement_mod}}	true
+effects_description_troy_effect_army_morale_all_enemy_units_generic	{{tr:troy_effect_text_army_morale_all_enemy_units}}	true
+effects_description_troy_effect_hero_fighter_ability_terrify	"Terrify" ability	true
+effects_description_troy_effect_army_campaign_attrition_all_immunity	Immune to attrition	true
+effects_description_troy_effect_economy_wood_faction		true
+effects_description_troy_effect_agent_hinder_enemy_army	[PH] [hidden]	true
+effects_description_troy_effect_economy_special_gold_mountain_colony	%+n to gold income per turn from mountain trade	true
+effects_description_troy_effect_gods_stone_construction_costs	%+n% to stone construction costs	true
+effects_description_troy_effect_hero_achilles_experience_for_elite_units	%+n to experience of elite units per turn	true
+effects_description_troy_effect_agent_spy_assassinate_gorgon_mod	%+n% to chance of assassinating a foreign gorgon	true
+effects_description_troy_effect_hero_archer_ability_eagle_eye_spec_terror	"Snipe (Pierce Armour)" specialisation	true
+effects_description_troy_effect_hero_fighter_ability_terrify_replace	Replaces "Terrify" ability	true
+effects_description_troy_effect_building_hector_elites_rank_up	{{tr:effect_rank_up_faction_elites}}	true
+effects_description_troy_effect_hero_fighter_ability_terrify_spec_range	"Terrify (Range)" specialisation	true
+effects_description_troy_effect_hero_fighter_ability_overpower_replace	Replaces "Vanquish" ability	true
+effects_description_troy_effect_hero_unit_speed	%+n% to battle speed of all units in Hero's army	true
+effects_description_troy_effect_agent_envoy_upkeep_mod_passive	%+n% to upkeep cost of all units in the same region	true
+effects_description_troy_effect_agent_movement_mod	%+n% to movement range 	true
+effects_description_troy_dlc1_horde_building_cost_mod_temples_all	{{tr:troy_effect_text_building_cost_mod_temples_all}}	true
+effects_description_troy_effect_agent_envoy_priestess_favour_all_gods	%+n% to favour of all the gods	true
+effects_description_troy_effect_agent_gorgon_terrifying	Most of the enemy garrison flee at the sight of the gorgon	true
+effects_description_troy_effect_add_outcome_agent_add_wood	{{tr:troy_effect_text_agent_add_wood}}	true
+effects_description_troy_effect_building_unit_upgarde_hippomachoi_dummy	{{tr:troy_effect_initiation_rite_tr}} Hippomachoi	true
+effects_description_troy_effect_hero_warlord_ability_cover_spec_toggle	"Shield Wall (Toggle)" specialisation	true
+effects_description_troy_effect_army_battle_speed_movement_all_units	{{tr:troy_effect_text_army_battle_speed_movement_all_units}}	true
+effects_description_troy_effect_army_myth_centaurs_upkeep	%+n% to upkeep cost of centaur units	true
+effects_description_troy_effect_dlc1_hero_momentum_rank_4_ultimate_dummy	This army now has access to the "Blood Oath" ability	true
+effects_description_troy_effect_agent_envoy_arrest_priest_mod	%+n% to chance of an envoy arresting a foreign priestess	true
+effects_description_troy_effect_agent_cap_increase_priest	%+n to capacity for priestesses (up to 3)	true
+effects_description_troy_effect_hero_campaign_lightning_strike	Enables night battle when attacking; target cannot receive reinforcements	true
+effects_description_troy_dlc1_effect_building_centaur_pool_dummy	More tier %n centaurs are available for recruitment after razing their mythic settlements with this army	true
+effects_description_troy_effect_hero_warlord_ability_armstice_spec_duration	"Truce (Duration)" specialisation	true
+effects_description_troy_effect_hero_defender_shield_spec_area	"Shield Bash (Area)" specialisation	true
+effects_description_troy_effect_hero_unit_ammunition_spec_attack_speed	%+n% to reload skill of missile units	true
+effects_description_troy_effect_hero_achilles_declare_war_lycomedes_dummy	Declares war on Lycomedes	true
+effects_description_troy_main_hero_campaign_income_raiding_attrition_spec_replenishment_dummy	%+n% to casualty replenishment when raiding	true
+effects_description_troy_effect_faction_amazons_add_culture	%+n to culture per turn 	true
+effects_description_troy_effect_building_diplomacy	%+n to diplomatic relations with the region owner	true
+effects_description_troy_effect_faction_influence_factionwide_organize_games	{{tr:troy_effect_text_faction_influence_factionwide}}	true
+effects_description_troy_effect_morale_mod_own_territory	%+n% to morale of all units in own territory	true
+effects_description_troy_effect_agent_spy_enemy_success_rate_weird_bonus_value_1	%+n% to success rate of enemy agent actions due to agent's skill level	true
+effects_description_troy_effect_hero_self_bloodthirst_replace	Replaces "Bloodthirst" ability	true
+effects_description_troy_effect_hero_unit_charge_spec_shock	%+n% to charge of infantry units wielding two-handed weapons	true
+effects_description_troy_effect_agent_enemy_success_chance_against_this_general_mod_2	%+n% success chance of enemy agent actions against this Hero	true
+effects_description_troy_effect_economy_mining_add_stone	%+n to stone quarrying income per turn 	true
+effects_description_troy_effect_hero_all_ability_divine_inspiration_replace	Replaces "Heavenly Inspiration" ability	true
+effects_description_troy_effect_add_outcome_agent_spy_growth_all	{{tr:troy_effect_text_agent_spy_growth_all}}	true
+effects_description_troy_trait_loyalty_battle_good_odds	 %+n to {{tr:troy_main_motivation}} after this Hero fights a battle against a weaker army	true
+effects_description_troy_effect_achilles_gods_favour_mod_from_temples	Favour of the gods: %+n% from temples	true
+effects_description_troy_effect_decrees_hecatomb_favour_mod	%+n to favour gained from a hecatomb	true
+effects_description_troy_effect_building_unit_upgarde_warmaiden_dummy	{{tr:troy_effect_initiation_rite_tr}} Warmaidens	true
+effects_description_troy_effect_building_achilles_elites_upkeep	%+n% to upkeep cost of Thessalian Marines and Champions of Phthia units	true
+effects_description_troy_effect_damage_reduction_heroes	%+n% to damage resistance for Heroes	true
+effects_description_troy_effect_faction_diplomacy_hector	%+n to diplomatic relations with Hector of Troy	true
+effects_description_troy_agent_action_record_seer_own_settelement_success_mod	[PH] [hidden]	true
+effects_description_troy_effect_hero_warlord_ability_insult	"Taunt" ability	true
+effects_description_troy_main_effect_influence_factor_building_factionwide	{{tr:troy_effect_text_faction_influence_factionwide}}	true
+effects_description_troy_effect_faction_diplomacy_knossos	%+n to diplomatic relations with Knossos	true
+effects_description_troy_effect_hero_campaign_recruitment_capacity_spec_recruitment_capacity	%+n to recruitment capacity of Hero's army	true
+effects_description_troy_effect_campaign_happiness_buildings_negative	{{tr:public_order_effect}}: %n	true
+effects_description_troy_effect_dlc1_hero_warlord_ability_none_left_standing_spec_melee_attack	"None Left Standing (Melee Defence)" specialisation	true
+effects_description_troy_effect_agent_priestess_divine_protection_athena	Favour of Athena: +2 per turn	true
+effects_description_troy_effect_building_sarpedon_elites_upkeep	%+n% to upkeep cost of Lycian Winged Chariots, Heavy Axe Warriors and Khopesh Fighters units	true
+effects_description_troy_effect_morale_mod_swords_axes	%+n% to morale of sword and axe units	true
+effects_description_troy_effect_hero_self_missile_damage_spec_range	%+n% to missile range of Hero	true
+effects_description_troy_dlc1_horde_building_cost_mod_military_buildings	%+n% to construction cost of all military buildings	true
+effects_description_troy_effect_hero_all_ability_duel_duration	"Divine Challenge (Duration)" ability	true
+effects_description_troy_effect_agent_gorgon_cursed_presence	[PH] [hidden]	true
+effects_description_troy_effect_add_outcome_envoy_campaign_happiness	{{tr:troy_effect_text_hero_campaign_happiness}}	true
+effects_description_troy_effect_priestess_ritual_favour_mod_aphrodite	%+n% {{tr:troy_effect_desc_favour_from_rituals_mod}} {{tr:hp_title_aphrodite}}	true
+effects_description_troy_effect_agent_priestess_sacrifice	[PH] [hidden]	true
+effects_description_troy_effect_hero_wound_recovery_time_mod_heroes_only	"Blessed Leaders" ability: %+n turns to recovery time of Heroes when wounded 	true
+effects_description_troy_effect_add_outcome_agent_spy_enemy_settlement_public_order	{{tr:troy_effect_text_agent_spy_enemy_settlement_public_order}}	true
+effects_description_troy_effect_add_outcome_agent_add_gold	{{tr:troy_effect_text_agent_add_gold}}	true
+effects_description_troy_effect_hero_unit_missile_resistance_spec_melee_units	%+n% to missile resistance of shielded infantry units in Hero's army	true
+effects_description_troy_effect_hero_self_cooldown	%+n% to cooldown time of activated abilities	true
+effects_description_troy_effect_hero_warlord_ability_recuperate_replace	Replaces "Reinvigorate" ability	true
+effects_description_troy_effect_agent_priestess_sacrifice_bad_omen_melee_defence_mod	%+n% to melee defence from bad omens	true
+effects_description_troy_trait_loyalty_end_turn_no_temple_priest	 %+n to {{tr:troy_main_motivation}} after this Hero ends turn in a region without a temple or priestess	true
+effects_description_troy_effect_building_cost_mod_temple_buildings	{{tr:troy_effect_text_building_cost_mod_temples_all}}	true
+effects_description_troy_effect_hero_self_hitpoints_spec_hitpoints	%+n% to hitpoints of Hero	true
+effects_description_troy_effect_agent_critical_failure_not_wounded	{{tr:troy_effect_text_agent_critical_failure_not_wounded}}	true
+effects_description_troy_effect_organize_games_edict_effects_mod	%+n% to all effects of Organise Games commandment	true
+effects_description_troy_effect_gods_favour_mod_athena_per_turn	Favour of Athena: %+n per turn	true
+effects_description_troy_trait_loyalty_fight_danaans	 %+n to {{tr:troy_main_motivation}} after this Hero wins a battle against a Danaan army 	true
+effects_description_troy_effect_building_resource_stack_bronze_big_cheap	Foreign Traders: +1 big cheap bronze stack	true
+effects_description_troy_effect_agent_instant_recovery_time_mod_agents_only	Instant recovery for agents when wounded 	true
+effects_description_troy_effect_agent_envoy_hinder_settlement_influence	[PH] [hidden]	true
+effects_description_troy_effect_hero_add_gold	%+n to gold income per turn	true
+effects_description_troy_effect_hero_self_range_spec_superrange_attack_speed_reduction	%+n to attack speed of Hero	true
+effects_description_troy_trait_loyalty_favour_poseidon	 %+n to {{tr:troy_main_motivation}} after this Hero ends turn and {{tr:hp_title_poseidon}} is Respected by your faction	true
+effects_description_troy_effect_army_ward_save_hero	"She Who Fights" ability: %+n% to damage resistance of all Heroes	true
+effects_description_troy_effect_economy_building_upkeep_add_gold	%+n {{tr:troy_effect_gold_per_turn}}	true
+effects_description_troy_effect_fatigue_resistance_mod_stamina_melee_units	%+n% fatigue for melee units during battle	true
+effects_description_troy_effect_hero_defender_ability_second_wind_spec_rage	"Divine Regeneration (Rage)" specialisation	true
+effects_description_troy_effect_economy_building_upkeep_add_food	%+n {{tr:troy_effect_food_per_turn}}	true
+effects_description_troy_effect_hero_archer_ability_escape_spec_cd	"Escape (Cooldown)" specialisation	true
+effects_description_troy_effect_diplomacy_strategic_threat_attitude_all_factions	Moderate {{tr:strategic_threat_diplomatic_penalty_effect}}	true
+effects_description_troy_effect_agent_envoy_hinder_movement_plant_informant_chance_mod	%+n% to success chance of an envoy action against characters	true
+effects_description_troy_effect_hero_self_melee_attack_spec_swordsmen	%+n to melee damage of Hero against sword units	true
+effects_description_troy_effect_building_unit_upgarde_furies_dummy	{{tr:troy_effect_initiation_rite_tr}} Furies	true
+effects_description_troy_effect_building_morale_all	%+n to morale of all units trained in this province	true
+effects_description_troy_effect_technology_recruitment_cost_envoys	%+n% to recruitment cost of all agents	true
+effects_description_troy_dlc1_hero_unit_experience_spec_ranged	%+n% to experience received in battle for all missile units	true
+effects_description_troy_effect_horde_agent_envoy_hinder_settlement	[PH] [hidden]	true
+effects_description_troy_effect_agent_seer_equalize_god_favour_character	[PH] [hidden]	true
+effects_description_troy_effect_building_recruitment_rank_spartoi	%+n to recruit rank of Spartoi	true
+effects_description_troy_effect_hero_unit_aeneas_knights_vow_spec_melee	%+n% to upkeep cost of Aeneas' elite shielded infantry units	true
+effects_description_troy_dlc1_hero_campaign_treasures_battle_spec_siege_dummy	Gain Amazon treasures after capturing any settlement	true
+effects_description_troy_effect_dlc1_hero_fighter_ability_battle_song_spec_melee_attack	"Song of Battle (Melee Attack)" specialisation	true
+effects_description_troy_effect_hero_unit_missile_damage_spec_friendly_fire	Grants accuracy to missile units in Hero's army and reduces friendly-fire	true
+effects_description_troy_effect_hero_self_hitpoints	%+n% to hitpoints of Hero	true
+effects_description_troy_effect_technology_diplomacy_amazons	%+n to diplomatic relations with the Amazons	true
+effects_description_troy_effect_event_add_bronze	%+n {{tr:troy_effect_bronze_per_turn}}	true
+effects_description_troy_effect_hero_self_ranged_attack_spec_damage	%+n% missile damage to missile attack of Hero	true
+effects_description_troy_effect_faction_diplomacy_penthesilea	%+n to diplomatic relations with Penthesilea's Amazons	true
+effects_description_troy_effect_agent_envoy_arrest_spy_dummy_enabled	Enables the "Denounce Treachery" agent action	true
+effects_description_troy_effect_agent_envoy_upkeep_own_armies	[PH] [hidden]	true
+effects_description_troy_effect_hero_campaign_recruitment_cost_spec_shock	%+n% to recruitment cost of infantry units wielding two-handed weapons	true
+effects_description_troy_effect_building_unit_upgarde_daughters_of_ares_dummy	{{tr:troy_effect_initiation_rite_tr}} Daughters of Ares	true
+effects_description_troy_dlc1_effect_building_giant_pool_dummy	More tier %n giants are available for recruitment after razing their mythic settlements with this army	true
+effects_description_troy_effect_add_outcome_hero_campaign_agent_recruitment_rank	{{tr:troy_effect_text_hero_campaign_agent_recruitment_rank}}	true
+effects_description_troy_effect_hero_campaign_wounded_time_spec_character_upkeep	%+n% to upkeep cost of all Heroes factionwide	true
+effects_description_troy_effect_building_agamemnon_elites_upkeep	%+n% to upkeep cost of Shielded Spearmen, Club Warriors and Light Javelinmen	true
+effects_description_troy_effect_hero_self_vanguard_spec_stalk	Grants "Stalk" specialisation to Hero	true
+effects_description_troy_effect_agent_envoy_movement_mod_armies_enemy	{{tr:troy_effect_text_agent_envoy_movement_mod_armies_enemy}}	true
+effects_description_troy_effect_hero_defender_ability_dread_of_ares_spec_missile_vulnerability	"Dread of Ares (Missile Vulnerability)" specialisation	true
+effects_description_troy_trait_loyalty_peace_neighbour	 %+n to {{tr:troy_main_motivation}} after signing a peace treaty with a neighbouring faction	true
+effects_description_troy_effect_hero_all_ability_ignore_pain_spec_duration	"Pain Barrier (Duration)" specialisation	true
+effects_description_troy_effect_horde_agent_satyr_effect_war_stories	[PH] [hidden]	true
+effects_description_troy_effect_building_ammunition_on_recruitment	%+n% to ammunition for all units on recruitment	true
+effects_description_troy_effect_hero_self_sunder	%+n to armour-sundering damage of Hero	true
+effects_description_troy_effect_buildings_bronze_from_vassals	%+n {{tr:troy_effect_bronze_per_turn}} per vassal	true
+effects_description_troy_effect_army_campaign_ambush_defence_success_chance	{{tr:troy_effect_text_army_campaign_ambush_defence_success_chance}}	true
+effects_description_troy_effect_campaign_agent_action_failure_cost_mod	[HIDDEN] Set to -50 to remove agent action failure cost reduction	true
+effects_description_troy_effect_hero_fighter_ability_blood_sacrifice_spec_cost	"Blood Sacrifice (Cost)" specialisation	true
+effects_description_troy_effect_fm_lelegan_religion_influence	%+n Lelegan influence	true
+effects_description_troy_effect_hero_fighter_ability_bow_to_the_moirai	"Threads of Fate" ability	true
+effects_description_troy_effect_building_paris_elites_missile_damage	%+n% to missile damage of all Trojan Nobles and Archer Chariots units	true
+effects_description_troy_effect_building_resource_stack_bronze_medium_average	Foreign Traders: +1 medium average bronze stack	true
+effects_description_troy_effect_hero_defender_ability_care_for_fallen	"Favour of Asclepius" ability	true
+effects_description_troy_effect_gods_heroes_unwavering	All Heroes are unbreakable in battle	true
+effects_description_troy_effect_hero_fighter_ability_throw_spear_spec_fast	"Olympian Throw (Cooldown)" specialisation	true
+effects_description_troy_effect_ancillary_melee_defence_giant_units	%+n% to melee defence of giant units in Hero's army	true
+effects_description_troy_effect_hero_fighter_ability_jump_in_battle	"Ares' Gift" ability	true
+effects_description_troy_effect_fm_aeneas_speak_with_dead_swordsmen_fatigue_reduction	%+n% to fatigue of sword units	true
+effects_description_troy_effect_army_effect_morale_mod	{{tr:troy_effect_text_army_effect_text_morale_mod}}	true
+effects_description_troy_effect_agent_seer_available	Enables recruitment of a seer	true
+effects_description_troy_effect_dlc1_hero_archer_ability_deadly_focus_spec_morale	"Deadly Focus (Morale)" specialisation	true
+effects_description_troy_effect_technology_melee_defence_spearmen	%+n% to melee defence of spear units	true
+effects_description_troy_effect_technology_horde_upgrade_cost_cavalry	%+n% cost for initiation rites of a unit to a cavalry unit	true
+effects_description_troy_effect_army_charge_all_units	%+n to charge of all units	true
+effects_description_troy_effect_hero_fighter_ability_throw_spear_replace	Replaces "Olympian Throw" ability	true
+effects_description_troy_effect_technology_public_order_from_technology	%+n to happiness in own provinces	true
+effects_description_troy_effect_hero_aura_morale_mod	%+n to morale of all units in Hero's aura	true
+effects_description_troy_effect_hero_archer_ability_poison_attacks	"Poison Attacks" ability	true
+effects_description_troy_effect_hero_ability_challenge	"Divine Challenge" ability	true
+effects_description_troy_effect_hero_unit_armour_spec_missile_units	%+n to armour of missile units in Hero's army	true
+effects_description_troy_effect_campaign_happiness_buildings_positive	{{tr:public_order_effect}}: %+n	true
+effects_description_troy_effect_building_resource_stack_food_small_cheap	Foreign Traders: +1 small cheap food stack	true
+effects_description_troy_effect_hero_defender_bulwark	"Fortify" ability	true
+effects_description_troy_effect_decrees_melee_attack_heavy_units	%+n% to melee attack of all heavy infantry units	true
+effects_description_troy_effect_agent_envoy_plant_informant_duration_mod	%+n turns to the duration of the "Deliberation" agent action effects	true
+effects_description_troy_effect_hero_fighter_ability_overpower	"Vanquish" ability	true
+effects_description_troy_effect_agent_priestess_divine_protection_hera_up_zeus_down	Favour of Hera: +4 per turn, Favour of Zeus: -2 per turn	true
+effects_description_troy_effect_replenihsment_in_encampment_dummy	%+n% to casualty replenishment while in Encamp stance	true
+effects_description_troy_effect_agent_priestess_divine_protection_aphrodite	Favour of Aphrodite: +2 per turn	true
+effects_description_troy_effect_gods_add_bronze	%+n to bronze production per turn in regions already producing bronze	true
+effects_description_troy_effect_hero_fighter_ability_jump_in_battle_spec_armour	"Ares' Gift (Armour)" specialisation	true
+effects_description_troy_trait_loyalty_battle_alone	 %+n to {{tr:troy_main_motivation}} after fighting a battle with this Hero with no reinforcements	true
+effects_description_troy_effect_event_add_gold	%+n {{tr:troy_effect_gold_per_turn}} 	true
+effects_description_troy_effect_army_melee_defence_mod_all	{{tr:troy_effect_text_army_melee_defence_mod_all}}	true
+effects_description_troy_effect_building_unit_upgarde_styganores_dummy	{{tr:troy_effect_initiation_rite_tr}} Styganores	true
+effects_description_troy_effect_agent_envoy_plant_informant_cannot_fail	"Deliberation" agent action cannot fail	true
+effects_description_troy_effect_army_campaign_movement_mod_fleets	%+n% to campaign movement range at sea	true
+effects_description_troy_effect_add_outcome_army_melee_defence_mod_all_enemy_units	{{tr:troy_effect_text_army_melee_defence_mod_all_enemy_units}}	true
+effects_description_troy_effect_hero_campaign_agent_recruitment_rank	{{tr:troy_effect_text_hero_campaign_agent_recruitment_rank}}	true
+effects_description_troy_effect_agent_priestess_divine_protection_athena_up_ares_down	Favour of Athena: +4 per turn, Favour of Ares: -2 per turn	true
+effects_description_troy_effect_hero_archer_ability_born_with_the_bow_replace	Replaces "Centaur Drill" ability	true
+effects_description_troy_effect_add_outcome_army_weapon_damage_mod_mult	{{tr:troy_effect_text_army_weapon_damage_mod_mult}}	true
+effects_description_troy_effect_building_battle_speed_corybantes	%+n% to battle speed of all Corybantes	true
+effects_description_troy_effects_army_weapon_damage_swords_mod	%+n to weapon damage of sword units	true
+effects_description_troy_effect_fm_aeneas_speak_with_dead_swordsmen_melee_defense	%+n% to melee defence of sword units	true
+effects_description_troy_effect_hero_fighter_ability_focused_strikes_spec_less_reduction	"Divine Focus (Attack Speed)" specialisation	true
+effects_description_troy_effect_hero_campaign_raiding	%+n% to income from raiding	true
+effects_description_troy_effect_building_enemy_success_rate_mod	%+n% to success rate of enemy agent actions	true
+effects_description_troy_effect_technology_effect_add_food	%+n {{tr:troy_effect_food_per_turn}}	true
+effects_description_troy_effect_decrees_production_buildings_time_ports	%+n to construction time of all port buildings	true
+effects_description_troy_effect_agent_priestess_divine_protection_hera	Favour of Hera: +2 per turn	true
+effects_description_troy_effect_hero_unit_armour	%+n to armour of all units in Hero's army	true
+effects_description_troy_effect_hero_archer_ability_relentless_pursuit_replace	Replaces "Flights of Artemis" ability	true
+effects_description_troy_effect_hero_unit_melee_defence	%+n to melee defence of all units in Hero's army	true
+effects_description_troy_effect_hero_ability_challenge_spec_duration	"Divine Challenge" specialisation: increased duration	true
+effects_description_troy_effect_gods_melee_defence_all_units_defending_siege	"Protector of Cities" ability: %+n% to melee defence of all units when under siege	true
+effects_description_troy_effect_hero_unit_melee_attack_spec_sword	%+n to melee attack of sword units in Hero's army	true
+effects_description_troy_effect_army_missile_damage_mod_slingers	%+n% to missile damage of slingers	true
+effects_description_troy_effect_agent_envoy_influence_own_settlement_mod_factor_character	{{tr:agent_action_envoy_influence_own_settlement_mod}}	true
+effects_description_troy_effect_economy_special_bronze_ports	%+n to bronze income per turn from sea trade	true
+effects_description_troy_effect_hero_defender_shield_bash_replace	Replaces "Shield Bash" ability	true
+effects_description_troy_effect_hero_fighter_ability_throw_spear_spec_dmg	"Olympian Throw (Damage)" specialisation	true
+effects_description_troy_effect_technology_recruitment_cost_ranged	%+n% to recruitment cost of all missile units	true
+effects_description_troy_effect_hero_fighter_ability_blood_sacrifice	"Blood Sacrifice" ability	true
+effects_description_troy_effect_add_outcome_army_recruitment_cost_mod_all_army_units	{{tr:troy_effect_text_army_recruitment_cost_mod_all_army_units}}	true
+effects_description_troy_effect_agent_priestess_ritual_enemy	[PH] [hidden]	true
+effects_description_troy_effect_agent_enemy_success_rate_agent_ids	%+n% to success rate of enemy agent actions	true
+effects_description_troy_trait_loyalty_ransom_captives	 %+n to {{tr:troy_main_motivation}} after this Hero ransoms captives	true
+effects_description_troy_effect_hero_fighter_ability_bow_to_the_moirai_replace	Replaces "Threads of Fate" ability	true
+effects_description_troy_trait_loyalty_army_small	 %+n to {{tr:troy_main_motivation}} if this Hero ends turn leading an army of 15 units or less	true
+effects_description_troy_effect_army_battle_speed_movement_melee_cav_chariot	%+n% to battle speed of melee, mounted and chariot units	true
+effects_description_troy_effect_hero_warlord_ability_battle_cry_spec_morale	"Ares' Thunder (Morale)" specialisation	true
+effects_description_troy_effect_fm_achilles_not_greatest	Defeat all challengers to earn recognition as a living legend!	true
+effects_description_troy_effect_buildings_wood_from_vassals	%+n {{tr:troy_effect_wood_per_turn}} per vassal	true
+effects_description_troy_effect_building_achilles_elites_upkeep_provincewide	%+n% to upkeep of Achilles' elite units	true
+effects_description_troy_effect_decrees_melee_attack_medium_units	%+n% to melee attack of all medium infantry units	true
+effects_description_troy_effect_hero_campaign_ambush_success_spec_bonuses_attack	Increases the melee attack of units by %+n% when ambushing	true
+effects_description_troy_effect_agent_priestess_divine_protection_artemis	Favour of Artemis: +2 per turn	true
+effects_description_troy_trait_loyalty_end_turn_own_allied_region_no_enemy_territory	 %+n to {{tr:troy_main_motivation}} after this Hero ends turn in their own or in an allied region with no adjacent enemy territory	true
+effects_description_troy_trait_loyalty_end_turn_immobile	 %+n to {{tr:troy_main_motivation}} if this Hero ends the turn garrisoned or encamped	true
+effects_description_troy_effect_economy_mod_all_resources_bronze	%+n% {{tr:troy_effect_bronze_per_turn}}	true
+effects_description_troy_effect_agent_action_hinder_settlement_establish_supply_base_cost_mod_hidden	[PH] [hidden]	true
+effects_description_troy_effect_hero_all_ability_throw_rock_replace	Replaces "Heraclean Throw" ability	true
+effects_description_troy_effect_hero_agamemnon_unit_knights_vow_spec_missile	%+n% to upkeep cost of Agamemnon's elite missile units	true
+effects_description_troy_effect_building_menelaus_recruitment_cost_foreign_units	 %+n% to recruitment cost of foreign units (not present in Menalaus' roster)	true
+effects_description_troy_effect_hero_campaign_stalk_spec_speed	%+n% to army battle speed during ambushes	true
+effects_description_troy_effect_hero_warlord_ability_insult_spec_duration	"Taunt (Duration)" specialisation	true
+effects_description_troy_effect_hero_defender_ability_set_example_spec_morale	"Lead by Example (Morale)" specialisation	true
+effects_description_troy_effect_economy_gdp_mod_all	%+n% to income from all buildings	true
+effects_description_troy_effect_happiness_per_alliance	%+n to happiness per defensive or military alliance, up to 5	true
+effects_description_troy_effect_army_campaign_movement_mod_armies_enemy	%+n% to campaign movement range of enemy armies	true
+effects_description_troy_effect_gods_favour_mod_ares_per_turn	Favour of Ares: %+n per turn	true
+effects_description_troy_effect_ancillary_armour_mod_all_units_siege	%+n to armour of all units while besieging	true
+effects_description_troy_effect_economy_mining_mod_stone	{{tr:troy_effect_text_economy_mining_mod_stone}}	true
+effects_description_troy_effect_agent_spy_assassinate_enemy_success_chance_mod	%+n% to success chance of incapacitating enemy characters	true
+effects_description_troy_effect_hero_defender_ability_hallowed_ground_spec_area	"Hallowed Ground (Area)" specialisation	true
+effects_description_troy_effect_hero_campaign_upkeep_spec_archers	%+n% to upkeep cost of archer units in Hero's army	true
+effects_description_troy_main_hero_campaign_sacking_razing_spec_replenishment_dummy	%+n% to casualty replenishment when sacking	true
+effects_description_troy_effect_hero_archer_precise_shot_replace	Replaces "Apollo's Aim" ability	true
+effects_description_troy_effect_hero_defender_shield_spec_damage	"Shield Bash (Dmg)" specialisation	true
+effects_description_troy_effect_building_unit_upgarde_mounted_huntresses_dummy	{{tr:troy_effect_initiation_rite_tr}} Mounted Huntresses	true
+effects_description_troy_effect_economy_mining_add_bronze	%+n to bronze production income per turn	true
+effects_description_troy_trait_loyalty_province_organised_games	 %+n to {{tr:troy_main_motivation}} after this Hero ends the turn in an owned province with organised games	true
+effects_description_troy_effect_army_charge_bonus_mod_when_attacking_all	%+n% to charge bonus of all armies when attacking	true
+effects_description_troy_effect_agent_priestess_persuade_envoy_mod	%+n% to chance of priestess persuading an envoy to leave	true
+effects_description_troy_effects_ancillary_melee_attack_spartoi	%+n% to melee attack of Spartoi units	true
+effects_description_troy_effect_agent_priestess_divine_protection_apollo_up_artemis_down	Favour of Apollo: +4 per turn, Favour of Artemis: -2 per turn	true
+effects_description_troy_trait_loyalty_region_lose	 %+n to {{tr:troy_main_motivation}} after your faction loses a region	true
+effects_description_troy_effect_gods_happiness_in_complete_province	%+n to happiness of each complete province	true
+effects_description_troy_effect_economy_mod_food_influenced_province	%+n% {{tr:troy_effect_food_per_turn}} in provinces with {{tr:troy_main_building_high_influence}}	true
+effects_description_troy_effect_building_global_recruitment_hector_dummy	Grants access to global recruitment of Guards of Troy and Heavy Shock Spears units	true
+effects_description_troy_effect_army_melee_attack_mod_all_enemy_army	{{tr:troy_effect_text_army_melee_attack_mod_all_enemy_army}}	true
+effects_description_troy_effect_hero_unit_melee_attack_spec_sword_mod	%+n% to melee attack of sword units in Hero's army	true
+effects_description_troy_dlc1_hero_unit_melee_attack_to_blood_oath_units	%+n% to melee attack for Bloodsworn units	true
+effects_description_troy_effect_hero_all_ability_throw_rock_spec_area	"Heraclean Throw (Damage)" specialisation	true
+effects_description_troy_effect_hero_archer_ability_strafe_spec_dmg	"Strafe (Damage)" specialisation	true
+effects_description_troy_effect_add_outcome_army_melee_defence_mod_all	{{tr:troy_effect_text_army_melee_defence_mod_all}}	true
+effects_description_troy_effect_campaign_happiness_factor_other	{{tr:public_order_effect}}: %+n	true
+effects_description_troy_effect_hero_archer_ability_relentless_pursuit_spec_cost	"Flights of Artemis (Cost)" specialisation	true
+effects_description_troy_effect_hero_archer_ability_strafe_replace	Replaces "Strafe" ability	true
+effects_description_troy_effect_building_paris_organize_feast	%+n% to the cost of organising a feast for Helen in this region	true
+effects_description_troy_effect_economy_mod_all_resources_gold	%+n% {{tr:troy_effect_gold_per_turn}}	true
+effects_description_troy_effect_hero_achilles_unit_knights_vow_spec_melee	%+n% to upkeep cost of Achilles' elite shielded infantry units	true
+effects_description_troy_effect_building_charge_on_recruitment	%+n% to charge on recruitment of units in this province	true
+effects_description_troy_effect_hero_warlord_ability_rallying_cry_spec_cooldown	"Rallying Cry (Cooldown)" specialisation	true
+effects_description_troy_effect_add_outcome_army_campaign_ambush_defence_success_chance	{{tr:troy_effect_text_army_campaign_ambush_defence_success_chance}}	true
+effects_description_troy_effect_dlc1_effect_sacred_settlement_small_culture	%+n Amazon treasures per turn (Hippolyta's faction only).	true
+effects_description_troy_effect_army_recruitment_cost_mod_all_army_units	{{tr:troy_effect_text_army_recruitment_cost_mod_all_army_units}}	true
+effects_description_troy_effect_building_unit_upgarde_followers_of_artemis_dummy	{{tr:troy_effect_initiation_rite_tr}} Followers of Artemis	true
+effects_description_troy_effect_agent_envoy_compromised_maps_cannot_fail	"Lead Astray" agent action cannot fail	true
+effects_description_troy_effect_priestess_ritual_cost_mod	%+n% to action cost for Ritual of Exaltation	true
+effects_description_troy_effect_ancillary_recruitment_cost_spartoi	%+n% to recruitment cost of Spartoi	true
+effects_description_troy_effect_faction_province_growth_building	%+n to growth	true
+effects_description_troy_effect_fm_aeneas_aeolian_blood_02	Up to %+n to happiness in provinces scaling with local Aeolian influence	true
+effects_description_troy_trait_loyalty_battle_not_reinforce	 %+n to {{tr:troy_main_motivation}} after this Hero wins a battle but not as part of a reinforcing army	true
+effects_description_troy_effect_immortality_hidden	This Hero is immortal	true
+effects_description_troy_main_effect_influence_factor_technology	{{tr:agent_action_envoy_influence_own_settlement_mod}}	true
+effects_description_troy_effect_army_navy_morale	%+n% to morale when fighting at sea	true
+effects_description_troy_effect_gods_favour_mod_hera_per_turn	Favour of Hera: %+n per turn	true
+effects_description_troy_effect_army_replenishment_rate_all	%+n% to casualty replenishment rate of all armies	true
+effects_description_troy_effect_campaign_ai_mod_build_time_percentage_hidden	[HIDDEN]	true
+effects_description_troy_effect_event_add_wood	%+n {{tr:troy_effect_wood_per_turn}}	true
+effects_description_troy_effect_agent_priestess_sacrifice_good_omen_morale_mod	%+n% to morale from good omens	true
+effects_description_troy_effect_hero_archer_ability_apollos_rain	"Apollo's Rain" ability	true
+effects_description_troy_effect_hero_fighter_ability_focused_strikes_replace	Replaces "Divine Focus" ability	true
+effects_description_troy_effect_agent_envoy_enable_force_army_retreat	[PH] PH Desc	true
+effects_description_troy_effect_agent_spy_assassinate_enemy_cost_mod	%+n% to cost of assassination actions	true
+effects_description_troy_effect_agent_priestess_favour_all_gods_when_critical_success	Favour of all the gods: %+n% following an agent action's critical success	true
+effects_description_troy_effect_building_defence_mod_region	%+n to defence skill of all units fighting in this region	true
+effects_description_troy_effect_food_income_per_coastal_region	%+n {{tr:troy_effect_food_per_turn}} for each owned coastal region	true
+effects_description_troy_effect_army_campaign_recruitment_points	Global recruitment capacity: %+n to global recruitment capacity	true
+effects_description_troy_effect_economy_mod_all_resources	{{tr:troy_effect_text_economy_mod_all_resources}}	true
+effects_description_troy_effect_agent_priest_available	Enables recruitment of priestesses	true
+effects_description_troy_effect_hero_campaign_replenishment	%+n% to casualty replenishment rate of units in Hero's army	true
+effects_description_troy_effect_hero_archer_ability_rapid_fire_spec_cost	"Swift of Heel (Cost)" specialisation	true
+effects_description_troy_effect_hero_warlord_ability_battle_cry_replace	Replaces "Ares' Thunder" ability	true
+effects_description_troy_effect_building_menelaus_elites_upkeep	%+n% to upkeep cost of Light Spear Runners and Renowned Laconian Axemen	true
+effects_description_troy_effect_building_unit_upgarde_amazon_champions_dummy	{{tr:troy_effect_initiation_rite_tr}} Amazon Champions 	true
+effects_description_troy_effect_buildings_gold_from_vassals	%+n {{tr:troy_effect_gold_per_turn}} per vassal	true
+effects_description_troy_effect_add_outcome_building_cost_mod_main_buildings	{{tr:troy_effect_text_building_cost_mod_main_buildings}}	true
+effects_description_troy_effect_building_morale_all_units_defending_siege	%+n% to morale of all units when under siege	true
+effects_description_troy_effect_add_outcome_agent_gorgon_cursed_presence	[PH] [hidden]	true
+effects_description_troy_trait_loyalty_favour_ares	 %+n to {{tr:troy_main_motivation}} after this Hero ends turn and {{tr:hp_title_ares}} is Respected by your faction	true
+effects_description_troy_effect_campaign_growth_all	%+n to growth	true
+effects_description_troy_effect_agent_spy_envoy_priestess_fail_act_again	{{tr:troy_effect_text_agent_spy_envoy_priestess_fail_act_again}}	true
+effects_description_troy_effect_building_aeneas_elites_rank_up	{{tr:effect_rank_up_faction_elites}}	true
+effects_description_troy_effect_hero_campaign_stalk_spec_prevent_replenishment	Prevent enemy casualty replenishment in local enemy region	true
+effects_description_troy_effect_unit_capacity_myth_giants_tier_2	Unit capacity: %+n\\nArmoured Giant Spearmen\\nGiant Bowmen	true
+effects_description_troy_effect_add_outcome_agent_spy_poison_enemy_army_cannot_fail	{{tr:troy_effect_text_agent_spy_poison_enemy_army_cannot_fail}}	true
+effects_description_troy_effect_agent_priestess_rituals_enemy_god_favour_mod	%+n% to favour of the gods from rituals in enemy settlements	true
+effects_description_troy_main_fm_priam_heir_no_war_on_priam_dummy	{{tr:troy_main_fm_priam_heir_no_war_on_priam}}	true
+effects_description_troy_effect_hero_achilles_unit_knights_vow_spec_shock	%+n% to upkeep cost of Achilles' elite units wielding two-handed weapons	true
+effects_description_troy_effect_hero_all_ability_throw_rock	"Heraclean Throw" ability	true
+effects_description_troy_effect_add_outcome_agent_critical_failure_not_wounded	{{tr:troy_effect_text_agent_critical_failure_not_wounded}}	true
+effects_description_troy_agent_horde_action_record_seer_ritual	[PH] [hidden]	true
+effects_description_troy_effect_agent_spy_growth_all	{{tr:troy_effect_text_agent_spy_growth_all}}	true
+effects_description_troy_effect_hero_self_mount_spec_strength_speed	%+n% to battle speed of Hero on chariot	true
+effects_description_troy_effect_hero_campaign_enemy_agent_failure_spec_cost	%+n% Increases the cost of enemy agent actions against this Hero's army	true
+effects_description_troy_effect_building_recruitment_rank_all	{{tr:troy_effect_text_building_recruitment_rank_all}}	true
+effects_description_troy_effect_hero_all_ability_duel_spec_armor	"Divine Challenge (Armour)" specialisation	true
+effects_description_troy_effect_hero_warlord_ability_warning_shout_spec_radius	"Warning Shout (Radius)" specialisation	true
+effects_description_troy_effect_horde_agent_satyr_effect_revelries	[PH] [hidden]	true
+effects_description_troy_effect_economy_mod_food	%+n% {{tr:troy_effect_food_per_turn}}	true
+effects_description_troy_dlc1_hero_unit_melee_defence_to_blood_oath_units	%+n% to melee defence for Bloodsworn units	true
+effects_description_troy_effect_hero_fighter_ability_frenzy_replace	Replaces "Frenzy" ability	true
+effects_description_troy_trait_loyalty_peace_danaans	 %+n to {{tr:troy_main_motivation}} after signing peace with a neighbouring Danaan faction	true
+effects_description_troy_effect_agent_envoy_assist_settlement_influence	[PH] [hidden]	true
+effects_description_troy_effect_agent_action_supply_base_established_fatigue	%+n% to success chance of establishing a Safe Heaven	true
+effects_description_troy_effect_hero_aura_strength	Increases the aura strength of this Hero	true
+effects_description_troy_effect_technology_melee_defence_swords_axes_clubs	%+n% to melee defence of sword, axe and club units	true
+effects_description_troy_effect_building_melee_defence_on_recruitment	%+n to melee defence for all units on recruitment	true
+effects_description_troy_effect_unit_capacity_myth_centaurs_tier_1	Unit capacity: %+n\\nCentaur Scouts	true
+effects_description_troy_effect_economy_buildings_add_bronze	%+n {{tr:troy_effect_bronze_per_turn}}	true
+effects_description_troy_effect_economy_mod_all_resources_flat_food	%+n to food	true
+effects_description_troy_effect_gods_favour_mod_aphrodite_per_turn	Favour of Aphrodite: %+n per turn	true
+effects_description_troy_effect_building_recruitment_cost_axes	%+n% to recruitment cost of axe units	true
+effects_description_troy_effect_hero_campaign_lightning_strike_spec_ammo	%+n% to ammunition of friendly units when Hero attacks at night	true
+effects_description_troy_effect_hero_defender_ability_heroic_resolve_replace	Replaces "Heraclean Resolve" ability	true
+effects_description_troy_effect_gods_aristeia_points_offensive_ambush_mod	%+n% Aristeia gained by Heroes during offensive ambush battles	true
+effects_description_troy_effect_technology_recruitment_cost_agents	%+n% to recruitment cost of all agents	true
+effects_description_troy_effect_hero_warlord_ability_commanding_shout	"Heraclean Roar" ability	true
+effects_description_troy_effect_fm_aeneas_speak_with_dead_diplomacy_with_trojans	%+n to diplomatic relations with the Trojans	true
+effects_description_troy_effect_hero_campaign_wounded_time_spec_line_of_sight	Increases the line of sight of Hero's army	true
+effects_description_troy_effect_building_upkeep_axes	%+n% to upkeep cost of axe units	true
+effects_description_troy_effect_hero_archer_precise_shot_spec_cd	"Apollo's Aim (Cost)" specialisation	true
+effects_description_troy_effect_building_unit_upgarde_shielded_stoneslingers_dummy	{{tr:troy_effect_initiation_rite_tr}} Shielded Stoneslingers	true
+effects_description_troy_main_effect_influence_factor_building	%+n to influence over this province	true
+effects_description_troy_effect_agent_spy_poison_enemy_army_cannot_fail	{{tr:troy_effect_text_agent_spy_poison_enemy_army_cannot_fail}}	true
+effects_description_troy_effect_army_morale_all_enemy_units_dummy_for_ares	{{tr:troy_effect_text_army_morale_all_enemy_units}}	true
+effects_description_troy_effect_building_aeneas_mob_rable_recriutment_cost	%+n% to recruitment cost of Dardanian Sworn Fighters and Renowned Dardanian Sworn Fighters	true
+effects_description_troy_effect_hero_fighter_ability_terrify_spec_melee_defence_reduction	"Terrify (Melee Defence)" specialisation	true
+effects_description_troy_effect_economy_special_gold_ports	%+n to gold income per turn from sea trade	true
+effects_description_troy_effect_fm_aeneas_speak_with_dead_swordsmen_speed	%+n% to battle speed of sword units	true
+effects_description_troy_effect_building_build_time_in_sea_shore_regions	 %+n to construction time in coastal regions	true
+effects_description_troy_effect_army_morale_defending	%+n to morale when defending	true
+effects_description_troy_effect_agent_envoy_plant_informant_range_mod	%+n% to line of sight of planted informant	true
+effects_description_troy_effect_add_outcome_economy_mining_mod_stone	{{tr:troy_effect_text_economy_mining_mod_stone}}	true
+effects_description_troy_effect_hero_all_ability_find_cover_replace	Replaces "Aegis of Zeus" ability	true
+effects_description_troy_effect_hero_warlord_ability_marked_for_death_spec_morale	"Zeus' Wrath (Morale)" specialisation	true
+effects_description_troy_effect_add_outcome_agent_priestess_sacrifice_bad_omen_morale_mod	{{tr:troy_effect_text_army_morale_all_enemy_units}}	true
+effects_description_troy_main_effect_character_mod_loyalty_recruit	%+n to motivation of new Hero recruits	true
+effects_description_troy_effect_army_morale_mult_defending	%+n% to morale of all units when defending	true
+effects_description_troy_effect_missile_damage_javelins	%+n% to missile damage of javelin units	true
+effects_description_effect_bundle_hero_influence_when_razing_dummy	%+n to influence after razing a settlement for 5 turns (when character is in a non-razed region)	true
+effects_description_troy_effect_army_melee_attack_mod_all	{{tr:troy_effect_text_army_melee_attack_mod_all}}	true
+effects_description_troy_effect_fm_spearmen_melee_defence	%+n% to melee defence of spear units	true
+effects_description_troy_effect_army_income_from_sacking	%+n% to income from sacking settlements	true
+effects_description_troy_effect_agent_enemy_success_rate	[PH] [hidden]	true
+effects_description_troy_effect_hero_achilles_unit_knights_vow	%+n% to upkeep cost of Achilles' elite units	true
+effects_description_troy_effect_campaign_colonisation_unit_cost_exemption	Colonising settlements does not cost soldiers from units	true
+effects_description_troy_effect_army_enable_attribute_berserk	Our troops are prone to going berserk!	true
+effects_description_troy_effect_army_melee_defence_all_armies_inland_open_field	%+n to melee defence of all units when fighting in the open	true
+effects_description_troy_effect_hero_archer_ability_born_with_the_bow_spec_ias	"Centaur Drill (Increased Reload Speed)" specialisation	true
+effects_description_troy_effect_hero_personal_aura_mod_defence	%+n% to aura size of Hero when defending	true
+effects_description_troy_effect_enable_polyphemus	Enables the recruitment of Cyclops	true
+effects_description_troy_effect_army_ammunitions_all	%+n% to ammunition of all missile units	true
+effects_description_troy_effect_building_unit_upgarde_themyscira_chosen_dummy	{{tr:troy_effect_initiation_rite_tr}} Themyscira's Chosen	true
+effects_description_troy_dlc1_hero_campaign_razing_spec_capture_bonus_resources_dummy	%+n% resources from war spoils	true
+effects_description_troy_effect_priestess_ritual_favour_mod_hera	%+n% {{tr:troy_effect_desc_favour_from_rituals_mod}} {{tr:hp_title_hera}}	true
+effects_description_troy_main_building_high_influence_food_production	{{tr:troy_main_building_high_influence}} %+n {{tr:troy_effect_food_per_turn}}	true
+effects_description_troy_trait_loyalty_battle_defender	 %+n to {{tr:troy_main_motivation}} after this Hero wins a battle as the defender	true
+effects_description_troy_effect_gods_favour_mod_ares	Favour of Ares: %+n	true
+effects_description_troy_effect_add_outcome_army_upkeep_mod_all	{{tr:troy_effect_text_army_upkeep_mod_all}}	true
+effects_description_troy_effect_hero_campaign_upkeep_spec_clubs	%+n% to upkeep cost of club units in Hero's army	true
+effects_description_troy_effect_hero_archer_ability_poison_attacks_spec_speed	"Poison Attacks (Speed)" specialisation	true
+effects_description_troy_effect_gods_corybantes	Unlocks recruitment of Corybantes	true
+effects_description_troy_trait_loyalty_battle_bad_odds	 %+n to {{tr:troy_main_motivation}} after this Hero fights a battle against a stronger army	true
+effects_description_troy_effect_hero_fighter_ability_bow_to_the_moirai_spec_rage	"Threads of Fate (Damage)" specialisation	true
+effects_description_troy_effect_army_campaign_stance_public_order_hit_dummy	{{tr:public_order_effect}}: %+n in the raided province	true
+effects_description_troy_effect_hero_warlord_ability_the_shout	"The Shout" ability	true
+effects_description_troy_effect_unit_capacity_myth_centaurs_tier_2	Unit capacity: %+n\\nSavage Centaur Warriors	true
+effects_description_troy_effect_hero_all_ability_divine_inspiration_spec_inspiration	"Heavenly Inspiration (Inspiration)" specialisation	true
+effects_description_troy_trait_loyalty_kill_take_on_captives	 %+n to {{tr:troy_main_motivation}} after this Hero kills or takes on captives	true
+effects_description_troy_effect_hero_all_ability_find_cover_spec_cd	"Aegis of Zeus (Resistance)" specialisation	true
+effects_description_troy_effect_battle_speed_hero_chariots	The Hero gains %+n%  speed in battle while on a chariot	true
+effects_description_troy_effect_agent_priestess_successful_action_vs_enemy_agents_lowers_enemy_favour	Enemy's favour of the gods reduced due to successful action vs enemy agents	true
+effects_description_troy_effect_army_armour_piercing_damage_island_battles	"Hosted by Poseidon" ability: %+n% to armour-piercing damage during island battles	true
+effects_description_troy_effect_agent_spy_replenishment_rate_own_army	[PH] [hidden]	true
+effects_description_troy_trait_loyalty_favour_apollo	 %+n to {{tr:troy_main_motivation}} after this Hero ends turn and {{tr:hp_title_apollo}} is Respected by your faction	true
+effects_description_troy_effect_building_dummy_office_champion	Unlocks the position of "Lawagetas"	true
+effects_description_troy_effect_hero_all_ability_find_cover	"Aegis of Zeus" ability	true
+effects_description_troy_effect_dlc1_hero_warlord_embrace_of_ares	"Embrace of Ares" ability	true
+effects_description_troy_effect_agent_envoy_fatigue_resistance_mod_stamina_embedded	{{tr:troy_main_agent_envoy_fatigue_embedded}}: %+n%	true
+effects_description_troy_effect_add_outcome_gods_success_rate_agents	{{tr:troy_effect_text_gods_success_rate_agents}}	true
+effects_description_troy_effect_hero_archer_ability_cheat_hades_spec_vigour	"Cheat Hades (Stamina)" specialisation	true
+effects_description_troy_effect_economy_mining_add_gold	%+n {{tr:troy_effect_gold_per_turn}} (depletes local deposit)	true
+effects_description_troy_effect_hero_mod_personal_aura_size	%+n% to aura size of Hero	true
+effects_description_troy_effect_agent_spy_own_settlement_sight_mod	%+n% to line of sight of own settlement	true
+effects_description_troy_effect_gods_favour_mod_zeus_per_turn	Favour of Zeus: %+n per turn	true
+effects_description_troy_effect_hero_campaign_recruitment_cost	%+n% to recruitment cost of units in Hero's army	true
+effects_description_troy_effect_hero_warlord_ability_marked_for_death	"Zeus' Wrath" ability	true
+effects_description_troy_effect_gods_add_food	%+n to food production per turn in each region already producing food	true
+effects_description_troy_effect_building_campaign_movement_provincewide	%+n% to campaign movement of armies starting in this province	true
+effects_description_troy_effect_hero_unit_recruit_rank	%+n to recruit rank of all new units 	true
+effects_description_troy_effect_hero_self_speed	%+n% to battle speed of Hero	true
+effects_description_troy_effect_agent_priestess_divine_protection_poseidon_up_aphrodite_down	Favour of Poseidon: +4 per turn, Favour of Aphrodite: -2 per turn	true
+effects_description_troy_effect_add_outcome_army_effect_morale_mod	{{tr:troy_effect_text_army_effect_text_morale_mod}}	true
+effects_description_troy_effect_agent_priestess_sacrifice_good_omen_melee_attack_mod	%+n% to melee attack from good omens	true
+effects_description_troy_effect_agent_agent_action_enable_dignitary_hinder_settlement_establish_supply_base	[PH] [hidden]	true
+effects_description_troy_effect_agent_satyr_available	Enables recruitment of a satyr	true
+effects_description_troy_effect_priestess_ritual_favour_mod_poseidon	%+n% {{tr:troy_effect_desc_favour_from_rituals_mod}} {{tr:hp_title_poseidon}}	true
+effects_description_troy_effect_building_global_recruitment_aeneas_dummy	Grants access to global recruitment of Dardanian Sworn Fighters and Heavy Anatolian Spearmen	true
+effects_description_troy_effect_add_outcome_agent_critical_failure_mod	{{tr:troy_effect_text_agent_critical_failure_mod}}	true
+effects_description_troy_effect_hero_archer_ability_rapid_fire_replace	Replaces "Swift of Heel" ability	true
+effects_description_troy_dlc1_effect_hero_upgrade_units_cost_reduction	%-n% cost for initiation rites	true
+effects_description_troy_effect_hero_defender_ability_second_wind	"Divine Regeneration" ability	true
+effects_description_troy_effect_building_morale_region	%+n to morale of all units fighting in this region	true
+effects_description_troy_effect_building_unit_upgarde_toxoannases_dummy	{{tr:troy_effect_initiation_rite_tr}} Toxoannasses	true
+effects_description_troy_effect_hero_fighter_ability_desecrate_the_fallen	"Humiliate the Dead" ability	true
+effects_description_troy_effect_fm_trojan_alliance_regions_or_less_dummy	This alliance level is active at less than %n allied regions	true
+effects_description_troy_effect_dlc1_amazon_horde_option_kill_captives_momentum	%+n to battle glory	true
+effects_description_troy_effect_gods_enable_attribute_rampage	Our warriors are prone to going on the rampage!	true
+effects_description_troy_effect_faction_diplomacy_athina	%+n to diplomatic relations with Athina	true
+effects_description_troy_effect_hero_hector_unit_knights_vow_spec_spear	%+n% to upkeep cost of Hector's elite spear units	true
+effects_description_troy_effect_agent_spy_own_settlement_sight_operational	[PH] Tell me what you are	true
+effects_description_troy_effect_hero_warlord_seize_the_moment_spec_sunder	"Seize the Moment (Sunder Armour)" specialisation	true
+effects_description_troy_effect_technology_diplomacy_trojans	%+n to diplomatic relations with the Trojans (Pelasgians, Leleges, Maeonians, Thracians)	true
+effects_description_troy_effect_campaign_preview_build_attritional_immunity	[PH] [HIDDEN]	true
+effects_description_troy_dlc1_effect_building_siren_pool_dummy	More sirens are available for recruitment after razing their mythic settlements with this army	true
+effects_description_troy_effect_fm_aeneas_speak_with_dead_ranged_damage	%+n% to missile damage of missile units	true
+effects_description_troy_effect_dlc1_cavalry_charge	%+n% to charge of cavalry units	true
+effects_description_troy_effect_technology_recruitment_cost_axes_swords_clubs	%+n% to recruitment cost of sword, axe and club units	true
+effects_description_troy_effect_hero_warlord_ability_warning_shout_spec_defense	"Warning Shout (Defence)" specialisation	true
+effects_description_troy_trait_loyalty_adjacent_region_not_enemy	 %+n to {{tr:troy_main_motivation}} if this Hero ends turn with no adjacent enemy region	true
+effects_description_troy_effect_economy_add_deposit_bronze	%+n to bronze production capacity in this province	true
+effects_description_troy_effect_hero_menelaus_unit_knights_vow_spec_melee	%+n% to upkeep cost of Menelaus' elite shielded infantry units	true
+effects_description_troy_effect_hero_campaign_sacking_spec_building_damage	Causes greater damage to buildings when sacking	true
+effects_description_troy_effect_building_melee_attack_on_recruitment	%+n to melee attack for all units on recruitment	true
+effects_description_troy_effect_building_hector_elites_melee_defense	%+n% to melee defence of all Guards of Troy and Heavy Shock Spear units	true
+effects_description_troy_effect_agent_spy_success_act_again	Replenishes action points if an agent action is successful	true
+effects_description_troy_effect_hero_unit_melee_defence_spec_swords	%+n to melee defence of sword units in Hero's army	true
+effects_description_troy_effect_decrees_favour_to_all	%+n to favour per turn of all the gods 	true
+effects_description_troy_effect_army_morale_mult_when_attacking	%+n% to morale of all units when attacking	true
+effects_description_troy_effect_economy_building_upkeep_add_bronze	%+n {{tr:troy_effect_bronze_per_turn	true
+effects_description_troy_effect_hero_warlord_ability_march_on	"March of Hermes" ability	true
+effects_description_troy_agent_action_record_seer_ritual	[PH] [hidden]	true
+effects_description_troy_effect_hero_warlord_ability_commanding_shout_replace	Replaces "Heraclean Roar" ability	true
+effects_description_troy_effect_hero_warlord_ability_armstice_replace	Replaces "Truce" ability	true
+effects_description_troy_effect_fm_aeneas_speak_with_dead_all_favour	Favour of all the gods: %+n	true
+effects_description_troy_effect_army_missile_resistance_all	%+n% to missile resistance of all units	true
+effects_description_troy_effect_hero_mount_chariot_dummy	Grants a chariot ancillary to the Hero	true
+effects_description_troy_effect_economy_mod_food_buildings	%+n% {{tr:troy_effect_food_per_turn}} from buildings	true
+effects_description_troy_trait_loyalty_confederation	 %+n to {{tr:troy_main_motivation}} after a confederation with another faction	true
+effects_description_troy_effect_diplomacy_strategic_threat_attitude_all_factions_major	Major {{tr:strategic_threat_diplomatic_penalty_effect}}	true
+effects_description_troy_effect_building_recruit_rank_envoy	%+n to recruitment rank of envoys in the province	true
+effects_description_troy_effect_hero_defender_ability_care_for_fallen_replace	Replaces: "Favour of Asclepius" ability	true
+effects_description_troy_effect_faction_settlement_walls_hidden	Main building cannot be manually repaired, but will be restored in a few turns.	true
+effects_description_troy_effect_hero_campaign_lightning_strike_spec_aura_size	Increases the aura size of Hero in night battles	true
+effects_description_troy_effect_unit_capacity_myth_centaurs_tier_3	Unit capacity: %+n\\nCentaur Champions\\nCentaur Elders	true
+effects_description_troy_effect_technology_effect_add_wood	%+n {{tr:troy_effect_wood_per_turn}}	true
+effects_description_troy_effect_hero_unit_range_spec_range_archers	%+n% to range of archer units	true
+effects_description_troy_effect_hero_defender_ability_brace_spec_radius	"Immovable Force (Radius)" specialisation	true
+effects_description_troy_effect_deal_evaluation_all	%+n to deal evaluation for all diplomatic agreements	true
+effects_description_troy_effect_faction_diplomacy_troy	%+n to diplomatic relations with Troy	true
+effects_description_troy_effect_missile_damage_defensive_siege	%+n% to missile damage of missile units in defensive siege battles	true
+effects_description_troy_effect_hero_unit_vanguard_light_missile_infantry	Grants vanguard deployment to all light missile infantry in Hero's army	true
+effects_description_troy_effect_agent_priestesss_block_points_replenishment	[PH] [hidden]	true
+effects_description_troy_effect_building_foreign_recruitment_duration	%+n to recruitment time for all units recruited through Call to Arms	true
+effects_description_troy_effect_hero_unit_morale_spec_clubs_mod	%+n% to morale of club units in Hero's army	true
+effects_description_troy_effect_fm_aeneas_speak_with_dead_resource_building_cost_reduction	%+n% construction cost of resource buildings	true
+effects_description_troy_effect_economy_mod_wood_buildings	%+n% {{tr:troy_effect_wood_per_turn}} from buildings	true
+effects_description_troy_effect_economy_other_add_stone	%+n {{tr:troy_effect_stone_per_turn}}	true
+effects_description_troy_effect_technology_construction_time_military_buildings	%+n to construction time of all military buildings	true
+effects_description_troy_effect_add_outcome_agent_spy_envoy_priestess_fail_act_again	{{tr:troy_effect_text_agent_spy_envoy_priestess_fail_act_again}}	true
+effects_description_troy_effect_hero_self_mount_spec_strength_melee_defence	%+n% to melee defence of Hero on chariot	true
+effects_description_troy_effect_army_myth_cyclops_upkeep	%+n% to upkeep cost of cyclops	true
+effects_description_troy_effect_agent_spy_campaign_movement_mod_agent_enemy	{{tr:troy_effect_text_agent_spy_campaign_movement_mod_agent_enemy}}	true
+effects_description_troy_effect_add_outcome_faction_unit_recruitment_points	{{tr:troy_effect_text_faction_unit_recruitment_points}}	true
+effects_description_troy_effect_growth_in_influenced_province	%+n to growth in provinces with 60% own influence	true
+effects_description_troy_effect_gods_spartoi_warriors	Unlocks recruitment of Spartoi	true
+effects_description_troy_trait_loyalty_take_on_captives	 %+n to {{tr:troy_main_motivation}} after this Hero takes on captives	true
+effects_description_troy_effect_agent_spy_replenishment_rate_hosting_army	%+n% to casualty replenishment rate of host army	true
+effects_description_troy_effect_economy_special_bronze_wood_market	%+n to bronze income per turn from wood trade	true
+effects_description_troy_effect_decrees_melee_defence_heavy_units	%+n% to melee defence of all heavy infantry units	true
+effects_description_troy_effect_building_achilles_elites_melee_attack	%+n% to melee attack of all Thessalian Marines and Champions of Phthia units	true
+effects_description_troy_effect_hero_defender_ability_brace_replace	Replaces "Immovable Force" ability	true
+effects_description_troy_effect_add_outcome_economy_other_add_gold	%+n {{tr:troy_effect_gold_per_turn}} 	true
+effects_description_troy_effect_economy_mod_stone	%+n% {{tr:troy_effect_stone_per_turn}}	true
+effects_description_troy_effect_add_outcome_building_cost_mod_temples_all	{{tr:troy_effect_text_building_cost_mod_temples_all}}	true
+effects_description_troy_effect_gods_favour_mod_poseidon_per_turn	Favour of Poseidon: %+n per turn	true
+effects_description_troy_effect_hero_ability_challenge_replace	Replaces "Divine Challenge" ability	true
+effects_description_troy_effect_agent_enemy_critical_failure_against_this_agent_mod	%+n% to critical failure chance of enemy agent actions against this agent	true
+effects_description_troy_trait_loyalty_lose_cult_level	 %+n to {{tr:troy_main_motivation}} after losing a cult level with any god	true
+effects_description_troy_effect_army_campaign_stance_growth_all_dummy	Growth: %+n in the raided province	true
+effects_description_troy_effect_agent_priestess_divine_protection_ares	Favour of Ares: +2 per turn	true
+effects_description_troy_effect_hero_warlord_ability_false_prophecy_spec_radius	"False Portent (Radius)" specialisation	true
+effects_description_troy_effect_agent_spy_envoy_priestess_campaign_movement_mod_agent_own	%+n% to this agent's movement range	true
+effects_description_troy_effect_army_battle_armour_mod_shield_units	 %+n to armour of all units with shields	true
+effects_description_troy_effect_hero_self_charge	%+n to charge of Hero	true
+effects_description_troy_trait_loyalty_loot_sack_raze_danaans	 %+n to {{tr:troy_main_motivation}} after this Hero loots, sacks or razes a Danaan settlement 	true
+effects_description_troy_effect_hero_defender_ability_set_example_spec_twice	"Lead by Example (Charge)" specialisation	true
+effects_description_troy_effect_agent_own_settlement_sight	[PH] [hidden]	true
+effects_description_troy_effect_hero_fighter_ability_blind_rage_spec_dmg	"Ares' Rage (Damage)" specialisation	true
+effects_description_troy_effect_campaign_building_trade_route_sea_hidden	[HIDDEN] %+n% possible trade routes	true
+effects_description_troy_effect_hero_archer_ability_strafe	"Strafe" ability	true
+effects_description_troy_effect_agent_envoy_arrest_unlock	Unlocks the ability of an envoy to arrest a foreign agent	true
+effects_description_troy_effect_dlc1_hero_warlord_embrace_of_ares_spec_block_chance	"Embrace of Ares (Block Chance)" specialisation	true
+effects_description_troy_effect_technology_beast_of_war	Unlocks a Trojan Horse siege tower	true
+effects_description_troy_effect_agent_spy_poison_enemy_army	[PH] [hidden]	true
+effects_description_troy_effect_army_charge_bonus_mod_enemy_when_we_attack	%+n% to charge bonus of all enemy armies when attacked	true
+effects_description_troy_effect_hero_self_ranged_attack_spec_ammo	%+n% to ammunition of Hero	true
+effects_description_troy_effect_hero_unit_morale_spec_spearmen_mod	%+n% to morale of spear units in Hero's army	true
+effects_description_troy_effect_fm_aeneas_speak_with_dead_trochilus_ancillary	Gain a “Master Charioteer” ancillary	true
+effects_description_troy_effect_army_morale_all_enemy_units	{{tr:troy_effect_text_army_morale_all_enemy_units}}	true
+effects_description_troy_effect_add_outcome_agent_envoy_movement_mod_armies_enemy	{{tr:troy_effect_text_agent_envoy_movement_mod_armies_enemy}}	true
+effects_description_troy_effect_add_outcome_agent_envoy_alter_influence_acheans	{{tr:troy_effect_text_agent_envoy_alter_influence_acheans}}	true
+effects_description_troy_effect_hero_archer_ability_poison_attacks_replace	Replaces "Poison Attacks" ability	true
+effects_description_troy_effect_building_paris_elites_rank_up	{{tr:effect_rank_up_faction_elites}}	true
+effects_description_troy_effect_hero_achilles_self_hitpoints_dummy	%+n% to Achilles' hitpoints	true
+effects_description_troy_effect_decrees_recruitment_heavy_units	%+n% to recruitment cost of all heavy infantry units	true
+effects_description_troy_effect_army_campaign_stance_begin_fatigued_4_tired	Stamina in battle: Tired	true
+effects_description_troy_effect_hero_fighter_ability_heroic_resolve	"Heraclean Resolve" ability	true
+effects_description_troy_effect_building_unit_upgarde_amazon_chargers_dummy	{{tr:troy_effect_initiation_rite_tr}} Amazon Chargers	true
+effects_description_troy_effect_hero_self_fatigue_reduction	Grants fatigue reduction to the Hero	true
+effects_description_troy_effect_decrees_production_buildings_cost	%+n% to construction cost of all production buildings	true
+effects_description_troy_trait_loyalty_end_turn_mustering	 %+n to {{tr:troy_main_motivation}} after this Hero ends turn in mustering stance	true
+effects_description_troy_effect_army_campaign_movement_mod_armies	%+n% to campaign movement range of all armies	true
+effects_description_troy_trait_loyalty_prayer_hecatomb	 %+n to {{tr:troy_main_motivation}} after making a prayer or a hecatomb	true
+effects_description_troy_effect_army_upkeep_mod_all	{{tr:troy_effect_text_army_upkeep_mod_all}}	true
+effects_description_troy_effect_army_morale_all_armies_inland_open_field	%+n to morale of all units when fighting in the open	true
+effects_description_troy_effect_hero_self_weapon_strength	%+n to melee damage of Hero	true
+effects_description_troy_effect_army_weapon_damage_mod_mult	{{tr:troy_effect_text_army_weapon_damage_mod_mult}}	true
+effects_description_troy_effect_hero_campaign_agent_recruitment_rank_spec_cost	%+n% to cost of agent actions in local province	true
+effects_description_troy_effect_faction_happiness_from_military_presence	%+n to happiness from military presence	true
+effects_description_troy_effect_agent_spy_envoy_fail_is_nothing_hidden		true
+effects_description_troy_effect_hero_campaign_holdout_spec_attrition_besieged	Attrition suffered by defender: %+n% when laying siege	true
+effects_description_troy_effect_army_campaign_stance_march_retreat_dummy	Should the army be attacked, retreat will be impossible; if it loses the battle it will be wiped out	true
+effects_description_troy_effect_hero_campaign_sacking	%+n% to income from sacking	true
+effects_description_troy_effect_hero_defender_ability_brace	"Immovable Force" ability	true
+effects_description_troy_effect_building_cost_mod_military_buildings	%+n% to construction cost of all military buildings	true
+effects_description_troy_effect_hero_campaign_growth_spec_growth	%+n to growth in the local province	true
+effects_description_troy_trait_loyalty_end_turn_temple	 %+n to {{tr:troy_main_motivation}} after this Hero ends turn in a region with a temple	true
+effects_description_troy_effect_army_ammunition_all_armies_inland_open_field	%+n to ammunition of all units when fighting in the open	true
+effects_description_troy_effect_add_outcome_agent_spy_damage_enemy_building	{{tr:troy_effect_text_agent_spy_damage_enemy_building}}	true
+effects_description_troy_effect_agent_priestess_divine_protection_aphrodite_up_poseidon_down	Favour of Aphrodite: +4 per turn, Favour of Poseidon: -2 per turn	true
+effects_description_troy_effect_gods_zeus_knowing_destiny_5_dummy	…and one of the following paths to destiny:	true
+effects_description_troy_effect_gods_add_stone	%n to stone production per turn in each region already producing stone	true
+effects_description_troy_effect_agent_priestess_sacrifice_bad_omen_missile_damage_mod	%+n% to missile damage from bad omens	true
+effects_description_troy_main_building_high_influence_growth_building	{{tr:troy_main_building_high_influence}}%+n to growth	true
+effects_description_troy_effect_economy_special_bronze_coitasma	%+n to bronze income per turn from prospecting	true
+effects_description_troy_effect_economy_food_production_sea_regions	 %+n% to food production in coastal regions	true
+effects_description_troy_effect_agent_instant_recovery_time_mod_heroes_only	"Blessed Leaders" ability: instant recovery of Heroes when wounded 	true
+effects_description_troy_trait_loyalty_rank_higher_than_faction_leader	 %+n to {{tr:troy_main_motivation}} after this Hero gains a rank	true
+effects_description_troy_effect_fm_sarpedon_exotic_good_ancillaries_dummy	Grants ancillaries	true
+effects_description_troy_effect_hero_archer_precise_shot_spec_damage	"Apollo's Aim (Damage)" specialisation	true
+effects_description_troy_effect_add_outcome_agent_spy_poison_enemy_army_mod	{{tr:troy_effect_text_agent_spy_poison_enemy_army_mod}}	true
+effects_description_troy_effect_hero_fighter_ability_blind_rage_replace	Replaces "Ares' Rage" ability	true
+effects_description_troy_effect_horde_army_campaign_movement_after_battle_mod_dummy	%+n% to movement range of Hero's army after battle	true
+effects_description_troy_trait_loyalty_battle_region_port_win	 %+n to {{tr:troy_main_motivation}} after this Hero wins a battle for a coastal region	true
+effects_description_troy_effect_agent_action_cost_mod_this_agent	%+n% to action cost for this agent	true
+effects_description_troy_main_effect_construction_slot_multiple_dummy	%n construction slots in the settlement	true
+effects_description_troy_effect_building_resource_stack_wood_small_cheap	Foreign Traders: +1 small cheap wood stack	true
+effects_description_troy_trait_loyalty_favour_hera	 %+n to {{tr:troy_main_motivation}} after this Hero ends turn and {{tr:hp_title_hera}} is Respected by your faction	true
+effects_description_troy_effect_hero_unit_charge_spec_melee	%+n% to charge of shielded infantry units in Hero's army	true
+effects_description_troy_effect_agent_stayr_happy_elders	[PH] [hidden]	true
+effects_description_troy_effect_building_resource_stack_stone_small_cheap	Foreign Traders: +1 small cheap stone stack	true
+effects_description_troy_main_building_high_influence_building_cost_all	{{tr:troy_main_building_high_influence}}%+n% to construction cost of all buildings	true
+effects_description_troy_effect_economy_mining_mod_bronze	%+n% to bronze production income per turn	true
+effects_description_troy_effect_hero_archer_ability_inspired_shots_spec_damage	"Inspired Aim (Damage)" specialisation	true
+effects_description_troy_trait_loyalty_war_on_neighbour	 %+n to {{tr:troy_main_motivation}} after declaring war on a neighbouring faction	true
+effects_description_troy_effect_army_settlement_siege_equipment_enable	Used for enabling siege equipment.	true
+effects_description_troy_effect_unit_terrain_type_ignored	Units ignore negative effects of all terrain types	true
+effects_description_troy_effect_hero_unit_melee_attack_siege	%+n% to melee attack of all units during siege battles	true
+effects_description_troy_effect_economy_buildings_add_food	%+n {{tr:troy_effect_food_per_turn}}	true
+effects_description_troy_effect_hero_defender_ability_brace_spec_charge_def	"Immovable Force (Charge Defence)" specialisation	true
+effects_description_troy_effect_agent_priestess_divine_protection_artemis_up_apollo_down	Favour of Artemis: +4 per turn, Favour of Apollo: -2 per turn	true
+effects_description_troy_dlc1_hero_unit_experience_spec_cavalry	%+n% to experience received in battle for all cavalry units	true
+effects_description_troy_effect_add_outcome_army_battle_speed_movement_all_units	{{tr:troy_effect_text_army_battle_speed_movement_all_units}}	true
+effects_description_troy_effect_hero_self_sunder_spec_reduce_shield	[[col:green]]%+n% to effectiveness of enemy shields against Hero's missile attacks[[/col]]	true
+effects_description_troy_effect_hero_warlord_ability_fight_on	"Leader of Men" ability	true
+effects_description_troy_effect_building_recruitment_cost_swords	%+n% to recruitment cost of sword units	true
+effects_description_troy_effect_army_recruitment_cost_mod_all_units_influenced_province	%+n% to recruitment cost of all army units in provinces with 60% own influence	true
+effects_description_troy_effect_building_weapon_strength_spartoi	%+n to melee damage of Spartoi	true
+effects_description_troy_effect_hero_unit_aeneas_knights_vow_spec_shock	%+n% to upkeep cost of Aeneas' elite units wielding two-handed weapons	true
+effects_description_troy_effect_hero_warlord_ability_the_shout_spec_morale	"The Shout (Morale)" specialisation	true
+effects_description_troy_effect_hero_warlord_seize_the_moment_spec_damage_reduction	"Seize the Moment (Reduce Damage)" specialisation	true
+effects_description_troy_effect_agent_priestess_sacrifce_chance_of_good_omens	%+n% to chance of good omens from sacrifices	true
+effects_description_troy_effect_hero_campaign_enemy_agent_failure_spec_critical_failure	%+n% to critical failure chance of enemy agent actions against this Hero	true
+effects_description_troy_effect_agent_spy_damage_enemy_building	{{tr:troy_effect_text_agent_spy_damage_enemy_building}}	true
+effects_description_troy_effect_dlc1_hero_warlord_ability_none_left_standing_replace	Replaces "None Left Standing" ability	true
+effects_description_troy_effect_building_exotic_goods	%n to precious resource production per turn, depletes deposit	true
+effects_description_troy_effect_hero_campaign_replenishment_spec_replenishment_enemy	%+n% to casualty replenishment rate of units in Hero's army when in enemy territory	true
+effects_description_troy_effect_hero_defender_ability_second_wind_spec_routing	"Divine Regeneration (Stamina)" specialisation	true
+effects_description_troy_effect_agent_priestess_persuade_spy_mod	%+n% to chance of priestess persuading a spy to leave	true
+effects_description_troy_effect_add_outcome_agent_add_stone	{{tr:troy_effect_text_agent_add_stone}}	true
+effects_description_troy_effect_god_morale_all_units_attacking_siege	%+n% to morale of all units when besieging	true
+effects_description_troy_effect_army_campaign_stance_diplomacy_penalty_dummy	[[col:red]]Diplomacy: Penalties with raided factions[[/col]]	true
+effects_description_troy_effect_agent_action_vs_settlements_chance_mod	%+n% to success chance of agent action at settlements	true
+effects_description_troy_effect_add_outcome_agent_envoy_campaign_movement_mod_armies_agent	{{tr:troy_effect_text_agent_envoy_campaign_movement_mod_armies_agent}}	true
+effects_description_troy_effect_happiness_per_non_aggression_pact	%+n to happiness per non-aggression pact, up to 5	true
+effects_description_troy_effect_building_global_recruitment_agamemnon_dummy	Grants access to global recruitment of Shielded Spearmen, Club Warriors and Light Javelinmen	true
+effects_description_troy_effect_agent_priestess_rituals_success_chance_mod	%+n% to success chance of rituals	true
+effects_description_troy_effect_building_aeneas_morale	%+n to morale of all Heavy Anatolian Spearmen	true
+effects_description_troy_effect_happiness_per_war	%+n to happiness per war, up to 5	true
+effects_description_troy_effect_hero_self_morale_spec_unwavering	The Hero becomes unbreakable!	true
+effects_description_troy_effect_hero_campaign_additional_resource_food_spec_stone	%+n {{tr:troy_effect_stone_per_turn}}	true
+effects_description_troy_effect_happiness_in_influenced_province	%+n to happiness in provinces with at least 60% own influence	true
+effects_description_troy_effect_priestess_ritual_favour_mod_ares	%+n% {{tr:troy_effect_desc_favour_from_rituals_mod}} {{tr:hp_title_ares}}	true
+effects_description_troy_effect_dlc1_effect_character_stat_enable_discourage_attacks	Attacks cause the "Discouraged" effect, reducing morale	true
+effects_description_troy_effect_building_sarpedon_elites_missile_damage	%+n% to missile damage of all Lycian Winged Chariots	true
+effects_description_troy_main_building_high_influence_construction_time	{{tr:troy_main_building_high_influence}}%+n to construction time of all buildings	true
+effects_description_troy_effect_hero_all_ability_adrenaline_rush	"Blood of Heracles" ability	true
+effects_description_troy_effect_ancillary_battle_speed_spear_units	%+n% to battle speed of spear infantry units	true
+effects_description_troy_gods_trait_heroes_son_of_zeus	Grants "Descendant of Zeus" trait to all newly-recruited Heroes	true
+effects_description_troy_effect_economy_mod_stone_buildings	%+n% {{tr:troy_effect_stone_per_turn}} from buildings	true
+effects_description_troy_effect_agent_cap_mod_gorgon	 %+n to recruitment cap of gorgon agents	true
+effects_description_troy_effect_building_resource_stack_wood_big_cheap	Foreign Traders: +1 big cheap wood stack	true
+effects_description_troy_effect_hero_all_ability_adrenaline_rush_replace	Replaces "Blood of Heracles" ability	true
+effects_description_troy_effect_economy_mod_bronze_buildings	%+n% {{tr:troy_effect_bronze_per_turn}} from buildings	true
+effects_description_troy_effect_agent_spy_own_settlement_sight_operational_cost_mod	Less Prodcution in Settlement (PH) 	true
+effects_description_troy_effect_hero_self_bloodthirst	Hero now gains rage passively	true
+effects_description_troy_main_hero_campaign_happiness_growth_spec_favour_dummy	%+n to favour with god of the local temple while garrisonned	true
+effects_description_troy_trait_loyalty_diplomatic_agreement_neighbour_trojan	 %+n to {{tr:troy_main_motivation}} after striking a diplomatic agreement with a neighbouring Trojan faction	true
+effects_description_troy_effect_unit_capacity_myth_harpies_tier_2	Unit capacity: %+n\\nHarpy Fiends	true
+effects_description_troy_effect_hero_self_missile_damage_spec_attack_speed	%+n% to reload skill of Hero	true
+effects_description_troy_effect_hero_campaign_income_post_battle	%+n% to income from looting	true
+effects_description_troy_effect_building_menelaus_elites_rank_up	{{tr:effect_rank_up_faction_elites}}	true
+effects_description_troy_effect_technology_army_hold_out_time_when_besieging_no_agents	%+n to enemy siege holdout time (minimum 1 turn)	true
+effects_description_troy_effect_gods_favour_mod_poseidon	Favour of Poseidon: %+n	true
+effects_description_troy_effect_hero_self_fatigue_reduction_spec_fatigue_slower	Increases the Hero's fatigue reduction	true
+effects_description_troy_effect_hero_warlord_ability_warning_shout_replace	Replaces "Warning Shout" ability	true
+effects_description_troy_effect_add_outcome_agent_recruitment_rank_agents	{{tr:troy_effect_text_hero_campaign_agent_recruitment_rank}}	true
+effects_description_troy_effect_agent_envoy_piercing_damage	{{tr:troy_effect_text_agent_envoy_piercing_damage}}	true
+effects_description_troy_main_hero_campaign_stalk_dummy	Provides a new stance which grants the Hero a chance to ambush his enemies when attacking. The stance benefits from ambush chance effects.	true
+effects_description_troy_trait_loyalty_garrisonned	 %+n to {{tr:troy_main_motivation}} if this Hero ends turn garrisoned	true
+effects_description_troy_effect_army_armour_piercing_damage_island_battles_2	%+n to armour-piercing damage during island battles	true
+effects_description_troy_effect_hero_unit_ammunition	%+n% to ammunition of missile units in Hero's army	true
+effects_description_troy_effect_hero_warlord_ability_march_on_replace	Replaces "March of Hermes" ability	true
+effects_description_troy_trait_loyalty_battle_attacker	 %+n to {{tr:troy_main_motivation}} after this Hero fights a battle as the attacker	true
+effects_description_troy_effect_hero_unit_melee_defence_spec_swords_mod	%+n% to melee defence of sword units in Hero's army	true
+effects_description_troy_main_building_high_influence_recruitment_rank_all	{{tr:troy_main_building_high_influence}}%+n to recruit rank of all units	true
+effects_description_troy_effect_agent_priestess_persuade_unlock	Enables a priestess to persuade foreign agents to leave	true
+effects_description_troy_effect_army_campaign_upkeep	%+n% to upkeep cost of all units	true
+effects_description_troy_effect_hero_campaign_razing	%+n% to income from razing	true
+effects_description_troy_gods_trait_agents	Grants Messenger of Thunder trait to all newly-recruited agents	true
+effects_description_troy_effect_unit_fatigue_reduction_when_defending	%+n% to fatigue in battle for all units while defending	true
+effects_description_troy_dlc1_hero_campaign_treasures_battle_dummy	Gain Amazon treasures after battle, based on the enemy army	true
+effects_description_troy_effect_dlc1_faction_amazons_add_culture_buildings	%+n Amazon treasures generated per turn 	true
+effects_description_troy_effect_hero_campaign_agent_recruitment_rank_spec_success_chance	%+n% to success chance of own agent actions in local province	true
+effects_description_troy_effect_building_resource_stack_food_big_cheap	Foreign Traders: +1 big cheap food stack	true
+effects_description_troy_effect_army_attrition_due_to_sabotage	Enemy troops are dying due to attrition caused by sabotage	true
+effects_description_troy_effect_hero_all_ability_ignore_pain	"Pain Barrier" ability	true
+effects_description_troy_effect_hero_unit_morale_spec_axes	%+n% to morale of axe units in Hero's army	true
+effects_description_troy_effect_hero_archer_ability_inspired_shots_spec_cost	"Inspired Aim (Cost)" specialisation	true
+effects_description_troy_effect_technology_horde_melee_attack_cavalry	%+n% to melee attack for cavalry units	true
+effects_description_troy_effect_agent_spy_hinder_enemy_settlement_public_order	[PH] [HIDDEN]	true
+effects_description_troy_effect_hero_defender_ability_set_example_replace	Replaces "Lead by Example" ability	true
+effects_description_troy_effect_unit_capacity_myth_sirens_tier_1	Unit capacity: %+n\\nSirens	true
+effects_description_troy_effect_hero_recruitment_rank_heroes	%+n to recruit rank of Heroes	true
+effects_description_troy_effect_agent_spy_own_settlement_public_order	{{tr:troy_effect_text_agent_spy_own_settlement_public_order}}	true
+effects_description_troy_effect_hero_all_ability_find_cover_spec_duration	"Aegis of Zeus (Duration)" specialisation	true
+effects_description_troy_effect_hero_self_ammo	%+n% to ammunition of Hero	true
+effects_description_troy_effect_add_outcome_hero_campaign_ambush_success	{{tr:troy_effect_text_hero_campaign_ambush_success}}	true
+effects_description_troy_effect_army_campaign_stance_fortification_recruitment_dummy	Enables unit replenishment	true
+effects_description_troy_effect_faction_siege_equipment_enable	Used for enabling siege equipment.	true
+effects_description_troy_effect_faction_diplomacy_thracians	%+n to diplomatic relations with Thracians	true
+effects_description_troy_main_building_high_influence_replenishment	{{tr:troy_main_building_high_influence}}%+n% to casualty replenishment rate in this province	true
+effects_description_troy_effect_building_hero_defence	%+n to defence skill of all Heroes fighting in this region	true
+effects_description_troy_effect_technology_recruitment_cost_spears	%+n% to recruitment cost of spear units	true
+effects_description_troy_effect_hero_all_ability_ignore_pain_spec_heal	"Pain Barrier (Heal)" specialisation	true
+effects_description_troy_effect_building_recruitment_rank_axes	%+n to recruit rank of axe units	true
+effects_description_troy_effect_economy_building_upkeep_add_stone	%+n {{tr:troy_effect_stone_per_turn}}	true
+effects_description_troy_effect_hero_unit_armour_spec_spearmen_units	%+n to armour of spear units in Hero's army	true
+effects_description_troy_effect_campaign_agent_action_success_chance	%+n% to success chance of agent actions	true
+effects_description_troy_effect_agent_recruitment_xp_priest	%+n to recruit rank of priestesses	true
+effects_description_troy_effect_hero_campaign_ambush_defence_spec_defending_morale	%+n% to morale of Hero's army when defending	true
+effects_description_troy_effect_agent_recovery_time_mod_agents_only	%+n to turns required for agents to recover when wounded	true
+effects_description_troy_effect_hero_self_range_spec_superrange_range	%+n% to range of Hero	true
+effects_description_troy_effect_hero_hector_unit_knights_vow	%+n% to upkeep cost of Hector's elite units	true
+effects_description_troy_effect_decrees_melee_defence_light_units	%+n% to melee defence of all light infantry units	true
+effects_description_troy_effect_army_campaign_siege_defend_attrition	%+n% to attrition when under siege	true
+effects_description_troy_effect_building_agamemnon_elites_range	%+n% to range of all Light Javelinmen units	true
+effects_description_troy_trait_loyalty_end_turn_region_trojans	 %+n to {{tr:troy_main_motivation}} after this Hero occupies a Trojan settlement	true
+effects_description_troy_effect_research_rate_mod	 %+n% to administration efficiency for royal decrees	true
+effects_description_troy_effect_gods_minotaur	Unlocks recruitment of Minotaur	true
+effects_description_troy_effect_gods_aristeia_chance_mod	%+n% to chance of Hero achieving aristeia	true
+effects_description_troy_main_building_high_influence_wood_production	{{tr:troy_main_building_high_influence}} %+n {{tr:troy_effect_wood_per_turn}}	true
+effects_description_troy_effect_agent_priestess_sacrifice_bad_omen_melee_attack_mod	%+n% to melee attack from bad omens	true
+effects_description_troy_effect_agent_spy_host_army_sight_range_mod	{{tr:troy_effect_text_host_army_sight_range_mod}}	true
+effects_description_troy_effect_technology_horde_upgrade_cost_medium	%+n% cost for initiation rites of a unit to a medium infantry unit	true
+effects_description_troy_trait_loyalty_garrisonned_no_port	 %+n to {{tr:troy_main_motivation}} if this Hero ends turn garrisoned in a settlement without a port	true
+effects_description_troy_effect_hero_unit_vanguard_light_missile_infantry_spec_missile_speed	%+n% to battle speed of missile units in Hero's army	true
+effects_description_troy_effect_army_sight_range_all_armies	 %+n% to line of sight of all armies	true
+effects_description_troy_effect_building_cost_mod_temples_all	{{tr:troy_effect_text_building_cost_mod_temples_all}}	true
+effects_description_troy_trait_loyalty_end_turn_move_fast	 %+n to {{tr:troy_main_motivation}} after this Hero ends turn in forced march stance	true
+effects_description_troy_effect_building_recruitment_cost_missile	%+n% to recruitment cost of missile units	true
+effects_description_troy_effect_army_ammunition_all_units_defending_siege	%+n% to ammunition of all besieged units	true
+effects_description_troy_effect_add_outcome_hero_campaign_upkeep	{{tr:troy_effect_text_hero_campaign_upkeep}}	true
+effects_description_troy_effect_agent_priestess_divine_wrath_success_chance_mod	%+n% to success chance of "Prophecy of Doom" agent action	true
+effects_description_troy_effect_hero_unit_speed_spec_land	Grants entire army %+n% battle speed in land battles	true
+effects_description_troy_effect_building_priam_benevolence	%+n to Priam's benevolence	true
+effects_description_troy_effect_hero_unit_weapon_damage_spec_shock_units	%+n% to damage of infantry units wielding two-handed weapons	true
+effects_description_troy_effect_ancillary_battle_speed_hero	%+n% to battle speed of the Hero	true
+effects_description_troy_effect_hero_archer_precise_shot	"Apollo's Aim" ability	true
+effects_description_troy_trait_loyalty_loot_sack_raze	 %+n to {{tr:troy_main_motivation}} after this Hero loots, sacks or razes a settlement	true
+effects_description_troy_effect_hero_self_fatigue_reduction_spec_rage_slower	Increases the delay when rage is depleted after leaving combat	true
+effects_description_troy_trait_loyalty_end_turn_region_danaans	 %+n to {{tr:troy_main_motivation}} after this Hero occupies a Danaan settlement	true
+effects_description_troy_effect_hero_warlord_ability_false_prophecy_spec_strength	"False Portent (Morale)" specialisation	true
+effects_description_troy_effect_hero_all_ability_throw_rock_spec_range	"Heraclean Throw (Range)" specialisation	true
+effects_description_troy_effect_hero_fighter_ability_overpower_spec_arp	"Vanquish (Armour-piercing)" specialisation	true
+effects_description_troy_effect_add_outcome_agent_spy_own_settlement_public_order	{{tr:troy_effect_text_agent_spy_own_settlement_public_order}}	true
+effects_description_troy_effect_agent_envoy_melee_defence_mod_passive	%+n to melee defence of all units in the same region	true
+effects_description_troy_effect_hero_unit_melee_defence_spec_siege	%+n% to melee defence of all units during siege battle	true
+effects_description_troy_effect_hero_defender_shield_bash	"Shield Bash" ability	true
+effects_description_troy_effect_hero_warlord_ability_the_shout_spec_vigour	"The Shout (Stamina)" specialisation	true
+effects_description_troy_effect_hero_unit_missile_resistance	%+n% to missile resistance of all units in Hero's army	true
+effects_description_troy_effect_enemy_success_rate_agent_troy_immune	Troy is immune to enemy agent actions	true
+effects_description_troy_effect_economy_barter_value_mod	%+n% to resources from barter agreements	true
+effects_description_troy_effect_hero_campaign_post_battle_spec_favour	Gain %+n favour with all the gods after winning a battle	true
+effects_description_troy_effect_hero_defender_ability_taunt	"The War-god's Call" ability	true
+effects_description_troy_effect_campaign_ai_unit_recruitment_tier_2	[HIDDEN]	true
+effects_description_troy_effect_reload_defensive_siege	%+n% reload skill of missile units in defensive sieges	true
+effects_description_troy_trait_loyalty_favour_athena	 %+n to {{tr:troy_main_motivation}} after this Hero ends turn and {{tr:hp_title_athena}} is Respected by your faction	true
+effects_description_troy_effect_hero_archer_ability_escape_replace	Replaces "Escape" ability	true
+effects_description_troy_effect_add_outcome_agent_envoy_influence_own_settlement_mod	{{tr:agent_action_envoy_influence_own_settlement_mod}}	true
+effects_description_troy_effect_technology_melee_attack_ranged	%+n% to melee attack of all missile units	true
+effects_description_troy_effect_campaign_ai_confederation_boost	[HIDDEN]	true
+effects_description_troy_effect_hero_defender_ability_hallowed_ground	"Hallowed Ground" ability	true
+effects_description_troy_effect_hero_all_ability_divine_inspiration	"Heavenly Inspiration" ability	true
+effects_description_troy_effect_agent_priestess_divine_protection_zeus	Favour of Zeus: +2 per turn	true
+effects_description_troy_effect_hero_unit_morale	%+n% to morale of all units in Hero's army	true
+effects_description_troy_effect_campaign_ai_unit_upgrading	[HIDDEN]	true
+effects_description_troy_effect_unit_bronze_upkeep_mod	%+n% bronze upkeep for all units	true
+effects_description_troy_effect_hero_level_up_health	%+n% to this Hero's hitpoints	true
+effects_description_troy_dlc1_trait_effect_horde_cannot_reinforce_dummy	{{tr:troy_dlc1_horde_cannot_reinforce}}	true
+effects_description_troy_effect_agent_priestess_sacrifice_bad_omen_morale_mod	{{tr:troy_effect_text_army_morale_all_enemy_units}}	true
+effects_description_troy_effect_building_unit_upgarde_mounted_skirmishers_dummy	{{tr:troy_effect_initiation_rite_tr}} Mounted Skirmishers	true
+effects_description_troy_effect_building_hector_elites_upkeep	%+n% to upkeep cost of Guards of Troy and Heavy Shock Spears units	true
+effects_description_troy_effect_hero_self_enemy_trojans_spec_achilles	%+n damage when fighting against Achilles' faction	true
+effects_description_troy_effect_gods_favour_mod_hera	Favour of Hera: %+n	true
+effects_description_troy_effect_hera_attrition	%+n% attrition casualties suffered by enemy armies in your territory	true
+effects_description_troy_effect_add_outcome_agent_envoy_piercing_damage	{{tr:troy_effect_text_agent_envoy_piercing_damage}}	true
+effects_description_troy_effect_hero_warlord_ability_cover_spec_radius	"Shield Wall (Radius)" specialisation	true
+effects_description_troy_effect_hero_archer_ability_eagle_eye_replace	Replaces "Snipe" ability	true
+effects_description_troy_effect_faction_diplomacy_achaeans	%+n to diplomatic relations with Achaeans	true
+effects_description_troy_effect_agent_envoy_available	Enables recruitment of envoys	true
+effects_description_troy_effect_building_recriutment_mod_chariot	%+n% to recruitment cost of chariot units	true
+effects_description_troy_effect_gods_favour_mod_apollo_chance	Favour of Apollo: 50% chance of +4 per turn	true
+effects_description_troy_effect_campaign_happiness_indifference	This province receives no happiness related bonuses or penalties	true
+effects_description_troy_effect_gods_damage_mod_enemy_when_we_attack	%+n% to damage of all enemy armies when attacked	true
+effects_description_troy_effect_hero_fighter_ability_cleave_spec_vigour	Cleave (Stamina)	true
+effects_description_troy_effect_decrees_production_buildings_time	%+n to construction time of all production buildings	true
+effects_description_troy_effect_hero_archer_ability_multishot_spec_dmg_close	"Triple Shot (Damage)" specialisation	true
+effects_description_troy_effect_agent_envoy_campaign_movement_own_army	[PH] [hidden]	true
+effects_description_troy_trait_loyalty_ancillary_gain	 %+n to {{tr:troy_main_motivation}} after assigning an ancillary to this Hero	true
+effects_description_troy_effect_hero_all_ability_adrenaline_rush_spec_speed	"Blood of Heracles (Speed)" specialisation	true
+effects_description_troy_effect_agent_evnoy_test_settlement_attacked	[PH] [hidden]	true
+effects_description_troy_effect_event_add_food	%+n {{tr:troy_effect_food_per_turn}}	true
+effects_description_troy_effect_gods_favour_mod_apollo_per_turn	Favour of Apollo: %+n per turn	true
+effects_description_troy_effect_building_build_time_inland_non_capitals	 %+n to construction time in all inland territories that are not capitals 	true
+effects_description_troy_trait_loyalty_battle_not_own_territory	 %+n to {{tr:troy_main_motivation}} after this Hero wins a battle in foreign territory	true
+effects_description_troy_effect_army_campaign_reinforcement_range	%+n% to reinforcement range	true
+effects_description_troy_effect_dlc1_gods_hera_prayer_momentum_dummy	Instantly gain %+n battle glory 	true
+effects_description_troy_effect_hero_self_sunder_spec_battle_movement	%+n% to battle speed of units attacked by Hero	true
+effects_description_troy_effects_swordsmen_melee_defense	%+n% to melee defence of sword units	true
+effects_description_troy_effect_melee_attack_swords_axes	%+n% to melee attack of sword and axe units	true
+effects_description_troy_trait_loyalty_end_turn_foreign_influence	 %+n to {{tr:troy_main_motivation}} after this Hero ends the turn in a province with high foreign influence	true
+effects_description_troy_effect_building_unit_upgarde_adromachoi_dummy	{{tr:troy_effect_initiation_rite_tr}} Adromachoi	true
+effects_description_troy_effect_hero_unit_weapon_damage_spec_melee_units	%+n% to damage of shielded infantry units in Hero's army	true
+effects_description_troy_effect_priestess_ritual_favour_mod_athena	%+n% {{tr:troy_effect_desc_favour_from_rituals_mod}} {{tr:hp_title_athena}}	true
+effects_description_troy_effect_army_replenishment_any_territory	Allows replenishment of all units in neutral or enemy territory	true
+effects_description_troy_effect_agent_spy_actions_cost_mod	%+n% to cost of all agent actions	true
+effects_description_troy_effect_economy_special_gold_boatyard	%+n to gold income per turn from shipbuilding	true
+effects_description_troy_effect_building_global_recruitment_menelaus_dummy	Grants access to global recruitment of Light Spear Runners and Renowned Laconian Axemen	true
+effects_description_troy_effect_add_outcome_army_melee_attack_mod_all	{{tr:troy_effect_text_army_melee_attack_mod_all}}	true
+effects_description_troy_effect_hero_warlord_ability_the_shout_replace	Replaces "The Shout" ability	true
+effects_description_troy_effect_economy_mining_mod_gold	%+n% {{tr:troy_effect_gold_per_turn}} 	true
+effects_description_troy_effect_technology_reload_time_land	%+n% reload skill of missile units	true
+effects_description_troy_effect_dlc1_horde_raze_campaign_movement_dummy	This army will regain %n% campaign movement after razing a settlement	true
+effects_description_troy_effect_dlc1_hero_warlord_embrace_of_ares_spec_charge	"Embrace of Ares (Charge)" specialisation	true
+effects_description_troy_effect_building_global_recruitment_sarpedon_dummy	Grants access to global recruitment of Lycian Winged Chariots, Heavy Axe Warriors and Khopesh Fighters units	true
+effects_description_troy_effect_agent_enemy_success_chance_against_this_general_mod	%+n% to critical failure chance of enemy agent actions against this Hero	true
+effects_description_troy_effect_hero_self_melee_armour_piercing_spec_armour_piercing_melee_attack_speed	%+n second(s) to attack speed of Hero	true
+effects_description_troy_effect_army_missile_damage_mod	%+n% to missile damage of own missile units	true
+effects_description_troy_effect_building_sight_range	%+n% to line of sight on campaign map	true
+effects_description_troy_effect_faction_unrestricted_replenishment	%+n% to casualty replenishment rate	true
+effects_description_troy_effect_building_achilles_elites_recruitment_cost	%+n% to recruitment cost of Achilles' elite units	true
+effects_description_troy_effect_hero_defender_ability_care_for_fallen_spec_cd	"Favour of Asclepius (Cooldown)" specialisation	true
+effects_description_troy_effect_agent_seer_equalize_god_favour_settlement	[PH] [hidden]	true
+effects_description_troy_effect_agent_priestess_rituals_success_chance_mod_cooldown_agent_action		true
+effects_description_troy_effect_hero_warlord_ability_cover_replace	Replaces "Shield Wall" ability	true
+effects_description_troy_effect_ancillary_battle_speed_chariot_units	%+n% to battle speed of chariot units	true
+effects_description_troy_trait_loyalty_battle_reinforce	 %+n to {{tr:troy_main_motivation}} after a battle in which this Hero was either reinforcing or being reinforced	true
+effects_description_troy_effect_faction_mercenary_levy_can_recruit_from_local_hordes	[PH] [HIDDEN] Disable levy recruitment from hordes	true
+effects_description_troy_trait_loyalty_end_turn_own_region	 %+n to {{tr:troy_main_motivation}} after this Hero ends turn in a region owned by his faction	true
+effects_description_troy_effect_economy_other_add_food	%+n {{tr:troy_effect_food_per_turn}}	true
+effects_description_troy_effect_add_outcome_agent_spy_damage_resistance_for_own_army	{{tr:troy_effect_text_agent_spy_damage_resistance_for_own_army}}	true
+effects_description_troy_effect_ancillary_self_weapon_strength_against_trojans	%+n% to melee damage of Hero in battles against Trojans	true
+effects_description_troy_effect_hero_unit_vanguard_light_missile_infantry_spec_light_infantry	Grants vanguard deployment to all light infantry in Hero's army	true
+effects_description_troy_effect_building_agamemnon_elites_rank_up	{{tr:effect_rank_up_faction_elites}}	true
+effects_description_troy_effect_bonus_damage_versus_heroes	%+n damage against Heroes	true
+effects_description_troy_effect_hero_self_missile_armour_piercing_spec_armour_piercing_archer_reload	Grants shorter reload time to Hero	true
+effects_description_troy_effect_agent_envoy_plant_informant	[PH] Planting informant [hidden]	true
+effects_description_troy_effect_hero_warlord_ability_rallying_cry_spec_area	"Rallying Cry (Area)" specialisation	true
+effects_description_troy_effect_hero_campaign_campaign_movement	%+n% to campaign movement range of Hero's army when on land	true
+effects_description_troy_effect_agent_spy_recovery_time_mod_enemy_agent	%+n to recovery time of enemy agents	true
+effects_description_troy_effect_agent_spy_envoy_fail_is_nothing_ancillary	{{tr:troy_effect_text_agent_spy_envoy_priestess_fail_act_again}}	true
+effects_description_troy_effect_hero_unit_aeneas_knights_vow	%+n% to upkeep cost of Aeneas' elite units	true
+effects_description_troy_effect_agent_spy_enemy_success_rate_weird_bonus_value	{{tr:troy_effect_text_agent_spy_enemy_success_rate_weird_bonus_value}}	true
+effects_description_troy_effect_agent_priestess_divine_protection_ares_up_athena_down	Favour of Ares: +4 per turn, Favour of Athena: -2 per turn	true
+effects_description_troy_trait_loyalty_occupy_settlement	 %+n to {{tr:troy_main_motivation}} after this Hero occupies a settlement	true
+effects_description_troy_effect_hero_warlord_ability_rallying_cry	"Rallying Cry" ability	true
+effects_description_troy_effect_agent_seer_sitting_pretty_hidden	[PH] [hidden]	true
+effects_description_troy_effect_hero_unit_ammunition_spec_armour_piercing	%+n% to armour-piercing damage of missile units in Hero's army	true
+effects_description_troy_effect_add_outcome_agent_add_bronze	{{tr:troy_effect_text_agent_add_bronze}}	true
+effects_description_troy_main_building_high_influence_stone_production	{{tr:troy_main_building_high_influence}} %+n {{tr:troy_effect_stone_per_turn}}	true
+effects_description_troy_effect_add_outcome_buildings_replenishment	{{tr:troy_effect_text_buildings_replenishment}}	true
+effects_description_troy_effect_gods_damage_mod_when_attacking_all	%+n% to damage of all armies when attacking	true
+effects_description_troy_effect_hero_archer_ability_multishot	"Triple Shot" ability	true
+effects_description_troy_effect_dlc1_hero_fighter_ability_battle_song_replace	Replaces "Song of Battle" ability	true
+effects_description_troy_effect_hero_warlord_ability_recuperate_spec_cd	"Reinvigorate (Cooldown)" specialisation	true
+effects_description_troy_effect_hero_unit_recruit_rank_spec_melee	%+n to recruit rank of all new shielded infantry units 	true
+effects_description_troy_effect_gods_favour_mod_apollo	Favour of Apollo: %+n	true
+effects_description_troy_effect_army_enable_desertation_attrition_hidden	Enables [[img:icon_attrition]][[/img]]attrition due to desertion	true
+effects_description_troy_effect_army_campaign_attrition_storm_resistance	Attrition: %+n% casualties suffered from storm attrition	true
+effects_description_troy_effect_hero_archer_stalk_replace	Replaces: "In Hades' Shadow" ability	true
+effects_description_troy_effect_building_unit_upgarde_black_spears_dummy	{{tr:troy_effect_initiation_rite_tr}} Black Spears	true
+effects_description_troy_effect_building_recruitment_rank_missile	%+n to recruit rank of missile units	true
+effects_description_troy_effect_hero_warlord_ability_fight_on_spec_strength	"Leader of Men (Strength)" specialisation	true
+effects_description_troy_effect_gods_add_gold	%+n to gold production per turn in regions already producing gold	true
+effects_description_troy_effect_fm_aeneas_speak_with_dead_main_building_construction_time	%+n to construction time of all main buildings	true
+effects_description_troy_effect_add_outcome_army_melee_attack_mod_all_enemy_army	{{tr:troy_effect_text_army_melee_attack_mod_all_enemy_army}}	true
+effects_description_troy_effect_hero_flanking_resistant	This hero is resistant to flanking	true
+effects_description_troy_effect_fm_aeneas_speak_with_dead_archer_speed	%+n% to battle speed of missile units	true
+effects_description_troy_effect_building_upkeep_mod_missile	%+n% to upkeep cost of missile units	true
+effects_description_troy_effect_ancillary_battle_speed_light_units	%+n% to battle speed of light infantry units	true
+effects_description_troy_effect_hero_ability_challenge_spec_armour_decrease	Reduces effectiveness of enemy Hero's armour	true
+effects_description_troy_effect_add_outcome_agent_envoy_fatigue_resistance_mod_stamina	{{tr:troy_effect_text_agent_envoy_fatigue_resistance_mod_stamina}}	true
+effects_description_troy_effect_building_unit_upgarde_toxares_dummy	{{tr:troy_effect_initiation_rite_tr}} Toxares	true
+effects_description_troy_main_hero_self_ranged_attack_dummy	Gives the Hero missile attack	true
+effects_description_troy_effect_agent_priestess_rituals_success_chance_mod_cooldown_agent_action_vs_enemy		true
+effects_description_troy_effect_hero_warlord_ability_battle_cry_spec_armour	"Ares' Thunder (Armour)" specialisation	true
+effects_description_troy_effect_army_campaign_stance_cannot_recruit_dummy	[[col:red]]Recruitment: Disabled[[/col]]	true
+effects_description_troy_effect_faction_diplomacy_hippolyta	%+n to diplomatic relations with Hippolyta's Amazons	true
+effects_description_troy_effect_decrees_hecatomb_cost_mod	%+n% to cost of a Hecatomb	true
+effects_description_troy_effect_agent_actions_against_people_cost_mod	%+n% to cost of all agent actions against characters	true

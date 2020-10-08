@@ -1,0 +1,167 @@
+.skill-tier {
+    width: 424px;
+    height: 142px;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    padding-left: 16px;
+}
+
+.skill-colour-wrapper {
+    width: 16px;
+    height: 140px;
+    position: absolute;
+    top: 0;
+    left: 3px;
+    z-index: 1;
+}
+
+.skill-colour-bar {
+    width: 16px;
+    height: 140px;
+    background-image: url("../images/skins/default/troy_crack_texture_white.png");
+    border: 1px solid #000;
+    position: relative;
+}
+
+.skill-colour-ability .skill-colour-bar {
+    background-image: none;
+    background-color: #aa3700;
+}
+
+.skill-colour-campaign .skill-colour-bar {
+    background-image: none;
+    background-color: #4b70aa;
+}
+
+.skill-colour-self .skill-colour-bar {
+    background-image: none;
+    background-color: #8d8501;
+}
+
+.skill-colour-unit .skill-colour-bar {
+    background-image: none;
+    background-color: #1f513f;
+}
+
+.skill-colour-level {
+    background-image: url("../images/skins/default/cd_level_indicator_frame.png");
+    position: absolute;
+    width: 30px;
+    height: 28px;
+    left: -4px;
+    top: 45%;
+    font-family: Cabin, sans-serif;
+    color: #f1cea0;
+    text-align: center;
+}
+
+.skill-colour-level span {
+    margin-left: -4px;
+}
+
+.skill-colour-ability .skill-colour-level {
+    background-image: url("../images/custom/cd_level_indicator_frame_ability.png");
+}
+
+.skill-colour-campaign .skill-colour-level {
+    background-image: url("../images/custom/cd_level_indicator_frame_campaign.png");
+}
+
+.skill-colour-self .skill-colour-level {
+    background-image: url("../images/custom/cd_level_indicator_frame_self.png");
+}
+
+.skill-colour-unit .skill-colour-level {
+    background-image: url("../images/custom/cd_level_indicator_frame_unit.png");
+}
+
+
+.skill-single {
+    width: 200px;
+    height: 140px;
+    margin: auto;
+    background-image: url('../images/skins/default/skill_card_active.png');
+}
+
+.skill-left, .skill-right {
+    width: 200px;
+    height: 140px;
+    background-image: url('../images/skins/default/skill_card_active.png');
+}
+
+.skill-left .skill-card, .skill-right .skill-card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 140px;
+    margin: auto;
+}
+
+.skill-name {
+    color: #f1cea0;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 2px;
+    margin: 0;
+    height: 30px;
+    line-height: 30px;
+    vertical-align: middle;
+    font-family: Cabin, sans-serif;
+    font-weight: 500;
+}
+.skill-icon-wrapper {
+    background-image: url("../images/skins/default/cd_slot_skill.png");
+}
+
+.skill-icon-wrapper img {
+    padding: 0;
+    margin: auto;
+}
+
+.skill-card {
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill-pair {
+    display: flex;
+    justify-content: space-around;
+    background-repeat: no-repeat;
+    background-position: center 60%;
+    background-blend-mode: color;
+    position: relative;
+}
+
+.skill-arrow {
+    width: 110px;
+    height: 40px;
+    position: absolute;
+    top: 43%;
+    background-image: url("../images/skins/default/skill_arrow_inactive.png");
+    /* transform: rotate(180deg); */
+}
+
+.skill-tier-spec .skill-indent {
+    width: 44px;
+    height: 44px;
+}
+
+.skill-indent-spec-only-skill {
+    margin-top: -40px;
+}
+
+.character-skills {
+    padding: 8px 16px;
+    width: 456px;
+    margin: auto;
+    background-image: url('../images/skins/default/troy_crack_texture_19.png');
+    border: 4px solid #363433;
+
+    -webkit-box-shadow: 0px 0px 6px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 6px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 6px 2px rgba(0,0,0,0.75);
+}

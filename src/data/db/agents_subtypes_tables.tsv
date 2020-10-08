@@ -1,0 +1,47 @@
+key	auto_generate	is_caster	small_icon	associated_unit_override	audio_voiceover_actor_group	show_in_ui	cap	has_female_name	can_gain_xp	loyalty_is_applicable
+default	true	false			vo_actor_group_default	false	0	false	true	false
+troy_achilles	false	false		troy_hero_achilles	vo_actor_group_hero_achilles	true	-1	false	true	true
+troy_aeneas	false	false		troy_hero_aeneas	vo_actor_group_hero_aeneas	true	-1	false	true	true
+troy_agamemnon	false	false		troy_hero_agamemnon	vo_actor_group_hero_agamemnon	true	-1	false	true	true
+troy_agent_envoy	true	false	ui/campaign ui/agents/troy_main_envoy.png	troy_agent_envoy	vo_actor_group_envoy	true	-1	false	true	false
+troy_agent_gorgon	true	false	ui/campaign ui/agents/troy_main_gorgon.png	troy_agent_gorgon_main_dummy	vo_actor_group_gorgon	true	0	true	false	false
+troy_agent_helen	false	false	ui/campaign ui/agents/troy_main_gorgon.png	troy_agent_helen_dummy	vo_actor_group_seer	false	-1	true	false	false
+troy_agent_priam	false	false		troy_agent_priam_dummy	vo_actor_group_trojan_units	true	-1	false	true	true
+troy_agent_priest	true	false	ui/campaign ui/agents/troy_main_priest.png	troy_agent_priestess	vo_actor_group_priestess	true	-1	true	true	false
+troy_agent_satyr	true	false	ui/campaign ui/agents/troy_main_satyr.png	troy_agent_satyr_main_dummy	vo_actor_group_satyr	true	0	false	false	false
+troy_agent_seer	true	false	ui/campaign ui/agents/troy_main_seer.png	troy_agent_seer_main_dummy	vo_actor_group_seer	true	0	true	false	false
+troy_agent_spy	true	false	ui/campaign ui/agents/troy_main_spy.png	troy_agent_spy	vo_actor_group_spy	true	-1	false	true	false
+troy_archer_skirmisher	true	false		troy_hero_archer_skirmisher	vo_actor_group_hero_male_deafult	true	-1	false	true	true
+troy_archer_trickster	true	false		troy_hero_archer_trickster	vo_actor_group_hero_male_deafult	true	-1	false	true	true
+troy_defender_aggro	true	false		troy_hero_defender_agro	vo_actor_group_hero_male_deafult	true	-1	false	true	true
+troy_defender_quick	true	false		troy_hero_defender_quick	vo_actor_group_hero_male_deafult	true	-1	false	true	true
+troy_defender_tank	true	false		troy_hero_defender_tank	vo_actor_group_hero_male_deafult	true	-1	false	true	true
+troy_dlc1_hip_archer_skirmisher	true	false		troy_dlc1_hip_hero_archer_skirmisher	vo_actor_group_hero_female_amazon_default	true	-1	true	true	true
+troy_dlc1_hip_archer_trickster	true	false		troy_dlc1_hip_hero_archer_trickster	vo_actor_group_hero_female_amazon_default	true	-1	true	true	true
+troy_dlc1_hip_fighter_balanced	true	false		troy_dlc1_hip_hero_fighter_balanced	vo_actor_group_hero_female_amazon_default	true	-1	true	true	true
+troy_dlc1_hip_fighter_disruptor	true	false		troy_dlc1_hip_hero_fighter_disruptor	vo_actor_group_hero_female_amazon_default	true	-1	true	true	true
+troy_dlc1_hip_fighter_killer	true	false		troy_dlc1_hip_hero_fighter_killer	vo_actor_group_hero_female_amazon_default	true	-1	true	true	true
+troy_dlc1_hip_warlord_tactician	true	false		troy_dlc1_hip_hero_warlord_tactician	vo_actor_group_hero_female_amazon_default	true	-1	true	true	true
+troy_dlc1_hip_warlord_utility	true	false		troy_dlc1_hip_hero_warlord_utility	vo_actor_group_hero_female_amazon_default	true	-1	true	true	true
+troy_dlc1_hip_warlord_warmonger	true	false		troy_dlc1_hip_hero_warlord_warmonger	vo_actor_group_hero_female_amazon_default	true	-1	true	true	true
+troy_dlc1_pen_archer_skirmisher	true	false		troy_dlc1_pen_hero_archer_skirmisher	vo_actor_group_hero_female_amazon_default	true	-1	true	true	true
+troy_dlc1_pen_archer_trickster	true	false		troy_dlc1_pen_hero_archer_trickster	vo_actor_group_hero_female_amazon_default	true	-1	true	true	true
+troy_dlc1_pen_fighter_balanced	true	false		troy_dlc1_pen_hero_fighter_balanced	vo_actor_group_hero_female_amazon_default	true	-1	true	true	true
+troy_dlc1_pen_fighter_disruptor	true	false		troy_dlc1_pen_hero_fighter_disruptor	vo_actor_group_hero_female_amazon_default	true	-1	true	true	true
+troy_dlc1_pen_fighter_killer	true	false		troy_dlc1_pen_hero_fighter_killer	vo_actor_group_hero_female_amazon_default	true	-1	true	true	true
+troy_dlc1_pen_warlord_tactician	true	false		troy_dlc1_pen_hero_warlord_tactician	vo_actor_group_hero_female_amazon_default	true	-1	true	true	true
+troy_dlc1_pen_warlord_utility	true	false		troy_dlc1_pen_hero_warlord_utility	vo_actor_group_hero_female_amazon_default	true	-1	true	true	true
+troy_dlc1_pen_warlord_warmonger	true	false		troy_dlc1_pen_hero_warlord_warmonger	vo_actor_group_hero_female_amazon_default	true	-1	true	true	true
+troy_fighter_balanced	true	false		troy_hero_fighter_balanced	vo_actor_group_hero_male_deafult	true	-1	false	true	true
+troy_fighter_disruptor	true	false		troy_hero_fighter_disruptor	vo_actor_group_hero_male_deafult	true	-1	false	true	true
+troy_fighter_killer	true	false		troy_hero_fighter_killer	vo_actor_group_hero_male_deafult	true	-1	false	true	true
+troy_hector	false	false		troy_hero_hector	vo_actor_group_hero_hector	true	-1	false	true	true
+troy_hippolyta	false	false		troy_dlc1_hero_hippolyta	vo_actor_group_hero_hippolyta	true	-1	true	true	true
+troy_menelaus	false	false		troy_hero_menelaus	vo_actor_group_hero_menelaus	true	-1	false	true	true
+troy_odysseus	false	false		troy_hero_odysseus	vo_actor_group_hero_odysseus	true	-1	false	true	true
+troy_paris	false	false		troy_hero_paris	vo_actor_group_hero_paris	true	-1	false	true	true
+troy_penthesilea	false	false		troy_hero_penthesilea	vo_actor_group_hero_penthesilea	true	-1	true	true	true
+troy_sarpedon	false	false		troy_hero_sarpedon	vo_actor_group_hero_sarpedon	true	-1	false	true	true
+troy_warlord_tactician	true	false		troy_hero_warlord_tactician	vo_actor_group_hero_male_deafult	true	-1	false	true	true
+troy_warlord_utility	true	false		troy_hero_warlord_utility	vo_actor_group_hero_male_deafult	true	-1	false	true	true
+troy_warlord_warmonger	true	false		troy_hero_warlord_warmonger	vo_actor_group_hero_male_deafult	true	-1	false	true	true

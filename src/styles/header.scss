@@ -1,0 +1,23 @@
+.header-title {
+    margin-bottom: 1.45rem;
+    background-image: url("../images/skins/default/troy_crack_texture_14.png");
+    border-bottom: 1px solid #f1cea0;
+
+    a {
+        text-decoration: none;
+    }
+}
+
+.header-title-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.header-datalist-wrapper {
+    font-family: sans-serif;
+}
+
+.header-datalist-wrapper input {
+    padding: 4px
+}
