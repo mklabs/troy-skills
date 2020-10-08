@@ -1,13 +1,14 @@
-import React from "react"
+import React, { useState } from "react"
 import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
-import "../styles/character-skills.css"
 import SkillSingle from "../components/skills/skill-single"
 import SkillPair from "../components/skills/skill-pair"
 import SkillColour from "../components/skills/skill-colour"
 import SEO from "../components/seo"
 
-export default function CharacterSkills({ data }) {
+import "../styles/character-skills.scss"
+
+function getSkillRows(data) {
     const {
         characterSkillNodeSetsTablesTsv,
         allCharacterSkillNodesTablesTsv,
@@ -15,6 +16,7 @@ export default function CharacterSkills({ data }) {
         allCharacterSkillLevelToEffectsJunctionsTablesTsv,
         allImageSharp,
         allEffectsLocTsv,
+        allEffectsTablesTsv,
     } = data
 
     const nodes = allCharacterSkillNodesTablesTsv.edges
@@ -60,13 +62,23 @@ export default function CharacterSkills({ data }) {
                             l.node.key ===
                             `effects_description_${effect.effect_key}`
                     )
+
+                    const effectData = allEffectsTablesTsv.edges.find(
+                        ({ node }) => node.effect === effect.effect_key
+                    )
+
+                    const effectValue = Number(effect.value)
+
                     effect.description = loc
                         ? loc.node.text.replace(
                               /%\+n/,
-                              `+${Number(effect.value)}`
+                              `${effectValue < 0 ? "" : "+"}${effectValue}`
                           )
                         : ""
-                    return effect
+                    return {
+                        ...effect,
+                        ...effectData.node,
+                    }
                 })
 
             item.skill = skill.node
@@ -84,6 +96,25 @@ export default function CharacterSkills({ data }) {
 
         rows.push(skills)
     })
+
+    return rows
+}
+
+export default function CharacterSkills({ data }) {
+    const { characterSkillNodeSetsTablesTsv } = data
+    const rows = getSkillRows(data)
+
+    const [isRawHidden, setIsRawHidden] = useState(true)
+    const [buttonValue, setButtonValue] = useState("See raw content")
+
+    const onRawContentClick = ev => {
+        ev.preventDefault()
+        const isHidden = !isRawHidden
+        setIsRawHidden(isHidden)
+        setButtonValue(!isHidden ? "Hide raw content" : "See raw content")
+    }
+
+    const jsonClassname = isRawHidden ? "hidden" : ""
 
     return (
         <Layout>
@@ -122,7 +153,8 @@ export default function CharacterSkills({ data }) {
                 })}
             </div>
 
-            <pre>{JSON.stringify(rows, null, 4)}</pre>
+            <button onClick={onRawContentClick}>{buttonValue}</button>
+            <pre className={jsonClassname}>{JSON.stringify(rows, null, 4)}</pre>
         </Layout>
     )
 }

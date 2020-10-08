@@ -43,7 +43,7 @@ const SkillPair = ({ skills }) => {
                         <SkillIndent
                             skills={skills}
                             indent="5"
-                            hasOnlyOneSpecSkill={isRightSkillShifted}
+                            isRightSkillShifted={isRightSkillShifted}
                         />
                     </div>
                 </div>
