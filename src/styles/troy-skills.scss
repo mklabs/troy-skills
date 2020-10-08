@@ -1,15 +1,41 @@
 
-body {
-    background-image: url('../images/skins/default/troy_crack_texture_19.png');
-    color: whitesmoke
-}
-
 body  {
+    background-image: url('../images/skins/default/troy_crack_texture_19.png');
+    color: whitesmoke;
+
     a {
         color: #f1cea0;
     }
 
     a:active, a:hover {
         outline-width: 0;
+    }
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+
+    font-size: 0.875rem;
+    margin-bottom: 3rem;
+    margin-top: 1.5rem;
+    padding-top: 3rem;
+
+
+    border-top: 1px solid #f1cea0;
+    color: #78757a;
+
+    max-width: 90rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    position: relative;
+
+    a {
+        text-decoration: none;
     }
 }

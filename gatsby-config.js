@@ -34,12 +34,12 @@ module.exports = {
             resolve: `gatsby-plugin-manifest`,
             options: {
                 name: `gatsby-troy-skills`,
-                short_name: `starter`,
+                short_name: `troy-skills`,
                 start_url: `/`,
                 background_color: `#663399`,
                 theme_color: `#663399`,
                 display: `minimal-ui`,
-                icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+                icon: `src/images/loot_plate_victory.png`, // This path is relative to the root of the site.
             },
         },
         {

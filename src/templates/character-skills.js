@@ -5,6 +5,7 @@ import "../styles/character-skills.css"
 import SkillSingle from "../components/skills/skill-single"
 import SkillPair from "../components/skills/skill-pair"
 import SkillColour from "../components/skills/skill-colour"
+import SEO from "../components/seo"
 
 export default function CharacterSkills({ data }) {
     const {
@@ -86,6 +87,7 @@ export default function CharacterSkills({ data }) {
 
     return (
         <Layout>
+            <SEO title={characterSkillNodeSetsTablesTsv.key} />
             <h2>{characterSkillNodeSetsTablesTsv.key}</h2>
 
             <Link to="/">Return to list</Link>

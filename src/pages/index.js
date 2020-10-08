@@ -2,6 +2,7 @@ import React from "react"
 import { css } from "@emotion/core"
 import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
+import SEO from "../components/seo"
 
 export default function Home({ data }) {
     const { nodesets } = data
@@ -10,6 +11,7 @@ export default function Home({ data }) {
 
     return (
         <Layout>
+            <SEO title="Home" />
             <div>
                 <h1
                     css={css`
