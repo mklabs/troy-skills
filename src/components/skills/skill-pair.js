@@ -15,9 +15,7 @@ const SkillPair = ({ skills }) => {
     return (
         <div className="skill-pair">
             <div className="skill-left">
-                <h3 className="skill-name skill-pair-name">
-                    {leftSkill.skill.localised_name}
-                </h3>
+                <h3 className="skill-name skill-pair-name">{leftSkill.skill.localised_name}</h3>
                 <div className="skill-card">
                     <div className="skill-tier-spec">
                         <SkillIndent skills={skills} indent="1" />
@@ -28,18 +26,12 @@ const SkillPair = ({ skills }) => {
                 </div>
             </div>
             <div className="skill-right">
-                <h3 className="skill-name skill-pair-name">
-                    {rightSkill.skill.localised_name}
-                </h3>
+                <h3 className="skill-name skill-pair-name">{rightSkill.skill.localised_name}</h3>
                 <div className="skill-card">
                     <SkillIcon skill={rightSkill} />
 
                     <div className="skill-tier-spec">
-                        {!isRightSkillShifted ? (
-                            <SkillIndent skills={skills} indent="4" />
-                        ) : (
-                            ""
-                        )}
+                        {!isRightSkillShifted ? <SkillIndent skills={skills} indent="4" /> : ""}
                         <SkillIndent
                             skills={skills}
                             indent="5"

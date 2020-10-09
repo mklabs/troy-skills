@@ -2,13 +2,12 @@ import React from "react"
 import Img from "gatsby-image"
 import ReactTooltip from "react-tooltip"
 import { useStaticQuery, graphql } from "gatsby"
+import SkillTooltipAbility from "./skill-tooltip-ability"
 
 const SkillIcon = ({ skill, size = 70, transformationCoef = 0.79, offset }) => {
     const data = useStaticQuery(graphql`
         query AllEffectBundlesImages {
-            allImageSharp: allFile(
-                filter: { relativeDirectory: { eq: "effect_bundles" } }
-            ) {
+            allImageSharp: allFile(filter: { relativeDirectory: { eq: "effect_bundles" } }) {
                 totalCount
                 edges {
                     node {
@@ -52,7 +51,7 @@ const SkillIcon = ({ skill, size = 70, transformationCoef = 0.79, offset }) => {
     const style = {
         width: `${size}px`,
         height: `${size}px`,
-        backgroundSize: "contain",
+        backgroundSize: "contain"
     }
 
     offset = offset || Math.ceil(size * 0.1)
@@ -61,7 +60,7 @@ const SkillIcon = ({ skill, size = 70, transformationCoef = 0.79, offset }) => {
         width: `${imgSize}px`,
         height: `${imgSize}px`,
         top: `${offset}px`,
-        left: `${offset}px`,
+        left: `${offset}px`
     }
 
     if (!skill.img) {
@@ -69,22 +68,9 @@ const SkillIcon = ({ skill, size = 70, transformationCoef = 0.79, offset }) => {
     }
 
     const indent = Number(skill.indent)
-    const tooltipDirection = indent <= 3 ? "right" : "left"
+    const tooltipDirection = indent <= 3 ? "left" : "right"
 
-    const overridePosition = (
-        { left, top },
-        currentEvent,
-        currentTarget,
-        node
-    ) => {
-        console.log("overridePosition", left, top);
-        const d = document.documentElement
-        top = top + 80
-        top = Math.min(d.clientHeight - node.clientHeight, top)
-        top = Math.max(0, top)
-        return { top, left }
-    }
-
+    const isAbility = skill.skill.skill_colour === "ability"
     return (
         <div className="skill-icon-wrapper">
             <div data-tip={title} data-for={`skill-tooltip-${skill.key}`}>
@@ -97,56 +83,37 @@ const SkillIcon = ({ skill, size = 70, transformationCoef = 0.79, offset }) => {
             </div>
 
             <ReactTooltip
-                className="skill-tooltip"
+                className="skill-tooltip hidden"
                 place={tooltipDirection}
                 id={`skill-tooltip-${skill.key}`}
-                overridePositzion={overridePosition}
             >
-                <h4 className="title">{skill.skill.localised_name}</h4>
-                <div className="content">
-                    <p className="description">
-                        {skill.skill.localised_description}
-                    </p>
-                    <div className="effects">
+                <h4 className="tooltip-title">{skill.skill.localised_name}</h4>
+                <div className="tooltip-content">
+                    <p className="tooltip-description">{skill.skill.localised_description}</p>
+                    <div className="tooltip-effects">
                         {skill.effects.map(effect => {
-                            const isPositiveValueGood =
-                                effect.is_positive_value_good === "true"
+                            const isPositiveValueGood = effect.is_positive_value_good === "true"
                             const value = Number(effect.value)
-                            const isPositiveEffect = isPositiveValueGood
-                                ? value >= 0
-                                : value < 0
+                            const isPositiveEffect = isPositiveValueGood ? value >= 0 : value < 0
 
                             let img = isPositiveEffect
                                 ? allImageSharp.edges.find(
-                                      ({ node }) =>
-                                          effect.icon ===
-                                          `${node.name}${node.ext}`
+                                      ({ node }) => effect.icon === `${node.name}${node.ext}`
                                   )
                                 : allImageSharp.edges.find(
                                       ({ node }) =>
-                                          effect.icon_negative ===
-                                          `${node.name}${node.ext}`
+                                          effect.icon_negative === `${node.name}${node.ext}`
                                   )
 
                             return (
                                 <div
                                     key={effect.effect_key}
-                                    className={`effect ${
-                                        isPositiveEffect
-                                            ? "positive"
-                                            : "negative"
+                                    className={`tooltip-effect ${
+                                        isPositiveEffect ? "positive" : "negative"
                                     }`}
                                 >
-                                    {img ? (
-                                        <Img
-                                            fixed={
-                                                img.node.childImageSharp.fixed
-                                            }
-                                        />
-                                    ) : (
-                                        ""
-                                    )}
-                                    <span className="effect-description">
+                                    {img ? <Img fixed={img.node.childImageSharp.fixed} /> : ""}
+                                    <span className="tooltip-effect-description">
                                         {effect.description}
                                     </span>
                                 </div>
@@ -154,6 +121,8 @@ const SkillIcon = ({ skill, size = 70, transformationCoef = 0.79, offset }) => {
                         })}
                     </div>
                 </div>
+
+                {isAbility ? <SkillTooltipAbility skill={skill} /> : ""}
             </ReactTooltip>
         </div>
     )

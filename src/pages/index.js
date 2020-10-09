@@ -7,8 +7,6 @@ import SEO from "../components/seo"
 export default function Home({ data }) {
     const { nodesets } = data
 
-    console.log(nodesets)
-
     return (
         <Layout>
             <SEO title="Home" />

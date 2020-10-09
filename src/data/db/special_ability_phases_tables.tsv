@@ -1,0 +1,193 @@
+duration	effect_type	id	requested_stance	unbreakable	cant_move	freeze_fatigue	fatigue_change_ratio	inspiration_aura_range_mod	ability_recharge_change	hp_change_frequency	heal_amount_duplicate	damage_chance	damage_amount	max_damaged_entities	heal_amount	resurrect	mana_regen_mod	mana_max_depletion_mod	imbue_magical	imbue_ignition	imbue_contact	phase_display	phase_audio	recharge_time	is_hidden_in_ui	affects_allies	affects_enemies	new_field
+15.0	positive	troy_bull_rush		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0				90.0	false	false	false	false
+20.0	positive	troy_dlc1_hero_archer_ability_deadly_focus		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_morale_attack		-1.0	false	true	false	false
+20.0	positive	troy_dlc1_hero_archer_ability_deadly_focus_spec_leadership		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_morale_attack		-1.0	false	true	false	false
+20.0	positive	troy_dlc1_hero_archer_ability_deadly_focus_spec_reload		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_morale_attack		-1.0	false	true	false	false
+20.0	positive	troy_dlc1_hero_fighter_ability_battle_song		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0				-1.0	false	false	false	false
+20.0	positive	troy_dlc1_hero_fighter_ability_battle_song_spec_charge		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0				-1.0	false	false	false	false
+20.0	positive	troy_dlc1_hero_fighter_ability_battle_song_spec_melee_attack		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0				-1.0	false	false	false	false
+20.0	positive	troy_dlc1_hero_warlord_ability_embrace_of_ares		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_attack		-1.0	false	true	false	false
+20.0	positive	troy_dlc1_hero_warlord_ability_embrace_of_ares_spec_block_chance		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_attack		-1.0	false	true	false	false
+20.0	positive	troy_dlc1_hero_warlord_ability_embrace_of_ares_spec_charge		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_attack		-1.0	false	true	false	false
+10.0	positive	troy_dlc1_hero_warlord_ability_none_left_standing		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0				-1.0	false	true	false	false
+10.0	positive	troy_dlc1_hero_warlord_ability_none_left_standing_spec_melee_defence		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0				-1.0	false	true	false	false
+10.0	positive	troy_dlc1_hero_warlord_ability_none_left_standing_spec_radius		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0				-1.0	false	true	false	false
+-1.0	positive	troy_dlc1_unit_passive_battle_fervour		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0				-1.0	false	false	false	false
+-1.0	positive	troy_dlc1_unit_passive_battle_fury		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0				-1.0	false	false	false	false
+10.0	negative	troy_dlc1_unit_passive_contact_serrated_weapons		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_debuff_defence		-1.0	false	false	true	false
+15.0	positive	troy_dlc1_unit_passive_eager		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0				-1.0	false	false	false	false
+60.0	positive	troy_dlc1_unit_passive_fierce_resolve		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0				-1.0	false	true	true	false
+-1.0	positive	troy_dlc1_unit_passive_relentless		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0				-1.0	false	true	true	false
+-1.0	positive	troy_dlc1_unit_passive_serrated_weapons		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0				-1.0	false	true	true	false
+-1.0	negative	troy_dlc1_unit_passive_skittish_horses		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0				-1.0	false	true	true	false
+-1.0	neutral	troy_dlc1_unit_passive_spread_and_charge		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0				-1.0	false	false	false	false
+-1.0	positive	troy_dlc1_unit_passive_to_the_last		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0				-1.0	false	true	true	false
+20.0	positive	troy_dlc1_unit_passive_unbreakable		true	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_debuff_defence_attack_banner		-1.0	false	true	false	false
+-1.0	negative	troy_dlc1_unit_passive_warriors_pledge_proximity		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0				-1.0	false	false	false	false
+20.0	positive	troy_dlc1_unit_passive_warriors_pledge_routing		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0				-1.0	false	false	false	false
+15.0	negative	troy_dlc1_unit_passive_wary		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0				-1.0	false	false	false	false
+-1.0	positive	troy_dlc1_unit_passive_wicked_bronze_100_kills		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0				-1.0	false	false	false	false
+45.0	positive	troy_main_duel		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0				180.0	false	false	true	true
+45.0	positive	troy_main_duel_spec_armor		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0				180.0	false	false	true	true
+90.0	positive	troy_main_duel_spec_duration		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0				180.0	false	false	true	true
+15.0	positive	troy_main_fighter_overpower		false	false	false	0.0	0.0	0.0	0.0	0	0.18	9	9	0	false	0.0	0.0	false	0		troy_main_battle_generic_overpower		-1.0	false	true	true	false
+45.0	positive	troy_main_hero_all_ability_adrenaline_rush		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_defence		90.0	false	false	false	false
+45.0	positive	troy_main_hero_all_ability_adrenaline_rush_speed		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_defence		90.0	false	false	false	false
+45.0	positive	troy_main_hero_all_ability_adrenaline_rush_spoc_cooldown		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_defence		60.0	false	false	false	false
+45.0	positive	troy_main_hero_all_ability_find_cover		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_defence		-1.0	false	false	false	false
+60.0	positive	troy_main_hero_all_ability_find_cover_spec_duration		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_defence		-1.0	false	false	false	false
+45.0	positive	troy_main_hero_all_ability_find_cover_spec_increase		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_defence		-1.0	false	false	false	false
+45.0	positive	troy_main_hero_all_ability_ignore_pain		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_main_hero_all_ability_ignore_pain		120.0	false	false	false	false
+90.0	positive	troy_main_hero_all_ability_ignore_pain_spec_duration		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_main_hero_all_ability_ignore_pain		120.0	false	false	false	false
+45.0	positive	troy_main_hero_all_ability_ignore_pain_spec_heal		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_main_hero_all_ability_ignore_pain		0.0	false	false	false	false
+1.0	positive	troy_main_hero_all_ability_ignore_pain_spec_heal_2		false	false	false	0.0	0.0	0.0	1.0	500	0.0	0	-1	500	false	0.0	0.0	false	0		troy_ph_main_generic_buff_defence		120.0	false	false	false	false
+60.0	positive	troy_main_hero_all_aristeia		true	false	true	0.0	0.0	0.0	1.0	25	0.0	0	-1	25	false	0.0	0.0	false	0		troy_main_hero_all_ability_aristeia	troy_main_ability_aristeia	-1.0	false	false	false	false
+-1.0	positive	troy_main_hero_all_aristeia_passive		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_main_hero_all_ability_aristeia_passive		-1.0	false	true	false	false
+30.0	positive	troy_main_hero_archer_ability_apollos_rain		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_attack		-1.0	false	true	true	false
+30.0	positive	troy_main_hero_archer_ability_apollos_rain_distant		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_attack		-1.0	false	true	true	false
+30.0	positive	troy_main_hero_archer_ability_apollos_rain_piercing		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_attack		-1.0	false	true	true	false
+40.0	positive	troy_main_hero_archer_ability_born_with_the_bow		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_attack		90.0	false	true	false	false
+40.0	positive	troy_main_hero_archer_ability_born_with_the_bow_spec_ias		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_attack		90.0	false	true	false	false
+40.0	positive	troy_main_hero_archer_ability_born_with_the_bow_spec_speed		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_attack		90.0	false	true	false	false
+30.0	positive	troy_main_hero_archer_ability_cheat_hades		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_defence		-1.0	false	true	true	false
+30.0	positive	troy_main_hero_archer_ability_cheat_hades_elusive		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_defence		-1.0	false	true	true	false
+30.0	positive	troy_main_hero_archer_ability_cheat_hades_relentless		false	false	false	-0.25	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_defence		-1.0	false	true	true	false
+60.0	positive	troy_main_hero_archer_ability_eagle_eye		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_attack		-1.0	false	true	false	false
+60.0	positive	troy_main_hero_archer_ability_eagle_eye_spec_arp		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_attack		-1.0	false	true	false	false
+60.0	positive	troy_main_hero_archer_ability_eagle_eye_spec_cost		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_attack		-1.0	false	true	false	false
+-1.0	positive	troy_main_hero_archer_ability_explosive_attacks		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_attack		-1.0	false	true	false	false
+-1.0	positive	troy_main_hero_archer_ability_explosive_attacks_spec_ap		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_attack		-1.0	false	true	true	false
+-1.0	positive	troy_main_hero_archer_ability_inspired_shots		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_attack		-1.0	false	true	false	false
+-1.0	positive	troy_main_hero_archer_ability_inspired_shots_spec_damage		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_attack		-1.0	false	true	true	false
+-1.0	negative	troy_main_hero_archer_ability_multishot		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_main_battle_multishot		60.0	false	false	true	false
+-1.0	negative	troy_main_hero_archer_ability_multishot_spec_dmg_close		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_main_battle_multishot		60.0	false	false	true	false
+-1.0	negative	troy_main_hero_archer_ability_multishot_spec_knockback		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_main_battle_multishot		60.0	false	false	true	false
+-1.0	positive	troy_main_hero_archer_ability_rapid_fire		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_attack		-1.0	false	true	false	false
+-1.0	positive	troy_main_hero_archer_ability_rapid_fire_spec_damage		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_attack		-1.0	false	true	true	false
+45.0	positive	troy_main_hero_archer_ability_relentless_pursuit		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_attack		-1.0	false	true	false	false
+67.0	positive	troy_main_hero_archer_ability_stalk		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_man_battle_stalk		-1.0	false	true	true	false
+67.0	positive	troy_main_hero_archer_ability_stalk_spec_unspottable		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_man_battle_stalk		-1.0	false	true	true	false
+60.0	positive	troy_main_hero_archer_ability_strafe		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_attack		-1.0	false	true	false	false
+60.0	positive	troy_main_hero_archer_ability_strafe_spec_dmg		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_attack		-1.0	false	true	false	false
+60.0	positive	troy_main_hero_archer_ability_strafe_spec_speed		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_attack		-1.0	false	true	false	false
+50.0	positive	troy_main_hero_defender_ability_brace		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_defence		180.0	false	true	false	false
+50.0	positive	troy_main_hero_defender_ability_brace_spec_charge_def		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_defence		180.0	false	true	false	false
+50.0	positive	troy_main_hero_defender_ability_brace_spec_radius		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_defence		180.0	false	true	false	false
+45.0	positive	troy_main_hero_defender_ability_care_for_fallen		false	false	false	0.0	0.0	0.0	1.0	5	0.0	0	-1	5	false	0.0	0.0	false	0		troy_ph_main_generic_buff_defence		-1.0	false	true	false	false
+45.0	positive	troy_main_hero_defender_ability_care_for_fallen_spec_cd		false	false	false	0.0	0.0	0.0	1.0	5	0.0	0	-1	5	false	0.0	0.0	false	0		troy_ph_main_generic_buff_defence		-1.0	false	true	false	false
+45.0	positive	troy_main_hero_defender_ability_care_for_fallen_spec_heal		false	false	false	0.0	0.0	0.0	1.0	10	0.0	0	-1	10	false	0.0	0.0	false	0		troy_ph_main_generic_buff_defence		-1.0	false	true	false	false
+25.0	negative	troy_main_hero_defender_ability_dread_of_ares		false	false	false	0.15	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_main_battle_generic_curse		-1.0	false	false	true	false
+25.0	negative	troy_main_hero_defender_ability_dread_of_ares_melee_attack_reduction		false	false	false	0.15	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_main_battle_generic_curse		-1.0	false	false	true	false
+25.0	negative	troy_main_hero_defender_ability_dread_of_ares_missile_vulnerabiltiy		false	false	false	0.15	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_main_battle_generic_curse		-1.0	false	false	true	false
+30.0	positive	troy_main_hero_defender_ability_hallowed_ground		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_morale_attack		-1.0	false	true	true	false
+60.0	positive	troy_main_hero_defender_ability_hallowed_ground_longlasting		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_morale_attack		-1.0	false	true	true	false
+30.0	positive	troy_main_hero_defender_ability_hallowed_ground_vast		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_morale_attack		-1.0	false	true	true	false
+25.0	positive	troy_main_hero_defender_ability_heroic_resolve		true	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_defence		180.0	false	false	false	false
+40.0	positive	troy_main_hero_defender_ability_heroic_resolve_spec_duration		true	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_defence		180.0	false	false	false	false
+24.0	positive	troy_main_hero_defender_ability_heroic_resolve_spec_heal		true	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_defence		-1.0	false	false	false	false
+1.0	positive	troy_main_hero_defender_ability_heroic_resolve_spec_heal_2		false	false	false	0.0	0.0	0.0	1.11	500	0.0	0	-1	500	false	0.0	0.0	false	0		troy_ph_main_generic_buff_defence		-1.0	false	true	false	false
+20.0	positive	troy_main_hero_defender_ability_recuperate		false	false	false	-0.18	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_defence		-1.0	false	true	false	false
+20.0	positive	troy_main_hero_defender_ability_recuperate_spec_cd		false	false	false	-0.18	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_defence		-1.0	false	true	false	false
+20.0	positive	troy_main_hero_defender_ability_recuperate_spec_increase_amount		false	false	false	-0.36	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_defence		-1.0	false	true	false	false
+55.0	positive	troy_main_hero_defender_ability_second_wind		false	false	false	0.0	0.0	0.0	1.0	6	0.0	0	-1	6	false	0.0	0.0	false	0		troy_ph_main_generic_buff_defence		-1.0	false	true	false	false
+55.0	positive	troy_main_hero_defender_ability_second_wind_spec_rage		false	false	false	0.0	0.0	0.0	1.0	6	0.0	0	-1	6	false	0.0	0.0	false	0		troy_ph_main_generic_buff_defence		-1.0	false	true	false	false
+55.0	positive	troy_main_hero_defender_ability_second_wind_spec_routing		false	false	false	-0.5	0.0	0.0	1.0	6	0.0	0	-1	6	false	0.0	0.0	false	0		troy_ph_main_generic_buff_defence		-1.0	false	true	false	false
+90.0	positive	troy_main_hero_defender_ability_set_example		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_attack		-1.0	false	true	false	false
+90.0	positive	troy_main_hero_defender_ability_set_example_spec_leadership		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_attack		-1.0	false	true	false	false
+90.0	positive	troy_main_hero_defender_ability_set_example_spec_trice		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_attack		-1.0	false	true	false	false
+20.0	negative	troy_main_hero_defender_ability_show_of_strength	cast_forward_short	false	true	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_debuff_morale		-1.0	false	false	true	false
+30.0	negative	troy_main_hero_defender_ability_show_of_strength_spec_duration	cast_forward_short	false	true	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_debuff_morale		-1.0	false	false	true	false
+20.0	negative	troy_main_hero_defender_ability_show_of_strength_spec_missile_vulnerability	cast_forward_short	false	true	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_debuff_morale		-1.0	false	false	true	false
+45.0	negative	troy_main_hero_defender_ability_taunt		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_debuff_defence		-1.0	false	false	true	false
+45.0	negative	troy_main_hero_defender_ability_taunt_spec_armor		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_debuff_defence		-1.0	false	false	true	false
+60.0	negative	troy_main_hero_defender_ability_taunt_spec_duration		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_debuff_defence		-1.0	false	false	true	false
+-1.0	positive	troy_main_hero_defender_bulwark		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_main_hero_defender_bulwark		-1.0	false	false	false	false
+-1.0	positive	troy_main_hero_defender_bulwark_spec_armour		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_main_hero_defender_bulwark		-1.0	false	true	false	false
+-1.0	positive	troy_main_hero_fighter_ability_batter		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_attack		-1.0	false	false	false	false
+-1.0	positive	troy_main_hero_fighter_ability_batter_spec_arp		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_attack		-1.0	false	false	false	false
+-1.0	positive	troy_main_hero_fighter_ability_batter_spec_cost		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_attack		-1.0	false	false	false	false
+45.0	positive	troy_main_hero_fighter_ability_blind_rage		true	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_attack	troy_main_ability_blind_rage	-1.0	false	false	false	false
+45.0	positive	troy_main_hero_fighter_ability_blind_rage_spec_dmg		true	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_attack	troy_main_ability_blind_rage	-1.0	false	false	false	false
+60.0	positive	troy_main_hero_fighter_ability_blind_rage_spec_duration		true	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_attack	troy_main_ability_blind_rage	-1.0	false	false	false	false
+0.1	positive	troy_main_hero_fighter_ability_blood_sacrifice_1		false	false	false	0.0	0.0	0.0	0.0	0	1.0	700	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_attack		-1.0	true	true	false	false
+60.0	positive	troy_main_hero_fighter_ability_blood_sacrifice_2		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_morale_attack		-1.0	false	true	false	false
+0.1	positive	troy_main_hero_fighter_ability_blood_sacrifice_spec_cost_1		false	false	false	0.0	0.0	0.0	0.0	0	1.0	350	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_attack		-1.0	true	true	false	false
+60.0	positive	troy_main_hero_fighter_ability_blood_sacrifice_spec_cost_2		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_morale_attack		-1.0	false	true	false	false
+0.1	positive	troy_main_hero_fighter_ability_blood_sacrifice_spec_leadership_damage_1		false	false	false	0.0	0.0	0.0	0.0	0	1.0	700	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_attack		-1.0	true	true	false	false
+60.0	positive	troy_main_hero_fighter_ability_blood_sacrifice_spec_leadership_damage_2		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_morale_attack		-1.0	false	true	false	false
+60.0	positive	troy_main_hero_fighter_ability_bow_to_the_moirai		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_main_battle_bow_to_the_moirai	troy_main_ability_generic_buff	180.0	false	false	false	false
+60.0	positive	troy_main_hero_fighter_ability_bow_to_the_moirai_spec_armor		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_main_battle_bow_to_the_moirai		180.0	false	false	false	false
+60.0	positive	troy_main_hero_fighter_ability_bow_to_the_moirai_spec_damage		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_main_battle_bow_to_the_moirai		180.0	false	false	false	false
+25.0	positive	troy_main_hero_fighter_ability_cleave		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_attack		-1.0	false	true	true	false
+25.0	positive	troy_main_hero_fighter_ability_cleave_spec_relentless		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_attack		-1.0	false	true	true	false
+25.0	positive	troy_main_hero_fighter_ability_cleave_spec_ruthless		false	false	false	-0.25	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_attack		-1.0	false	true	true	false
+-1.0	positive	troy_main_hero_fighter_ability_desecrate_the_fallen		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_main_battle_generic_defense		-1.0	false	true	true	false
+-1.0	positive	troy_main_hero_fighter_ability_desecrate_the_fallen_spec_armour		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_main_battle_generic_defense		-1.0	false	true	true	false
+-1.0	positive	troy_main_hero_fighter_ability_desecrate_the_fallen_spec_reduce_cost		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_main_battle_generic_defense		-1.0	false	true	true	false
+-1.0	positive	troy_main_hero_fighter_ability_focused_strikes		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_attack		-1.0	false	false	false	false
+-1.0	positive	troy_main_hero_fighter_ability_focused_strikes_spec_cost		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_attack		-1.0	false	true	true	false
+-1.0	positive	troy_main_hero_fighter_ability_focused_strikes_spec_less_reduction		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_attack		-1.0	false	true	true	false
+-1.0	positive	troy_main_hero_fighter_ability_frenzy		false	false	false	0.24	0.0	0.0	1.0	0	1.0	10	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_attack		-1.0	false	true	false	false
+-1.0	positive	troy_main_hero_fighter_ability_frenzy_spec_vigour		false	false	false	0.12	0.0	0.0	1.0	0	1.0	5	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_attack		-1.0	false	true	false	false
+3.0	negative	troy_main_hero_fighter_ability_jump_in_battle	jump_in_battle	false	false	false	0.0	0.0	0.0	0.0	0	1.0	120	8	0	false	0.0	0.0	false	0		troy_ph_main_generic_debuff_defence		60.0	false	false	true	false
+3.0	negative	troy_main_hero_fighter_ability_jump_in_battle_spec_armour_1	jump_in_battle	false	false	false	0.0	0.0	0.0	0.0	0	1.0	120	8	0	false	0.0	0.0	false	0		troy_ph_main_generic_debuff_defence		60.0	false	false	true	false
+30.0	negative	troy_main_hero_fighter_ability_jump_in_battle_spec_armour_2	jump_in_battle	false	false	false	0.0	0.0	0.0	1.11	0	1.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_debuff_defence		-1.0	false	false	true	false
+3.0	negative	troy_main_hero_fighter_ability_jump_in_battle_spec_melee	jump_in_battle	false	false	false	0.0	0.0	0.0	0.0	0	1.0	120	15	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_attack		60.0	false	false	true	false
+25.0	negative	troy_main_hero_fighter_ability_terrify		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_main_hero_fighter_ability_terrorize		-1.0	false	false	true	false
+25.0	negative	troy_main_hero_fighter_ability_terrify_melee_defence_reduction		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_main_hero_fighter_ability_terrorize		-1.0	false	false	true	false
+25.0	negative	troy_main_hero_fighter_ability_terrify_range		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_main_hero_fighter_ability_terrorize		-1.0	false	false	true	false
+-1.0	negative	troy_main_hero_fighter_ability_throw_spear		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_main_battle_spear_throw		30.0	false	false	true	false
+-1.0	negative	troy_main_hero_fighter_ability_throw_spear_spec_cooldown		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_main_battle_spear_throw		30.0	false	false	true	false
+-1.0	negative	troy_main_hero_fighter_ability_throw_spear_spec_dmg		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_main_battle_spear_throw		30.0	false	false	true	false
+15.0	positive	troy_main_hero_fighter_ability_vanquish		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_attack		-1.0	false	true	true	false
+15.0	positive	troy_main_hero_fighter_ability_vanquish_piercing		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_attack		-1.0	false	true	true	false
+15.0	positive	troy_main_hero_fighter_ability_vanquish_precise		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_attack		-1.0	false	true	true	false
+-1.0	positive	troy_main_hero_self_bloodthirst		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_attack		-1.0	false	true	false	false
+-1.0	positive	troy_main_hero_self_bloodthirst_spec_in_battle		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_attack		-1.0	false	true	false	false
+10.0	negative	troy_main_hero_self_contact_shield		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	0	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_speed_passive		-1.0	false	true	true	true
+10.0	negative	troy_main_hero_self_contact_speed		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	0	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_speed_passive		-1.0	false	true	true	true
+10.0	negative	troy_main_hero_self_contact_sunder		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	0	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_speed_passive		-1.0	false	true	true	false
+-1.0	positive	troy_main_hero_self_passive_regeneration		false	false	false	0.0	0.0	0.0	0.5	5	0.0	0	0	5	false	0.0	0.0	false	0		troy_ph_main_generic_buff_defence		-1.0	false	true	true	false
+33.0	positive	troy_main_hero_self_regeneration		false	false	false	0.0	0.0	0.0	0.5	24	0.0	0	0	24	false	0.0	0.0	false	0		troy_ph_main_generic_buff_defence		-1.0	false	true	true	false
+-1.0	positive	troy_main_hero_self_sunder		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	0	0	false	0.0	0.0	false	0	troy_main_hero_self_contact_sunder	troy_ph_main_generic_buff_attack		-1.0	false	true	true	false
+-1.0	positive	troy_main_hero_self_sunder_spec_shield		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	0	0	false	0.0	0.0	false	0	troy_main_hero_self_contact_shield	troy_ph_main_generic_buff_attack		-1.0	false	true	true	false
+-1.0	positive	troy_main_hero_self_sunder_spec_speed		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	0	0	false	0.0	0.0	false	0	troy_main_hero_self_contact_speed	troy_ph_main_generic_buff_speed_passive		-1.0	false	true	true	false
+30.0	positive	troy_main_hero_warlord_ability_armstice		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0				180.0	false	true	true	false
+60.0	positive	troy_main_hero_warlord_ability_armstice_spec_duration		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0				180.0	false	true	true	false
+45.0	negative	troy_main_hero_warlord_ability_battle_cry	warning_shout	false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_debuff_attack		-1.0	false	false	true	false
+45.0	negative	troy_main_hero_warlord_ability_battle_cry_spec_armour	warning_shout	false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_debuff_defence		-1.0	false	false	true	false
+45.0	negative	troy_main_hero_warlord_ability_battle_cry_spec_leadership	warning_shout	false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_debuff_morale		-1.0	false	false	true	false
+45.0	positive	troy_main_hero_warlord_ability_commanding_shout	warning_shout	false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_wom		-1.0	false	true	false	false
+45.0	positive	troy_main_hero_warlord_ability_commanding_shout_spec_cd	warning_shout	false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_wom		-1.0	false	true	false	false
+45.0	positive	troy_main_hero_warlord_ability_commanding_shout_spec_cost	warning_shout	false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_wom		-1.0	false	true	false	false
+45.0	positive	troy_main_hero_warlord_ability_cover		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_defence		-1.0	false	true	false	false
+45.0	positive	troy_main_hero_warlord_ability_cover_spec_radius		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_defence		-1.0	false	true	false	false
+-1.0	positive	troy_main_hero_warlord_ability_cover_spec_toggle		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_defence		-1.0	false	true	false	false
+60.0	negative	troy_main_hero_warlord_ability_false_prophecy	false_prophecy	false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_debuff_morale		-1.0	false	false	true	false
+60.0	negative	troy_main_hero_warlord_ability_false_prophecy_spec_radius	false_prophecy	false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_debuff_morale		-1.0	false	false	true	false
+60.0	negative	troy_main_hero_warlord_ability_false_prophecy_spec_strength	false_prophecy	false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_debuff_morale		-1.0	false	false	true	false
+40.0	positive	troy_main_hero_warlord_ability_fight_on		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_morale		-1.0	false	true	false	false
+40.0	positive	troy_main_hero_warlord_ability_fight_on_spec_strength		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_morale		-1.0	false	true	false	false
+60.0	negative	troy_main_hero_warlord_ability_insult		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_debuff_defence		-1.0	false	false	true	false
+80.0	negative	troy_main_hero_warlord_ability_insult_spec_duration		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_debuff_defence		-1.0	false	false	true	false
+30.0	positive	troy_main_hero_warlord_ability_march_on		false	false	false	-0.1	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_wom		-1.0	false	true	false	false
+30.0	positive	troy_main_hero_warlord_ability_march_on_spec_speed		false	false	false	-0.1	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_wom		-1.0	false	true	false	false
+90.0	negative	troy_main_hero_warlord_ability_marked_for_death	raise_weapon	false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_debuff_defence		-1.0	false	false	true	false
+90.0	negative	troy_main_hero_warlord_ability_marked_for_death_spec_cd	raise_weapon	false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_debuff_defence		-1.0	false	false	true	false
+90.0	negative	troy_main_hero_warlord_ability_marked_for_death_spec_leadership	raise_weapon	false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_debuff_defence		-1.0	false	false	true	false
+45.0	positive	troy_main_hero_warlord_ability_rallying_cry	warning_shout	false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_morale		-1.0	false	true	false	false
+45.0	positive	troy_main_hero_warlord_ability_rallying_cry_spec_area	warning_shout	false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_morale		-1.0	false	true	false	false
+45.0	positive	troy_main_hero_warlord_ability_rallying_cry_spec_cooldown	warning_shout	false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_morale		-1.0	false	true	false	false
+40.0	negative	troy_main_hero_warlord_ability_seize_the_moment		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_debuff_defence		-1.0	false	false	true	false
+40.0	negative	troy_main_hero_warlord_ability_seize_the_moment_reduce_damage		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_debuff_defence		-1.0	false	false	true	false
+40.0	negative	troy_main_hero_warlord_ability_seize_the_moment_sunder		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_debuff_defence		-1.0	false	false	true	false
+30.0	positive	troy_main_hero_warlord_ability_shout_of_terror	warning_shout	false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_main_battle_generic_defense		-1.0	false	true	true	false
+30.0	positive	troy_main_hero_warlord_ability_shout_of_terror_inspiring	warning_shout	false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_main_battle_generic_offense		-1.0	false	true	true	false
+30.0	positive	troy_main_hero_warlord_ability_shout_of_terror_vigorous	warning_shout	false	false	false	-0.25	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_main_battle_generic_defense		-1.0	false	true	true	false
+120.0	positive	troy_main_hero_warlord_ability_warning_shout	warning_shout	false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_morale		-1.0	false	true	false	false
+120.0	positive	troy_main_hero_warlord_ability_warning_shout_spec_defense	warning_shout	false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_morale		-1.0	false	true	false	false
+40.0	negative	troy_main_minotaur_savage_roar	savage_roar	false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_debuff_morale		-1.0	false	false	true	false
+-1.0	positive	troy_main_unit_weapon_switching		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0				-1.0	false	true	true	false
+45.0	positive	troy_myth_shield_wall_formation		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_buff_defence		-1.0	false	true	false	false
+45.0	negative	troy_myth_sirens_lure		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		troy_ph_main_generic_debuff_defence		-1.0	false	false	true	false
+30.0	positive	troy_unit_blind_rage		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0			troy_main_ability_blind_rage	180.0	false	false	false	false

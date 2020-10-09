@@ -1,0 +1,429 @@
+key	text	tooltip
+unit_abilities_tooltip_text_troy_main_hero_warlord_ability_warning_shout_spec_defense	"Keep your eyes open! The enemy may look to outflank us!"	true
+unit_abilities_onscreen_name_troy_main_hero_fighter_ability_frenzy_spec_vigour	Frenzy (Stamina)	true
+unit_abilities_onscreen_name_troy_main_hero_archer_ability_rapid_fire_spec_cost	Swift of Heel (Cost)	true
+unit_abilities_tooltip_text_troy_main_hero_defender_ability_set_example_spec_leadership	"Follow me and I shall lead you to glory without end!"	true
+unit_abilities_onscreen_name_troy_main_unit_volley_amazon_archers	{{tr:hp_title_volley}}	true
+unit_abilities_tooltip_text_troy_main_unit_weapon_switching_passive	"There will come a time when two hands will be better than one. You will know instinctively when that is."	true
+unit_abilities_tooltip_text_troy_main_hero_fighter_ability_blind_rage_spec_dmg	"By Ares, I shall drown the world in flames!"	true
+unit_abilities_onscreen_name_troy_main_hero_fighter_ability_terrify_range	Terrify (Range)	true
+unit_abilities_onscreen_name_troy_main_hero_fighter_ability_throw_spear	Olympian Throw	true
+unit_abilities_tooltip_text_troy_main_hero_self_regeneration	"Truly, this is a gift from Olympus! Gods be praised, for their faithful fighter has been preserved this day!"	true
+unit_abilities_onscreen_name_troy_main_hero_self_bloodthirst_spec_in_battle	Bloodthirst (Battle)	true
+unit_abilities_onscreen_name_troy_main_hero_warlord_ability_warning_shout_spec_radius	Warning Shout (Radius)	true
+unit_abilities_tooltip_text_troy_main_hero_self_sunder_spec_speed	"Ares' rage and Poseidon's strength combine! Tear bronze and flesh like so much cloth!"	true
+unit_abilities_tooltip_text_troy_main_hero_all_ability_adrenaline_rush	"Fear me, for the blood of the greatest hero of the known world courses through my veins!"	true
+unit_abilities_tooltip_text_troy_main_hero_fighter_ability_desecrate_the_fallen_spec_cost	"You demand honour for the fallen? They had their chance to earn it whilst still they lived!"	true
+unit_abilities_tooltip_text_troy_main_hero_defender_shield_spec_area	"In the frenzied rush of battle, everything becomes a weapon – even that with which we defend ourselves. Know this and live to fight again."	true
+unit_abilities_onscreen_name_troy_myth_sirens_lure	Sirens' Lure	true
+unit_abilities_tooltip_text_troy_main_hero_fighter_ability_vanquish_precise	"Begone, defeated worm! You are unworthy of facing me!"	true
+unit_abilities_onscreen_name_troy_main_hero_defender_bulwark_spec_armour	Fortify (Radius)	true
+unit_abilities_onscreen_name_troy_main_hero_archer_ability_precise_shot	Apollo's Aim	true
+unit_abilities_tooltip_text_troy_main_hero_fighter_ability_frenzy	"As murderous Ares is my witness, I shall see you all dead before my rage is quenched!"	true
+unit_abilities_onscreen_name_troy_main_hero_warlord_ability_insult	Taunt	true
+unit_abilities_onscreen_name_troy_main_hero_fighter_ability_terrify	Terrify	true
+unit_abilities_onscreen_name_troy_main_hero_archer_ability_born_with_the_bow_spec_ias	Centaur Drill (Increased Reload Speed)	true
+unit_abilities_onscreen_name_troy_main_hero_defender_ability_set_example_spec_trice	Lead by Example (Charge)	true
+unit_abilities_tooltip_text_troy_main_hero_warlord_ability_rallying_cry_spec_cooldown	"To me! We cannot be lost if we believe in the gods – and in ourselves!"	true
+unit_abilities_tooltip_text_troy_main_hero_warlord_ability_marked_for_death_spec_leadership	"Tremble, mortal, for today you will meet your fate, ordained by Zeus himself!"	true
+unit_abilities_tooltip_text_troy_main_hero_fighter_ability_focused_strikes_spec_less_reduction	"Mighty Heracles, lend your godlike strength to my striking arm!"	true
+unit_abilities_tooltip_text_troy_main_hero_fighter_ability_focused_strikes_spec_cost	"Mighty Heracles, lend your godlike strength to my striking arm!"	true
+unit_abilities_onscreen_name_troy_main_hero_defender_bulwark	Fortify	true
+unit_abilities_tooltip_text_troy_main_hero_archer_ability_multishot	"Apollo and Artemis, guide my arrows fast and true, that my enemies may not have time to draw their bows!"	true
+unit_abilities_onscreen_name_troy_main_hero_self_passive_regeneration	Battle Veteran (Regeneration)	true
+unit_abilities_onscreen_name_troy_main_hero_warlord_ability_false_prophecy_spec_strength	False Portent (Morale)	true
+unit_abilities_tooltip_text_troy_main_hero_warlord_ability_shout_of_terror_inspiring	"Tremble, puny mortals, for the gods' inescapable anger shall be visited upon you!"	true
+unit_abilities_onscreen_name_troy_main_hero_defender_ability_second_wind	Divine Regeneration	true
+unit_abilities_onscreen_name_troy_main_hero_archer_ability_apollos_rain	Apollo's Rain	true
+unit_abilities_onscreen_name_troy_main_hero_defender_ability_second_wind_spec_vigour	Divine Regeneration (Stamina)	true
+unit_abilities_tooltip_text_troy_main_hero_self_sunder_spec_shield	"Ares' rage and Poseidon's strength combine! Tear bronze and flesh like so much cloth!"	true
+unit_abilities_tooltip_text_troy_main_hero_fighter_ability_batter_spec_arp	"With bloody fists I'll batter – like a ten ton hammer, son!"	true
+unit_abilities_onscreen_name_troy_dlc1_unit_inspire_to_the_last	Inspire: To the Last	true
+unit_abilities_onscreen_name_troy_main_hero_archer_ability_strafe_spec_speed	Strafe (Speed)	true
+unit_abilities_onscreen_name_troy_main_hero_archer_ability_strafe	Strafe	true
+unit_abilities_onscreen_name_troy_dlc1_unit_passive_fierce_resolve	Fierce Resolve	true
+unit_abilities_onscreen_name_troy_main_hero_archer_ability_relentless_pursuit	Flights of Artemis	true
+unit_abilities_tooltip_text_troy_main_hero_fighter_ability_focused_strikes	"Mighty Heracles, lend your godlike strength to my striking arm!"	true
+unit_abilities_onscreen_name_troy_main_hero_self_regeneration	Battle Veteran	true
+unit_abilities_tooltip_text_troy_main_hero_defender_ability_second_wind_spec_vigour	"Do not let me fall here today, fair Lady Athena, for I have many more battles to win in your name!"	true
+unit_abilities_onscreen_name_troy_main_hero_archer_ability_cheat_hades	Cheat Hades	true
+unit_abilities_tooltip_text_troy_main_hero_defender_ability_dread_of_ares	"May Ares' sons strike paralysing terror into your hearts!"	true
+unit_abilities_onscreen_name_troy_main_hero_warlord_ability_seize_the_moment_sunder	Seize the Moment (Sunder Armour)	true
+unit_abilities_onscreen_name_troy_main_hero_defender_ability_hallowed_ground	Hallowed Ground	true
+unit_abilities_onscreen_name_troy_main_hero_archer_ability_apollos_rain_piercing	Apollo's Rain (Pierce Armour)	true
+unit_abilities_onscreen_name_troy_dlc1_hero_fighter_ability_battle_song_spec_melee_attack	Song of Battle (Melee Attack)	true
+unit_abilities_onscreen_name_troy_dlc1_hero_archer_ability_deadly_focus	Deadly Focus	true
+unit_abilities_tooltip_text_troy_main_hero_warlord_ability_rallying_cry	"To me! We cannot be lost if we believe in the gods – and in ourselves!"	true
+unit_abilities_onscreen_name_troy_dlc1_hero_warlord_ability_none_left_standing	None Left Standing	true
+unit_abilities_tooltip_text_troy_main_hero_warlord_ability_armstice_spec_duration	"Let there be a lull in the hostilities between us while the gods judge our fate!"	true
+unit_abilities_tooltip_text_troy_main_hero_defender_shield_bash	"In the frenzied rush of battle, everything becomes a weapon – even that with which we defend ourselves. Know this and live to fight again."	true
+unit_abilities_tooltip_text_troy_main_hero_fighter_ability_throw_spear_spec_dmg	"Lords of Olympus, guide my arm to strike at my opponents' heads! A single shot is all I require."	true
+unit_abilities_tooltip_text_troy_main_hero_fighter_ability_vanquish_piercing	"Begone, defeated worm! You are unworthy of facing me!"	true
+unit_abilities_tooltip_text_troy_main_hero_warlord_ability_rallying_cry_spec_area	"To me! We cannot be lost if we believe in the gods – and in ourselves!"	true
+unit_abilities_onscreen_name_troy_dlc1_unit_passive_wary	Wary	true
+unit_abilities_onscreen_name_troy_main_hero_defender_shield_spec_damage	Shield Bash (Damage)	true
+unit_abilities_onscreen_name_troy_main_hero_defender_shield_bash	Shield Bash	true
+unit_abilities_tooltip_text_troy_main_hero_warlord_ability_marked_for_death	"Tremble, mortal, for today you will meet your fate, ordained by Zeus himself!"	true
+unit_abilities_tooltip_text_troy_main_hero_warlord_ability_shout_of_terror	"Tremble, puny mortals, for the gods' inescapable anger shall be visited upon you!"	true
+unit_abilities_onscreen_name_troy_main_hero_archer_ability_explosive_attacks_spec_ap	Poison Tips (Armour)	true
+unit_abilities_tooltip_text_troy_dlc1_hero_fighter_ability_battle_song	"The final swing is not a drill, it's how many people I can kill!"	true
+unit_abilities_tooltip_text_troy_main_unit_volley_hippolytas_chosen	{{tr:troy_unit_ability_volley_description}}	true
+unit_abilities_tooltip_text_troy_main_hero_warlord_ability_commanding_shout_spec_cd	"I scream your name to the heavens, Heracles! Grant me your indomitable might!"	true
+unit_abilities_tooltip_text_troy_main_hero_defender_ability_care_for_fallen_spec_cd	"Rise, soldier. Charon has embarked – your journey across the Styx can wait another day."	true
+unit_abilities_tooltip_text_troy_main_hero_warlord_ability_insult_spec_duration	"Go boil your bottoms, sons of a silly person!"	true
+unit_abilities_onscreen_name_troy_main_hero_warlord_ability_armstice	Truce	true
+unit_abilities_onscreen_name_troy_main_hero_archer_ability_strafe_spec_dmg	Strafe (Damage)	true
+unit_abilities_onscreen_name_troy_main_hero_fighter_ability_desecrate_the_fallen	Humiliate the Dead	true
+unit_abilities_onscreen_name_troy_main_hero_defender_ability_recuperate_spec_cd	Reinvigorate (Cooldown)	true
+unit_abilities_onscreen_name_troy_main_hero_archer_ability_multishot	Triple Shot	true
+unit_abilities_tooltip_text_troy_main_hero_warlord_ability_fight_on	"Warriors, to me! By the might of gleaming-eyed Athena, we shall prevail!"	true
+unit_abilities_tooltip_text_troy_dlc1_hero_warlord_abiltiy_embrace_of_ares	"I'll wake the silence in you, I'll shoot the violence through you!"	true
+unit_abilities_tooltip_text_troy_main_hero_warlord_ability_shout_of_terror_vigorous	"Tremble, puny mortals, for the gods' inescapable anger shall be visited upon you!"	true
+unit_abilities_onscreen_name_troy_dlc1_unit_passive_eager	Eager for Blood	true
+unit_abilities_tooltip_text_troy_main_hero_all_ability_ignore_pain	"Pah! You think your puny weapons can strike me down? I am invincible!"	true
+unit_abilities_onscreen_name_troy_main_hero_defender_shield_spec_area	Shield Bash (Area)	true
+unit_abilities_tooltip_text_troy_main_hero_fighter_ability_terrify	"Cower, foolish humans, for Phobos and Deimos move among your feeble number!"	true
+unit_abilities_tooltip_text_troy_main_hero_warlord_ability_march_on	"To me! We go on until the gods themselves command that we halt!"	true
+unit_abilities_onscreen_name_troy_main_hero_archer_ability_rapid_fire	Swift of Heel	true
+unit_abilities_onscreen_name_troy_main_hero_warlord_ability_fight_on_spec_strength	Leader of Men (Attack & Defence)	true
+unit_abilities_onscreen_name_troy_main_hero_fighter_ability_throw_spear_spec_cooldown	Olympian Throw (Cooldown)	true
+unit_abilities_tooltip_text_troy_myth_shield_wall_formation	"Line your shields and brace yourselves in service of Zeus!"	true
+unit_abilities_tooltip_text_troy_main_hero_fighter_ability_throw_spear	"Lords of Olympus, guide my arm to strike at my opponents' heads! A single shot is all I require."	true
+unit_abilities_onscreen_name_troy_main_hero_fighter_ability_bow_to_the_moirai_spec_damage	Threads of Fate (Damage)	true
+unit_abilities_onscreen_name_troy_main_hero_archer_ability_escape_spec_success	Escape (Success Chance)	true
+unit_abilities_tooltip_text_troy_main_hero_fighter_ability_bow_to_the_moirai	"You think you can strike me down? Only the Moirai can decree my fate!"	true
+unit_abilities_onscreen_name_troy_main_hero_defender_ability_brace_spec_radius	Immovable Force (Radius)	true
+unit_abilities_onscreen_name_troy_main_hero_fighter_ability_bow_to_the_moirai_spec_armor	Threads of Fate (Armour)	true
+unit_abilities_tooltip_text_troy_main_hero_all_ability_adrenaline_rush_spec_battle	"Fear me, for the blood of the greatest hero in the known world courses through my veins!"	true
+unit_abilities_tooltip_text_troy_main_hero_archer_ability_apollos_rain_distant	"From Olympus itself, strike at my enemies with your rain of death, Apollo almighty!"	true
+unit_abilities_tooltip_text_troy_main_hero_archer_ability_stalk_spec_unspottable	"I am the blade in darkness. I am the strike unseen."	true
+unit_abilities_tooltip_text_troy_main_hero_defender_ability_brace_spec_radius	"Not even the mighty Heracles himself can move me from this spot!"	true
+unit_abilities_onscreen_name_troy_main_hero_fighter_ability_desecrate_the_fallen_spec_armour	Humiliate the Dead (Armour)	true
+unit_abilities_onscreen_name_troy_main_hero_archer_ability_eagle_eye_spec_cost	Snipe (Cost)	true
+unit_abilities_onscreen_name_troy_bull_rush	Bull Rush	true
+unit_abilities_onscreen_name_troy_main_hero_all_ability_adrenaline_rush	Blood of Heracles	true
+unit_abilities_tooltip_text_troy_main_hero_warlord_ability_insult_spec_area	"Go boil your bottoms, sons of a silly person!"	true
+unit_abilities_onscreen_name_troy_dlc1_unit_passive_battle_fury	Red Mist	true
+unit_abilities_onscreen_name_troy_main_hero_warlord_ability_armstice_spec_duration	Truce	true
+unit_abilities_onscreen_name_troy_main_hero_self_bloodthirst	Bloodthirst	true
+unit_abilities_tooltip_text_troy_main_hero_fighter_ability_terrify_melee_defence_reduction	"Cower, foolish humans, for Phobos and Deimos move among your feeble number!"	true
+unit_abilities_tooltip_text_troy_serrated_weapons_enabled_ticker_icon	"The barbed blade is particularly vicious, for it is not just the strike which wounds, but in pulling out the blade also."	true
+unit_abilities_tooltip_text_troy_unit_blind_rage	"They say these savages are so overawed with their might, that they abandon all sense and respect for the gods."	true
+unit_abilities_tooltip_text_troy_main_hero_all_ability_aristeia_passive	"My destiny has come – the gods of Olympus are by my side! May my enemies cower and the poets forever sing the glory of this day!"	true
+unit_abilities_onscreen_name_troy_main_hero_self_sunder	Sunder (Armour)	true
+unit_abilities_tooltip_text_troy_dlc1_hero_warlord_ability_none_left_standing_spec_melee_defence	"Never lose sight of victory, that glorious prize that the gods have laid out for you!"	true
+unit_abilities_tooltip_text_troy_dlc1_unit_passive_warriors_pledge_proximity	"Fight hard, and long, and knoweth that your companions stand with you!"	true
+unit_abilities_tooltip_text_troy_main_hero_archer_ability_multishot_spec_dmg_close	"Apollo and Artemis, guide my arrows fast and true, that my enemies may not have time to draw their bows!"	true
+unit_abilities_onscreen_name_troy_main_hero_fighter_ability_batter_spec_arp	Assault & Battery (Pierce Armour)	true
+unit_abilities_tooltip_text_troy_main_hero_archer_ability_escape_spec_success	"It is not luck or fortune, or some special ability that the foe has that we do not, that allowed us to evade death, it was the will of the gods."	true
+unit_abilities_onscreen_name_troy_main_hero_all_ability_ignore_pain_spec_heal	Pain Barrier (Heal)	true
+unit_abilities_onscreen_name_troy_main_hero_all_ability_ignore_pain	Pain Barrier	true
+unit_abilities_tooltip_text_troy_main_hero_archer_ability_inspired_shots_spec_cost	"Guide my arrows true, o brother and sister of the hunt!"	true
+unit_abilities_tooltip_text_troy_main_hero_warlord_ability_battle_cry_spec_leadership	"May Lord Ares, slayer of men, strike at your heart and paralyse you with dread!"	true
+unit_abilities_tooltip_text_troy_main_hero_defender_ability_taunt_spec_duration	"Face me now, or fearsome Ares shall visit his fury upon you!"	true
+unit_abilities_tooltip_text_troy_main_hero_defender_ability_second_wind	"Do not let me fall here today, fair Lady Athena, for I have many more battles to win in your name!"	true
+unit_abilities_tooltip_text_troy_dlc1_hero_fighter_ability_battle_song_spec_charge	"The final swing is not a drill, it's how many people I can kill!"	true
+unit_abilities_tooltip_text_troy_main_hero_defender_ability_hallowed_ground	"What fool would dare defile the sanctuary of the gods? Do not tempt their furious anger!"	true
+unit_abilities_tooltip_text_troy_main_hero_warlord_ability_warning_shout_spec_radius	"Keep your eyes open! The enemy may look to outflank us!"	true
+unit_abilities_tooltip_text_troy_main_hero_warlord_ability_seize_the_moment_reduce_damage	"Keep the enemy distracted! Strike at their flanks before they recover!"	true
+unit_abilities_tooltip_text_troy_dlc1_unit_passive_warriors_pledge_routing	"We will go on to the bitter end, no matter the cost and regardless of the odds! The gods will it!"	true
+unit_abilities_onscreen_name_troy_main_hero_warlord_ability_battle_cry_spec_leadership	Ares' Thunder (Morale)	true
+unit_abilities_tooltip_text_troy_main_hero_archer_ability_relentless_pursuit_spec_cooldown	"Artemis of the golden reins, grant me the sureness of your arrows!"	true
+unit_abilities_onscreen_name_troy_main_hero_archer_ability_escape	Escape	true
+unit_abilities_onscreen_name_troy_main_hero_fighter_ability_jump_in_battle	Ares' Gift	true
+unit_abilities_tooltip_text_troy_main_hero_defender_ability_brace	"Not even the mighty Heracles himself can move me from this spot!"	true
+unit_abilities_tooltip_text_troy_dlc1_hero_archer_ability_deadly_focus_spec_reload	"Gods, focus my mind and body so that hunter and quarry are all that matter!"	true
+unit_abilities_tooltip_text_troy_main_hero_archer_ability_escape	"It is not luck or fortune, or some special ability that the foe has that we do not, that allowed us to evade death, it was the will of the gods."	true
+unit_abilities_tooltip_text_troy_main_hero_warlord_ability_fight_on_spec_radius	"Warriors, to me! By the might of gleaming-eyed Athena, we shall prevail!"	true
+unit_abilities_tooltip_text_troy_main_hero_self_sunder	"Ares' rage and Poseidon's strength combine! Tear bronze and flesh like so much cloth!"	true
+unit_abilities_onscreen_name_troy_main_hero_warlord_ability_seize_the_moment	Seize the Moment	true
+unit_abilities_tooltip_text_troy_main_minotaur_savage_roar	"They say that in many cases, the beast's bark is far worse than its bite. This is not one of those cases!"	true
+unit_abilities_onscreen_name_troy_main_hero_warlord_ability_false_prophecy	False Portent	true
+unit_abilities_onscreen_name_troy_main_hero_all_ability_throw_rock_spec_area	Heraclean Throw (Damage)	true
+unit_abilities_tooltip_text_troy_main_hero_warlord_ability_false_prophecy_spec_strength	"Release the birds! May this improper omen turn our enemies' bowels to water! In sight of the gods, yes!"	true
+unit_abilities_tooltip_text_troy_main_hero_archer_ability_strafe_spec_dmg	"Move with the speed of Hermes and strike with Artemis' peerless skill."	true
+unit_abilities_tooltip_text_troy_main_unit_volley_followers_of_artemis	{{tr:troy_unit_ability_volley_description}}	true
+unit_abilities_onscreen_name_troy_main_hero_defender_ability_dread_of_ares	Dread of Ares	true
+unit_abilities_tooltip_text_troy_main_hero_all_ability_find_cover	"Almighty Zeus, king of the gods, shield me from my enemies' blows, that I might fight for you another day."	true
+unit_abilities_onscreen_name_troy_main_hero_fighter_ability_vanquish_piercing	Vanquish (Pierce Armour)	true
+unit_abilities_tooltip_text_troy_main_hero_fighter_ability_desecrate_the_fallen	"You demand honour for the fallen? They had their chance to earn it whilst still they lived!"	true
+unit_abilities_onscreen_name_troy_main_unit_volley_toxares	{{tr:hp_title_volley}}	true
+unit_abilities_tooltip_text_troy_main_hero_defender_ability_recuperate	"Tire not, companions! Titanblood courses through our veins!"	true
+unit_abilities_onscreen_name_troy_main_unit_spread_and_charge	Spread & Charge	true
+unit_abilities_tooltip_text_troy_main_hero_defender_ability_recuperate_spec_cd	"Tire not, companions! Titanblood courses through our veins!"	true
+unit_abilities_onscreen_name_troy_main_hero_warlord_ability_shout_of_terror_vigorous	The Shout (Stamina)	true
+unit_abilities_onscreen_name_troy_main_hero_warlord_ability_marked_for_death	Zeus' Wrath	true
+unit_abilities_onscreen_name_troy_main_hero_defender_ability_care_for_fallen	Favour of Asclepius	true
+unit_abilities_onscreen_name_troy_dlc1_unit_passive_warriors_pledge_routing	Warrior's Oath	true
+unit_abilities_tooltip_text_troy_main_hero_all_ability_aristeia	"My destiny has come – the gods of Olympus are by my side! May my enemies cower and the poets forever sing the glory of this day!"	true
+unit_abilities_tooltip_text_troy_dlc1_unit_passive_fierce_resolve	"So complete is their training, so thorough their drill, these gods-blessed warriors will only fight on when adversity strikes."	true
+unit_abilities_tooltip_text_troy_main_hero_fighter_ability_terrify_range	"Cower, foolish humans, for Phobos and Deimos move among your feeble number!"	true
+unit_abilities_onscreen_name_troy_main_hero_archer_ability_inspired_shots_spec_cost	Inspired Aim (Cost)	true
+unit_abilities_tooltip_text_troy_main_hero_archer_ability_multishot_spec_knockback	"Apollo and Artemis, guide my arrows fast and true, that my enemies may not have time to draw their bows!"	true
+unit_abilities_onscreen_name_troy_main_hero_archer_ability_multishot_spec_dmg_close	Triple Shot (Damage)	true
+unit_abilities_onscreen_name_troy_main_hero_fighter_ability_focused_strikes	Divine Focus	true
+unit_abilities_onscreen_name_troy_main_hero_defender_ability_heroic_resolve	Heraclean Resolve	true
+unit_abilities_onscreen_name_troy_main_hero_warlord_ability_fight_on	Leader of Men	true
+unit_abilities_onscreen_name_troy_main_hero_warlord_ability_marked_for_death_spec_leadership	Zeus' Wrath (Morale)	true
+unit_abilities_tooltip_text_troy_main_hero_fighter_ability_throw_spear_spec_cooldown	"Lords of Olympus, guide my arm to strike at my opponents' heads! A single shot is all I require."	true
+unit_abilities_tooltip_text_troy_main_hero_archer_ability_relentless_pursuit_spec_cost	"Artemis of the golden reins, grant me the sureness of your arrows!"	true
+unit_abilities_onscreen_name_troy_main_hero_archer_ability_stalk	In Hades' Shadow	true
+unit_abilities_onscreen_name_troy_main_hero_warlord_ability_seize_the_moment_reduce_damage	Seize the Moment (Reduce Damage)	true
+unit_abilities_tooltip_text_troy_main_hero_defender_ability_set_example_spec_trice	"Follow me and I shall lead you to glory without end!"	true
+unit_abilities_onscreen_name_troy_main_hero_defender_ability_taunt	The War-god's Call	true
+unit_abilities_onscreen_name_troy_main_hero_archer_ability_eagle_eye	Snipe	true
+unit_abilities_onscreen_name_troy_dlc1_hero_warlord_ability_none_left_standing_spec_radius	None Left Standing (Radius)	true
+unit_abilities_tooltip_text_troy_main_hero_archer_ability_eagle_eye	"Run all you like! You'll never escape Artemis' perfect aim!"	true
+unit_abilities_tooltip_text_troy_main_hero_archer_ability_inspired_shots	"Guide my arrows true, o brother and sister of the hunt!"	true
+unit_abilities_onscreen_name_troy_main_hero_fighter_ability_blind_rage	Ares' Rage	true
+unit_abilities_tooltip_text_troy_main_unit_spread_and_charge	"Stand apart, my warriors. They will not break our line by shaft or arrowflight alone."	true
+unit_abilities_tooltip_text_troy_main_hero_defender_bulwark_spec_armour	"Not even the cyclopes shall move us from this place!"	true
+unit_abilities_tooltip_text_troy_main_hero_defender_ability_heroic_resolve	"Mighty Heracles, grant me your tenacity as I stare into the face of Hades!"	true
+unit_abilities_tooltip_text_troy_main_hero_warlord_ability_armstice	"Let there be a lull in the hostilities between us while the gods judge our fate!"	true
+unit_abilities_onscreen_name_troy_main_hero_all_ability_ignore_pain_spec_duration	Pain Barrier (Duration)	true
+unit_abilities_tooltip_text_troy_main_hero_archer_ability_eagle_eye_spec_arp	"Run all you like! You'll never escape Artemis' perfect aim!"	true
+unit_abilities_onscreen_name_troy_main_hero_fighter_ability_blood_sacrifice	Blood Sacrifice	true
+unit_abilities_onscreen_name_troy_main_hero_fighter_ability_blood_sacrifice_spec_leadership_damage	Blood Sacrifice (Morale & Damage)	true
+unit_abilities_tooltip_text_troy_main_hero_warlord_ability_commanding_shout	"I scream your name to the heavens, Heracles! Grant me your indomitable might!"	true
+unit_abilities_tooltip_text_troy_main_hero_archer_ability_cheat_hades_elusive	"Solemn Hades beckons me, but from the heart of his realm I shall return the strike that has lain me low!"	true
+unit_abilities_onscreen_name_troy_main_hero_all_ability_divine_inspiration	Heavenly Inspiration	true
+unit_abilities_tooltip_text_troy_main_hero_archer_ability_precise_shot_spec_damage	"May Apollo, lord of light, pour into me and strike you dead where you stand!"	true
+unit_abilities_tooltip_text_troy_main_hero_archer_ability_born_with_the_bow_spec_ias	"Strike on the move! Swift as a mare, like Lord Chiron taught us!"	true
+unit_abilities_onscreen_name_troy_main_minotaur_savage_roar	Savage Roar	true
+unit_abilities_tooltip_text_troy_main_unit_weapon_switching	"There will come a time when two hands will be better than one. You will know instinctively when that is."	true
+unit_abilities_tooltip_text_troy_main_hero_defender_ability_hallowed_ground_vast	"What fool would dare defile the sanctuary of the gods? Do not tempt their furious anger!"	true
+unit_abilities_tooltip_text_troy_main_hero_fighter_ability_jump_in_battle	"I bring Ares' gift of death to all of you here today! Take that!"	true
+unit_abilities_onscreen_name_troy_main_hero_archer_ability_precise_shot_spec_cost	Apollo's Aim (Cost)	true
+unit_abilities_onscreen_name_troy_serrated_weapons_enabled_ticker_icon	Serrated Edges	true
+unit_abilities_onscreen_name_troy_main_hero_archer_ability_escape_spec_cd	Escape (Cooldown)	true
+unit_abilities_onscreen_name_troy_main_hero_fighter_ability_vanquish_precise	Vanquish (Melee Attack)	true
+unit_abilities_onscreen_name_troy_main_hero_all_ability_adrenaline_rush_spec_battle	Blood of Heracles (Battle Speed)	true
+unit_abilities_onscreen_name_troy_main_hero_warlord_ability_shout_of_terror_inspiring	The Shout (Morale)	true
+unit_abilities_tooltip_text_troy_main_hero_all_ability_divine_inspiration_spec_cost	"O mighty lords of Olympus! Lend me strength and cunning to defeat the foe!"	true
+unit_abilities_onscreen_name_troy_main_hero_fighter_ability_focused_strikes_spec_cost	Divine Focus (Cost)	true
+unit_abilities_onscreen_name_troy_main_hero_defender_ability_heroic_resolve_spec_duration	Heraclean Resolve (Duration)	true
+unit_abilities_onscreen_name_troy_main_hero_warlord_ability_march_on_spec_radius	March of Hermes (Radius)	true
+unit_abilities_onscreen_name_troy_main_hero_fighter_ability_batter_spec_cost	Assault & Battery (Cost)	true
+unit_abilities_onscreen_name_troy_main_hero_defender_ability_taunt_spec_duration	The War-god's Call (Duration)	true
+unit_abilities_onscreen_name_troy_main_hero_defender_ability_hallowed_ground_vast	Hallowed Ground (Area)	true
+unit_abilities_onscreen_name_troy_dlc1_unit_passive_serrated_weapons	Serrated Edges	true
+unit_abilities_onscreen_name_troy_main_duel_spec_armor	Divine Challenge (Armour)	true
+unit_abilities_onscreen_name_troy_dlc1_unit_passive_relentless	Relentless	true
+unit_abilities_tooltip_text_troy_dlc1_hero_archer_ability_deadly_focus	"Gods, focus my mind and body so that hunter and quarry are all that matter!"	true
+unit_abilities_onscreen_name_troy_main_hero_warlord_ability_shout_of_terror	The Shout	true
+unit_abilities_tooltip_text_troy_main_hero_self_bloodthirst	"Boil and rage, hunger and thirst, for the blood of thine mortal enemies."	true
+unit_abilities_onscreen_name_troy_main_hero_archer_ability_eagle_eye_spec_arp	Snipe (Pierce Armour)	true
+unit_abilities_onscreen_name_troy_main_hero_archer_ability_born_with_the_bow_spec_speed	Centaur Drill (Speed)	true
+unit_abilities_onscreen_name_troy_dlc1_unit_passive_to_the_last	To the Last	true
+unit_abilities_onscreen_name_troy_main_hero_fighter_ability_vanquish	Vanquish	true
+unit_abilities_onscreen_name_troy_main_duel	Divine Challenge	true
+unit_abilities_onscreen_name_troy_main_hero_fighter_ability_jump_in_battle_spec_area	Ares' Gift	true
+unit_abilities_onscreen_name_troy_main_hero_defender_ability_recuperate_spec_increase_amount	Reinvigorate (Stamina)	true
+unit_abilities_onscreen_name_troy_main_hero_defender_ability_set_example_spec_leadership	Lead by Example (Morale)	true
+unit_abilities_tooltip_text_troy_dlc1_unit_inspire_to_the_last	"Ignore the pain. Draw on reserves of strength and stamina gifted to us by the gods themselves!"	true
+unit_abilities_tooltip_text_troy_dlc1_unit_inspire_fierce_resolve	"So complete is their training, so thorough their drill, these gods-blessed warriors will only fight on when adversity strikes."	true
+unit_abilities_tooltip_text_troy_main_hero_all_ability_divine_inspiration	"O mighty lords of Olympus! Lend me strength and cunning to defeat the foe!"	true
+unit_abilities_tooltip_text_troy_dlc1_unit_passive_wary	"Their edge has dulled somewhat; bloody experience will make their blades shine once more!"	true
+unit_abilities_onscreen_name_troy_dlc1_hero_archer_ability_deadly_focus_spec_leadership	Deadly Focus (Morale)	true
+unit_abilities_tooltip_text_troy_main_hero_defender_ability_taunt_spec_armor	"Face me now, or fearsome Ares shall visit his fury upon you!"	true
+unit_abilities_tooltip_text_troy_main_hero_warlord_ability_false_prophecy	"Release the birds! May this improper omen turn our enemies' bowels to water! In sight of the gods, yes!"	true
+unit_abilities_onscreen_name_troy_main_hero_self_sunder_spec_speed	Sunder (Movement)	true
+unit_abilities_onscreen_name_troy_dlc1_hero_warlord_ability_embrace_of_ares_spec_block_chance	Embrace of Ares (Block Chance)	true
+unit_abilities_tooltip_text_troy_main_hero_archer_ability_relentless_pursuit	"Artemis of the golden reins, grant me the sureness of your arrows!"	true
+unit_abilities_tooltip_text_troy_main_hero_archer_ability_stalk_spec_alpha_strike	"I am the blade in darkness. I am the strike unseen."	true
+unit_abilities_onscreen_name_troy_main_hero_all_ability_find_cover_spec_duration	Aegis of Zeus (Duration)	true
+unit_abilities_onscreen_name_troy_main_unit_volley_followers_of_artemis	{{tr:hp_title_volley}}	true
+unit_abilities_onscreen_name_troy_main_hero_warlord_ability_warning_shout_spec_defense	Warning Shout (Defence)	true
+unit_abilities_tooltip_text_troy_main_hero_all_ability_find_cover_spec_increase	"Almighty Zeus, king of the gods, shield me from my enemies' blows, that I might fight for you another day."	true
+unit_abilities_tooltip_text_troy_main_hero_fighter_ability_cleave	"You dare stand in the way of greatness? Feel the wrath of Olympus!"	true
+unit_abilities_tooltip_text_troy_main_hero_warlord_ability_battle_cry	"May Lord Ares, slayer of men, strike at your heart and paralyse you with dread!"	true
+unit_abilities_onscreen_name_troy_main_hero_defender_ability_heroic_resolve_spec_heal	Heraclean Resolve (Heal)	true
+unit_abilities_tooltip_text_troy_dlc1_hero_warlord_ability_embrace_of_ares_spec_block_chance	"I'll wake the silence in you, I'll shoot the violence through you!"	true
+unit_abilities_tooltip_text_troy_main_hero_defender_shield_spec_damage	"In the frenzied rush of battle, everything becomes a weapon – even that with which we defend ourselves. Know this and live to fight again."	true
+unit_abilities_onscreen_name_troy_myth_shield_wall_formation	Shield Wall Formation	true
+unit_abilities_onscreen_name_troy_main_hero_warlord_ability_rallying_cry_spec_area	Rallying Cry (Area)	true
+unit_abilities_tooltip_text_troy_main_duel	"We must fight until only one remains!"	true
+unit_abilities_tooltip_text_troy_main_hero_defender_ability_taunt	"Face me now, or fearsome Ares shall visit his fury upon you!"	true
+unit_abilities_tooltip_text_troy_dlc1_unit_passive_wicked_bronze_100_kills	"Bronze, sadly, is like a mortal warrior, with all their failings: the more it kills, the more likely it is to blunt and chip."	true
+unit_abilities_tooltip_text_troy_dlc1_hero_warlord_ability_none_left_standing_spec_radius	"Never lose sight of victory, that glorious prize that the gods have laid out for you!"	true
+unit_abilities_tooltip_text_troy_dlc1_unit_passive_skittish_horses	"Hey now, woah. Shhhh. We're almost there – then you can rest."	true
+unit_abilities_onscreen_name_troy_dlc1_unit_passive_wicked_bronze_100_kills	The Life of Bronze	true
+unit_abilities_onscreen_name_troy_main_hero_archer_ability_cheat_hades_elusive	Cheat Hades (Defence)	true
+unit_abilities_tooltip_text_troy_dlc1_hero_warlord_ability_none_left_standing	"Never lose sight of victory, that glorious prize that the gods have laid out for you!"	true
+unit_abilities_onscreen_name_troy_main_myth_cyclops_boulder_toss	Boulder Toss	true
+unit_abilities_onscreen_name_troy_main_hero_defender_ability_dread_of_ares_melee_attack_reduction	Dread of Ares (Melee Attack)	true
+unit_abilities_onscreen_name_troy_main_hero_warlord_ability_march_on_spec_speed	March of Hermes (Speed)	true
+unit_abilities_onscreen_name_troy_main_hero_defender_ability_taunt_spec_armor	The War-god's Call (Damage)	true
+unit_abilities_onscreen_name_troy_main_hero_all_ability_divine_inspiration_spec_cost	Heavenly Inspiration (Cost)	true
+unit_abilities_tooltip_text_troy_main_hero_warlord_ability_false_prophecy_spec_radius	"Release the birds! May this improper omen turn our enemies' bowels to water! In sight of the gods, yes!"	true
+unit_abilities_onscreen_name_troy_main_hero_warlord_ability_battle_cry_spec_armour	Ares' Thunder (Armour)	true
+unit_abilities_tooltip_text_troy_main_hero_warlord_ability_cover_spec_radius	"Shields up! Let no arrow stop our mighty charge!"	true
+unit_abilities_tooltip_text_troy_main_hero_all_ability_divine_inspiration_spec_inspiration	"O mighty lords of Olympus! Lend me strength and cunning to defeat the foe!"	true
+unit_abilities_tooltip_text_troy_main_hero_warlord_ability_battle_cry_spec_armour	"May Lord Ares, slayer of men, strike at your heart and paralyse you with dread!"	true
+unit_abilities_tooltip_text_troy_main_hero_all_ability_find_cover_spec_duration	"Almighty Zeus, king of the gods, shield me from my enemies' blows, that I might fight for you another day."	true
+unit_abilities_tooltip_text_troy_main_hero_fighter_ability_blood_sacrifice_spec_cost	"Accept this sacrifice, o mighty lords of Olympus! Sanctify my blood with your divine purpose!"	true
+unit_abilities_tooltip_text_troy_dlc1_unit_passive_eager	"Battle, blood, fire, death. In sight of the divine. What else is there?"	true
+unit_abilities_onscreen_name_troy_main_hero_warlord_ability_false_prophecy_spec_radius	False Portent (Radius)	true
+unit_abilities_tooltip_text_troy_main_hero_archer_ability_explosive_attacks_spec_cost	"The poison tip penetrates the shield, or armour plates, right through to the skin – and from there, the soul itself."	true
+unit_abilities_onscreen_name_troy_main_hero_defender_ability_hallowed_ground_longlasting	Hallowed Ground (Duration)	true
+unit_abilities_onscreen_name_troy_unit_blind_rage	Blind rage	true
+unit_abilities_onscreen_name_troy_main_hero_defender_ability_set_example	Lead by Example	true
+unit_abilities_tooltip_text_troy_main_hero_archer_ability_inspired_shots_spec_damage	"Guide my arrows true, o brother and sister of the hunt!"	true
+unit_abilities_onscreen_name_troy_main_hero_archer_ability_explosive_attacks_spec_cost	Poison Tips (Cost Reduction)	true
+unit_abilities_onscreen_name_troy_main_hero_fighter_ability_blind_rage_spec_duration	Ares' Rage (Duration)	true
+unit_abilities_tooltip_text_troy_main_hero_archer_ability_apollos_rain_piercing	"From Olympus itself, strike at my enemies with your rain of death, Apollo almighty!"	true
+unit_abilities_tooltip_text_troy_main_hero_warlord_ability_cover	"Shields up! Let no arrow stop our mighty charge!"	true
+unit_abilities_tooltip_text_troy_dlc1_unit_passive_battle_fervour	"All of us have a talent, though we may not know it. Something we are born to do. In my case, it is war."	true
+unit_abilities_tooltip_text_troy_dlc1_unit_inspire_unbreakable	"For they shall know no fear."	true
+unit_abilities_tooltip_text_troy_main_duel_spec_armor	"We must fight until only one remains!"	true
+unit_abilities_tooltip_text_troy_main_hero_archer_ability_strafe_spec_speed	"Move with the speed of Hermes and strike with Artemis' peerless skill."	true
+unit_abilities_tooltip_text_troy_main_hero_defender_ability_care_for_fallen_spec_heal	"Rise, soldier. Charon has embarked – your journey across the Styx can wait another day."	true
+unit_abilities_tooltip_text_troy_main_hero_all_ability_throw_rock_spec_area	"Grant me an iota of your strength, o Heracles, so I may crush my enemies!"	true
+unit_abilities_tooltip_text_troy_main_hero_fighter_ability_blind_rage_spec_duration	"By Ares, I shall drown the world in flames!"	true
+unit_abilities_onscreen_name_troy_main_hero_fighter_ability_cleave_spec_ruthless	Cleave (Stamina)	true
+unit_abilities_tooltip_text_troy_main_hero_fighter_ability_bow_to_the_moirai_spec_armor	"You think you can strike me down? Only the Moirai can decree my fate!"	true
+unit_abilities_onscreen_name_troy_main_hero_all_ability_aristeia	Aristeia	true
+unit_abilities_onscreen_name_troy_dlc1_hero_warlord_ability_none_left_standing_spec_melee_defence	None Left Standing (Melee Defence)	true
+unit_abilities_onscreen_name_troy_main_duel_spec_duration	Divine Challenge (Duration)	true
+unit_abilities_onscreen_name_troy_main_hero_archer_ability_multishot_spec_knockback	Triple Shot (Range)	true
+unit_abilities_onscreen_name_troy_main_hero_warlord_ability_rallying_cry_spec_cooldown	Rallying Cry (Cooldown)	true
+unit_abilities_onscreen_name_troy_main_hero_archer_ability_rapid_fire_spec_dmg	Swift of Heel (Damage)	true
+unit_abilities_onscreen_name_troy_main_hero_fighter_ability_blood_sacrifice_spec_cost	Blood Sacrifice (Cost)	true
+unit_abilities_tooltip_text_troy_main_hero_archer_ability_explosive_attacks	"The poison tip penetrates the shield, or armour plates, right through to the skin – and from there, the soul itself."	true
+unit_abilities_onscreen_name_troy_main_hero_fighter_ability_terrify_melee_defence_reduction	Terrify (Melee Defence)	true
+unit_abilities_onscreen_name_troy_main_hero_archer_ability_apollos_rain_distant	Apollo's Rain (Range)	true
+unit_abilities_onscreen_name_troy_main_hero_defender_ability_second_wind_spec_rage	Divine Regeneration (Rage)	true
+unit_abilities_onscreen_name_troy_dlc1_hero_fighter_ability_battle_song	Song of Battle	true
+unit_abilities_tooltip_text_troy_dlc1_unit_passive_battle_fury	"After a while, muscle memory takes over. You simply hack and hack until... well, until they're all dead."	true
+unit_abilities_tooltip_text_troy_dlc1_unit_passive_to_the_last	"Ignore the pain. Draw on reserves of strength and stamina gifted to us by the gods themselves!"	true
+unit_abilities_tooltip_text_troy_main_hero_warlord_ability_seize_the_moment	"Keep the enemy distracted! Strike at their flanks before they recover!"	true
+unit_abilities_tooltip_text_troy_main_hero_warlord_ability_seize_the_moment_sunder	"Keep the enemy distracted! Strike at their flanks before they recover!"	true
+unit_abilities_tooltip_text_troy_main_hero_fighter_ability_blind_rage	"By Ares, I shall drown the world in flames!"	true
+unit_abilities_tooltip_text_troy_main_unit_volley_toxares	{{tr:troy_unit_ability_volley_description}}	true
+unit_abilities_tooltip_text_troy_main_hero_archer_ability_cheat_hades_relentless	"Solemn Hades beckons me, but from the heart of his realm I shall return the strike that has lain me low!"	true
+unit_abilities_onscreen_name_troy_dlc1_unit_passive_battle_fervour	The Joy of Battle	true
+unit_abilities_onscreen_name_troy_main_hero_all_ability_find_cover	Aegis of Zeus	true
+unit_abilities_tooltip_text_troy_main_hero_archer_ability_explosive_attacks_spec_ap	"The poison tip penetrates the shield, or armour plates, right through to the skin – and from there, the soul itself."	true
+unit_abilities_onscreen_name_troy_main_hero_archer_ability_inspired_shots_spec_damage	Inspired Aim (Damage)	true
+unit_abilities_tooltip_text_troy_main_hero_archer_ability_cheat_hades	"Solemn Hades beckons me, but from the heart of his realm I shall return the strike that has lain me low!"	true
+unit_abilities_tooltip_text_troy_main_hero_fighter_ability_frenzy_spec_vigour	"As murderous Ares is my witness, I shall see you all dead before my rage is quenched!"	true
+unit_abilities_onscreen_name_troy_main_hero_self_sunder_spec_shield	Sunder (Shield)	true
+unit_abilities_tooltip_text_troy_main_hero_archer_ability_born_with_the_bow_spec_speed	"Strike on the move! Swift as a mare, like Lord Chiron taught us!"	true
+unit_abilities_onscreen_name_troy_main_hero_archer_ability_stalk_spec_alpha_strike	In Hades' Shadow (Damage)	true
+unit_abilities_tooltip_text_troy_main_hero_all_ability_adrenaline_rush_spec_cooldown	"Fear me, for the blood of the greatest hero in the known world courses through my veins!"	true
+unit_abilities_onscreen_name_troy_main_hero_fighter_ability_blind_rage_spec_dmg	Ares' Rage (Damage)	true
+unit_abilities_tooltip_text_troy_main_hero_all_ability_ignore_pain_spec_duration	"Pah! You think your puny weapons can strike me down? I am invincible!"	true
+unit_abilities_onscreen_name_troy_main_hero_defender_ability_dread_of_ares_missile_vulnerability	Dread of Ares (Missile Vulnerability)	true
+unit_abilities_onscreen_name_troy_main_hero_fighter_ability_batter	Assault & Battery	true
+unit_abilities_tooltip_text_troy_main_hero_self_bloodthirst_spec_in_battle	"Boil and rage, hunger and thirst, for the blood of thine mortal enemies."	true
+unit_abilities_onscreen_name_troy_main_hero_fighter_ability_cleave_spec_relentless	Cleave (Damage)	true
+unit_abilities_tooltip_text_troy_dlc1_unit_passive_serrated_weapons	"The barbed blade is particularly vicious, for it is not just the strike which wounds, but in pulling out the blade also."	true
+unit_abilities_onscreen_name_troy_main_hero_all_ability_find_cover_spec_increase	Aegis of Zeus (Resistance)	true
+unit_abilities_tooltip_text_troy_main_hero_archer_ability_apollos_rain	"From Olympus itself, strike at my enemies with your rain of death, Apollo almighty!"	true
+unit_abilities_onscreen_name_troy_main_hero_archer_ability_stalk_spec_unspottable	In Hades' Shadow (Unspottable)	true
+unit_abilities_onscreen_name_troy_dlc1_unit_passive_skittish_horses	Skittish Horses	true
+unit_abilities_tooltip_text_troy_main_hero_self_passive_regeneration	"It is not by happenstance that the experienced warrior continues to defy the odds and lives, it is the will of the gods that dictates it!"	true
+unit_abilities_tooltip_text_troy_main_hero_defender_ability_care_for_fallen	"Rise, soldier. Charon has embarked – your journey across the Styx can wait another day."	true
+unit_abilities_onscreen_name_troy_main_hero_fighter_ability_bow_to_the_moirai	Threads of Fate	true
+unit_abilities_onscreen_name_troy_main_hero_warlord_ability_marked_for_death_spec_cd	Zeus' Wrath (Cooldown)	true
+unit_abilities_onscreen_name_troy_main_hero_fighter_ability_frenzy	Frenzy	true
+unit_abilities_onscreen_name_troy_dlc1_hero_fighter_ability_battle_song_spec_charge	Song of Battle (Charge)	true
+unit_abilities_tooltip_text_troy_main_hero_warlord_ability_marked_for_death_spec_cd	"Tremble, mortal, for today you will meet your fate, ordained by Zeus himself!"	true
+unit_abilities_onscreen_name_troy_main_hero_archer_ability_born_with_the_bow	Centaur Drill	true
+unit_abilities_onscreen_name_troy_main_hero_all_ability_throw_rock	Heraclean Throw	true
+unit_abilities_onscreen_name_troy_dlc1_unit_inspire_unbreakable	Inspire: Unbreakable	true
+unit_abilities_onscreen_name_troy_dlc1_hero_warlord_ability_embrace_of_ares_spec_charge	Embrace of Ares (Charge)	true
+unit_abilities_tooltip_text_troy_main_hero_warlord_ability_commanding_shout_spec_cost	"I scream your name to the heavens, Heracles! Grant me your indomitable might!"	true
+unit_abilities_tooltip_text_troy_main_hero_all_ability_cover_spec_toggle	"Shields up! Let no arrow stop our mighty charge!"	true
+unit_abilities_onscreen_name_troy_main_hero_warlord_ability_cover_spec_radius	Shield Wall (Radius)	true
+unit_abilities_onscreen_name_troy_main_hero_warlord_ability_cover_spec_toggle	Shield Wall (Toggle)	true
+unit_abilities_onscreen_name_troy_main_hero_warlord_ability_insult_spec_duration	Taunt (Duration)	true
+unit_abilities_tooltip_text_troy_main_myth_cyclops_boulder_toss	"Incoming! Poseidon himself must have joined the fray!"	true
+unit_abilities_tooltip_text_troy_main_hero_archer_ability_strafe	"Move with the speed of Hermes and strike with Artemis' peerless skill."	true
+unit_abilities_tooltip_text_troy_main_hero_defender_ability_brace_spec_charge_def	"Not even the mighty Heracles himself can move me from this spot!"	true
+unit_abilities_tooltip_text_troy_main_hero_archer_ability_rapid_fire_spec_cost	"Divine Artemis, lend me the swiftness of your animal subjects!"	true
+unit_abilities_tooltip_text_troy_main_hero_defender_ability_heroic_resolve_spec_heal	"Mighty Heracles, grant me your tenacity as I stare into the face of Hades!"	true
+unit_abilities_tooltip_text_troy_dlc1_hero_fighter_ability_battle_song_spec_melee_attack	"The final swing is not a drill, it's how many people I can kill!"	true
+unit_abilities_tooltip_text_troy_main_hero_fighter_ability_bow_to_the_moirai_spec_damage	"You think you can strike me down? Only the Moirai can decree my fate!"	true
+unit_abilities_onscreen_name_troy_main_hero_warlord_ability_commanding_shout_spec_cd	Heraclean Roar (Cooldown)	true
+unit_abilities_tooltip_text_troy_main_hero_archer_ability_rapid_fire_spec_dmg	"Divine Artemis, lend me the swiftness of your animal subjects!"	true
+unit_abilities_tooltip_text_troy_main_hero_warlord_ability_warning_shout	"Keep your eyes open! The enemy may look to outflank us!"	true
+unit_abilities_tooltip_text_troy_dlc1_unit_passive_forest_fighter	"Those who are born to the forest and its ways can see the wood for the trees; the dense undergrowth does not slow or cause them to falter – it enhances them, in fact."	true
+unit_abilities_onscreen_name_troy_main_hero_defender_ability_brace_spec_charge_def	Immovable Force (Charge Defence)	true
+unit_abilities_tooltip_text_troy_dlc1_hero_archer_ability_deadly_focus_spec_leadership	"Gods, focus my mind and body so that hunter and quarry are all that matter!"	true
+unit_abilities_onscreen_name_troy_main_hero_fighter_ability_cleave	Cleave	true
+unit_abilities_tooltip_text_troy_main_hero_fighter_ability_blood_sacrifice_spec_leadership_damage	"Accept this sacrifice, o mighty lords of Olympus! Sanctify my blood with your divine purpose!"	true
+unit_abilities_onscreen_name_troy_dlc1_unit_passive_forest_fighter	Forest Fighter	true
+unit_abilities_onscreen_name_troy_main_hero_warlord_ability_cover	Shield Wall	true
+unit_abilities_onscreen_name_troy_main_hero_warlord_ability_march_on	March of Hermes	true
+unit_abilities_onscreen_name_troy_main_hero_warlord_ability_commanding_shout	Heraclean Roar	true
+unit_abilities_tooltip_text_troy_main_hero_fighter_ability_jump_in_battle_spec_area	"I bring Ares' gift of death to all of you here today! Take that!"	true
+unit_abilities_tooltip_text_troy_main_hero_fighter_ability_jump_in_battle_spec_armour	"I bring Ares' gift of death to all of you here today! Take that!"	true
+unit_abilities_tooltip_text_troy_main_hero_archer_ability_eagle_eye_spec_cost	"Run all you like! You'll never escape Artemis' perfect aim!"	true
+unit_abilities_tooltip_text_troy_main_hero_archer_ability_precise_shot	"May Apollo, lord of light, pour into me and strike you dead where you stand!"	true
+unit_abilities_tooltip_text_troy_main_hero_all_ability_throw_rock	"Grant me an iota of your strength, o Heracles, so I may crush my enemies!"	true
+unit_abilities_tooltip_text_troy_main_hero_defender_ability_set_example	"Follow me and I shall lead you to glory without end!"	true
+unit_abilities_tooltip_text_troy_main_hero_warlord_ability_insult	"Go boil your bottoms, sons of a silly person!"	true
+unit_abilities_tooltip_text_troy_main_hero_fighter_ability_batter	"With bloody fists I'll batter – like a ten ton hammer, son!"	true
+unit_abilities_tooltip_text_troy_main_hero_defender_bulwark	"Not even the cyclopes shall move us from this place!"	true
+unit_abilities_onscreen_name_troy_main_hero_warlord_ability_warning_shout	Warning Shout	true
+unit_abilities_onscreen_name_troy_main_hero_archer_ability_precise_shot_spec_damage	Apollo's Aim (Damage)	true
+unit_abilities_onscreen_name_troy_main_hero_fighter_ability_jump_in_battle_spec_armour	Ares' Gift	true
+unit_abilities_tooltip_text_troy_myth_sirens_lure	"No one can resist the melody of our song. Come sailor, come to your death." 	true
+unit_abilities_onscreen_name_troy_main_hero_all_ability_adrenaline_rush_spec_cooldown	Blood of Heracles (Cooldown)	true
+unit_abilities_tooltip_text_troy_dlc1_unit_passive_relentless	"A passion for battle has flowed into them from Ares himself, and spread between each; even if their leader falls, they will fight on and on."	true
+unit_abilities_tooltip_text_troy_main_hero_fighter_ability_cleave_spec_ruthless	"You dare stand in the way of greatness? Feel the wrath of Olympus!"	true
+unit_abilities_onscreen_name_troy_main_hero_warlord_ability_insult_spec_area	Taunt (Area)	true
+unit_abilities_tooltip_text_troy_main_hero_fighter_ability_desecrate_the_fallen_spec_armour	"You demand honour for the fallen? They had their chance to earn it whilst still they lived!"	true
+unit_abilities_tooltip_text_troy_main_hero_archer_ability_stalk	"I am the blade in darkness. I am the strike unseen."	true
+unit_abilities_tooltip_text_troy_main_hero_fighter_ability_blood_sacrifice	"Accept this sacrifice, o mighty lords of Olympus! Sanctify my blood with your divine purpose!"	true
+unit_abilities_onscreen_name_troy_dlc1_unit_inspire_fierce_resolve	Inspire: Fierce Resolve	true
+unit_abilities_tooltip_text_troy_main_hero_archer_ability_escape_spec_cd	"It is not luck or fortune, or some special ability that the foe has that we do not, that allowed us to evade death, it was the will of the gods."	true
+unit_abilities_onscreen_name_troy_dlc1_hero_warlord_abiltiy_embrace_of_ares	Embrace of Ares	true
+unit_abilities_tooltip_text_troy_main_hero_archer_ability_rapid_fire	"Divine Artemis, lend me the swiftness of your animal subjects!"	true
+unit_abilities_onscreen_name_troy_main_hero_all_ability_aristeia_passive	Aristeia (Passive)	true
+unit_abilities_onscreen_name_troy_main_hero_fighter_ability_throw_spear_spec_dmg	Olympian Throw (Damage)	true
+unit_abilities_onscreen_name_troy_main_hero_defender_ability_care_for_fallen_spec_cd	Favour of Asclepius (Cooldown)	true
+unit_abilities_onscreen_name_troy_main_hero_fighter_ability_desecrate_the_fallen_spec_cost	Humiliate the Dead (Cost)	true
+unit_abilities_onscreen_name_troy_main_hero_archer_ability_explosive_attacks	Poison Tips	true
+unit_abilities_onscreen_name_troy_main_hero_archer_ability_cheat_hades_relentless	Cheat Hades (Stamina)	true
+unit_abilities_tooltip_text_troy_main_hero_defender_ability_recuperate_spec_increase_amount	"Tire not, companions! Titanblood courses through our veins!"	true
+unit_abilities_onscreen_name_troy_main_unit_weapon_switching	Two-handed Melee	true
+unit_abilities_onscreen_name_troy_main_hero_archer_ability_relentless_pursuit_spec_cooldown	Flights of Artemis (Cooldown)	true
+unit_abilities_onscreen_name_troy_main_hero_fighter_ability_focused_strikes_spec_less_reduction	Divine Focus (Attack Speed)	true
+unit_abilities_tooltip_text_troy_main_unit_volley_amazon_archers	{{tr:troy_unit_ability_volley_description}}	true
+unit_abilities_tooltip_text_troy_main_hero_all_ability_throw_rock_spec_range	"Grant me an iota of your strength, o Heracles, so I may crush my enemies!"	true
+unit_abilities_tooltip_text_troy_main_hero_defender_ability_heroic_resolve_spec_duration	"Mighty Heracles, grant me your tenacity as I stare into the face of Hades!"	true
+unit_abilities_onscreen_name_troy_main_hero_all_ability_throw_rock_spec_range	Heraclean Throw (Range)	true
+unit_abilities_tooltip_text_troy_main_hero_warlord_ability_fight_on_spec_strength	"Warriors, to me! By the might of gleaming-eyed Athena, we shall prevail!"	true
+unit_abilities_onscreen_name_troy_dlc1_unit_passive_warriors_pledge_proximity	Warrior's Pledge (Proximity)	true
+unit_abilities_onscreen_name_troy_main_hero_defender_ability_care_for_fallen_spec_heal	Favour of Asclepius (Heal)	true
+unit_abilities_tooltip_text_troy_main_hero_warlord_ability_march_on_spec_speed	"To me! We go on until the gods themselves command that we halt!"	true
+unit_abilities_tooltip_text_troy_main_duel_spec_duration	"We must fight until only one remains!"	true
+unit_abilities_tooltip_text_troy_main_hero_archer_ability_born_with_the_bow	"Strike on the move! Swift as a mare, like Lord Chiron taught us!"	true
+unit_abilities_onscreen_name_troy_main_hero_archer_ability_relentless_pursuit_spec_cost	Flights of Artemis (Cost)	true
+unit_abilities_onscreen_name_troy_main_hero_warlord_ability_rallying_cry	Rallying Cry	true
+unit_abilities_onscreen_name_troy_main_hero_defender_ability_recuperate	Reinvigorate	true
+unit_abilities_onscreen_name_troy_main_hero_warlord_ability_battle_cry	Ares' Thunder	true
+unit_abilities_onscreen_name_troy_main_hero_warlord_ability_commanding_shout_spec_cost	Heraclean Roar (Cost)	true
+unit_abilities_tooltip_text_troy_bull_rush	"Mess with the bull, you get the horns!"	true
+unit_abilities_tooltip_text_troy_main_hero_all_ability_ignore_pain_spec_heal	"Pah! You think your puny weapons can strike me down? I am invincible!"	true
+unit_abilities_tooltip_text_troy_main_hero_defender_ability_hallowed_ground_longlasting	"What fool would dare defile the sanctuary of the gods? Do not tempt their furious anger!"	true
+unit_abilities_tooltip_text_troy_main_hero_warlord_ability_march_on_spec_radius	"To me! We go on until the gods themselves command that we halt!"	true
+unit_abilities_tooltip_text_troy_main_hero_fighter_ability_cleave_spec_relentless	"You dare stand in the way of greatness? Feel the wrath of Olympus!"	true
+unit_abilities_tooltip_text_troy_main_hero_defender_ability_second_wind_spec_rage	"Do not let me fall here today, fair Lady Athena, for I have many more battles to win in your name!"	true
+unit_abilities_tooltip_text_troy_main_hero_warlord_ability_cover_spec_toggle	"Shields up! Let no arrow stop our mighty charge!"	true
+unit_abilities_onscreen_name_troy_main_hero_all_ability_divine_inspiration_spec_inspiration	Heavenly Inspiration (Inspiration)	true
+unit_abilities_onscreen_name_troy_main_unit_volley_hippolytas_chosen	{{tr:hp_title_volley}}	true
+unit_abilities_tooltip_text_troy_main_hero_fighter_ability_vanquish	"Begone, defeated worm! You are unworthy of facing me!"	true
+unit_abilities_onscreen_name_troy_main_hero_archer_ability_inspired_shots	Inspired Aim	true
+unit_abilities_tooltip_text_troy_main_hero_archer_ability_precise_shot_spec_cost	"May Apollo, lord of light, pour into me and strike you dead where you stand!"	true
+unit_abilities_tooltip_text_troy_dlc1_hero_warlord_ability_embrace_of_ares_spec_charge	"I'll wake the silence in you, I'll shoot the violence through you!"	true
+unit_abilities_tooltip_text_troy_main_hero_defender_ability_dread_of_ares_melee_attack_reduction	"May Ares' sons strike paralysing terror into your hearts!"	true
+unit_abilities_onscreen_name_troy_main_hero_all_ability_cover_spec_toggle	Shield Wall (Toggle)	true
+unit_abilities_onscreen_name_troy_main_unit_weapon_switching_passive	Two-handed Melee	true
+unit_abilities_onscreen_name_troy_main_hero_warlord_ability_fight_on_spec_radius	Leader of Men (Radius)	true
+unit_abilities_tooltip_text_troy_main_hero_defender_ability_dread_of_ares_missile_vulnerability	"May Ares' sons strike paralysing terror into your hearts!"	true
+unit_abilities_tooltip_text_troy_main_hero_fighter_ability_batter_spec_cost	"With bloody fists I'll batter – like a ten ton hammer, son!"	true
+unit_abilities_onscreen_name_troy_main_hero_defender_ability_brace	Immovable Force	true
+unit_abilities_onscreen_name_troy_dlc1_hero_archer_ability_deadly_focus_spec_reload	Deadly Focus (Reload)	true

@@ -16,15 +16,11 @@ function getSkillRows(data) {
         allCharacterSkillLevelToEffectsJunctionsTablesTsv,
         allImageSharp,
         allEffectsLocTsv,
-        allEffectsTablesTsv,
+        allEffectsTablesTsv
     } = data
 
     const nodes = allCharacterSkillNodesTablesTsv.edges
-        .filter(
-            s =>
-                s.node.character_skill_node_set_key ===
-                characterSkillNodeSetsTablesTsv.key
-        )
+        .filter(s => s.node.character_skill_node_set_key === characterSkillNodeSetsTablesTsv.key)
         .sort((a, b) => {
             const tier = (Number(a.node.tier) - Number(b.node.tier)) * 100
             const indent = Number(a.node.indent) - Number(b.node.indent)
@@ -52,15 +48,11 @@ function getSkillRows(data) {
             }
 
             const effects = allCharacterSkillLevelToEffectsJunctionsTablesTsv.edges
-                .filter(
-                    effect => effect.node.character_skill_key === skill.node.key
-                )
+                .filter(effect => effect.node.character_skill_key === skill.node.key)
                 .map(effect => effect.node)
                 .map(effect => {
                     const loc = allEffectsLocTsv.edges.find(
-                        l =>
-                            l.node.key ===
-                            `effects_description_${effect.effect_key}`
+                        l => l.node.key === `effects_description_${effect.effect_key}`
                     )
 
                     const effectData = allEffectsTablesTsv.edges.find(
@@ -77,7 +69,7 @@ function getSkillRows(data) {
                         : ""
                     return {
                         ...effect,
-                        ...effectData.node,
+                        ...effectData.node
                     }
                 })
 
@@ -85,9 +77,7 @@ function getSkillRows(data) {
             item.img = item.effects = effects
 
             const img = allImageSharp.edges.find(
-                ({ node }) =>
-                    node.childImageSharp.fixed.originalName ===
-                    skill.node.image_path
+                ({ node }) => node.childImageSharp.fixed.originalName === skill.node.image_path
             )
 
             item.img = img ? img.node.childImageSharp : null
@@ -129,9 +119,7 @@ export default function CharacterSkills({ data }) {
                         return null
                     }
 
-                    const visibleInUI = row.find(
-                        skill => skill.visible_in_ui === "true"
-                    )
+                    const visibleInUI = row.find(skill => skill.visible_in_ui === "true")
 
                     if (!visibleInUI) {
                         return null
@@ -248,9 +236,7 @@ export const query = graphql`
             }
         }
 
-        allImageSharp: allFile(
-            filter: { relativeDirectory: { eq: "skills/large" } }
-        ) {
+        allImageSharp: allFile(filter: { relativeDirectory: { eq: "skills/large" } }) {
             totalCount
             edges {
                 node {

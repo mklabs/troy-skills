@@ -5,14 +5,14 @@ const indentAssociation = {
     1: 2,
     2: 1,
     4: 5,
-    5: 4,
+    5: 4
 }
 
 const SkillIndent = ({
     skills,
     indent,
     isRightSkillShifted,
-    style = { width: "38px", height: "38px" },
+    style = { width: "38px", height: "38px" }
 }) => {
     if (!skills) {
         return null
@@ -35,25 +35,7 @@ const SkillIndent = ({
     let className = `skill-indent skill-indent-${indent}`
     let hasOnlyOneSpecSkill = false
     if (indent !== 3 && indent !== 6) {
-        hasOnlyOneSpecSkill = !skills.find(
-            s => Number(s.indent) === indentAssociation[indent]
-        )
-
-        if (
-            skill.key ===
-            "troy_main_hero_paris_self_armour_piercing_spec_strength"
-        ) {
-            console.log(
-                ">",
-                hasOnlyOneSpecSkill,
-                skills,
-                indent,
-                indentAssociation[indent],
-                !skills.find(
-                    s => Number(s.indent) === indentAssociation[indent]
-                )
-            )
-        }
+        hasOnlyOneSpecSkill = !skills.find(s => Number(s.indent) === indentAssociation[indent])
     }
 
     if (hasOnlyOneSpecSkill) {

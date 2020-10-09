@@ -44,11 +44,7 @@ export default function CharactersList() {
 
     return (
         <div className="header-datalist-wrapper">
-            <input
-                placeholder="Choose a characters"
-                list="characters-list"
-                onChange={onChange}
-            />
+            <input placeholder="Choose a characters" list="characters-list" onChange={onChange} />
 
             <datalist id="characters-list">
                 {nodesets.edges.map(({ node }) => (

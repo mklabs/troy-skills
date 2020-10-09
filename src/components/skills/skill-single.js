@@ -9,9 +9,7 @@ const SkillSingle = ({ skills = [] }) => {
 
     return (
         <div className="skill-single">
-            <h3 className="skill-name skill-single-name">
-                {skill.skill.localised_name}
-            </h3>
+            <h3 className="skill-name skill-single-name">{skill.skill.localised_name}</h3>
             <div className="skill-card skill-single-card">
                 <SkillIcon skill={skill} size={86} />
             </div>
