@@ -1,5 +1,4 @@
 import React from "react"
-import Img from "gatsby-image"
 import { useStaticQuery, graphql } from "gatsby"
 import SkillTooltipAbilityEffect from "./skill-tooltip-ability-effect"
 
@@ -109,7 +108,6 @@ export default function SkillTooltipAbility({ skill }) {
     ).node.text
 
     const rechargeTime = Number(ability.recharge_time)
-    const activeTime = Number(ability.active_time)
 
     console.log("==>", ability)
     return (

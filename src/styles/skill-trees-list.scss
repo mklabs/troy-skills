@@ -1,0 +1,29 @@
+.skill-trees-list {
+    h2 {
+        border-bottom: 1px solid #f1cea0;
+        padding-bottom: 0.5rem;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .skill-trees-list-section {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 1rem;
+    }
+    
+
+    .skill-trees-list-agents, .skill-trees-list-heroes, .skill-trees-list-epic-heroes {
+        flex-basis: 33%;
+    }
+
+    .skill-trees-list-agents:nth-child(1) {
+        flex: 1;
+    }
+
+    .skill-trees-list-agents:nth-child(2) {
+        flex: 2;
+    }
+}

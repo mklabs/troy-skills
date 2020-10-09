@@ -1,4 +1,3 @@
-import SkillTooltipAbility from "./skill-tooltip-ability"
 import React from "react"
 import { format } from "util"
 

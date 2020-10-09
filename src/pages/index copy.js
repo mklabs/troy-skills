@@ -126,16 +126,23 @@ export default function Home({ data }) {
 
     rows.forEach(row => {
         const agentLoc = getAgentLoc(row.agent_subtype_key)
+        let key = row.agent_key
         if (agentLoc.text === "Epic Hero") {
+            key = "epic_heroes"
+
             const factionGroup = factionGroups[row.agent_subtype_key]
             epicHeroes[factionGroup] = epicHeroes[factionGroup] || []
             epicHeroes[factionGroup].push(row)
         } else if (agentKeys.includes(row.agent_key)) {
+            key = "agents"
+
             const subculture = getSubcultureName(row.subculture)
             const subcultureKey = subculture === "Achaeans" ? "Common" : subculture
             agents[subcultureKey] = agents[subcultureKey] || []
             agents[subcultureKey].push(row)
         } else {
+            key = "hero_classes"
+
             const faction = getFactionNameForAgentSubtype(row.agent_subtype_key) || "Common"
             heroClasses[faction] = heroClasses[faction] || []
             heroClasses[faction].push(row)
@@ -145,72 +152,70 @@ export default function Home({ data }) {
     return (
         <Layout>
             <SEO title="Home" />
+            <h3>Epic Heroes</h3>
+
             <div className="skill-trees-list">
-                <h2>Epic Heroes</h2>
+                {Object.keys(epicHeroes).map(factionGroup => (
+                    <div className="skill-trees-list-epic-heroes" key={factionGroup}>
+                        <h4>{factionGroup}</h4>
 
-                <div className="skill-trees-list-section">
-                    {Object.keys(epicHeroes).map(factionGroup => (
-                        <div className="skill-trees-list-epic-heroes" key={factionGroup}>
-                            <h4>{factionGroup}</h4>
+                        {epicHeroes[factionGroup].map(
+                            ({ key, fields, agent_subtype_key, subculture }) => (
+                                <div key={key}>
+                                    <h3>
+                                        <Link to={fields.slug}>
+                                            {getOnScreenName(agent_subtype_key)}
+                                        </Link>
+                                    </h3>
+                                </div>
+                            )
+                        )}
+                    </div>
+                ))}
+            </div>
 
-                            {epicHeroes[factionGroup].map(
+            <h3>Hero Classes</h3>
+            <div className="skill-trees-list">
+                {Object.keys(heroClasses).map(faction => (
+                    <div className="skill-trees-list-heroes" key={faction}>
+                        <h4>{faction}</h4>
+
+                        {heroClasses[faction].map(
+                            ({ key, fields, agent_subtype_key, subculture }) => (
+                                <div key={key}>
+                                    <h3>
+                                        <Link to={fields.slug}>
+                                            {getOnScreenName(agent_subtype_key)}-{" "}
+                                        </Link>
+                                    </h3>
+                                </div>
+                            )
+                        )}
+                    </div>
+                ))}
+            </div>
+
+            <h3>Agents</h3>
+            <div className="skill-trees-list">
+                {Object.keys(agents)
+                    .reverse()
+                    .map(subculture => (
+                        <div className="skill-trees-list-heroes" key={subculture}>
+                            <h4>{subculture}</h4>
+
+                            {agents[subculture].map(
                                 ({ key, fields, agent_subtype_key, subculture }) => (
-                                    <p key={key}>
-                                        <em>
+                                    <div key={key}>
+                                        <h3>
                                             <Link to={fields.slug}>
                                                 {getOnScreenName(agent_subtype_key)}
                                             </Link>
-                                        </em>
-                                    </p>
+                                        </h3>
+                                    </div>
                                 )
                             )}
                         </div>
                     ))}
-                </div>
-
-                <h2>Hero Classes</h2>
-                <div className="skill-trees-list-section">
-                    {Object.keys(heroClasses).map(faction => (
-                        <div className="skill-trees-list-heroes" key={faction}>
-                            <h4>{faction}</h4>
-
-                            {heroClasses[faction].map(
-                                ({ key, fields, agent_subtype_key, subculture }) => (
-                                    <p key={key}>
-                                        <em>
-                                            <Link to={fields.slug}>
-                                                {getOnScreenName(agent_subtype_key)}
-                                            </Link>
-                                        </em>
-                                    </p>
-                                )
-                            )}
-                        </div>
-                    ))}
-                </div>
-
-                <h2>Agents</h2>
-                <div className="skill-trees-list-section">
-                    {Object.keys(agents)
-                        .reverse()
-                        .map(subculture => (
-                            <div className="skill-trees-list-agents" key={subculture}>
-                                <h4>{subculture}</h4>
-
-                                {agents[subculture].map(
-                                    ({ key, fields, agent_subtype_key, subculture }) => (
-                                        <p key={key}>
-                                            <em>
-                                                <Link to={fields.slug}>
-                                                    {getOnScreenName(agent_subtype_key)}
-                                                </Link>
-                                            </em>
-                                        </p>
-                                    )
-                                )}
-                            </div>
-                        ))}
-                </div>
             </div>
         </Layout>
     )
