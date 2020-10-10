@@ -1,0 +1,76 @@
+.skill-trees-list-dropdown {
+    padding-top: 16px;
+    display: flex;
+    justify-content: space-between;
+
+    h2 {
+        font-size: 1rem;
+        display: none;
+    }
+
+    h3 {
+        font-size: 0.8rem;
+    }
+
+    h2, h3 {
+        margin-bottom: 0.5rem;
+        color: rgba(255, 255, 255, 0.6);
+        opacity: 0.8;
+    }
+    
+    a {
+        color: #fff;
+    }
+
+    a:hover {
+        color: #f1cea0;
+    }
+    
+    ul {
+        list-style: none;
+        line-height: 24px;
+        font-size: 14px;
+        margin: 0;
+
+        li {
+            line-height: 2;
+            margin: 0;
+        }
+    }
+
+    .dropdown-section {
+        padding-top: 8px;
+        padding-right: 48px;
+        border-right: 1px solid rgba(255, 255, 255, .1);
+    }
+
+    .dropdown-section:nth-child(1) {
+        padding-left: 0;
+    }
+
+    .dropdown-section:last-child {
+        border-right: none;
+    }
+
+    .dropdown-section-list {
+        display: flex;
+        // padding-left: 16px;
+    }
+
+    .list-heroes {
+        // flex-basis: 400px;
+        margin-left: 32px;
+    }
+
+    .list-heroes:nth-child(1) {
+        margin-left: 0;
+    }
+
+    .dropdown-section-epic-heroes, .dropdown-section-agents {
+        flex-direction: column;
+    }
+
+    .dropdown-list {
+        margin-bottom: 1rem;
+    }
+}

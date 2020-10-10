@@ -109,7 +109,6 @@ export default function SkillTooltipAbility({ skill }) {
 
     const rechargeTime = Number(ability.recharge_time)
 
-    console.log("==>", ability)
     return (
         <div className="skill-tooltip-ability">
             <div className="tooltip-ability-title">

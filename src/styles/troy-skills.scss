@@ -9,9 +9,22 @@ body  {
         color: #f1cea0;
     }
 
-    a:active, a:hover {
+    button {
+        color: #f1cea0;
         outline-width: 0;
-        color: #795548;
+        background: none;
+        border: none;
+        cursor: pointer;
+        font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    }
+    
+    button:hover, a:active, a:hover {
+        outline-width: 0;
+        color: #fff;
+    }
+
+    .hidden {
+        display: none;
     }
 }
 

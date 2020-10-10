@@ -1,27 +1,50 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
-import React from "react"
+import React, { useState } from "react"
 import "../styles/header.scss"
-import CharactersList from "./header/characters-list"
+import SkillTreesList from "./list/skill-trees-list"
 
-const Header = ({ siteTitle }) => (
-    <header className="header-title">
-        <div
-            className="header-title-wrapper"
-            style={{
-                margin: `0 auto`,
-                maxWidth: 960,
-                padding: `1.45rem 1.0875rem`
-            }}
-        >
-            <h1 style={{ margin: 0 }}>
-                <Link to="/">{siteTitle}</Link>
-            </h1>
+const Header = ({ siteTitle, page }) => {
+    const [isDropdownActive, setIsDropdownActive] = useState(false)
 
-            <CharactersList />
+    const onNavItemClick = ev => {
+        setIsDropdownActive(!isDropdownActive)
+    }
+
+    return (
+        <div className="header-wrapper">
+            <header className="header">
+                <div className="header-title-wrapper">
+                    <h1 className="header-title">
+                        <Link to="/">{siteTitle}</Link>
+                    </h1>
+
+                    {page !== "Home" ? (
+                        <button className="header-nav-item" onClick={onNavItemClick}>
+                            Characters
+                        </button>
+                    ) : (
+                        ""
+                    )}
+                </div>
+            </header>
+
+            {page !== "Home" ? (
+                <div
+                    className={`header-dropdown ${
+                        isDropdownActive ? "header-dropdown-active" : ""
+                    }`}
+                >
+                    <div className="header-dropdown-wrapper">
+                        <SkillTreesList />
+                    </div>
+                </div>
+            ) : (
+                ""
+            )}
         </div>
-    </header>
-)
+    )
+}
 
 Header.propTypes = {
     siteTitle: PropTypes.string

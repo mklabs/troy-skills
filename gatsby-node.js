@@ -60,8 +60,6 @@ exports.createPages = async ({ graphql, actions }) => {
 exports.sourceNodes = ({ actions, createNodeId, createContentDigest }) => {
     const { createNode } = actions
 
-    console.log(`Source node: git commit`)
-
     return new Promise(async (resolve, reject) => {
         exec("git rev-parse --short HEAD", (err, stdout, stderr) => {
             if (err) {

@@ -22,7 +22,6 @@ export default function SkillTooltipAbilityEffect({ ability, prop, label, value,
         return null
     }
 
-    // console.log(ability, prop, field)
     return (
         <div className="tooltip-ability-effect">
             <span className="tooltip-ability-effect-name">{label}:</span>

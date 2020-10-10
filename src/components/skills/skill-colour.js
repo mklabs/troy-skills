@@ -2,7 +2,7 @@ import React from "react"
 export default function SkillColour({ skills, level }) {
     const skill = skills[0]
     if (!skill) {
-        return
+        return null
     }
 
     const colour = skill.skill.skill_colour || "campaign"
