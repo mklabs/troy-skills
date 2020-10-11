@@ -2,6 +2,7 @@ import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import SkillTreesListPage from "./skill-trees-list-page"
 import SkillTreesListDropdown from "./skill-trees-list-dropdown"
+import AgentSubtypeService from "../../services/agent-subtype-service"
 
 export default function SkillTreesList({ size }) {
     const data = useStaticQuery(graphql`
@@ -82,39 +83,13 @@ export default function SkillTreesList({ size }) {
 
     const {
         nodesets,
-        locAgentSubtypes,
-        allLandUnitsLocTsv,
-        allAgentsSubtypesTablesTsv,
         allCharacterSkillNodesTablesTsv,
         allCulturesSubculturesLocTsv,
         allFactionAgentPermittedSubtypesTablesTsv,
         allFactionsLocTsv
     } = data
 
-    const getAgentLoc = key => {
-        return locAgentSubtypes.nodes.find(
-            node => node.key === `agent_subtypes_onscreen_name_override_${key}`
-        )
-    }
-
-    const getOnScreenName = key => {
-        const node = getAgentLoc(key)
-        const subtype = allAgentsSubtypesTablesTsv.nodes.find(node => node.key === key)
-
-        if (!node || !subtype) {
-            return ""
-        }
-
-        let name = node.text
-        if (node.text === "Epic Hero") {
-            const heroName = allLandUnitsLocTsv.nodes.find(
-                node => node.key === `land_units_onscreen_name_${subtype.associated_unit_override}`
-            )
-            name = heroName.text
-        }
-
-        return name
-    }
+    const service = new AgentSubtypeService()
 
     const getSubcultureName = key => {
         const loc = allCulturesSubculturesLocTsv.nodes.find(
@@ -200,7 +175,7 @@ export default function SkillTreesList({ size }) {
     }
 
     rows.forEach(row => {
-        const agentLoc = getAgentLoc(row.agent_subtype_key)
+        const agentLoc = service.getAgentLoc(row.agent_subtype_key)
         if (agentLoc.text === "Epic Hero") {
             const factionGroup = factionGroups[row.agent_subtype_key]
             epicHeroes[factionGroup] = epicHeroes[factionGroup] || []
@@ -223,7 +198,7 @@ export default function SkillTreesList({ size }) {
             epicHeroes={epicHeroes}
             heroClasses={heroClasses}
             agents={agents}
-            getOnScreenName={getOnScreenName}
+            service={service}
         />
     )
 }

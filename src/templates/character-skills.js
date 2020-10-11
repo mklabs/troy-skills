@@ -5,7 +5,7 @@ import SkillSingle from "../components/skills/skill-single"
 import SkillPair from "../components/skills/skill-pair"
 import SkillColour from "../components/skills/skill-colour"
 import SEO from "../components/seo"
-
+import AgentSubtypeService from "../services/agent-subtype-service"
 import "../styles/character-skills.scss"
 
 function getSkillRows(data) {
@@ -104,7 +104,9 @@ function getSkillRows(data) {
 }
 
 export default function CharacterSkills({ data }) {
-    const { characterSkillNodeSetsTablesTsv } = data
+    const { agentSubtype } = data
+
+    const service = new AgentSubtypeService()
     const rows = getSkillRows(data)
 
     const [isRawHidden, setIsRawHidden] = useState(true)
@@ -118,11 +120,12 @@ export default function CharacterSkills({ data }) {
     }
 
     const jsonClassname = isRawHidden ? "hidden" : ""
+    const title = `${service.getOnScreenName(agentSubtype.key)} Skill Tree`
 
     return (
         <Layout>
-            <SEO title={characterSkillNodeSetsTablesTsv.key} />
-            <h2>{characterSkillNodeSetsTablesTsv.key}</h2>
+            <SEO title={title} />
+            <h2>{title}</h2>
 
             <Link to="/">Return to list</Link>
 
@@ -162,7 +165,7 @@ export default function CharacterSkills({ data }) {
 
 export const query = graphql`
     query($agent_subtype_key: String, $key: String) {
-        agentsSubtypesTablesTsv(key: { eq: $agent_subtype_key }) {
+        agentSubtype: agentsSubtypesTablesTsv(key: { eq: $agent_subtype_key }) {
             key
             auto_generate
             small_icon

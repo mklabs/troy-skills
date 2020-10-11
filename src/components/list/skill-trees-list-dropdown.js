@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import "../../styles/skill-trees-list-dropdown.scss"
 
-const SkillTreesListDropdown = ({ epicHeroes, heroClasses, agents, getOnScreenName }) => (
+const SkillTreesListDropdown = ({ epicHeroes, heroClasses, agents, service }) => (
     <div className="skill-trees-list-dropdown">
         <div className="dropdown-section">
             <h2>Epic Heroes</h2>
@@ -13,10 +13,10 @@ const SkillTreesListDropdown = ({ epicHeroes, heroClasses, agents, getOnScreenNa
 
                         <ul>
                             {epicHeroes[factionGroup].map(
-                                ({ key, fields, agent_subtype_key, subculture }) => (
+                                ({ key, fields, agent_subtype_key }) => (
                                     <li key={key}>
                                         <Link to={fields.slug}>
-                                            {getOnScreenName(agent_subtype_key)}
+                                            {service.getOnScreenName(agent_subtype_key)}
                                         </Link>
                                     </li>
                                 )
@@ -36,10 +36,10 @@ const SkillTreesListDropdown = ({ epicHeroes, heroClasses, agents, getOnScreenNa
 
                         <ul>
                             {heroClasses[faction].map(
-                                ({ key, fields, agent_subtype_key, subculture }) => (
+                                ({ key, fields, agent_subtype_key }) => (
                                     <li key={key}>
                                         <Link to={fields.slug}>
-                                            {getOnScreenName(agent_subtype_key)}
+                                            {service.getOnScreenName(agent_subtype_key)}
                                         </Link>
                                     </li>
                                 )
@@ -61,10 +61,10 @@ const SkillTreesListDropdown = ({ epicHeroes, heroClasses, agents, getOnScreenNa
 
                             <ul>
                                 {agents[subculture].map(
-                                    ({ key, fields, agent_subtype_key, subculture }) => (
+                                    ({ key, fields, agent_subtype_key }) => (
                                         <li key={key}>
                                             <Link to={fields.slug}>
-                                                {getOnScreenName(agent_subtype_key)}
+                                                {service.getOnScreenName(agent_subtype_key)}
                                             </Link>
                                         </li>
                                     )

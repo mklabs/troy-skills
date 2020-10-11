@@ -288,7 +288,14 @@ export default class TooltibAbilityService {
 
     getStaticImage(img) {
         img = /^ui\//.test(img) ? img : `ui/skins/default/${img}.png`
-        return <img className="tooltip-ability-effect-icon" src={withPrefix(img)} alt={img} style={{marginBottom: 0}} />
+        return (
+            <img
+                className="tooltip-ability-effect-icon"
+                src={withPrefix(img)}
+                alt={img}
+                style={{ marginBottom: 0 }}
+            />
+        )
     }
 
     getAbilityIconImage(img) {
