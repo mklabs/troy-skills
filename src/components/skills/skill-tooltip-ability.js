@@ -1,5 +1,5 @@
 import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql, withPrefix } from "gatsby"
 import SkillTooltipAbilityEffect from "./skill-tooltip-ability-effect"
 import "../../styles/skill-tooltip-ability.scss"
 
@@ -255,7 +255,7 @@ export default function SkillTooltipAbility({ skill }) {
                 .split(imgRegex)
                 .map((s, i) => (
                     <span key={i}>
-                        {s === img ? <img className="tooltip-ability-effect-icon" src={s} alt={s} /> : s}
+                        {s === img ? <img className="tooltip-ability-effect-icon" src={withPrefix(s)} alt={s} /> : s}
                     </span>
                 ))
 
@@ -279,7 +279,7 @@ export default function SkillTooltipAbility({ skill }) {
                 content: (
                     <span key="fatigue">
                         {valueText}{" "}
-                        <img className="tooltip-ability-effect-icon" src="ui/skins/default/fatigue.png" alt="Fatigue" />{" "}
+                        <img className="tooltip-ability-effect-icon" src={withPrefix("ui/skins/default/fatigue.png")} alt="Fatigue" />{" "}
                         Stamina
                     </span>
                 )
@@ -320,7 +320,7 @@ export default function SkillTooltipAbility({ skill }) {
             <span>
                 <img
                     className="tooltip-ability-effect-icon"
-                    src="ui/skins/default/icon_distance_to_target.png"
+                    src={withPrefix("ui/skins/default/icon_distance_to_target.png")}
                     alt="Distance to Target"
                 />
                 {targetInterceptRange}m
