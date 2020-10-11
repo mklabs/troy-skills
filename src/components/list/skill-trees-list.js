@@ -92,7 +92,9 @@ export default function SkillTreesList({ size }) {
     } = data
 
     const getAgentLoc = key => {
-        return locAgentSubtypes.nodes.find(node => node.key === `agent_subtypes_onscreen_name_override_${key}`)
+        return locAgentSubtypes.nodes.find(
+            node => node.key === `agent_subtypes_onscreen_name_override_${key}`
+        )
     }
 
     const getOnScreenName = key => {
@@ -115,7 +117,9 @@ export default function SkillTreesList({ size }) {
     }
 
     const getSubcultureName = key => {
-        const loc = allCulturesSubculturesLocTsv.nodes.find(node => node.key === `cultures_subcultures_name_${key}`)
+        const loc = allCulturesSubculturesLocTsv.nodes.find(
+            node => node.key === `cultures_subcultures_name_${key}`
+        )
         return loc ? loc.text : ""
     }
 
@@ -124,7 +128,9 @@ export default function SkillTreesList({ size }) {
     }
 
     const getFactionName = faction => {
-        const loc = allFactionsLocTsv.nodes.find(node => node.key === `factions_screen_name_${faction.faction}`)
+        const loc = allFactionsLocTsv.nodes.find(
+            node => node.key === `factions_screen_name_${faction.faction}`
+        )
         return loc ? loc.text : ""
     }
 
@@ -150,7 +156,9 @@ export default function SkillTreesList({ size }) {
     const skillNodes = []
     const rows = nodesets.nodes.filter(({ key }) => {
         const nodes = allCharacterSkillNodesTablesTsv.nodes
-            .filter(node => node.character_skill_node_set_key === key && node.visible_in_ui === "true")
+            .filter(
+                node => node.character_skill_node_set_key === key && node.visible_in_ui === "true"
+            )
             .sort((a, b) => {
                 if (a.character_skill_key < b.character_skill_key) {
                     return -1

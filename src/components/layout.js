@@ -44,8 +44,8 @@ const Layout = ({ children, page }) => {
                 <div>
                     <p>
                         Game content, images and materials are trademarks and copyrights of{" "}
-                        <a href="https://www.creative-assembly.com/">Creative Assembly</a>, creators of the awesome{" "}
-                        <a href="https://www.totalwar.com/">Total War</a> games.
+                        <a href="https://www.creative-assembly.com/">Creative Assembly</a>, creators
+                        of the awesome <a href="https://www.totalwar.com/">Total War</a> games.
                     </p>
                 </div>
                 <div>

@@ -32,7 +32,11 @@ const SkillPair = ({ skills }) => {
 
                     <div className="skill-tier-spec">
                         {!isRightSkillShifted ? <SkillIndent skills={skills} indent="4" /> : ""}
-                        <SkillIndent skills={skills} indent="5" isRightSkillShifted={isRightSkillShifted} />
+                        <SkillIndent
+                            skills={skills}
+                            indent="5"
+                            isRightSkillShifted={isRightSkillShifted}
+                        />
                     </div>
                 </div>
             </div>

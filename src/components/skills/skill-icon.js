@@ -3,6 +3,7 @@ import Img from "gatsby-image"
 import ReactTooltip from "react-tooltip"
 import { useStaticQuery, graphql } from "gatsby"
 import SkillTooltipAbility from "./skill-tooltip-ability"
+import "../../styles/skill-tooltip.scss"
 
 const SkillIcon = ({ skill, size = 70, transformationCoef = 0.79, offset }) => {
     const data = useStaticQuery(graphql`
@@ -23,7 +24,9 @@ const SkillIcon = ({ skill, size = 70, transformationCoef = 0.79, offset }) => {
                 }
             }
 
-            allEffectBundlesImageSharp: allFile(filter: { relativeDirectory: { eq: "effect_bundles" } }) {
+            allEffectBundlesImageSharp: allFile(
+                filter: { relativeDirectory: { eq: "effect_bundles" } }
+            ) {
                 totalCount
                 nodes {
                     relativePath
@@ -46,7 +49,9 @@ const SkillIcon = ({ skill, size = 70, transformationCoef = 0.79, offset }) => {
                 }
             }
 
-            allAbilityIconsImageSharp: allFile(filter: { relativeDirectory: { eq: "ability_icons" } }) {
+            allAbilityIconsImageSharp: allFile(
+                filter: { relativeDirectory: { eq: "ability_icons" } }
+            ) {
                 totalCount
                 nodes {
                     relativePath
@@ -121,10 +126,19 @@ const SkillIcon = ({ skill, size = 70, transformationCoef = 0.79, offset }) => {
     return (
         <div className="skill-icon-wrapper">
             <div data-tip={title} data-for={`skill-tooltip-${skill.key}`}>
-                <Img fixed={skill.img.fixed} className="skill-icon-img-wrapper" style={style} imgStyle={imgStyle} />
+                <Img
+                    fixed={skill.img.fixed}
+                    className="skill-icon-img-wrapper"
+                    style={style}
+                    imgStyle={imgStyle}
+                />
             </div>
 
-            <ReactTooltip className="skill-tooltip hidden" place={tooltipDirection} id={`skill-tooltip-${skill.key}`}>
+            <ReactTooltip
+                className="skill-tooltip hidden"
+                place={tooltipDirection}
+                id={`skill-tooltip-${skill.key}`}
+            >
                 <h4 className="tooltip-title">{skill.skill.localised_name}</h4>
                 <div className="tooltip-content">
                     <p className="tooltip-description">{skill.skill.localised_description}</p>
@@ -160,10 +174,14 @@ const SkillIcon = ({ skill, size = 70, transformationCoef = 0.79, offset }) => {
                             return (
                                 <div
                                     key={effect.effect_key}
-                                    className={`tooltip-effect ${isPositiveEffect ? "positive" : "negative"}`}
+                                    className={`tooltip-effect ${
+                                        isPositiveEffect ? "positive" : "negative"
+                                    }`}
                                 >
                                     {img ? <Img fixed={img.childImageSharp.fixed} /> : ""}
-                                    <span className="tooltip-effect-description">{effect.description}</span>
+                                    <span className="tooltip-effect-description">
+                                        {effect.description}
+                                    </span>
                                 </div>
                             )
                         })}

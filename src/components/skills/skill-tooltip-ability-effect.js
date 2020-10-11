@@ -2,8 +2,11 @@ import React from "react"
 import { format } from "util"
 
 export default function SkillTooltipAbilityEffect({ ability, prop, label, value, template }) {
-    let field = ability[prop]
+    if (!ability) {
+        return null
+    }
 
+    let field = ability[prop]
     if (field === "true" || field === "false") {
         field = Boolean(field)
     } else if (!isNaN(Number(field))) {

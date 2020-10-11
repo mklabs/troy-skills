@@ -16,7 +16,7 @@ const Header = ({ siteTitle, page }) => {
             <header className="header">
                 <div className="header-title-wrapper">
                     <h1 className="header-title">
-                        <Link to="/">{siteTitle} test</Link>
+                        <Link to="/">{siteTitle}</Link>
                     </h1>
 
                     {page !== "Home" ? (
@@ -30,7 +30,11 @@ const Header = ({ siteTitle, page }) => {
             </header>
 
             {page !== "Home" ? (
-                <div className={`header-dropdown ${isDropdownActive ? "header-dropdown-active" : ""}`}>
+                <div
+                    className={`header-dropdown ${
+                        isDropdownActive ? "header-dropdown-active" : ""
+                    }`}
+                >
                     <div className="header-dropdown-wrapper">
                         <SkillTreesList />
                     </div>

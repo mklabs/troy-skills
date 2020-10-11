@@ -2,7 +2,6 @@
     border-top: 4px solid #363433;
     padding: 1rem 0.5rem;
 
-
     .tooltip-ability-title {
         font-weight: 500;
         margin-bottom: 4px;
@@ -53,6 +52,12 @@
         color: #f1cea0;
         font-weight: 600;
     }
+    
+    .tooltip-ability-effect-icon {
+        width: 1rem;
+        height: 1rem;
+        vertical-align: text-bottom;
+    }
 
     .tooltip-ability-effect-value {
         font-weight: 500;
@@ -72,12 +77,6 @@
 
         .negative {
             color: #d42525;
-        }
-
-        .tooltip-ability-effect-icon {
-            width: 1rem;
-            height: 1rem;
-            vertical-align: text-bottom;
         }
 
         .arrow-up {

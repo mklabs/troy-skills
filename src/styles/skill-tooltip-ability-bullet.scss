@@ -1,0 +1,19 @@
+.tooltip-ability-effect-bullet {
+    padding-top: 1rem;
+    padding-left: 0.5rem;
+
+    .tooltip-ability-effect-bullet-row {
+        display: flex;
+        align-items: center;
+    }
+
+    .tooltip-ability-effect-bullet-icon {
+        margin-right: 8px;
+    }
+
+    .tooltip-ability-effect-bullet-text {
+        font-weight: 600;
+        color: #f1cea0;
+        line-height: 1rem;
+    }
+}

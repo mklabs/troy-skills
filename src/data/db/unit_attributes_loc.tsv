@@ -1,0 +1,103 @@
+key	text	tooltip
+unit_attributes_imued_effect_text_flanking_attack_improved	Improved Flanking	true
+unit_attributes_imued_effect_text_uncontrollable	placeholder	true
+unit_attributes_bullet_text_hide_building	Hide (buildings)||This unit can hide in buildings until enemy units get too close. - NOT WH	true
+unit_attributes_imued_effect_text_mounted_fire_move	Fire While Moving	true
+unit_attributes_imued_effect_text_no_ability_cooldown	hidden	true
+unit_attributes_bullet_text_causes_terror	Causes Terror||This unit can cause terror, making its melee target rout for a short time. Units that cause terror are immune to terror and fear themselves.	true
+unit_attributes_bullet_text_uncontrollable	[PH] Uncontrollable||The unit becomes uncontrollable - do not accept any command	true
+unit_attributes_imued_effect_text_campaign_stealth	Campaign Stealth	true
+unit_attributes_imued_effect_text_hide_grass	Hide (Grass)	true
+unit_attributes_imued_effect_text_impetuous	Impetuous	true
+unit_attributes_bullet_text_resist_cold	Resistant to Cold||This unit tires less quickly in snow.	true
+unit_attributes_bullet_text_hide_scrub_and_forest	Hide (scrub & forest)||This unit can hide in tall grass, scrub and forest until enemy units get too close. 	true
+unit_attributes_imued_effect_text_definite_berserk	Berserk	true
+unit_attributes_imued_effect_text_rear_shield_enabled	[[img:ui/battle ui/ability_icons/fx_icon_rear_shield_defense.png]][[/img]] Rear-Shield Defence	true
+unit_attributes_imued_effect_text_unspottable	Spotted only at very close range	true
+unit_attributes_bullet_text_warriors_pladge	Warriors Pladge||Placeholder description text.	true
+unit_attributes_bullet_text_cant_run	Cannot Run||This unit cannot run and will only move at walking pace.	true
+unit_attributes_imued_effect_text_fatigue_immune	Perfect Vigour	true
+unit_attributes_bullet_text_flanking_attack_improved	Flanking Attack Improved||Increases the bonus effects when this unit is attacking another unit from the sides or from behind.	true
+unit_attributes_bullet_text_run_amok	Spartoi Rampage||This unit can go on a rampage, attacking anything in their sight.	true
+unit_attributes_bullet_text_berserk	Berserk||This unit can go berserk during the battle. This makes them uncontrollable, they will automatically attack nearby enemies. - NOT WH	true
+unit_attributes_imued_effect_text_unbreakable	[[img:ui/battle ui/ability_icons/unbreakable.png]][[/img]]Unbreakable	true
+unit_attributes_bullet_text_mighty_knockback	Mighty Knockback||This unit causes extra damage when it knocks enemies back. - NOT WH	true
+unit_attributes_imued_effect_text_snipe	[[img:ui/battle ui/ability_icons/snipe.png]][[/img]]Snipe	true
+unit_attributes_imued_effect_text_stalk	[[img:ui/battle ui/ability_icons/stalk.png]][[/img]]Stalk	true
+unit_attributes_bullet_text_ignore_ground_move_mod	Ignore Ground Type||Speed penalties caused by the terrain are ignored by this unit. - NOT WH	true
+unit_attributes_bullet_text_resist_heat	Resistant to Heat||This unit tires less quickly in the desert.	true
+unit_attributes_imued_effect_text_piercing_attack	{{tr:hp_title_attribute_sharpshooter}}	true
+unit_attributes_imued_effect_text_causes_fear	[[img:ui/battle ui/ability_icons/causes_fear.png]][[/img]]Causes Fear	true
+unit_attributes_bullet_text_flanking_immune	Immune to Flanking||Removes all bonuses from the attacker for attacking this unit from the sides or from behind	true
+unit_attributes_bullet_text_all_ranks_fire	All Ranks Fire||All ranks can fire if using a weapon that only allows 1 rank to do so. - NOT WH	true
+unit_attributes_bullet_text_construct	Construct||This unit is an animated construct (does not rout, is immune to terror, becomes unstable when [[img:icon_morale]][[/img]]{{tr:morale}} is low). Necrotects can push it to its full combat potential and restore it in battle.	true
+unit_attributes_imued_effect_text_scare_horse	Scare (horses)	true
+unit_attributes_bullet_text_fatigue_res	Strong Vigour||This unit's stamina is less affected by fatiguing actions, such as combat.	true
+unit_attributes_imued_effect_text_flanking_defence_improved	Flanking Defence	true
+unit_attributes_bullet_text_hide_grass	Hide (grass)||This unit can hide in long grass until enemy units get too close.	true
+unit_attributes_imued_effect_text_attack_disabled	hidden	true
+unit_attributes_imued_effect_text_charge_reflector_vs_large	Charge Defence vs. Large	true
+unit_attributes_imued_effect_text_guerrilla_deploy	{{tr:guerrilla_deployment}}	true
+unit_attributes_imued_effect_text_all_ranks_fire	All Ranks Fire	true
+unit_attributes_bullet_text_scare_horse	Scare (horses)||This unit gives a [[img:icon_morale]][[/img]]leadership penalty to enemy horses. - NOT WH	true
+unit_attributes_bullet_text_rear_shield_enabled	Unit has enabled rear shield defense	true
+unit_attributes_bullet_text_piercing_attack	{{tr:hp_title_attribute_sharpshooter}}||{{tr:hp_description_attribute_sharpshooter}}	true
+unit_attributes_imued_effect_text_resist_cold	Resistant to Cold	true
+unit_attributes_imued_effect_text_formed_attack	Formation Attack	true
+unit_attributes_bullet_text_unspottable	Unspottable||If this unit can hide at its current location it will not be spotted until the enemy is very close.	true
+unit_attributes_imued_effect_text_not_valid_target	placeholder	true
+unit_attributes_imued_effect_text_rampage	[[col:red]][[img:icon_arrow_down]][[/img]]Rampage![[/col]]	true
+unit_attributes_bullet_text_charge_reflector	Expert Charge Defence||When bracing, this unit negates the [[img:icon_charge]][[/img]]charge bonus of any attacker.	true
+unit_attributes_bullet_text_definite_berserk	Berserk||This unit will go berserk during the battle. This makes them uncontrollable, they will automatically attack nearby enemies.	true
+unit_attributes_imued_effect_text_expendable	Expendable	true
+unit_attributes_imued_effect_text_scare_immune	Immune to Fear	true
+unit_attributes_bullet_text_scare_immune	Immune to Fear||This unit is immune to the fear effects of scary units.	true
+unit_attributes_imued_effect_text_cant_run	Cannot Run	true
+unit_attributes_imued_effect_text_ignore_forest_penalties	Strider	true
+unit_attributes_bullet_text_impetuous	Impetuous||This unit gets an extra [[img:icon_morale]][[/img]]leadership bonus when eager. - NOT WH	true
+unit_attributes_imued_effect_text_causes_terror	[[img:ui/battle ui/ability_icons/causes_terror.png]][[/img]]Causes Terror	true
+unit_attributes_bullet_text_expendable	Expendable||Witnessing friendly expendable units rout does not reduce other units' [[img:icon_morale]][[/img]]morale, unless they are themselves expendable.	true
+unit_attributes_bullet_text_unbreakable	Unbreakable||This unit does not suffer any form of [[img:icon_morale]][[/img]]morale loss and will never rout.	true
+unit_attributes_imued_effect_text_disciplined	[[img:ui/battle ui/ability_icons/disciplined.png]][[/img]]Disciplined	true
+unit_attributes_bullet_text_mounted_fire_move	Fire While Moving||This unit can fire while on the move with a mount.	true
+unit_attributes_bullet_text_disciplined	Disciplined||This unit does not suffer a [[img:icon_morale]][[/img]]morale penalty when the [[img:icon_general]][[/img]]Hero dies. It can also rally after routing more often. 	true
+unit_attributes_imued_effect_text_resist_heat	Resistant to Heat	true
+unit_attributes_bullet_text_snipe	Snipe||This unit remains hidden while firing.	true
+unit_attributes_imued_effect_text_hide_forest	Hide (Forest)	true
+unit_attributes_imued_effect_text_field_bandaging	Battlefield Healing	true
+unit_attributes_bullet_text_fatigue_immune	Perfect Vigour||Even when performing the most fatiguing actions, this unit never loses stamina. 	true
+unit_attributes_bullet_text_hide_forest	Hide (forest)||This unit can hide in forests until enemy units get too close.	true
+unit_attributes_bullet_text_flanking_defence_improved	Flanking Defence Improved||Reduces the bonus effects of the attacker when this unit is being attacked from the sides or from behind.	true
+unit_attributes_imued_effect_text_immune_to_psychology	[[img:ui/battle ui/ability_icons/immune_to_psychology.png]][[/img]] Immune to Psychology	true
+unit_attributes_bullet_text_stalk	Stalk||This unit can move hidden in any terrain.	true
+unit_attributes_imued_effect_text_berserk	Berserk	true
+unit_attributes_imued_effect_text_flanking_immune	Immune to Flanking	true
+unit_attributes_imued_effect_text_fatigue_res	Strong Vigour	true
+unit_attributes_bullet_text_fire_while_moving	Shoot While Moving||This unit can fire while on the move.	true
+unit_attributes_bullet_text_attack_disabled	Attack disabled	true
+unit_attributes_bullet_text_immune_to_psychology	Immune to Psychology||The unit is immune to psychological attacks (fear and terror).	true
+unit_attributes_imued_effect_text_mounted_fire_parthian	Parthian Shot	true
+unit_attributes_imued_effect_text_run_amok	[[col:red]][[img:icon_arrow_down]][[/img]]Rampage![[/col]]	true
+unit_attributes_imued_effect_text_mighty_knockback	Might Knockback	true
+unit_attributes_bullet_text_not_valid_target	Cannot be attacked	true
+unit_attributes_imued_effect_text_construct	placeholder	true
+unit_attributes_bullet_text_causes_fear	Causes Fear||This unit frightens all enemy units, reducing their [[img:icon_morale]][[/img]]morale when nearby. It is also immune to fear. Fear penalties do not stack.	true
+unit_attributes_imued_effect_text_encourages	Encourage	true
+unit_attributes_bullet_text_formed_attack	Formation Attack||The unit will try to stay in formation when in melee. - NOT WH	true
+unit_attributes_bullet_text_immortal	Immortal||This unit cannot have less than 1 hitpoint for the duration of the ability.	true
+unit_attributes_imued_effect_text_hide_scrub_and_forest	Hide (Tall Grass, Scrub & Forest)	true
+unit_attributes_bullet_text_campaign_stealth	Campaign Stealth||This unit can move around the campaign map without being seen.	true
+unit_attributes_bullet_text_mounted_fire_parthian	Horseback Sharpshooting||This unit can fire all around and not just in-front of itself.	true
+unit_attributes_bullet_text_charge_reflector_vs_large	Charge Defence vs. Large||When bracing, this unit negates the [[img:icon_charge]][[/img]]charge bonus of any large attacker.	true
+unit_attributes_bullet_text_field_bandaging	Battlefield Healing||When outside of combat, this unit replenishes hit points over time.	true
+unit_attributes_bullet_text_encourages	Encourage||This unit provides a [[img:icon_morale]][[/img]]morale bonus to nearby allies. Units within range of both the [[img:icon_general]][[/img]]Hero's aura and an encouraging unit will receive the larger of the two bonuses.	true
+unit_attributes_bullet_text_ignore_forest_penalties	Strider||Speed and combat penalties caused by terrain are ignored by this unit.	true
+unit_attributes_imued_effect_text_warriors_pladge	placeholder	true
+unit_attributes_imued_effect_text_ignore_ground_move_mod	Ignore Ground Type	true
+unit_attributes_bullet_text_guerrilla_deploy	{{tr:guerrilla_deployment}}	true
+unit_attributes_bullet_text_no_ability_cooldown	hidden	true
+unit_attributes_imued_effect_text_hide_building	Hide (buildings)	true
+unit_attributes_imued_effect_text_fire_while_moving	Fire While Moving	true
+unit_attributes_imued_effect_text_charge_reflector	Expert Charge Defence	true
+unit_attributes_imued_effect_text_immortal	Immortal	true
+unit_attributes_bullet_text_rampage	Rampage||When this unit gets hurt it may go on a rampage against nearby enemy units, attacking the closest one and ignoring any orders given.	true

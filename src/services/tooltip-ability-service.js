@@ -1,5 +1,7 @@
 import React from "react"
 import { withPrefix } from "gatsby"
+import Img from "gatsby-image"
+import path from "path"
 
 const textReplacementRegex = /{{tr:(.+)}}/
 const imgRegex = /\[\[img:(.+)\]\]\[\[\/img\]\]/
@@ -10,6 +12,10 @@ export default class TooltibAbilityService {
     constructor(skill, data) {
         this.skill = skill
         this.data = data
+
+        this.ability = this.getAbility()
+        this.specialAbilityPhase = this.getSpecialAbilityPhase()
+        this.abilityPhase = this.getAbilityPhase()
     }
 
     getAbility() {
@@ -33,9 +39,31 @@ export default class TooltibAbilityService {
         )
     }
 
-    getUnitAbility(ability) {
+    getUnitAbility() {
         const { unitAbilities } = this.data
-        return unitAbilities.nodes.find(node => node.key === ability.key)
+        return unitAbilities.nodes.find(node => node.key === this.ability.key)
+    }
+
+    getSpecialAbilityPhase() {
+        const { allSpecialAbilityToSpecialAbilityPhaseJunctionsTablesTsv } = this.data
+        if (!this.ability) {
+            return
+        }
+
+        return allSpecialAbilityToSpecialAbilityPhaseJunctionsTablesTsv.nodes.find(
+            node => node.special_ability === this.ability.key
+        )
+    }
+
+    getAbilityPhase() {
+        const { allSpecialAbilityPhasesTablesTsv } = this.data
+        if (!this.specialAbilityPhase) {
+            return
+        }
+
+        return allSpecialAbilityPhasesTablesTsv.nodes.find(
+            node => node.id === this.specialAbilityPhase.phase
+        )
     }
 
     getLocalisedSourceType(unitAbility) {
@@ -47,7 +75,8 @@ export default class TooltibAbilityService {
         return loc ? loc.node.text : ""
     }
 
-    getLocalisedAbilityName(ability) {
+    getLocalisedAbilityName() {
+        const ability = this.ability
         const { locAbilities, allUiTextReplacementsLocTsv } = this.data
 
         let localisedAbilityName = locAbilities.edges.find(
@@ -67,7 +96,8 @@ export default class TooltibAbilityService {
         return localisedAbilityName
     }
 
-    getTargetValues(ability) {
+    getTargetValues() {
+        const ability = this.ability
         const results = []
         const numEffectedEnemyUnits = Number(ability.num_effected_enemy_units)
         const numEffectedFriendlyUnits = Number(ability.num_effected_friendly_units)
@@ -109,9 +139,10 @@ export default class TooltibAbilityService {
         return results
     }
 
-    mapSpecialAbilityPhaseStatEffects(abilityPhase) {
+    mapSpecialAbilityPhaseStatEffects() {
+        const abilityPhase = this.abilityPhase
         const { locUnitStatLocalisations } = this.data
-        return function (node) {
+        return node => {
             const loc = locUnitStatLocalisations.nodes.find(
                 l => l.key === `unit_stat_localisations_onscreen_name_${node.stat}`
             )
@@ -122,33 +153,15 @@ export default class TooltibAbilityService {
             value = value.toFixed(0)
             const valueText = `${value < 0 ? "" : "+"}${value}${node.how === "mult" ? "%" : ""}`
 
-            const matches = loc.text.match(imgRegex)
-            const img = matches && matches[1]
-            const text = `${valueText} ${loc.text}`
-            const splits = text
-                .split(imgRegex)
-                .map((s, i) => (
-                    <span key={i}>
-                        {s === img ? (
-                            <img
-                                className="tooltip-ability-effect-icon"
-                                src={withPrefix(s)}
-                                alt={s}
-                            />
-                        ) : (
-                            s
-                        )}
-                    </span>
-                ))
-
             node.positive = abilityPhase.effect_type === "positive"
-            node.content = splits
+            node.content = [valueText, this.replaceInlineIcon(loc.text)]
             return node
         }
     }
 
-    getAdditionalUIEffectsStats(ability, specialAbilityPhase) {
-        const skill = this.skill
+    getAdditionalUIEffectsStats() {
+        const { skill, ability, specialAbilityPhase } = this
+
         const {
             allUnitAbilitiesToAdditionalUiEffectsJuncsTablesTsv,
             locAdditionalUIEffects
@@ -184,17 +197,8 @@ export default class TooltibAbilityService {
         })
     }
 
-    getSpecialAbilityStatEffects(ability, abilityPhase, specialAbilityPhase) {
-        const { allSpecialAbilityPhaseStatEffectsTablesTsv, locUnitStatLocalisations } = this.data
-        const phaseKey = specialAbilityPhase ? specialAbilityPhase.phase : ability.key
-        const specialAbilityStatEffects = allSpecialAbilityPhaseStatEffectsTablesTsv.nodes
-            .filter(node => node.phase === phaseKey)
-            .filter(node => !hiddenStats.includes(node.stat))
-            .map(this.mapSpecialAbilityPhaseStatEffects(abilityPhase, locUnitStatLocalisations))
-        return specialAbilityStatEffects
-    }
-
-    getFatigueChangeStatEffect(abilityPhase) {
+    getFatigueChangeStatEffect() {
+        const abilityPhase = this.abilityPhase
         if (!abilityPhase) {
             return
         }
@@ -224,7 +228,8 @@ export default class TooltibAbilityService {
         }
     }
 
-    getAbilityPhaseAttributes(specialAbilityPhase) {
+    getAbilityPhaseAttributes() {
+        const specialAbilityPhase = this.specialAbilityPhase
         if (!specialAbilityPhase) {
             return []
         }
@@ -241,7 +246,10 @@ export default class TooltibAbilityService {
                     node => node.key === `unit_attributes_bullet_text_${attribute.attribute}`
                 )
 
-                attribute.imbuedEffect = imbuedEffect ? imbuedEffect.text : ""
+                attribute.imbuedEffect = imbuedEffect
+                    ? this.replaceInlineIcon(imbuedEffect.text, { static: false })
+                    : ""
+
                 attribute.bulletText = bulletText ? bulletText.text : ""
 
                 const positive = attribute.attribute_type === "positive"
@@ -260,24 +268,96 @@ export default class TooltibAbilityService {
             })
     }
 
-    getAbilityTooltipEffects(ability, abilityPhase, specialAbilityPhase) {
-        const fatigueChangeStatEffect = this.getFatigueChangeStatEffect(abilityPhase)
-        const additionalUIEffectsStats = this.getAdditionalUIEffectsStats(ability, specialAbilityPhase)
-        const abilityPhaseAttributes = this.getAbilityPhaseAttributes(specialAbilityPhase)
-        const specialAbilityStatEffects = this.getSpecialAbilityStatEffects(
+    replaceInlineIcon(text, options = { static: true }) {
+        const matches = text.match(imgRegex)
+        const isStatic = options.static
+        const img = matches && matches[1]
+        const splits = text
+            .split(imgRegex)
+            .map((s, i) => (
+                <span key={i}>
+                    {s === img
+                        ? isStatic
+                            ? this.getStaticImage(s)
+                            : this.getAbilityIconImage(s)
+                        : s}
+                </span>
+            ))
+        return splits
+    }
+
+    getStaticImage(img) {
+        img = /^ui\//.test(img) ? img : `ui/skins/default/${img}.png`
+        return <img className="tooltip-ability-effect-icon" src={withPrefix(img)} alt={img} style={{marginBottom: 0}} />
+    }
+
+    getAbilityIconImage(img) {
+        const { allAbilityIconsImageSharp } = this.data
+        const sharpImg = allAbilityIconsImageSharp.nodes.find(
+            node => node.name === path.basename(img, ".png")
+        )
+
+        if (!sharpImg) {
+            return
+        }
+
+        return (
+            <Img
+                fixed={sharpImg.childImageSharp.fixed}
+                Tag="span"
+                style={{ width: "1rem", height: "1rem" }}
+                className="tooltip-ability-effect-icon"
+            />
+        )
+    }
+
+    getAbilityPhasesStatEffects() {
+        const ability = this.ability
+        const {
+            allSpecialAbilityToSpecialAbilityPhaseJunctionsTablesTsv,
+            allSpecialAbilityPhasesTablesTsv,
+            allSpecialAbilityPhaseStatEffectsTablesTsv
+        } = this.data
+
+        const specialAbilityPhases = allSpecialAbilityToSpecialAbilityPhaseJunctionsTablesTsv.nodes.filter(
+            node => node.special_ability === ability.key
+        )
+
+        const abilityPhases = specialAbilityPhases.map(abilityPhase => {
+            return allSpecialAbilityPhasesTablesTsv.nodes.find(
+                node => node.id === abilityPhase.phase
+            )
+        })
+
+        return abilityPhases
+            .map(abilityPhase => {
+                return allSpecialAbilityPhaseStatEffectsTablesTsv.nodes.filter(
+                    node => node.phase === abilityPhase.id
+                )
+            })
+            .flat()
+            .filter(node => !hiddenStats.includes(node.stat))
+            .map(this.mapSpecialAbilityPhaseStatEffects())
+    }
+
+    getAbilityTooltipEffects() {
+        const { ability, specialAbilityPhase } = this
+        const fatigueChangeStatEffect = this.getFatigueChangeStatEffect()
+        const additionalUIEffectsStats = this.getAdditionalUIEffectsStats(
             ability,
-            abilityPhase,
             specialAbilityPhase
         )
+        const abilityPhaseAttributes = this.getAbilityPhaseAttributes()
+        const abilityPhasesStatEffects = this.getAbilityPhasesStatEffects()
 
         return additionalUIEffectsStats
             .concat(fatigueChangeStatEffect ? fatigueChangeStatEffect : [])
-            .concat(specialAbilityStatEffects)
+            .concat(abilityPhasesStatEffects)
             .concat(abilityPhaseAttributes)
     }
 
-    getAbilityBulletText(specialAbilityPhase) {
-        const abilityPhaseAttributes = this.getAbilityPhaseAttributes(specialAbilityPhase)
-        return abilityPhaseAttributes.find(attribute => attribute.bulletText !== "")
+    getAbilityBullets() {
+        const abilityPhaseAttributes = this.getAbilityPhaseAttributes()
+        return abilityPhaseAttributes.filter(attribute => attribute.bulletText !== "")
     }
 }
