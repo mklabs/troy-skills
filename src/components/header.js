@@ -16,7 +16,7 @@ const Header = ({ siteTitle, page }) => {
             <header className="header">
                 <div className="header-title-wrapper">
                     <h1 className="header-title">
-                        <Link to="/">{siteTitle}</Link>
+                        <Link to="/">{siteTitle} test</Link>
                     </h1>
 
                     {page !== "Home" ? (
