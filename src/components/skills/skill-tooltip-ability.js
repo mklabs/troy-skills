@@ -1,6 +1,8 @@
 import React from "react"
-import { useStaticQuery, graphql, withPrefix } from "gatsby"
+import { useStaticQuery, graphql } from "gatsby"
 import SkillTooltipAbilityEffect from "./skill-tooltip-ability-effect"
+import SkillTooltipAbilityBulletText from "./skill-tooltip-ability-bullet"
+import TooltipAbilityService from "../../services/tooltip-ability-service.js"
 import "../../styles/skill-tooltip-ability.scss"
 
 export default function SkillTooltipAbility({ skill }) {
@@ -43,11 +45,10 @@ export default function SkillTooltipAbility({ skill }) {
             }
 
             unitAbilities: allUnitAbilitiesTablesTsv {
-                edges {
-                    node {
-                        key
-                        source_type
-                    }
+                nodes {
+                    key
+                    source_type
+                    icon_name
                 }
             }
 
@@ -57,6 +58,14 @@ export default function SkillTooltipAbility({ skill }) {
                     value
                     stat
                     how
+                }
+            }
+
+            allSpecialAbilityPhaseAttributeEffectsTablesTsv {
+                nodes {
+                    phase
+                    attribute
+                    attribute_type
                 }
             }
 
@@ -94,6 +103,14 @@ export default function SkillTooltipAbility({ skill }) {
             }
 
             allUiTextReplacementsLocTsv {
+                nodes {
+                    key
+                    text
+                    tooltip
+                }
+            }
+
+            locUnitAttributes: allUnitAttributesLocTsv {
                 nodes {
                     key
                     text
@@ -141,37 +158,14 @@ export default function SkillTooltipAbility({ skill }) {
     `)
 
     const {
-        bonusValueUnitAbilities,
-        specialAbilities,
-        locAbilities,
-        unitAbilities,
-        locUnitAbilitySourceType,
         allSpecialAbilityPhaseStatEffectsTablesTsv,
-        locUnitStatLocalisations,
         allSpecialAbilityPhasesTablesTsv,
-        allUnitAbilitiesToAdditionalUiEffectsJuncsTablesTsv,
-        locAdditionalUIEffects,
         allSpecialAbilityToSpecialAbilityPhaseJunctionsTablesTsv,
-        allUiTextReplacementsLocTsv
     } = data
 
-    const hiddenStats = ["stat_in_combat_rage", "stat_out_combat_rage"]
+    const service = new TooltipAbilityService(skill, data)
 
-    const { effects } = skill
-    const abilityEffect = effects.find(
-        ({ effect_key }) => !effect_key.includes("replace") && !effect_key.includes("level_up_health")
-    )
-
-    const bonusValueUnitAbility = bonusValueUnitAbilities.edges.find(
-        ({ node }) => node.effect === abilityEffect.effect_key
-    )
-
-    if (!bonusValueUnitAbility) {
-        return null
-    }
-
-    let abilityKey = bonusValueUnitAbility.node.unit_ability
-    const ability = specialAbilities.nodes.find(node => node.key === abilityKey)
+    const ability = service.getAbility()
     if (!ability) {
         return null
     }
@@ -180,159 +174,42 @@ export default function SkillTooltipAbility({ skill }) {
         node => node.special_ability === ability.key
     )
 
-    const abilityPhase = allSpecialAbilityPhasesTablesTsv.nodes.find(node => node.id === specialAbilityPhase ? specialAbilityPhase.phase : ability.key)
-
-    let localisedAbilityName = locAbilities.edges.find(
-        ({ node }) => node.key === `unit_abilities_onscreen_name_${abilityKey}`
-    ).node.text
-
-    const textReplacementRegex = /{{tr:(.+)}}/
-    if (textReplacementRegex.test(localisedAbilityName)) {
-        const [, textReplacementKey] = localisedAbilityName.match(textReplacementRegex) || []
-        const textReplacement = allUiTextReplacementsLocTsv.nodes.find(node => node.key === textReplacementKey)
-        if (textReplacement) {
-            localisedAbilityName = textReplacement.text
-        }
-    }
-
-    const unitAbility = unitAbilities.edges.find(({ node }) => node.key === abilityKey)
-    const localisedSourceType = locUnitAbilitySourceType.edges.find(
-        ({ node }) => node.key === `unit_ability_source_types_name_${unitAbility.node.source_type}`
-    ).node.text
-
-    const rechargeTime = Number(ability.recharge_time)
-
-    const imgRegex = /\[\[img:(.+)\]\]\[\[\/img\]\]/
-
-    const additionalUIEffects = allUnitAbilitiesToAdditionalUiEffectsJuncsTablesTsv.nodes.filter(
-        node =>
-            node.ability === skill.character_skill_key ||
-            node.ability === ability.key ||
-            (specialAbilityPhase ? node.ability === specialAbilityPhase.phase : false)
+    const specialAbilityPhases = allSpecialAbilityToSpecialAbilityPhaseJunctionsTablesTsv.nodes.filter(
+        node => node.special_ability === ability.key
     )
 
-    const uiEffects = [...new Set(additionalUIEffects.map(node => node.effect))]
+    const abilityPhase = specialAbilityPhase
+        ? allSpecialAbilityPhasesTablesTsv.nodes.find(node => node.id === specialAbilityPhase.phase)
+        : null
 
-    const locUIEffectRegex = /\[\[col:(green|red)\]\](.+)\[\[\/col\]\]/
-    const abilityStatEffects = uiEffects.map(effect => {
-        const loc = locAdditionalUIEffects.nodes.find(
-            l => l.key === `unit_abilities_additional_ui_effects_localised_text_${effect}`
-        )
-        const [, colour, text] = loc.text.match(locUIEffectRegex) || []
-        const [, description] = text.split(imgRegex).slice(1)
-        const positive = colour === "green"
-        const iconClassname = positive ? "arrow-up" : "arrow-down"
-
-        return {
-            stat: effect,
-            positive,
-            content: (
-                <span>
-                    <span className={iconClassname}></span> {description}
-                </span>
-            )
-        }
+    const abilityPhases = specialAbilityPhases.map(abilityPhase => {
+        return allSpecialAbilityPhasesTablesTsv.nodes.find(node => node.id === abilityPhase.phase)
     })
 
-    const phaseKey = specialAbilityPhase ? specialAbilityPhase.phase : ability.key
-    const specialAbilityStatEffects = allSpecialAbilityPhaseStatEffectsTablesTsv.nodes
-        .filter(node => node.phase === phaseKey)
-        .filter(node => !hiddenStats.includes(node.stat))
-        .map(node => {
-            const loc = locUnitStatLocalisations.nodes.find(
-                l => l.key === `unit_stat_localisations_onscreen_name_${node.stat}`
+    const abilityPhasesStatEffects = abilityPhases
+        .map(abilityPhase => {
+            return allSpecialAbilityPhaseStatEffectsTablesTsv.nodes.filter(
+                node => node.phase === abilityPhase.id
             )
-            node.loc = loc
-
-            let value = Number(node.value)
-            value = node.how === "mult" ? value * 100 - 100 : value
-            const valueText = `${value < 0 ? "" : "+"}${value}${node.how === "mult" ? "%" : ""}`
-
-            const matches = loc.text.match(imgRegex)
-            const img = matches && matches[1]
-            const text = `${valueText} ${loc.text}`
-            const splits = text
-                .split(imgRegex)
-                .map((s, i) => (
-                    <span key={i}>
-                        {s === img ? <img className="tooltip-ability-effect-icon" src={withPrefix(s)} alt={s} /> : s}
-                    </span>
-                ))
-
-            node.positive = abilityPhase.effect_type === "positive"
-            // node.positive = value >= 0
-            node.content = splits
-            return node
         })
+        .flat()
 
-    abilityStatEffects.push(...specialAbilityStatEffects)
+    const unitAbility = service.getUnitAbility(ability)
+    const localisedSourceType = service.getLocalisedSourceType(unitAbility)
 
-    if (abilityPhase) {
-        const fatigueChangeRatio = Number(abilityPhase.fatigue_change_ratio)
-        if (fatigueChangeRatio !== 0) {
-            const value = -fatigueChangeRatio * 100
-            const valueText = `${value < 0 ? "" : "+"}${value}%`
+    const abilityTooltipEffects = service.getAbilityTooltipEffects(ability, abilityPhase, specialAbilityPhase)
+    const abilityBulletText = service.getAbilityBulletText(specialAbilityPhase)
 
-            abilityStatEffects.push({
-                stat: "fatigue_change_ratio",
-                positive: fatigueChangeRatio <= 0,
-                content: (
-                    <span key="fatigue">
-                        {valueText}{" "}
-                        <img className="tooltip-ability-effect-icon" src={withPrefix("ui/skins/default/fatigue.png")} alt="Fatigue" />{" "}
-                        Stamina
-                    </span>
-                )
-            })
-        }
-    }
-
-    // console.log(skill.character_skill_key, skill.tier, ability, abilityPhase, abilityStatEffects)
-    // console.log(skill.character_skill_key, ability.effect_range, ability.target_intercept_range)
-
-    const targetValues = []
-    const numEffectedEnemyUnits = Number(ability.num_effected_enemy_units)
-    const numEffectedFriendlyUnits = Number(ability.num_effected_friendly_units)
-    const targetInterceptRange = Number(ability.target_intercept_range)
-
-    if (ability.affect_self === "true") {
-        targetValues.push("Self")
-    }
-
-    if (ability.target_enemies === "true") {
-        targetValues.push("Enemy")
-    }
-
-    if (ability.ai_usage === "hex_melee_area_self") {
-        targetValues.push("Around self")
-    }
-
-    if (numEffectedFriendlyUnits === -1) {
-        targetValues.push("Affects allies in range")
-    }
-
-    if (numEffectedEnemyUnits === -1) {
-        targetValues.push("Affects enemies in range")
-    }
-
-    if (targetInterceptRange !== 0 && ability.ai_usage !== "hex_melee_area_self") {
-        targetValues.push(
-            <span>
-                <img
-                    className="tooltip-ability-effect-icon"
-                    src={withPrefix("ui/skins/default/icon_distance_to_target.png")}
-                    alt="Distance to Target"
-                />
-                {targetInterceptRange}m
-            </span>
-        )
-    }
+    const rechargeTime = Number(ability.recharge_time)
+    const localisedAbilityName = service.getLocalisedAbilityName(ability)
+    const targetValues = service.getTargetValues(ability)
 
     return (
         <div className="skill-tooltip-ability">
             <div className="tooltip-ability-title">
                 <h4 className="tooltip-ability-name" title="foo">
                     {localisedAbilityName}
+                    {/* {getLocalisedAbilityName(ability, locAbilities, allUiTextReplacementsLocTsv)} */}
                 </h4>
 
                 {rechargeTime !== -1 ? (
@@ -381,14 +258,24 @@ export default function SkillTooltipAbility({ skill }) {
                     template="%d"
                 />
 
-                <SkillTooltipAbilityEffect ability={ability} prop="rage_cost" label="Rage cost" template="%d" />
+                <SkillTooltipAbilityEffect
+                    ability={ability}
+                    prop="rage_cost"
+                    label="Rage cost"
+                    template={ability.cost_type === "RAGE_PER_SEC" ? "%d per second" : "%d"}
+                />
 
-                <SkillTooltipAbilityEffect ability={ability} prop="effect_range" label="Effect range" template="%dm" />
+                <SkillTooltipAbilityEffect
+                    ability={ability}
+                    prop="effect_range"
+                    label="Effect range"
+                    template="%dm"
+                />
 
                 <div className="tooltip-ability-effect">
                     <span className="tooltip-ability-effect-name">Effects:</span>
                     <div className="tooltip-ability-effect-value">
-                        {abilityStatEffects.map(effect => (
+                        {abilityTooltipEffects.map(effect => (
                             <p
                                 key={effect.stat}
                                 data-stat={effect.stat}
@@ -404,6 +291,11 @@ export default function SkillTooltipAbility({ skill }) {
             </div>
 
             <hr />
+
+            <SkillTooltipAbilityBulletText
+                abilityBulletText={abilityBulletText}
+                unitAbility={unitAbility}
+            />
         </div>
     )
 }
