@@ -120,7 +120,7 @@ const SkillIcon = ({ skill, size = 70, transformationCoef = 0.79, offset }) => {
 
     return (
         <div className="skill-icon-wrapper">
-            <div data-tip={title} data-for={`skill-tooltip-${skill.key}`} data-event="click">
+            <div data-tip={title} data-for={`skill-tooltip-${skill.key}`}>
                 <Img fixed={skill.img.fixed} className="skill-icon-img-wrapper" style={style} imgStyle={imgStyle} />
             </div>
 
