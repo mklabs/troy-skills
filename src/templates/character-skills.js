@@ -16,7 +16,8 @@ function getSkillRows(data) {
         allCharacterSkillLevelToEffectsJunctionsTablesTsv,
         allImageSharp,
         allEffectsLocTsv,
-        allEffectsTablesTsv
+        allEffectsTablesTsv,
+        allUiTextReplacementsLocTsv
     } = data
 
     const nodes = allCharacterSkillNodesTablesTsv.edges
@@ -39,9 +40,7 @@ function getSkillRows(data) {
     Object.keys(tree).forEach(t => {
         const items = tree[t]
         const skills = items.map(item => {
-            const skill = allCharacterSkillsTableTsv.edges.find(
-                s => s.node.key === item.character_skill_key
-            )
+            const skill = allCharacterSkillsTableTsv.edges.find(s => s.node.key === item.character_skill_key)
 
             if (!skill) {
                 return item
@@ -55,23 +54,28 @@ function getSkillRows(data) {
                         l => l.node.key === `effects_description_${effect.effect_key}`
                     )
 
-                    const effectData = allEffectsTablesTsv.edges.find(
-                        ({ node }) => node.effect === effect.effect_key
-                    )
+                    const effectData = allEffectsTablesTsv.edges.find(({ node }) => node.effect === effect.effect_key)
 
                     const effectValue = Number(effect.value)
 
                     effect.description = loc
-                        ? loc.node.text.replace(
-                              /%\+n/,
-                              `${effectValue < 0 ? "" : "+"}${effectValue}`
-                          )
+                        ? loc.node.text.replace(/%\+n/, `${effectValue < 0 ? "" : "+"}${effectValue}`)
                         : ""
                     return {
                         ...effect,
                         ...effectData.node
                     }
                 })
+
+            const textReplacementRegex = /{{tr:(.+)}}/
+            const skillName = skill.node.localised_name
+            if (textReplacementRegex.test(skillName)) {
+                const [, textReplacementKey] = skillName.match(textReplacementRegex) || []
+                const textReplacement = allUiTextReplacementsLocTsv.nodes.find(node => node.key === `ui_text_replacements_localised_text_${textReplacementKey}`)
+                if (textReplacement) {
+                    skill.node.localised_name = textReplacement.text
+                }
+            }
 
             item.skill = skill.node
             item.img = item.effects = effects
@@ -131,11 +135,7 @@ export default function CharacterSkills({ data }) {
                         <div className="skill-tier" key={`skill-tier-${i}`}>
                             <SkillColour skills={row} level={i + 1} />
 
-                            {isSingleSkill ? (
-                                <SkillSingle skills={row} />
-                            ) : (
-                                <SkillPair skills={row} />
-                            )}
+                            {isSingleSkill ? <SkillSingle skills={row} /> : <SkillPair skills={row} />}
                         </div>
                     )
                 })}
@@ -265,6 +265,14 @@ export const query = graphql`
                     text
                     tooltip
                 }
+            }
+        }
+
+        allUiTextReplacementsLocTsv {
+            nodes {
+                key
+                text
+                tooltip
             }
         }
     }

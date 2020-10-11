@@ -20,7 +20,7 @@
 .skill-colour-bar {
     width: 16px;
     height: 140px;
-    background-image: url("../images/skins/default/troy_crack_texture_white.png");
+    background-image: url("../../static/ui/skins/default/troy_crack_texture_white.png");
     border: 1px solid #000;
     position: relative;
 }
@@ -46,7 +46,7 @@
 }
 
 .skill-colour-level {
-    background-image: url("../images/skins/default/cd_level_indicator_frame.png");
+    background-image: url("../../static/ui/skins/default/cd_level_indicator_frame.png");
     position: absolute;
     width: 30px;
     height: 28px;
@@ -82,13 +82,13 @@
     width: 200px;
     height: 140px;
     margin: auto;
-    background-image: url('../images/skins/default/skill_card_active.png');
+    background-image: url('../../static/ui/skins/default/skill_card_active.png');
 }
 
 .skill-left, .skill-right {
     width: 200px;
     height: 140px;
-    background-image: url('../images/skins/default/skill_card_active.png');
+    background-image: url('../../static/ui/skins/default/skill_card_active.png');
 }
 
 .skill-left .skill-card, .skill-right .skill-card {
@@ -112,7 +112,7 @@
     font-weight: 500;
 }
 .skill-icon-img-wrapper {
-    background-image: url("../images/skins/default/cd_slot_skill.png");
+    background-image: url("../../static/ui/skins/default/cd_slot_skill.png");
 }
 
 .skill-icon-img-wrapper img {
@@ -141,7 +141,7 @@
     height: 40px;
     position: absolute;
     top: 43%;
-    background-image: url("../images/skins/default/skill_arrow_inactive.png");
+    background-image: url("../../static/ui/skins/default/skill_arrow_inactive.png");
     /* transform: rotate(180deg); */
 }
 
@@ -158,7 +158,7 @@
     padding: 8px 16px;
     width: 456px;
     margin: auto;
-    background-image: url('../images/skins/default/troy_crack_texture_19.png');
+    background-image: url('../../static/ui/skins/default/troy_crack_texture_19.png');
     border: 4px solid #363433;
 
     -webkit-box-shadow: 0px 0px 6px 2px rgba(0,0,0,0.75);
@@ -167,7 +167,7 @@
 }
 
 .skill-tooltip {
-    width: 422px !important;
+    width: 460px !important;
     padding: 0 !important;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
 
@@ -181,7 +181,7 @@
 
     .tooltip-title {
         color: #f1cea0;
-        background-image: url("../images/skins/default/tooltip_title_line.png");
+        background-image: url("../../static/ui/skins/default/tooltip_title_line.png");
         background-repeat: no-repeat;
         background-size: cover;
         text-align: center;
@@ -195,11 +195,12 @@
     .tooltip-description {
         font-style: italic;
         margin: 0;
+        line-height: 1rem;
     }
 
     .tooltip-effects {
         padding: 0;
-        margin: 0;
+        margin: 0.5rem 0 0 0;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -221,64 +222,5 @@
         .negative {
             color: #d42525;
         }
-    }
-
-    .skill-tooltip-ability {
-        border-top: 4px solid #363433;
-        padding: 8px;
-
-
-        .tooltip-ability-title {
-            font-weight: 500;
-            margin-bottom: 4px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .tooltip-ability-name {
-            margin: 0;
-        }
-
-        .tooltip-ability-source-type {
-            text-transform: uppercase;
-            font-style: normal;
-            color: #f1cea0;
-            margin-bottom: 16px;
-        }
-
-        .tooltip-ability-cooldown-icon {
-            background-image: url("../images/skins/default/icon_cooldown.png");
-            display: inline-block;
-            width: 20px;
-            height: 20px;
-            vertical-align: text-top;
-        }
-
-        hr {
-            background: #4c4c4b;
-            height: 2px;
-            box-shadow: 0px 0px 4px 2px rgba(0,0,0,0.75);
-            margin-bottom: 16px;
-        }
-
-        .tooltip-ability-effects {
-            display: flex;
-            flex-direction: column;
-            line-height: 18px;
-            padding-left: 16px;
-        }
-
-        .tooltip-ability-effect {
-            display: flex;
-        }
-
-        .tooltip-ability-effect-name {
-            width: 120px;
-            color: #f1cea0;
-            font-weight: 600;
-        }
-
-
     }
 }

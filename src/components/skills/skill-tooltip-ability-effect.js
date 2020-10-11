@@ -22,6 +22,10 @@ export default function SkillTooltipAbilityEffect({ ability, prop, label, value,
         return null
     }
 
+    if (prop === "damage_amount" && field === 0) {
+        return null
+    }
+
     return (
         <div className="tooltip-ability-effect">
             <span className="tooltip-ability-effect-name">{label}:</span>

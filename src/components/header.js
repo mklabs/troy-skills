@@ -30,11 +30,7 @@ const Header = ({ siteTitle, page }) => {
             </header>
 
             {page !== "Home" ? (
-                <div
-                    className={`header-dropdown ${
-                        isDropdownActive ? "header-dropdown-active" : ""
-                    }`}
-                >
+                <div className={`header-dropdown ${isDropdownActive ? "header-dropdown-active" : ""}`}>
                     <div className="header-dropdown-wrapper">
                         <SkillTreesList />
                     </div>

@@ -10,17 +10,13 @@ const SkillTreesListPage = ({ epicHeroes, heroClasses, agents, getOnScreenName }
                 <div className="skill-trees-list-epic-heroes" key={factionGroup}>
                     <h4>{factionGroup}</h4>
 
-                    {epicHeroes[factionGroup].map(
-                        ({ key, fields, agent_subtype_key, subculture }) => (
-                            <p key={key}>
-                                <em>
-                                    <Link to={fields.slug}>
-                                        {getOnScreenName(agent_subtype_key)}
-                                    </Link>
-                                </em>
-                            </p>
-                        )
-                    )}
+                    {epicHeroes[factionGroup].map(({ key, fields, agent_subtype_key, subculture }) => (
+                        <p key={key}>
+                            <em>
+                                <Link to={fields.slug}>{getOnScreenName(agent_subtype_key)}</Link>
+                            </em>
+                        </p>
+                    ))}
                 </div>
             ))}
         </div>
@@ -50,17 +46,13 @@ const SkillTreesListPage = ({ epicHeroes, heroClasses, agents, getOnScreenName }
                     <div className="skill-trees-list-agents" key={subculture}>
                         <h4>{subculture}</h4>
 
-                        {agents[subculture].map(
-                            ({ key, fields, agent_subtype_key, subculture }) => (
-                                <p key={key}>
-                                    <em>
-                                        <Link to={fields.slug}>
-                                            {getOnScreenName(agent_subtype_key)}
-                                        </Link>
-                                    </em>
-                                </p>
-                            )
-                        )}
+                        {agents[subculture].map(({ key, fields, agent_subtype_key, subculture }) => (
+                            <p key={key}>
+                                <em>
+                                    <Link to={fields.slug}>{getOnScreenName(agent_subtype_key)}</Link>
+                                </em>
+                            </p>
+                        ))}
                     </div>
                 ))}
         </div>

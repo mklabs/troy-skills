@@ -8,12 +8,7 @@ const indentAssociation = {
     5: 4
 }
 
-const SkillIndent = ({
-    skills,
-    indent,
-    isRightSkillShifted,
-    style = { width: "38px", height: "38px" }
-}) => {
+const SkillIndent = ({ skills, indent, isRightSkillShifted, style = { width: "38px", height: "38px" } }) => {
     if (!skills) {
         return null
     }

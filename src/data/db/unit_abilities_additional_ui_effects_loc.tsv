@@ -1,0 +1,39 @@
+key	text	tooltip
+unit_abilities_additional_ui_effects_localised_text_troy_main_heraclean_throw	[[col:green]][[img:icon_arrow_up]][[/img]] Throws a rock, causing damage[[/col]]	true
+unit_abilities_additional_ui_effects_localised_text_troy_main_triple_shot	[[col:green]][[img:icon_arrow_up]][[/img]] Fires a volley of arrows in an area[[/col]]	true
+unit_abilities_additional_ui_effects_localised_text_troy_reduced_movement_speed	[[col:red]][[img:icon_arrow_down]][[/img]] Reduced movement speed[[/col]]	true
+unit_abilities_additional_ui_effects_localised_text_troy_main_range	[[col:green]][[img:icon_arrow_up]][[/img]] Increased range[[/col]]	true
+unit_abilities_additional_ui_effects_localised_text_troy_main_all_reduced_cooldown	[[col:green]][[img:icon_arrow_up]][[/img]] Reduced cooldown[[/col]]	true
+unit_abilities_additional_ui_effects_localised_text_troy_main_no_cooldown	[[col:green]][[img:icon_arrow_up]][[/img]] No cooldown for abilities[[/col]]	true
+unit_abilities_additional_ui_effects_localised_text_troy_main_uses_unit_ammo	[[col:red]][[img:icon_arrow_down]][[/img]] Spends unit ammo for each volley[[/col]]	true
+unit_abilities_additional_ui_effects_localised_text_troy_main_hp_heal	[[col:green]][[img:icon_arrow_up]][[/img]] Regenerates hit points when activated[[/col]]	true
+unit_abilities_additional_ui_effects_localised_text_troy_main_all_increased_duration	[[col:green]][[img:icon_arrow_up]][[/img]] Increased duration[[/col]]	true
+unit_abilities_additional_ui_effects_localised_text_troy_unable_to_attack	[[col:red]][[img:icon_arrow_down]][[/img]] Unable to attack[[/col]]	true
+unit_abilities_additional_ui_effects_localised_text_troy_main_trample	[[col:green]][[img:icon_arrow_up]][[/img]] Tramples enemy units[[/col]]	true
+unit_abilities_additional_ui_effects_localised_text_troy_main_challenge	[[col:green]][[img:icon_arrow_up]][[/img]] Target and caster are forced to fight each other[[/col]]	true
+unit_abilities_additional_ui_effects_localised_text_troy_main_strong_against_single_targets	[[col:green]][[img:icon_arrow_up]][[/img]] Strong against single targets[[/col]]	true
+unit_abilities_additional_ui_effects_localised_text_troy_main_hp_regeneration	[[col:green]][[img:icon_arrow_up]][[/img]] Passive hit points regeneration[[/col]]	true
+unit_abilities_additional_ui_effects_localised_text_troy_main_not_targetable	[[col:green]][[img:icon_arrow_up]][[/img]] Affected targets cannot be attacked[[/col]]	true
+unit_abilities_additional_ui_effects_localised_text_troy_main_all_rage_when_in_combat	[[col:green]][[img:icon_arrow_up]][[/img]] Increased rage gain when in combat[[/col]]	true
+unit_abilities_additional_ui_effects_localised_text_troy_main_all_rage_when_activated	[[col:green]][[img:icon_arrow_up]][[/img]] Provides rage when activated[[/col]]	true
+unit_abilities_additional_ui_effects_localised_text_troy_main_all_increased_rage_gain	[[col:green]][[img:icon_arrow_up]][[/img]] Increased rage gain when activated[[/col]]	true
+unit_abilities_additional_ui_effects_localised_text_troy_main_immovable_force	[[col:green]][[img:icon_arrow_up]][[/img]] Affected units gain bonus armour but have reduced speed[[/col]]	true
+unit_abilities_additional_ui_effects_localised_text_troy_shield_wall	[[col:green]][[img:icon_arrow_up]][[/img]] Unit adopts a special formation[[/col]]	true
+unit_abilities_additional_ui_effects_localised_text_troy_main_targets_single_enemy	[[col:green]] Targets a single enemy unit[[/col]]	true
+unit_abilities_additional_ui_effects_localised_text_troy_main_serrated_weapons	[[col:green]][[img:icon_arrow_up]][[/img]] Projectiles lower Morale[[/col]]	true
+unit_abilities_additional_ui_effects_localised_text_troy_main_passive_rage_gain	[[col:green]][[img:icon_arrow_up]][[/img]] Gain rage out of combat[[/col]]	true
+unit_abilities_additional_ui_effects_localised_text_troy_main_all_increased_damage	[[col:green]][[img:icon_arrow_up]][[/img]] Increased damage[[/col]]	true
+unit_abilities_additional_ui_effects_localised_text_troy_main_volley	[[col:green]][[img:icon_arrow_up]][[/img]] Fires volleys of arrows at an area[[/col]]	true
+unit_abilities_additional_ui_effects_localised_text_troy_main_sunder	[[col:green]][[img:icon_arrow_up]][[/img]] Lowers the stats of the unit engaged in combat[[/col]]	true
+unit_abilities_additional_ui_effects_localised_text_troy_main_weapon_switching	[[col:green]][[img:icon_arrow_up]][[/img]] The unit places their shields on their backs and uses their spear two-handed, gaining increased attack and movement but lower defence.[[/col]] 	true
+unit_abilities_additional_ui_effects_localised_text_troy_main_increased_aoe	[[col:green]][[img:icon_arrow_up]][[/img]] Increased area of effect[[/col]]	true
+unit_abilities_additional_ui_effects_localised_text_troy_main_olympian_throw	[[col:green]][[img:icon_arrow_up]][[/img]] Throws a spear, causing damage[[/col]]	true
+unit_abilities_additional_ui_effects_localised_text_troy_main_all_channels_shot	[[col:green]][[img:icon_arrow_up]][[/img]] Channels a powerful shot[[/col]]	true
+unit_abilities_additional_ui_effects_localised_text_troy_missile_block	[[col:green]][[img:icon_arrow_up]][[/img]] Increased missile block chance[[/col]]	true
+unit_abilities_additional_ui_effects_localised_text_troy_main_all_reduce_rage_cost	[[col:green]][[img:icon_arrow_up]][[/img]] Reduced rage cost[[/col]]	true
+unit_abilities_additional_ui_effects_localised_text_troy_main_all_replenish	[[col:green]][[img:icon_arrow_up]][[/img]] Replenishes [[img:icon_hp]][[/img]]hit points of combatants[[/col]]	true
+unit_abilities_additional_ui_effects_localised_text_troy_melee_defence	[[col:green]][[img:icon_arrow_up]][[/img]] Increased melee defence[[/col]]	true
+unit_abilities_additional_ui_effects_localised_text_troy_main_passive_rage_gain_increased	[[col:green]][[img:icon_arrow_up]][[/img]] Gain more rage out of combat[[/col]]	true
+unit_abilities_additional_ui_effects_localised_text_troy_main_all_heal_target	[[col:green]][[img:icon_arrow_up]][[/img]] Replenishes hit points of targeted friendly units[[/col]]	true
+unit_abilities_additional_ui_effects_localised_text_troy_main_taunt	[[col:green]][[img:icon_arrow_up]][[/img]] Forces the target to attack the taunter[[/col]]	true
+unit_abilities_additional_ui_effects_localised_text_troy_main_all_heal_target_increased	[[col:green]][[img:icon_arrow_up]][[/img]] Increased hitpoint replenishment[[/col]]	true

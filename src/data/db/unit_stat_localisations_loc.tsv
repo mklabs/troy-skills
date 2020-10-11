@@ -1,0 +1,105 @@
+key	text	tooltip
+unit_stat_localisations_onscreen_name_stat_shield_armour	[[img:ui/skins/default/icon_stat_defence.png]][[/img]] Shield Armour	true
+unit_stat_localisations_onscreen_name_scalar_bracing	Charge Resistance	true
+unit_stat_localisations_onscreen_name_stat_melee_damage_base	[[img:ui/skins/default/icon_stat_damage.png]][[/img]] Weapon Damage	true
+unit_stat_localisations_onscreen_name_stat_resistance_physical	[[img:ui/Battle UI/ability_icons/resistance_physical.png]][[/img]] Physical Resistance	true
+unit_stat_localisations_onscreen_name_scalar_missile_explosion_damage_base	[[img:ui/skins/default/icon_stat_ranged_damage.png]][[/img]] Explosion	true
+unit_stat_localisations_onscreen_name_stat_bonus_vs_swordsmen	[[img:ui/skins/default/modifier_icon_bonus_vs_swordsmen.png]][[/img]] Bonus vs Swordsmen	true
+unit_stat_localisations_onscreen_name_scalar_miscast_chance	Miscast Chance	true
+unit_stat_localisations_onscreen_name_stat_weapon_damage	[[img:ui/skins/default/icon_stat_damage.png]][[/img]] Damage	true
+unit_stat_localisations_onscreen_name_stat_out_combat_rage	Out combat rage	true
+unit_stat_localisations_tooltip_text_stat_ammo	The amount of ammunition this unit can carry into battle.||Once this has been exhausted the unit will be forced to switch to melee to continue fighting.||After the battle, ammunition is fully replenished.	true
+unit_stat_localisations_onscreen_name_stat_bonus_vs_spearmen	[[img:ui/skins/default/modifier_icon_bonus_vs_spearmen.png]][[/img]] Bonus vs Spearmen	true
+unit_stat_localisations_tooltip_text_scalar_miscast_chance	Reduced likelihood of miscasting spells.	true
+unit_stat_localisations_onscreen_name_stat_melee_damage_ap	[[img:ui/skins/default/modifier_icon_armour_piercing.png]][[/img]] Armour-Piercing Damage	true
+unit_stat_localisations_tooltip_text_stat_resistance_physical	Physical resistance	true
+unit_stat_localisations_onscreen_name_stat_in_combat_rage	In combat rage	true
+unit_stat_localisations_onscreen_name_stat_weakness_flame	Weakness to [[img:ui/skins/default/modifier_icon_flaming.png]][[/img]]Fire Damage	true
+unit_stat_localisations_tooltip_text_scalar_bracing	n/a	true
+unit_stat_localisations_onscreen_name_stat_bonus_vs_axemen	[[img:ui/skins/default/modifier_icon_axemen.png]][[/img]] Bonus vs Axemen	true
+unit_stat_localisations_tooltip_text_stat_resistance_magic	Magic resistance	true
+unit_stat_localisations_onscreen_name_scalar_speed	[[img:ui/skins/default/icon_stat_speed.png]][[/img]] Speed	true
+unit_stat_localisations_tooltip_text_stat_bonus_vs_infantry	The melee bonus this unit receives when fighting against infantry.	true
+unit_stat_localisations_tooltip_text_stat_melee_defence	This determines the chance of a unit being hit whilst in melee.||This only works in melee and provides no protection from missiles!	true
+unit_stat_localisations_tooltip_text_stat_attack_interval	The attack interval bonus this unit receives.	true
+unit_stat_localisations_onscreen_name_scalar_entity_deceleration_modifier	[[img:ui/skins/default/icon_stat_speed.png]][[/img]] Deceleration	true
+unit_stat_localisations_tooltip_text_stat_melee_attack	This determines the chance of a successful hit on the enemy when the unit is engaged in melee.|| Melee attack is improved by experience in battle.	true
+unit_stat_localisations_onscreen_name_stat_bonus_vs_infantry	[[img:ui/skins/default/modifier_icon_bonus_vs_infantry.png]][[/img]] Bonus vs. Infantry	true
+unit_stat_localisations_onscreen_name_stat_health	[[img:ui/skins/default/icon_stat_health.png]][[/img]] Hit Points	true
+unit_stat_localisations_onscreen_name_scalar_missile_damage_ap	[[img:ui/skins/default/modifier_icon_armour_piercing_ranged.png]][[/img]] Armour-Piercing Missile Damage	true
+unit_stat_localisations_onscreen_name_stat_shield_defence	[[img:ui/skins/default/icon_stat_defence.png]][[/img]] Shield Defence	true
+unit_stat_localisations_onscreen_name_stat_miscast_additional_chance	Miscast Additional	true
+unit_stat_localisations_tooltip_text_stat_armour	How resistant a unit is to missile fire and melee attacks.	true
+unit_stat_localisations_tooltip_text_stat_missile_block_chance	The percentage change that the shield will block (non-artillery) missiles. 	true
+unit_stat_localisations_onscreen_name_stat_morale	[[img:ui/skins/default/icon_stat_morale.png]][[/img]] Morale	true
+unit_stat_localisations_tooltip_text_stat_shield_armour	Reduced damage due to shield	true
+unit_stat_localisations_onscreen_name_stat_first_strike	First Strike	true
+unit_stat_localisations_tooltip_text_stat_weakness_flame	Flame weakness	true
+unit_stat_localisations_tooltip_text_stat_spotting_forest	How well this unit can spot enemies	true
+unit_stat_localisations_tooltip_text_stat_bonus_vs_large	The melee bonus this unit receives when fighting against large creatures.	true
+unit_stat_localisations_onscreen_name_scalar_entity_acceleration_modifier	[[img:ui/skins/default/icon_stat_speed.png]][[/img]] Acceleration	true
+unit_stat_localisations_onscreen_name_stat_missile_block_chance	[[img:ui/skins/default/icon_stat_defence.png]][[/img]] Missile Parry (with shield)	true
+unit_stat_localisations_onscreen_name_stat_bonus_vs_heroes	[[img:ui/skins/default/modifier_icon_bonus_vs_heroes.png]][[/img]] Bonus vs Heroes	true
+unit_stat_localisations_tooltip_text_stat_charge_bonus	This increases a unit's melee attack and damage when charging.	true
+unit_stat_localisations_onscreen_name_stat_reloading	[[img:ui/skins/default/icon_stat_ammo.png]][[/img]] Reload Skill	true
+unit_stat_localisations_onscreen_name_stat_ammo	[[img:ui/skins/default/icon_stat_ammo.png]][[/img]] Ammunition	true
+unit_stat_localisations_tooltip_text_stat_in_combat_rage	Rage is gained via fighting and is spent by using abilities.	true
+unit_stat_localisations_onscreen_name_stat_charge_bonus	[[img:ui/skins/default/icon_stat_charge_bonus.png]][[/img]] Charge bonus	true
+unit_stat_localisations_onscreen_name_scalar_missile_explosion_damage_ap	[[img:ui/skins/default/modifier_icon_armour_piercing_ranged.png]][[/img]] Armour-Piercing Explosion	true
+unit_stat_localisations_tooltip_text_stat_mana	mana	true
+unit_stat_localisations_onscreen_name_stat_bonus_vs_large	[[img:ui/skins/default/modifier_icon_bonus_vs_large.png]][[/img]] Bonus vs Large	true
+unit_stat_localisations_onscreen_name_stat_resistance_magic	[[img:ui/Battle UI/ability_icons/resistance_magic.png]][[/img]] Magic Resistance	true
+unit_stat_localisations_tooltip_text_scalar_missile_explosion_damage_ap	Armour-piercing explosion	true
+unit_stat_localisations_onscreen_name_scalar_missile_damage_base	[[img:ui/skins/default/icon_stat_ranged_damage.png]][[/img]] Missile Damage	true
+unit_stat_localisations_onscreen_name_stat_armour	[[img:ui/skins/default/icon_stat_armour.png]][[/img]] Armour	true
+unit_stat_localisations_tooltip_text_stat_miscast_additional_chance	Additional likelihood of miscasting spells	true
+unit_stat_localisations_tooltip_text_scalar_charge_speed	n/a	true
+unit_stat_localisations_onscreen_name_scalar_splash_attack_power	[[img:ui/skins/default/icon_stat_damage.png]][[/img]] Splash Attack Power	true
+unit_stat_localisations_tooltip_text_stat_shield_defence	Defence or evasion bonus attained from the shield	true
+unit_stat_localisations_tooltip_text_stat_reloading	The rate at which this unit can fire.||This is improved with experience.	true
+unit_stat_localisations_onscreen_name_stat_ship_move_speed	Ship Speed	true
+unit_stat_localisations_tooltip_text_scalar_splash_attack_power	How powerful our splash attack is compared to the usual amount.	true
+unit_stat_localisations_onscreen_name_stat_resistance_flame	[[img:ui/Battle UI/ability_icons/resistance_fire.png]][[/img]] Flame Resistance	true
+unit_stat_localisations_tooltip_text_stat_visibility_sight	The distance at which opposing units are visible to this unit	true
+unit_stat_localisations_onscreen_name_stat_accuracy	[[img:ui/skins/default/icon_stat_range.png]][[/img]] Accuracy	true
+unit_stat_localisations_tooltip_text_stat_bonus_vs_heroes	The melee bonus this unit receives when fighting against Heroes.	true
+unit_stat_localisations_tooltip_text_stat_bonus_vs_cavalry	The melee bonus this unit receives when fighting against cavalry.	true
+unit_stat_localisations_tooltip_text_scalar_missile_explosion_damage_base	Explosion	true
+unit_stat_localisations_onscreen_name_stat_attack_interval	[[img:ui/skins/default/modifier_icon_attack_interval.png]][[/img]] Attack Interval	true
+unit_stat_localisations_tooltip_text_stat_resistance_all	Damage resistance 	true
+unit_stat_localisations_onscreen_name_stat_bonus_vs_infantry_ranged	[[img:ui/skins/default/modifier_icon_bonus_vs_infantry.png]][[/img]] Bonus vs. Infantry Ranged	true
+unit_stat_localisations_tooltip_text_stat_accuracy	The likelihood of hitting the enemy when firing.||Accuracy is improved by experience in battle.	true
+unit_stat_localisations_tooltip_text_stat_bonus_vs_swordsmen	The melee bonus this unit receives when fighting against swordsmen.	true
+unit_stat_localisations_onscreen_name_stat_spotting_forest	Forest Spotting	true
+unit_stat_localisations_tooltip_text_stat_health	This determines how many hits a unit can withstand alongside armour and melee defence.	true
+unit_stat_localisations_tooltip_text_stat_ship_move_speed	How quickly the ship is able to move	true
+unit_stat_localisations_onscreen_name_stat_num_uses_additional	Num Uses Additional	true
+unit_stat_localisations_onscreen_name_scalar_charge_speed	[[img:ui/skins/default/icon_stat_speed.png]][[/img]] Charge Speed	true
+unit_stat_localisations_tooltip_text_stat_melee_damage_base	Base weapon damage	true
+unit_stat_localisations_tooltip_text_stat_morale	A unit with high morale is less likely to rout in the face of danger.||Morale is improved by experience in battle.	true
+unit_stat_localisations_onscreen_name_stat_resistance_missile	[[img:ui/Battle UI/ability_icons/resistance_missile.png]][[/img]] Missile Resistance	true
+unit_stat_localisations_tooltip_text_stat_melee_damage_ap	Armour-piercing damage	true
+unit_stat_localisations_onscreen_name_stat_resistance_all	[[img:ui/Battle UI/ability_icons/resistance_ward_save.png]][[/img]] Damage Resistance 	true
+unit_stat_localisations_tooltip_text_stat_ship_health	Ship health	true
+unit_stat_localisations_tooltip_text_scalar_entity_acceleration_modifier	n/a	true
+unit_stat_localisations_tooltip_text_stat_bonus_vs_axemen	The melee bonus this unit receives when fighting against axemen.	true
+unit_stat_localisations_tooltip_text_stat_num_uses_additional	Extra uses for special ability	true
+unit_stat_localisations_tooltip_text_stat_out_combat_rage	Out combat rage descr.	true
+unit_stat_localisations_tooltip_text_scalar_missile_damage_base	The damage caused by a missile attack, split between base and armour piercing.||Armour-piercing damage is always applied, base damage can be blocked by armour.	true
+unit_stat_localisations_tooltip_text_stat_resistance_flame	Flame resistance	true
+unit_stat_localisations_tooltip_text_scalar_missile_damage_ap	Armour-piercing damage	true
+unit_stat_localisations_onscreen_name_scalar_missile_range	[[img:ui/skins/default/icon_stat_range.png]][[/img]] Range	true
+unit_stat_localisations_onscreen_name_stat_ship_health	Ship Health	true
+unit_stat_localisations_tooltip_text_scalar_entity_deceleration_modifier	n/a	true
+unit_stat_localisations_onscreen_name_stat_mana	mana	true
+unit_stat_localisations_tooltip_text_stat_first_strike	Determines who strikes first at the beginning of combat	true
+unit_stat_localisations_tooltip_text_stat_bonus_vs_spearmen	The melee bonus this unit receives when fighting against spearmen.	true
+unit_stat_localisations_onscreen_name_stat_melee_attack	[[img:ui/skins/default/icon_stat_attack.png]][[/img]] Melee Attack	true
+unit_stat_localisations_tooltip_text_stat_weapon_damage	The damage caused by a unit's weapon, split between base and armour piercing.||Armour-piercing damage is always applied; base damage can be blocked by armour.	true
+unit_stat_localisations_onscreen_name_stat_bonus_vs_cavalry	Bonus vs. Cavalry	true
+unit_stat_localisations_tooltip_text_scalar_speed	This is how fast a unit moves.	true
+unit_stat_localisations_tooltip_text_stat_resistance_missile	Missile resistance	true
+unit_stat_localisations_onscreen_name_stat_melee_defence	[[img:ui/skins/default/icon_stat_defence.png]][[/img]] Melee Defence	true
+unit_stat_localisations_tooltip_text_stat_bonus_vs_infantry_ranged	The melee bonus this unit receives when fighting against missile infantry.	true
+unit_stat_localisations_onscreen_name_stat_visibility_sight	Visibility Range	true
+unit_stat_localisations_tooltip_text_scalar_missile_range	A long range enables you to hit enemies from a distance, but weapons are still more accurate at shorter ranges.	true
