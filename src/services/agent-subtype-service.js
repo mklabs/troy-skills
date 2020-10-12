@@ -98,6 +98,49 @@ export default class AgentSubtypeService {
                             tooltip
                         }
                     }
+
+                    allAgentUniformsTablesTsv {
+                        nodes {
+                            uniform_name
+                            filename
+                            battle_filename
+                            campaign_porthole_filename
+                        }
+                    }
+
+                    allCampaignCharacterArtsTablesTsv {
+                        nodes {
+                            art_set_id
+                            uniform
+                            card
+                        }
+                    }
+
+                    allCampaignCharacterArtSetsTablesTsv {
+                        nodes {
+                            art_set_id
+                            agent_subtype
+                        }
+                    }
+
+                    allPortholes: allFile(
+                        filter: { relativeDirectory: { eq: "units/portholes" } }
+                    ) {
+                        totalCount
+                        nodes {
+                            relativeDirectory
+                            name
+                            ext
+                            childImageSharp {
+                                fixed(width: 542) {
+                                    originalName
+                                    height
+                                    width
+                                    ...GatsbyImageSharpFixed
+                                }
+                            }
+                        }
+                    }
                 }
             `)
     }
@@ -226,5 +269,42 @@ export default class AgentSubtypeService {
             skillNodes.push(orderedSkillKeys)
             return true
         })
+    }
+
+    getPorthole(agentSubtypeKey) {
+        // agentSubtypeKey => character_art_set.agent_suybtype
+        // character_art_set.id => character_arts.uniform
+        // uniform.uniform_name => campaign_porthole_filename
+        const {
+            allCampaignCharacterArtSetsTablesTsv,
+            allCampaignCharacterArtsTablesTsv,
+            allAgentUniformsTablesTsv,
+            allPortholes
+        } = this.data
+
+        const characterArtSet = allCampaignCharacterArtSetsTablesTsv.nodes.find(
+            node => node.agent_subtype === agentSubtypeKey
+        )
+        if (!characterArtSet) return
+
+        const characterArts = allCampaignCharacterArtsTablesTsv.nodes.find(
+            node => node.art_set_id === characterArtSet.art_set_id
+        )
+        if (!characterArts) return
+
+        const uniform = allAgentUniformsTablesTsv.nodes.find(
+            node => node.uniform_name === characterArts.uniform
+        )
+        if (!uniform) return
+
+        let porthole = allPortholes.nodes.find(
+            node => node.name === uniform.campaign_porthole_filename
+        )
+        if (!porthole) {
+            // search from battle_filename instead of uniform for Epic Heroes
+            porthole = allPortholes.nodes.find(node => node.name === uniform.battle_filename)
+        }
+
+        return porthole
     }
 }
