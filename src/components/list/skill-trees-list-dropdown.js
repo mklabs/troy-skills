@@ -12,15 +12,13 @@ const SkillTreesListDropdown = ({ epicHeroes, heroClasses, agents, service }) =>
                         <h3>{factionGroup}</h3>
 
                         <ul>
-                            {epicHeroes[factionGroup].map(
-                                ({ key, fields, agent_subtype_key }) => (
-                                    <li key={key}>
-                                        <Link to={fields.slug}>
-                                            {service.getOnScreenName(agent_subtype_key)}
-                                        </Link>
-                                    </li>
-                                )
-                            )}
+                            {epicHeroes[factionGroup].map(node => (
+                                <li key={node.key}>
+                                    <Link to={service.getSlugForSkillNodeset(node)}>
+                                        {service.getOnScreenName(node.agent_subtype_key)}
+                                    </Link>
+                                </li>
+                            ))}
                         </ul>
                     </div>
                 ))}
@@ -35,15 +33,13 @@ const SkillTreesListDropdown = ({ epicHeroes, heroClasses, agents, service }) =>
                         <h3>{faction}</h3>
 
                         <ul>
-                            {heroClasses[faction].map(
-                                ({ key, fields, agent_subtype_key }) => (
-                                    <li key={key}>
-                                        <Link to={fields.slug}>
-                                            {service.getOnScreenName(agent_subtype_key)}
-                                        </Link>
-                                    </li>
-                                )
-                            )}
+                            {heroClasses[faction].map(node => (
+                                <li key={node.key}>
+                                    <Link to={service.getSlugForSkillNodeset(node)}>
+                                        {service.getOnScreenName(node.agent_subtype_key)}
+                                    </Link>
+                                </li>
+                            ))}
                         </ul>
                     </div>
                 ))}
@@ -60,15 +56,13 @@ const SkillTreesListDropdown = ({ epicHeroes, heroClasses, agents, service }) =>
                             <h3>{subculture}</h3>
 
                             <ul>
-                                {agents[subculture].map(
-                                    ({ key, fields, agent_subtype_key }) => (
-                                        <li key={key}>
-                                            <Link to={fields.slug}>
-                                                {service.getOnScreenName(agent_subtype_key)}
-                                            </Link>
-                                        </li>
-                                    )
-                                )}
+                                {agents[subculture].map(node => (
+                                    <li key={node.key}>
+                                        <Link to={service.getSlugForSkillNodeset(node)}>
+                                            {service.getOnScreenName(node.agent_subtype_key)}
+                                        </Link>
+                                    </li>
+                                ))}
                             </ul>
                         </div>
                     ))}

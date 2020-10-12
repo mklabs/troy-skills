@@ -9,9 +9,6 @@ export default function CharactersList() {
                 totalCount
                 edges {
                     node {
-                        fields {
-                            slug
-                        }
                         agent_subtype_key
                         key
                     }

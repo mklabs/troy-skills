@@ -10,7 +10,7 @@ import "../styles/character-skills.scss"
 
 function getSkillRows(data) {
     const {
-        characterSkillNodeSetsTablesTsv,
+        nodeset,
         allCharacterSkillNodesTablesTsv,
         allCharacterSkillsTableTsv,
         allCharacterSkillLevelToEffectsJunctionsTablesTsv,
@@ -21,7 +21,7 @@ function getSkillRows(data) {
     } = data
 
     const nodes = allCharacterSkillNodesTablesTsv.edges
-        .filter(s => s.node.character_skill_node_set_key === characterSkillNodeSetsTablesTsv.key)
+        .filter(s => s.node.character_skill_node_set_key === nodeset.key)
         .sort((a, b) => {
             const tier = (Number(a.node.tier) - Number(b.node.tier)) * 100
             const indent = Number(a.node.indent) - Number(b.node.indent)
@@ -104,7 +104,7 @@ function getSkillRows(data) {
 }
 
 export default function CharacterSkills({ data }) {
-    const { agentSubtype } = data
+    const { agentSubtype, nodeset } = data
 
     const service = new AgentSubtypeService()
     const rows = getSkillRows(data)
@@ -120,7 +120,8 @@ export default function CharacterSkills({ data }) {
     }
 
     const jsonClassname = isRawHidden ? "hidden" : ""
-    const title = `${service.getOnScreenName(agentSubtype.key)} Skill Tree`
+    const category = service.getCategoryForSkillNodeset(nodeset)
+    const title = `${service.getOnScreenName(agentSubtype.key)} (${category})`
 
     return (
         <Layout>
@@ -175,7 +176,7 @@ export const query = graphql`
             loyalty_is_applicable
         }
 
-        characterSkillNodeSetsTablesTsv(key: { eq: $key }) {
+        nodeset: characterSkillNodeSetsTablesTsv(key: { eq: $key }) {
             agent_key
             agent_subtype_key
             campaign_key

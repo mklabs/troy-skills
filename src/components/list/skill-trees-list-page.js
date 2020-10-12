@@ -10,17 +10,15 @@ const SkillTreesListPage = ({ epicHeroes, heroClasses, agents, service }) => (
                 <div className="skill-trees-list-epic-heroes" key={factionGroup}>
                     <h4>{factionGroup}</h4>
 
-                    {epicHeroes[factionGroup].map(
-                        ({ key, fields, agent_subtype_key }) => (
-                            <p key={key}>
-                                <em>
-                                    <Link to={fields.slug}>
-                                        {service.getOnScreenName(agent_subtype_key)}
-                                    </Link>
-                                </em>
-                            </p>
-                        )
-                    )}
+                    {epicHeroes[factionGroup].map(node => (
+                        <p key={node.key}>
+                            <em>
+                                <Link to={service.getSlugForSkillNodeset(node)}>
+                                    {service.getOnScreenName(node.agent_subtype_key)}
+                                </Link>
+                            </em>
+                        </p>
+                    ))}
                 </div>
             ))}
         </div>
@@ -31,10 +29,12 @@ const SkillTreesListPage = ({ epicHeroes, heroClasses, agents, service }) => (
                 <div className="skill-trees-list-heroes" key={faction}>
                     <h4>{faction}</h4>
 
-                    {heroClasses[faction].map(({ key, fields, agent_subtype_key }) => (
-                        <p key={key}>
+                    {heroClasses[faction].map(node => (
+                        <p key={node.key}>
                             <em>
-                                <Link to={fields.slug}>{service.getOnScreenName(agent_subtype_key)}</Link>
+                                <Link to={service.getSlugForSkillNodeset(node)}>
+                                    {service.getOnScreenName(node.agent_subtype_key)}
+                                </Link>
                             </em>
                         </p>
                     ))}
@@ -50,17 +50,15 @@ const SkillTreesListPage = ({ epicHeroes, heroClasses, agents, service }) => (
                     <div className="skill-trees-list-agents" key={subculture}>
                         <h4>{subculture}</h4>
 
-                        {agents[subculture].map(
-                            ({ key, fields, agent_subtype_key }) => (
-                                <p key={key}>
-                                    <em>
-                                        <Link to={fields.slug}>
-                                            {service.getOnScreenName(agent_subtype_key)}
-                                        </Link>
-                                    </em>
-                                </p>
-                            )
-                        )}
+                        {agents[subculture].map(node => (
+                            <p key={node.key}>
+                                <em>
+                                    <Link to={service.getSlugForSkillNodeset(node)}>
+                                        {service.getOnScreenName(node.agent_subtype_key)}
+                                    </Link>
+                                </em>
+                            </p>
+                        ))}
                     </div>
                 ))}
         </div>
