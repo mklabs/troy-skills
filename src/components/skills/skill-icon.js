@@ -125,10 +125,9 @@ const SkillIcon = ({ skill, size = 70, transformationCoef = 0.79, offset }) => {
             return a.effect_key.includes("level_up_health") ? 1 : -1
         })
 
-    console.log("effects", effects)
     return (
         <div className="skill-icon-wrapper">
-            <div data-tip={title} data-for={`skill-tooltip-${skill.key}`} data-event="click">
+            <div data-tip={title} data-for={`skill-tooltip-${skill.key}`}>
                 <Img
                     fixed={skill.img.fixed}
                     className="skill-icon-img-wrapper"
