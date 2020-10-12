@@ -118,14 +118,17 @@ const SkillIcon = ({ skill, size = 70, transformationCoef = 0.79, offset }) => {
     const tooltipDirection = indent <= 3 ? "left" : "right"
 
     const effects = skill.effects
-        .filter(node => !node.effect_key.includes("_replace"))
+        .filter(
+            node => !node.effect_key.includes("_replace") && !node.description.includes("[HIDDEN]")
+        )
         .sort((a, b) => {
             return a.effect_key.includes("level_up_health") ? 1 : -1
         })
 
+    console.log("effects", effects)
     return (
         <div className="skill-icon-wrapper">
-            <div data-tip={title} data-for={`skill-tooltip-${skill.key}`}>
+            <div data-tip={title} data-for={`skill-tooltip-${skill.key}`} data-event="click">
                 <Img
                     fixed={skill.img.fixed}
                     className="skill-icon-img-wrapper"

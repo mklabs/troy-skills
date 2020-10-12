@@ -9,7 +9,22 @@ import SEO from "../components/seo"
 import AgentSubtypeService from "../services/agent-subtype-service"
 import "../styles/character-skills.scss"
 
-function getSkillRows(data) {
+const textReplacementRegex = /{{tr:(.+)}}/
+
+const getTextReplacement = (text, prefix, allUiTextReplacementsLocTsv) => {
+    if (!textReplacementRegex.test(text)) {
+        return text
+    }
+
+    const [, textReplacementKey] = text.match(textReplacementRegex) || []
+    const textReplacement = allUiTextReplacementsLocTsv.nodes.find(
+        node => node.key === `${prefix}${textReplacementKey}`
+    )
+
+    return textReplacement ? textReplacement.text : text
+}
+
+const getSkillRows = data => {
     const {
         nodeset,
         allCharacterSkillNodesTablesTsv,
@@ -62,30 +77,26 @@ function getSkillRows(data) {
                     )
 
                     const effectValue = Number(effect.value)
+                    let text = loc ? loc.node.text : ""
 
-                    effect.description = loc
-                        ? loc.node.text.replace(
-                              /%\+n/,
-                              `${effectValue < 0 ? "" : "+"}${effectValue}`
-                          )
-                        : ""
+                    text = getTextReplacement(text, "ui_text_replacements_localised_text_", allUiTextReplacementsLocTsv)
+
+                    effect.description = text.replace(
+                        /%\+n/,
+                        `${effectValue < 0 ? "" : "+"}${effectValue}`
+                    )
+
                     return {
                         ...effect,
                         ...effectData.node
                     }
                 })
 
-            const textReplacementRegex = /{{tr:(.+)}}/
-            const skillName = skill.node.localised_name
-            if (textReplacementRegex.test(skillName)) {
-                const [, textReplacementKey] = skillName.match(textReplacementRegex) || []
-                const textReplacement = allUiTextReplacementsLocTsv.nodes.find(
-                    node => node.key === `ui_text_replacements_localised_text_${textReplacementKey}`
-                )
-                if (textReplacement) {
-                    skill.node.localised_name = textReplacement.text
-                }
-            }
+            skill.node.localised_name = getTextReplacement(
+                skill.node.localised_name,
+                "ui_text_replacements_localised_text_",
+                allUiTextReplacementsLocTsv
+            )
 
             item.skill = skill.node
             item.img = item.effects = effects
@@ -149,9 +160,7 @@ export default function CharacterSkills({ data }) {
                     </div>
                 </div>
                 <div className="character-skills-frame">
-                    <div className="character-skills-points-holder">
-
-                    </div>
+                    <div className="character-skills-points-holder"></div>
                     <div className="character-skills">
                         {rows.map((row, i) => {
                             if (!row.length) {
