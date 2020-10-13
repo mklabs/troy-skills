@@ -1,10 +1,13 @@
-import path from "path"
-import { createFilePath } from "gatsby-source-filesystem"
 import { exec } from "child_process"
+import path from "path"
 import AgentSubtypeService from "./src/services/agent-subtype-service"
+import CharacterSkillService from "./src/services/character-skill-service"
 
 exports.createPages = async ({ graphql, actions }) => {
-    const { createPage } = actions
+    const { createPage, createNode } = actions
+
+    console.log("\n\n==> Create node ==> ", createPage, createNode)
+    console.log("\n\n")
 
     const result = await graphql(`
         query {
@@ -12,19 +15,30 @@ exports.createPages = async ({ graphql, actions }) => {
                 distinct(field: key)
                 totalCount
                 nodes {
-                    agent_subtype_key
                     agent_key
-                    subculture
+                    agent_subtype_key
+                    campaign_key
+                    faction_key
+                    for_army
+                    for_navy
+                    id
                     key
+                    subculture
                 }
             }
 
             allCharacterSkillNodesTablesTsv {
                 nodes {
-                    id
                     key
                     character_skill_key
+                    tier
+                    indent
+                    campaign_key
                     character_skill_node_set_key
+                    faction_key
+                    points_on_creation
+                    required_num_parents
+                    subculture
                     visible_in_ui
                 }
             }
@@ -34,14 +48,6 @@ exports.createPages = async ({ graphql, actions }) => {
                     key
                     text
                     tooltip
-                }
-            }
-
-            allFactionAgentPermittedSubtypesTablesTsv {
-                nodes {
-                    faction
-                    agent
-                    subtype
                 }
             }
 
@@ -65,7 +71,12 @@ exports.createPages = async ({ graphql, actions }) => {
                 nodes {
                     id
                     key
+                    auto_generate
+                    small_icon
                     associated_unit_override
+                    show_in_ui
+                    can_gain_xp
+                    loyalty_is_applicable
                 }
             }
 
@@ -84,15 +95,114 @@ exports.createPages = async ({ graphql, actions }) => {
                     tooltip
                 }
             }
+
+            allCharacterSkillsTableTsv {
+                totalCount
+                nodes {
+                    key
+                    image_path
+                    unlocked_at_rank
+                    localised_name
+                    localised_description
+                    background_weighting
+                    is_background_skill
+                    is_female_only_background_skill
+                    is_male_only_background_skill
+                    influence_cost
+                    skill_colour
+                }
+            }
+
+            allEffectsTablesTsv {
+                totalCount
+                nodes {
+                    effect
+                    icon
+                    priority
+                    icon_negative
+                    category
+                    is_positive_value_good
+                }
+            }
+
+            allCharacterSkillLevelToEffectsJunctionsTablesTsv {
+                totalCount
+                nodes {
+                    character_skill_key
+                    effect_key
+                    effect_scope
+                    level
+                    value
+                }
+            }
+
+            allImageSharp: allFile(filter: { relativeDirectory: { eq: "skills/large" } }) {
+                totalCount
+                nodes {
+                    relativePath
+                    relativeDirectory
+                    childImageSharp {
+                        fixed(width: 88) {
+                            originalName
+                            height
+                            width
+                        }
+                        original {
+                            height
+                            width
+                        }
+                    }
+                }
+            }
+
+            allEffectsLocTsv {
+                nodes {
+                    key
+                    text
+                    tooltip
+                }
+            }
+
+            allUiTextReplacementsLocTsv {
+                nodes {
+                    key
+                    text
+                    tooltip
+                }
+            }
         }
     `)
 
-    const service = new AgentSubtypeService(result.data)
+    const agentSubtypeService = new AgentSubtypeService(result.data)
+    const characterSkillService = new CharacterSkillService(result.data)
 
-    const nodesets = service.getDistinctSkillNodesets()
+    const searchData = {
+        data: {},
+        options: {
+            indexStrategy: "Prefix match",
+            searchSanitizer: "Lower Case",
+            TitleIndex: true,
+            AuthorIndex: true,
+            SearchByTerm: true
+        }
+    }
 
+    const nodesets = agentSubtypeService.getDistinctSkillNodesets()
     nodesets.forEach(node => {
-        const slug = service.getSlugForSkillNodeset(node)
+        const slug = agentSubtypeService.getSlugForSkillNodeset(node)
+        const rows = characterSkillService.getSkillRows(node.agent_subtype_key)
+
+        searchData.data[slug] = rows.map(row => {
+            return row.map(({ tier, indent, skill }) => {
+                return {
+                    slug: `${slug}#tier-${Number(tier)}`,
+                    indent,
+                    tier,
+                    ...skill
+                }
+            })
+        })
+
         createPage({
             path: slug,
             component: path.resolve(`./src/templates/character-skills.js`),
@@ -103,12 +213,20 @@ exports.createPages = async ({ graphql, actions }) => {
             }
         })
     })
+
+    createPage({
+        path: "/search",
+        component: path.resolve(`./src/templates/search.js`),
+        context: {
+            searchData
+        }
+    })
 }
 
 exports.sourceNodes = ({ actions, createNodeId, createContentDigest }) => {
     const { createNode } = actions
 
-    return new Promise(async (resolve, reject) => {
+    const gitCommit = new Promise(async (resolve, reject) => {
         exec("git rev-parse --short HEAD", (err, stdout, stderr) => {
             if (err) {
                 reject(new Error("Error in child process"))
@@ -134,4 +252,11 @@ exports.sourceNodes = ({ actions, createNodeId, createContentDigest }) => {
             resolve()
         })
     })
+
+    const searchIndex = new Promise(async (resolve, reject) => {
+        console.log("Build search index")
+        resolve()
+    })
+
+    return Promise.all([gitCommit, searchIndex])
 }
