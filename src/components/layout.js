@@ -31,15 +31,7 @@ const Layout = ({ children, page }) => {
     return (
         <>
             <Header siteTitle={data.site.siteMetadata?.title || `Title`} page={page} />
-            <div
-                style={{
-                    margin: `0 auto`,
-                    maxWidth: 960,
-                    padding: `1.45rem 0`
-                }}
-            >
-                <main className="troy-skills">{children}</main>
-            </div>
+            <main className="troy-skills">{children}</main>
             <footer className="footer">
                 <div>
                     <p>

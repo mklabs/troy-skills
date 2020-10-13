@@ -7,6 +7,8 @@ export default () => (
     <Layout page="Home">
         <SEO title="Home" />
 
-        <SkillTreesList size="page" />
+        <div className="container">
+            <SkillTreesList size="page" />
+        </div>
     </Layout>
 )

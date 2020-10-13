@@ -6,9 +6,6 @@ import CharacterSkillService from "./src/services/character-skill-service"
 exports.createPages = async ({ graphql, actions }) => {
     const { createPage, createNode } = actions
 
-    console.log("\n\n==> Create node ==> ", createPage, createNode)
-    console.log("\n\n")
-
     const result = await graphql(`
         query {
             allCharacterSkillNodeSetsTablesTsv {
@@ -175,33 +172,37 @@ exports.createPages = async ({ graphql, actions }) => {
 
     const agentSubtypeService = new AgentSubtypeService(result.data)
     const characterSkillService = new CharacterSkillService(result.data)
-
-    const searchData = {
-        data: {},
-        options: {
-            indexStrategy: "Prefix match",
-            searchSanitizer: "Lower Case",
-            TitleIndex: true,
-            AuthorIndex: true,
-            SearchByTerm: true
-        }
-    }
+    const documents = []
 
     const nodesets = agentSubtypeService.getDistinctSkillNodesets()
     nodesets.forEach(node => {
         const slug = agentSubtypeService.getSlugForSkillNodeset(node)
         const rows = characterSkillService.getSkillRows(node.agent_subtype_key)
 
-        searchData.data[slug] = rows.map(row => {
-            return row.map(({ tier, indent, skill }) => {
-                return {
-                    slug: `${slug}#tier-${Number(tier)}`,
-                    indent,
-                    tier,
-                    ...skill
-                }
+        const category = agentSubtypeService.getCategoryForSkillNodeset(node)
+        const name = agentSubtypeService.getOnScreenName(node.agent_subtype_key)
+        const title = `${name} (${category})`
+
+        const results = rows
+            .map(row => {
+                return row.map(({ tier, indent, skill }) => {
+                    return {
+                        uid: `${slug}/${skill.key}`,
+                        slug: `${slug}#tier-${Number(tier)}`,
+                        indent,
+                        tier,
+                        character: {
+                            title,
+                            category,
+                            name
+                        },
+                        ...skill
+                    }
+                })
             })
-        })
+            .flat()
+
+        documents.push(...results)
 
         createPage({
             path: slug,
@@ -218,7 +219,9 @@ exports.createPages = async ({ graphql, actions }) => {
         path: "/search",
         component: path.resolve(`./src/templates/search.js`),
         context: {
-            searchData
+            searchData: {
+                documents
+            }
         }
     })
 }
@@ -253,10 +256,5 @@ exports.sourceNodes = ({ actions, createNodeId, createContentDigest }) => {
         })
     })
 
-    const searchIndex = new Promise(async (resolve, reject) => {
-        console.log("Build search index")
-        resolve()
-    })
-
-    return Promise.all([gitCommit, searchIndex])
+    return Promise.all([gitCommit])
 }

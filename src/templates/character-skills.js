@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import { Link, graphql } from "gatsby"
+import { graphql } from "gatsby"
 import Img from "gatsby-image"
 import Layout from "../components/layout"
 import SkillSingle from "../components/skills/skill-single"
@@ -30,70 +30,81 @@ export default function CharacterSkills({ data, pageContext }) {
 
     const jsonClassname = isRawHidden ? "hidden" : ""
     const category = service.getCategoryForSkillNodeset(nodeset)
-    const title = `${service.getOnScreenName(agentSubtypeKey)} (${category})`
+    const name = service.getOnScreenName(agentSubtypeKey)
+    const title = `${name} (${category})`
     const porthole = service.getPorthole(agentSubtypeKey)
-
-    console.log(rows)
 
     return (
         <Layout>
             <SEO title={title} />
-            <h2>{title}</h2>
+            {/* <div className="page-header">
+                <div className="container">
+                    <h2 className="page-header-title">{category}</h2>
+                    <h3 className="page-header-subtitle">{name}</h3>
+                </div>
+            </div> */}
+            <div className="container">
+                <h2>{title}</h2>
 
-            <Link to="/">Return to list</Link>
+                <div className="character-frame">
+                    <div className="character-portrait-frame">
+                        <div className="character-portrait-ornament">
+                            <div className="character-portrait-ornament-left" />
+                            <div className="character-portrait-ornament-basic" />
+                            <div className="character-portrait-ornament-right" />
+                        </div>
+                        <div className="character-portrait">
+                            <Img fixed={porthole.childImageSharp.fixed} />
+                        </div>
+                        <div className="character-portrait-ornament">
+                            <div className="character-portrait-ornament-left" />
+                            <div className="character-portrait-ornament-basic" />
+                            <div className="character-portrait-ornament-right" />
+                        </div>
+                    </div>
+                    <div className="character-skills-frame">
+                        <div className="character-skills-points-holder"></div>
+                        <div className="character-skills">
+                            {rows.map((row, i) => {
+                                if (!row.length) {
+                                    return null
+                                }
 
-            <div className="character-frame">
-                <div className="character-portrait-frame">
-                    <div className="character-portrait-ornament">
-                        <div className="character-portrait-ornament-left" />
-                        <div className="character-portrait-ornament-basic" />
-                        <div className="character-portrait-ornament-right" />
-                    </div>
-                    <div className="character-portrait">
-                        <Img fixed={porthole.childImageSharp.fixed} />
-                    </div>
-                    <div className="character-portrait-ornament">
-                        <div className="character-portrait-ornament-left" />
-                        <div className="character-portrait-ornament-basic" />
-                        <div className="character-portrait-ornament-right" />
+                                const visibleInUI = row.find(
+                                    skill => skill.visible_in_ui === "true"
+                                )
+
+                                if (!visibleInUI) {
+                                    return null
+                                }
+
+                                const isSingleSkill = row.length === 1
+
+                                const tier = Number(row[0].tier)
+
+                                return (
+                                    <div
+                                        className="skill-tier"
+                                        key={`skill-tier-${i}`}
+                                        id={`tier-${tier}`}
+                                    >
+                                        <SkillColour skills={row} level={i + 1} />
+
+                                        {isSingleSkill ? (
+                                            <SkillSingle skills={row} />
+                                        ) : (
+                                            <SkillPair skills={row} />
+                                        )}
+                                    </div>
+                                )
+                            })}
+                        </div>
                     </div>
                 </div>
-                <div className="character-skills-frame">
-                    <div className="character-skills-points-holder"></div>
-                    <div className="character-skills">
-                        {rows.map((row, i) => {
-                            if (!row.length) {
-                                return null
-                            }
 
-                            const visibleInUI = row.find(skill => skill.visible_in_ui === "true")
-
-                            if (!visibleInUI) {
-                                return null
-                            }
-
-                            const isSingleSkill = row.length === 1
-
-                            const tier = Number(row[0].tier)
-
-                            return (
-                                <div className="skill-tier" key={`skill-tier-${i}`} id={`tier-${tier}`}>
-                                    <SkillColour skills={row} level={i + 1} />
-
-                                    {isSingleSkill ? (
-                                        <SkillSingle skills={row} />
-                                    ) : (
-                                        <SkillPair skills={row} />
-                                    )}
-                                </div>
-                            )
-                        })}
-                    </div>
-                </div>
+                <button onClick={onRawContentClick}>{buttonValue}</button>
+                <pre className={jsonClassname}>{JSON.stringify(rows, null, 4)}</pre>
             </div>
-
-            <button onClick={onRawContentClick}>{buttonValue}</button>
-            <pre className={jsonClassname}>{JSON.stringify(rows, null, 4)}</pre>
         </Layout>
     )
 }

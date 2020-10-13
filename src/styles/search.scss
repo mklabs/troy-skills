@@ -1,0 +1,49 @@
+.search {
+    // <div className="search-results">
+    //     <div className="search-result" key={i}>
+    //         <div className="search-result-icon">
+    //             <Img fixed={img.childImageSharp.fixed} />
+    //         </div>
+    //         <div className="search-result-content">
+    //             <h4 className="search-result-title">
+    //                 <Link to={result.slug}>{result.localised_name}</Link>
+    //             </h4>
+    //             <p className="search-result-description">{result.localised_description}</p>
+    //         </div>
+    //     </div>
+    // </div>
+    .search-results {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .search-result {
+        display: flex;
+        align-items: center;
+        padding: 1em 0;
+        border-top: 1px solid rgba(255, 255, 255, 0.2);
+
+        &:first-child {
+            border-top: none;
+        }
+
+        .search-result-content {
+            padding-left: 1rem;
+            width: 100%;
+        }
+
+        .search-result-title {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 0;
+            font-size: 1rem;
+        }
+
+        .search-result-character {
+            color: rgba(255, 255, 255, 0.4);
+            display: inline-block;
+            margin: 0.1rem 0 0.5rem 0;
+            font-size: 0.8rem;
+        }
+    }
+}
