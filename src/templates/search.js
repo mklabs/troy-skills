@@ -57,7 +57,7 @@ const getSearchResults = (search, searchQuery) => {
 }
 
 const SearchTemplate = ({ data, pageContext }) => {
-    const hash = window.location.hash
+    const hash = typeof window !== `undefined` ? window.location.hash : ''
     const { searchData } = pageContext
     const { documents } = searchData
     const { images } = data
@@ -65,27 +65,9 @@ const SearchTemplate = ({ data, pageContext }) => {
     const [query, setQuery] = useState("")
     const [results, setResults] = useState([])
     const [search, setSearch] = useState(null)
-    const [initialLoad, setInitialLoad] = useState(true)
 
     const buildIndex = () => {
         setSearch(createSearch(documents, options))
-    }
-
-    const performSearch = searchQuery => {
-        const searchResults = getSearchResults(search, searchQuery)
-        setResults(searchResults)
-    }
-
-    const handleSubmit = e => {
-        e.preventDefault()
-        window.location.hash = qs.stringify({ query })
-        performSearch()
-    }
-
-    const onSearchChange = e => {
-        const searchQuery = e.target.value
-        setInitialLoad(false)
-        setQuery(searchQuery)
     }
 
     useEffect(buildIndex, [])
@@ -99,10 +81,9 @@ const SearchTemplate = ({ data, pageContext }) => {
 
     useEffect(() => {
         if (!query) return
-        if (!initialLoad) return
         window.search = search
         setResults(getSearchResults(search, query))
-    }, [search, query, initialLoad])
+    }, [search, query])
 
     return (
         <Layout>
