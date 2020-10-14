@@ -12,11 +12,12 @@ import CharacterSkillService from "../services/character-skill-service"
 
 export default function CharacterSkills({ data, pageContext }) {
     const agentSubtypeKey = pageContext.agent_subtype_key
+    const nodesetKey = pageContext.key
 
     const service = new AgentSubtypeService()
     const characterSkillService = new CharacterSkillService(data)
-    const nodeset = characterSkillService.getSkillNodeset(pageContext.key)
-    const rows = characterSkillService.getSkillRows(agentSubtypeKey)
+    const nodeset = characterSkillService.getSkillNodeset(nodesetKey)
+    const rows = characterSkillService.getSkillRows(nodesetKey)
 
     const [isRawHidden, setIsRawHidden] = useState(true)
     const [buttonValue, setButtonValue] = useState("See raw content")
@@ -37,14 +38,11 @@ export default function CharacterSkills({ data, pageContext }) {
     return (
         <Layout>
             <SEO title={title} />
-            {/* <div className="page-header">
-                <div className="container">
-                    <h2 className="page-header-title">{category}</h2>
-                    <h3 className="page-header-subtitle">{name}</h3>
-                </div>
-            </div> */}
             <div className="container">
-                <h2>{title}</h2>
+                <h2 className="character-page-header">
+                    <span className="character-page-title">{title}</span>
+                    <span className="character-page-nodeset">{nodesetKey}</span>
+                </h2>
 
                 <div className="character-frame">
                     <div className="character-portrait-frame">

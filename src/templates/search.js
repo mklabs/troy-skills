@@ -57,7 +57,7 @@ const getSearchResults = (search, searchQuery) => {
 }
 
 const SearchTemplate = ({ data, pageContext }) => {
-    const hash = typeof window !== `undefined` ? window.location.hash : ''
+    const hash = typeof window !== `undefined` ? window.location.hash : ""
     const { searchData } = pageContext
     const { documents } = searchData
     const { images } = data

@@ -25,12 +25,13 @@ export default class CharacterSkillService {
         return textReplacement ? textReplacement.text : text
     }
 
-    getSkillNodes(agentSubtypeKey) {
+    getSkillNodes(nodesetKey) {
         const { allCharacterSkillNodesTablesTsv, allCharacterSkillNodeSetsTablesTsv } = this.data
 
         const nodeset = allCharacterSkillNodeSetsTablesTsv.nodes.find(
-            node => node.agent_subtype_key === agentSubtypeKey
+            node => node.key === nodesetKey
         )
+
         return allCharacterSkillNodesTablesTsv.nodes
             .filter(node => node.character_skill_node_set_key === nodeset.key)
             .sort((a, b) => {
@@ -104,8 +105,8 @@ export default class CharacterSkillService {
         })
     }
 
-    getSkillRows(agentSubtypeKey) {
-        const nodes = this.getSkillNodes(agentSubtypeKey)
+    getSkillRows(nodesetKey) {
+        const nodes = this.getSkillNodes(nodesetKey)
 
         const tree = {}
         nodes.forEach(node => {

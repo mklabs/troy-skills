@@ -177,7 +177,7 @@ exports.createPages = async ({ graphql, actions }) => {
     const nodesets = agentSubtypeService.getDistinctSkillNodesets()
     nodesets.forEach(node => {
         const slug = agentSubtypeService.getSlugForSkillNodeset(node)
-        const rows = characterSkillService.getSkillRows(node.agent_subtype_key)
+        const rows = characterSkillService.getSkillRows(node.key)
 
         const category = agentSubtypeService.getCategoryForSkillNodeset(node)
         const name = agentSubtypeService.getOnScreenName(node.agent_subtype_key)
