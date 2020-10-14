@@ -2,7 +2,7 @@ import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import SkillTooltipAbilityEffect from "./skill-tooltip-ability-effect"
 import SkillTooltipAbilityBullets from "./skill-tooltip-ability-bullets"
-import TooltipAbilityService from "../../services/tooltip-ability-service.js"
+import TooltipAbilityService from "../../services/tooltip-ability-service"
 import "../../styles/skill-tooltip-ability.scss"
 
 export default function SkillTooltipAbility({ skill }) {

@@ -179,9 +179,13 @@ exports.createPages = async ({ graphql, actions }) => {
         const slug = agentSubtypeService.getSlugForSkillNodeset(node)
         const rows = characterSkillService.getSkillRows(node.key)
 
-        const category = agentSubtypeService.getCategoryForSkillNodeset(node)
+        let category = agentSubtypeService.getCategoryForSkillNodeset(node)
         const name = agentSubtypeService.getOnScreenName(node.agent_subtype_key)
         const title = `${name} (${category})`
+
+        if (category === "Horde Amazons") {
+            category = "Penthesilea's Amazons"
+        }
 
         const results = rows
             .map(row => {
@@ -191,6 +195,8 @@ exports.createPages = async ({ graphql, actions }) => {
                         slug: `${slug}#tier-${Number(tier)}`,
                         indent,
                         tier,
+                        category,
+                        name,
                         character: {
                             title,
                             category,
@@ -201,6 +207,10 @@ exports.createPages = async ({ graphql, actions }) => {
                 })
             })
             .flat()
+            .filter(
+                row =>
+                    !(row.key.includes("HIDDEN") || row.localised_description.includes("[HIDDEN]"))
+            )
 
         documents.push(...results)
 

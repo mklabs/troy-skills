@@ -41,7 +41,12 @@ export default function CharacterSkills({ data, pageContext }) {
             <div className="container">
                 <h2 className="character-page-header">
                     <span className="character-page-title">{title}</span>
-                    <span className="character-page-nodeset">{nodesetKey}</span>
+                    <span
+                        className="character-page-nodeset"
+                        title="This is the internal key for this character skill tree"
+                    >
+                        {nodesetKey}
+                    </span>
                 </h2>
 
                 <div className="character-frame">

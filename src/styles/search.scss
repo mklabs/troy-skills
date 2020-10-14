@@ -1,20 +1,39 @@
 .search {
-    // <div className="search-results">
-    //     <div className="search-result" key={i}>
-    //         <div className="search-result-icon">
-    //             <Img fixed={img.childImageSharp.fixed} />
-    //         </div>
-    //         <div className="search-result-content">
-    //             <h4 className="search-result-title">
-    //                 <Link to={result.slug}>{result.localised_name}</Link>
-    //             </h4>
-    //             <p className="search-result-description">{result.localised_description}</p>
-    //         </div>
-    //     </div>
-    // </div>
     .search-results {
         display: flex;
         flex-direction: column;
+        min-height: 150px;
+    }
+
+    .search-header-query {
+        position: relative;
+        white-space: nowrap;
+        // overflow: hidden;
+
+        br {
+            display:none;
+        }
+
+        * {
+            display: inline;
+            white-space: nowrap;
+        }
+    }
+
+    .search-header-query:focus, .search-header-query:active {
+        border:none;
+        outline:none;
+    }
+
+    .search-header-query:hover::after,
+    .search-header-query:focus::after {
+        content:"Press enter to submit query";
+        position: absolute;
+        color: #7d7e7f;
+        font-size: 0.9rem;
+        font-weight: bolder;
+        left: 0;
+        top: 2.5rem;
     }
 
     .search-result {
@@ -45,5 +64,100 @@
             margin: 0.1rem 0 0.5rem 0;
             font-size: 0.8rem;
         }
+    }
+
+    .search-results-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .search-results-count {
+            color: rgba(255, 255, 255, 0.4);
+        }
+    }
+
+    .search-results-filters {
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: 1rem;
+
+        .search-results-filter {
+            margin-left: 1rem;
+            display: inline-block;
+        }
+    }
+    
+    
+    .select {
+        display: inline-block;
+        max-width: 100%;
+        position: relative;
+        vertical-align: top;
+    }
+
+    .select select {
+        background-color: #eff0eb;
+        border-width: 2px;
+        border-color: #dbdbdb;
+        color: #363636;
+        min-width: 250px;
+
+        cursor: pointer;
+        outline: 0;
+
+        appearance: none;
+        align-items: center;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        box-shadow: none;
+        display: inline-flex;
+        font-size: 1rem;
+        height: 2.5em;
+        justify-content: flex-start;
+        line-height: 1.5;
+        padding-bottom: calc(.5em - 1px);
+        padding-left: calc(.75em - 1px);
+        padding-right: calc(.75em - 1px);
+        padding-top: calc(.5em - 1px);
+        position: relative;
+        vertical-align: top;
+    }
+
+    .select:hover::after {
+        border-color: #7d7e7f;
+    }
+
+    .select:not(:hover)::after {
+        border-color: #363636;
+    }
+
+    .select::after {
+        border-color: #3273dc;
+        right: 1.125em;
+        z-index: 4;
+
+        border: 3px solid transparent;
+        border-radius: 2px;
+        border-right: 0;
+        border-top: 0;
+        content: " ";
+        display: block;
+        height: .625em;
+        margin-top: -.4375em;
+        pointer-events: none;
+        position: absolute;
+        top: 50%;
+        transform: rotate(-45deg);
+        transform-origin: center;
+        width: .625em;
+    }
+
+    .select select:hover {
+        border-color: #f1cea0;
+    }
+
+    .select select:focus {
+        border-color: #f1cea0;
+        box-shadow: 0 0 0 0.125em #f1cea0;
     }
 }
