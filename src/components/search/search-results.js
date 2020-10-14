@@ -21,11 +21,14 @@ const SearchResults = ({ results, query, categories, names }) => {
         }
     `)
 
+    const localStorageCategory = typeof window !== `undefined` ? window.localStorage.getItem(`search.filter.categories`) : ""
     const [selectedCategory, setSelectedCategory] = useState(
-        window.localStorage.getItem(`search.filter.categories`) || "All"
+        localStorageCategory || "All"
     )
+
+    const localStorageName = typeof window !== `undefined` ? window.localStorage.getItem(`search.filter.names`) : ""
     const [selectedName, setSelectedName] = useState(
-        window.localStorage.getItem(`search.filter.names`) || "All"
+        localStorageName || "All"
     )
 
     const onFilterChange = (filterName, e) => {
