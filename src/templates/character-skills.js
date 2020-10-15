@@ -1,5 +1,4 @@
-// import React, { useState } from "react"
-import React from "react"
+import React, { useState, useEffect } from "react"
 import { graphql } from "gatsby"
 import Img from "gatsby-image"
 import Layout from "../components/layout"
@@ -8,17 +7,29 @@ import SkillPair from "../components/skills/skill-pair"
 import SkillColour from "../components/skills/skill-colour"
 import SEO from "../components/seo"
 import AgentSubtypeService from "../services/agent-subtype-service"
-import "../styles/character-skills.scss"
 import CharacterSkillService from "../services/character-skill-service"
+import LoadingIndicator from "../components/search/loading-indicator"
+import "../styles/character-skills.scss"
 
 export default function CharacterSkills({ data, pageContext }) {
     const agentSubtypeKey = pageContext.agent_subtype_key
     const nodesetKey = pageContext.key
 
+    const [isLoading, setIsLoading] = useState(true)
+
     const service = new AgentSubtypeService()
     const characterSkillService = new CharacterSkillService(data)
     const nodeset = characterSkillService.getSkillNodeset(nodesetKey)
     const rows = characterSkillService.getSkillRows(nodesetKey)
+
+    const category = service.getCategoryForSkillNodeset(nodeset)
+    const name = service.getOnScreenName(agentSubtypeKey)
+    const title = `${name} (${category})`
+    const porthole = service.getPorthole(agentSubtypeKey)
+
+    useEffect(() => {
+        setIsLoading(false)
+    }, [])
 
     // const [isRawHidden, setIsRawHidden] = useState(true)
     // const [buttonValue, setButtonValue] = useState("See raw content")
@@ -28,14 +39,8 @@ export default function CharacterSkills({ data, pageContext }) {
     //     setIsRawHidden(isHidden)
     //     setButtonValue(!isHidden ? "Hide raw content" : "See raw content")
     // }
-
     // const jsonClassname = isRawHidden ? "hidden" : ""
-    const category = service.getCategoryForSkillNodeset(nodeset)
-    const name = service.getOnScreenName(agentSubtypeKey)
-    const title = `${name} (${category})`
-    const porthole = service.getPorthole(agentSubtypeKey)
 
-    // console.log(rows[5])
     return (
         <Layout>
             <SEO title={title} />
@@ -50,61 +55,65 @@ export default function CharacterSkills({ data, pageContext }) {
                     </span>
                 </h2>
 
-                <div className="character-frame">
-                    <div className="character-portrait-frame">
-                        <div className="character-portrait-ornament">
-                            <div className="character-portrait-ornament-left" />
-                            <div className="character-portrait-ornament-basic" />
-                            <div className="character-portrait-ornament-right" />
+                {isLoading ? (
+                    <LoadingIndicator style={{ margin: "100px auto" }} />
+                ) : (
+                    <div className="character-frame">
+                        <div className="character-portrait-frame">
+                            <div className="character-portrait-ornament">
+                                <div className="character-portrait-ornament-left" />
+                                <div className="character-portrait-ornament-basic" />
+                                <div className="character-portrait-ornament-right" />
+                            </div>
+                            <div className="character-portrait">
+                                <Img fixed={porthole.childImageSharp.fixed} />
+                            </div>
+                            <div className="character-portrait-ornament">
+                                <div className="character-portrait-ornament-left" />
+                                <div className="character-portrait-ornament-basic" />
+                                <div className="character-portrait-ornament-right" />
+                            </div>
                         </div>
-                        <div className="character-portrait">
-                            <Img fixed={porthole.childImageSharp.fixed} />
-                        </div>
-                        <div className="character-portrait-ornament">
-                            <div className="character-portrait-ornament-left" />
-                            <div className="character-portrait-ornament-basic" />
-                            <div className="character-portrait-ornament-right" />
+                        <div className="character-skills-frame">
+                            <div className="character-skills-points-holder"></div>
+                            <div className="character-skills">
+                                {rows.map((row, i) => {
+                                    if (!row.length) {
+                                        return null
+                                    }
+
+                                    const visibleInUI = row.find(
+                                        skill => skill.visible_in_ui === "true"
+                                    )
+
+                                    if (!visibleInUI) {
+                                        return null
+                                    }
+
+                                    const isSingleSkill = row.length === 1
+
+                                    const tier = Number(row[0].tier)
+
+                                    return (
+                                        <div
+                                            className="skill-tier"
+                                            key={`skill-tier-${i}`}
+                                            id={`tier-${tier}`}
+                                        >
+                                            <SkillColour skills={row} level={i + 1} />
+
+                                            {isSingleSkill ? (
+                                                <SkillSingle skills={row} />
+                                            ) : (
+                                                <SkillPair skills={row} />
+                                            )}
+                                        </div>
+                                    )
+                                })}
+                            </div>
                         </div>
                     </div>
-                    <div className="character-skills-frame">
-                        <div className="character-skills-points-holder"></div>
-                        <div className="character-skills">
-                            {rows.map((row, i) => {
-                                if (!row.length) {
-                                    return null
-                                }
-
-                                const visibleInUI = row.find(
-                                    skill => skill.visible_in_ui === "true"
-                                )
-
-                                if (!visibleInUI) {
-                                    return null
-                                }
-
-                                const isSingleSkill = row.length === 1
-
-                                const tier = Number(row[0].tier)
-
-                                return (
-                                    <div
-                                        className="skill-tier"
-                                        key={`skill-tier-${i}`}
-                                        id={`tier-${tier}`}
-                                    >
-                                        <SkillColour skills={row} level={i + 1} />
-
-                                        {isSingleSkill ? (
-                                            <SkillSingle skills={row} />
-                                        ) : (
-                                            <SkillPair skills={row} />
-                                        )}
-                                    </div>
-                                )
-                            })}
-                        </div>
-                    </div>
-                </div>
+                )}
 
                 {/* <button onClick={onRawContentClick}>{buttonValue}</button> */}
                 {/* <pre className={jsonClassname}>{JSON.stringify(rows, null, 4)}</pre> */}
