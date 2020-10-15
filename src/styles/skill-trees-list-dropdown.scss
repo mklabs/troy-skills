@@ -40,30 +40,33 @@
 
     .dropdown-section {
         padding-top: 8px;
-        padding-right: 48px;
+        // padding-right: 20px;
         border-right: 1px solid rgba(255, 255, 255, .1);
     }
 
     .dropdown-section:nth-child(1) {
         padding-left: 0;
+        padding-right: 48px;
+    }
+
+    .dropdown-section:nth-child(2) {
+        padding-left: 0;
+        flex-basis: 70%;
+        padding-right: 18px;
     }
 
     .dropdown-section:last-child {
         border-right: none;
+        padding-right: 0;
     }
 
     .dropdown-section-list {
         display: flex;
-        // padding-left: 16px;
+        justify-content: center;
     }
 
-    .list-heroes {
-        // flex-basis: 400px;
-        margin-left: 32px;
-    }
-
-    .list-heroes:nth-child(1) {
-        margin-left: 0;
+    .dropdown-list.list-heroes {
+        margin: 0 auto;
     }
 
     .dropdown-section-epic-heroes, .dropdown-section-agents {

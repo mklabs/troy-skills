@@ -16,14 +16,6 @@
     
 
     .skill-trees-list-agents, .skill-trees-list-heroes, .skill-trees-list-epic-heroes {
-        flex-basis: 33%;
-    }
-
-    .skill-trees-list-agents:nth-child(1) {
-        flex: 1;
-    }
-
-    .skill-trees-list-agents:nth-child(2) {
-        flex: 2;
+        flex-basis: 20%;
     }
 }

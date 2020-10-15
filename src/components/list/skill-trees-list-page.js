@@ -61,6 +61,9 @@ const SkillTreesListPage = ({ epicHeroes, heroClasses, agents, service }) => (
                         ))}
                     </div>
                 ))}
+
+                <div className="skill-trees-list-agents" />
+
         </div>
     </div>
 )
