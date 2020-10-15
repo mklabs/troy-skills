@@ -7,6 +7,7 @@ const textReplacementRegex = /{{tr:(.+)}}/
 const imgRegex = /\[\[img:(.+)\]\]\[\[\/img\]\]/
 const locUIEffectRegex = /\[\[col:(green|red)\]\](.+)\[\[\/col\]\]/
 const hiddenStats = ["stat_in_combat_rage", "stat_out_combat_rage"]
+const hiddenBonusValueUnitAbilities = ["troy_effect_hero_self_cooldown", "troy_effect_hero_self_cooldown_spec_cost"]
 
 export default class TooltibAbilityService {
     constructor(skill, data) {
@@ -26,11 +27,16 @@ export default class TooltibAbilityService {
                 !effect_key.includes("replace") && !effect_key.includes("level_up_health")
         )
 
+        
         const bonusValueUnitAbility = bonusValueUnitAbilities.edges.find(
             ({ node }) => node.effect === abilityEffect.effect_key
         )
 
         if (!bonusValueUnitAbility) {
+            return
+        }
+
+        if (hiddenBonusValueUnitAbilities.includes(bonusValueUnitAbility.node.effect)) {
             return
         }
 
