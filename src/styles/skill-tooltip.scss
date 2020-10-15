@@ -41,8 +41,10 @@
         justify-content: center;
 
         .tooltip-effect {
-            margin: 0;
             font-weight: bolder;
+            display: flex;
+            align-items: baseline;
+            line-height: 1rem;
         }
 
         .tooltip-effect-description {
