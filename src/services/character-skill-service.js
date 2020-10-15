@@ -18,13 +18,16 @@ export default class CharacterSkillService {
         }
 
         const splits = text.split(textReplacementRegex)
-        return splits.filter(split => split.trim()).map(split => {
-            const textReplacement = allUiTextReplacementsLocTsv.nodes.find(
-                node => node.key === `${prefix}${split}`
-            )
+        return splits
+            .filter(split => split.trim())
+            .map(split => {
+                const textReplacement = allUiTextReplacementsLocTsv.nodes.find(
+                    node => node.key === `${prefix}${split}`
+                )
 
-            return (textReplacement ? textReplacement.text : split).trim()
-        }).join(" ")
+                return (textReplacement ? textReplacement.text : split).trim()
+            })
+            .join(" ")
     }
 
     getSkillNodes(nodesetKey) {

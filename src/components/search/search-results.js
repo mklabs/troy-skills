@@ -21,15 +21,13 @@ const SearchResults = ({ results, query, categories, names }) => {
         }
     `)
 
-    const localStorageCategory = typeof window !== `undefined` ? window.localStorage.getItem(`search.filter.categories`) : ""
-    const [selectedCategory, setSelectedCategory] = useState(
-        localStorageCategory || "All"
-    )
+    const localStorageCategory =
+        typeof window !== `undefined` ? window.localStorage.getItem(`search.filter.categories`) : ""
+    const [selectedCategory, setSelectedCategory] = useState(localStorageCategory || "All")
 
-    const localStorageName = typeof window !== `undefined` ? window.localStorage.getItem(`search.filter.names`) : ""
-    const [selectedName, setSelectedName] = useState(
-        localStorageName || "All"
-    )
+    const localStorageName =
+        typeof window !== `undefined` ? window.localStorage.getItem(`search.filter.names`) : ""
+    const [selectedName, setSelectedName] = useState(localStorageName || "All")
 
     const onFilterChange = (filterName, e) => {
         const value = e.target.value
@@ -44,8 +42,12 @@ const SearchResults = ({ results, query, categories, names }) => {
 
     const handleOnBlur = () => {}
     const onClearFilters = () => {
-        setSelectedName("All")
-        setSelectedCategory("All")
+        const value = "All"
+        window.localStorage.setItem(`search.filter.names`, value)
+        window.localStorage.setItem(`search.filter.categories`, value)
+
+        setSelectedName(value)
+        setSelectedCategory(value)
     }
 
     const noResultsMessage = query
