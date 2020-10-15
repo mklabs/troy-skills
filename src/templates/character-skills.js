@@ -1,4 +1,5 @@
-import React, { useState } from "react"
+// import React, { useState } from "react"
+import React from "react"
 import { graphql } from "gatsby"
 import Img from "gatsby-image"
 import Layout from "../components/layout"
@@ -19,17 +20,16 @@ export default function CharacterSkills({ data, pageContext }) {
     const nodeset = characterSkillService.getSkillNodeset(nodesetKey)
     const rows = characterSkillService.getSkillRows(nodesetKey)
 
-    const [isRawHidden, setIsRawHidden] = useState(true)
-    const [buttonValue, setButtonValue] = useState("See raw content")
+    // const [isRawHidden, setIsRawHidden] = useState(true)
+    // const [buttonValue, setButtonValue] = useState("See raw content")
+    // const onRawContentClick = ev => {
+    //     ev.preventDefault()
+    //     const isHidden = !isRawHidden
+    //     setIsRawHidden(isHidden)
+    //     setButtonValue(!isHidden ? "Hide raw content" : "See raw content")
+    // }
 
-    const onRawContentClick = ev => {
-        ev.preventDefault()
-        const isHidden = !isRawHidden
-        setIsRawHidden(isHidden)
-        setButtonValue(!isHidden ? "Hide raw content" : "See raw content")
-    }
-
-    const jsonClassname = isRawHidden ? "hidden" : ""
+    // const jsonClassname = isRawHidden ? "hidden" : ""
     const category = service.getCategoryForSkillNodeset(nodeset)
     const name = service.getOnScreenName(agentSubtypeKey)
     const title = `${name} (${category})`
@@ -105,8 +105,8 @@ export default function CharacterSkills({ data, pageContext }) {
                     </div>
                 </div>
 
-                <button onClick={onRawContentClick}>{buttonValue}</button>
-                <pre className={jsonClassname}>{JSON.stringify(rows, null, 4)}</pre>
+                {/* <button onClick={onRawContentClick}>{buttonValue}</button> */}
+                {/* <pre className={jsonClassname}>{JSON.stringify(rows, null, 4)}</pre> */}
             </div>
         </Layout>
     )
