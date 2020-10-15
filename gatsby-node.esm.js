@@ -24,7 +24,8 @@ exports.createPages = async ({ graphql, actions }) => {
                 }
             }
 
-            allCharacterSkillNodesTablesTsv {
+            allCharacterSkillNodesTablesTsv(filter: { visible_in_ui: { eq: "true" } }) {
+                totalCount
                 nodes {
                     key
                     character_skill_key

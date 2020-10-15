@@ -141,7 +141,7 @@ export const query = graphql`
             }
         }
 
-        allCharacterSkillNodesTablesTsv {
+        allCharacterSkillNodesTablesTsv(filter: { visible_in_ui: { eq: "true" } }) {
             totalCount
             nodes {
                 key
