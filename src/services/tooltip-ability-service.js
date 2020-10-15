@@ -157,7 +157,7 @@ export default class TooltibAbilityService {
             let value = Number(node.value)
             value = node.how === "mult" ? value * 100 - 100 : value
             value = value.toFixed(0)
-            const valueText = `${value < 0 ? "" : "+"}${value}${node.how === "mult" ? "%" : ""}`
+            const valueText = `${value < 0 ? "" : "+"}${value}${node.how === "mult" ? "% " : " "}`
 
             node.positive = abilityPhase.effect_type === "positive"
             node.content = [valueText, this.replaceInlineIcon(loc.text)]
