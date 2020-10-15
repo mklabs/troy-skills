@@ -272,17 +272,18 @@ export default class TooltibAbilityService {
         const matches = text.match(imgRegex)
         const isStatic = options.static
         const img = matches && matches[1]
-        const splits = text
-            .split(imgRegex)
-            .map((s, i) => (
+        const splits = text.split(imgRegex).map((s, i) => {
+            const isAbilityIcon = s.includes("/ability_icons/")
+            return (
                 <span key={i}>
                     {s === img
-                        ? isStatic
+                        ? isStatic && !isAbilityIcon
                             ? this.getStaticImage(s)
                             : this.getAbilityIconImage(s)
                         : s}
                 </span>
-            ))
+            )
+        })
         return splits
     }
 
