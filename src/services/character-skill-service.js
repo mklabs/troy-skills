@@ -1,4 +1,4 @@
-const textReplacementRegex = /{{tr:(.+)}}/
+const textReplacementRegex = /{{tr:([^}]+)}}/
 
 export default class CharacterSkillService {
     constructor(data) {
@@ -17,12 +17,14 @@ export default class CharacterSkillService {
             return text
         }
 
-        const [, textReplacementKey] = text.match(textReplacementRegex) || []
-        const textReplacement = allUiTextReplacementsLocTsv.nodes.find(
-            node => node.key === `${prefix}${textReplacementKey}`
-        )
+        const splits = text.split(textReplacementRegex)
+        return splits.filter(split => split.trim()).map(split => {
+            const textReplacement = allUiTextReplacementsLocTsv.nodes.find(
+                node => node.key === `${prefix}${split}`
+            )
 
-        return textReplacement ? textReplacement.text : text
+            return (textReplacement ? textReplacement.text : split).trim()
+        }).join(" ")
     }
 
     getSkillNodes(nodesetKey) {

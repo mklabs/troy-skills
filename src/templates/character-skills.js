@@ -35,6 +35,7 @@ export default function CharacterSkills({ data, pageContext }) {
     const title = `${name} (${category})`
     const porthole = service.getPorthole(agentSubtypeKey)
 
+    // console.log(rows[5])
     return (
         <Layout>
             <SEO title={title} />
